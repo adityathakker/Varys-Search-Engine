@@ -1,0 +1,1119 @@
+<!DOCTYPE html><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"><head itemscope itemtype="http://schema.org/WebSite"><!--[if IE]><![endif]--><link rel="dns-prefetch" href="//fonts.googleapis.com" /><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/911656fa177846aec61d653c98674a7b.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/eb9f2973d1f94378cd51f247183dd68f.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/ed23373be97de98fd59b5c1ee55222f2.css" data-minify="1"/><meta charset="UTF-8"> <!--[if IE ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]--><link rel="profile" href="http://gmpg.org/xfn/11" /><link rel="icon" href="http://test.androidhive.info/wp-content/uploads/2016/04/favicon.png" type="image/x-icon" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta itemprop="name" content="androidhive" /><meta itemprop="url" content="http://www.androidhive.info" /><meta itemprop="creator accountablePerson" content=" " /><link rel="pingback" href="http://www.androidhive.info/xmlrpc.php" /><title>Android Building Realtime Chat App using GCM, PHP &amp; MySQL - Part 2</title><style type="text/css">.thrive-adminbar-icon {
+				background: url('http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/css/images/tcb-close-icon.png') no-repeat 0px 0px;
+				padding-left: 25px !important;
+				width: 20px !important;
+				height: 20px !important;
+			}</style> <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace( /\bno-js\b/,'js' );</script> <meta name="description" content="Android tutorial about integrating Google Cloud Messaging 3.0. Explained with an example of realtime chat app using PHP &amp; MySQL including android app and an admin panel."/><meta name="robots" content="noodp"/><link rel="canonical" href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Android Building Realtime Chat App using GCM, PHP &amp; MySQL - Part 2" /><meta property="og:description" content="Android tutorial about integrating Google Cloud Messaging 3.0. Explained with an example of realtime chat app using PHP &amp; MySQL including android app and an admin panel." /><meta property="og:url" content="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/" /><meta property="og:site_name" content="androidhive" /><meta property="article:section" content="GCM" /><meta property="article:published_time" content="2016-02-09T07:31:06+00:00" /><meta property="article:modified_time" content="2016-02-12T05:27:20+00:00" /><meta property="og:updated_time" content="2016-02-12T05:27:20+00:00" /><meta property="og:image" content="http://www.androidhive.info/wp-content/uploads/2016/02/android-realtime-chat-app-using-gcm-php-mysql-part-2.png" /><meta property="og:image:width" content="720" /><meta property="og:image:height" content="316" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Android tutorial about integrating Google Cloud Messaging 3.0. Explained with an example of realtime chat app using PHP &amp; MySQL including android app and an admin panel." /><meta name="twitter:title" content="Android Building Realtime Chat App using GCM, PHP &amp; MySQL - Part 2" /><meta name="twitter:image" content="http://www.androidhive.info/wp-content/uploads/2016/02/android-realtime-chat-app-using-gcm-php-mysql-part-2.png" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Feed" href="http://www.androidhive.info/feed/" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Comments Feed" href="http://www.androidhive.info/comments/feed/" /> <script type="text/javascript">window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.androidhive.info\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);</script> <style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style><style id='stylesheet-inline-css' type='text/css'>body {background-color:#ffffff; }
+		body {background-image: url( http://www.androidhive.info/wp-content/themes/androidhive-theme/images/nobg.png );}
+
+        .header-social a:hover, header .breadcrumb > div i:hover, header .breadcrumb > div a:hover, .breadcrumb > div a:hover, .post-info a, .latestPost .title a:hover, #site-footer .toggle-menu .toggle-caret .fa:hover, #primary-navigation .sub-menu a:hover, .latestPost .title a:hover, ul.ajax-search-results li a:hover, .sidebar .ajax-search-meta a, .breadcrumb > div i, .single .tags a, .postauthor h5 a:hover, .sidebar a, .comment-meta a, .trending-stories .latestPost .title:hover, .postauthor h5, .copyrights a, .single_post a, .textwidget a, .pnavigation2 a, #sidebar a:hover, .copyrights a:hover, #site-footer .widget li a:hover, .related-posts a:hover, .reply a, .title a:hover, .post-info a:hover, .comm, #tabber .inside li a:hover, .readMore a:hover, .fn a, a, a:hover { color: #000000; }
+
+        .latestPost-categories ul li:hover a, .footer-widgets h3, .reply a:hover, #primary-navigation .sub-menu a:hover, #primary-navigation .sub-menu li.current-menu-item a { color: #000000 !important; }
+
+        .latestPost-news .latestPost { border-top: 2px solid #000000; }
+
+        
+        .navigation.mobile-menu-wrapper { background: #000000 !important; }
+
+        #header, .pace .pace-progress, #mobile-menu-wrapper ul li a:hover, .widget h3:before, .featured-category-title:before, .widget .wpt_widget_content .tab_title.selected a, #move-to-top, #load-posts, .featured-videos h4:after, .related-posts h4:after, .postauthor h4:after, #comments h4:after, #commentsAdd h4:after, .contact-form input[type='submit'], #commentform input#submit:hover, .contact-form input[type='submit']:hover, #primary-navigation li a:hover, .pagination a:hover, .pagination ul, .latestPost-review-wrapper, a#pull, #commentform input#submit, .contactform #submit, #move-to-top:hover, .navigation ul .current-menu-item > a, .navigation ul li:hover, .pagination a, #tabber ul.tabs li a.selected, .tagcloud a:hover, .latestPost .review-type-circle.review-total-only, .latestPost .review-type-circle.wp-review-show-total, .single .pagination > .current, .bypostauthor .comment-author .fn:after { background-color:#000000; color: #fff!important; }
+
+		.owl-prev, .owl-next { background-color:#000000!important; }
+
+        #site-footer { background: #EAEAEA; }
+		
+		.shareit { top: 282px; left: 0; margin: 0; width: 90px; position: fixed; padding: 5px; border:none; border-right: 0;}
+		.share-item {margin: 2px;}
+		
+		.bypostauthor { background: none; }
+        .bypostauthor > div .comment-author .fn:after { content: "Author"; position: relative; padding: 2px 10px; margin: 0 10px; color: #FFF; font-size: 13px; line-height: 1; font-weight: normal; border-radius: 3px; }</style> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/compat.min.js?ver=1.200.5'></script> <script type='text/javascript'>/*  */
+var mts_customscript = {"responsive":"1","nav_menu":"primary"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/customscript.js'></script> <script type='text/javascript'>/*  */
+var tickeropts = {"rtl_support":"0"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/jquery.webticker.js'></script> <link rel='https://api.w.org/' href='http://www.androidhive.info/wp-json/' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.androidhive.info/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.androidhive.info/wp-includes/wlwmanifest.xml" /><link rel='shortlink' href='http://www.androidhive.info/?p=39001' /><link rel="alternate" type="application/json+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2016%2F02%2Fandroid-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2%2F" /><link rel="alternate" type="text/xml+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2016%2F02%2Fandroid-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2%2F&#038;format=xml" /> <script type="text/javascript">window._wp_rp_static_base_url = 'https://wprp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.androidhive.info/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.6';
+	window._wp_rp_post_id = '39001';
+	window._wp_rp_num_rel_posts = '4';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Android+Building+Realtime+Chat+App+using+GCM%2C+PHP+%26+MySQL+-+Part+2';
+	window._wp_rp_post_tags = ['google', 'volley', 'json', 'mysql', 'php', 'push+notifications', 'rest', 'gcm', 'slim', 'test', 'server', 'a', 'studio', 'android', 'build', 'project', 'app', 'articl', 'api', 'php', 'chat', 'mysql', '2', 'height'];
+	window._wp_rp_promoted_content = true;</script> <script type="text/javascript" src="https://wprp.zemanta.com/static/js/loader.js?version=3.6" async></script> <style type="text/css">.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style><link href="//fonts.googleapis.com/css?family=Open+Sans|Merriweather&amp;subset=latin" rel="stylesheet" type="text/css"><style type="text/css">#header h1, #header h2 { font-family: 'Open Sans'; font-weight: ; font-size: 25px; color: #ffffff; }
+.menu li, .menu li a { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #ffffff; }
+.latestPost .title a, .latestPost-news .title, .latestPost .title { font-family: 'Merriweather'; font-weight: ; font-size: 23px; color: #252525; }
+.single-title { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+body { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+.widget h3, .featured-category-title { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+#sidebar .widget { font-family: 'Open Sans'; font-weight: ; font-size: 14px; color: #252525; }
+.footer-widgets, footer .widget li a { font-family: 'Open Sans'; font-weight: ; font-size: 13px; color: #252525; }
+h1 { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+h2 { font-family: 'Merriweather'; font-weight: ; font-size: 24px; color: #252525; }
+h3 { font-family: 'Merriweather'; font-weight: ; font-size: 25px; color: #252525; }
+h4 { font-family: 'Merriweather'; font-weight: ; font-size: 20px; color: #252525; }
+h5 { font-family: 'Merriweather'; font-weight: ; font-size: 18px; color: #252525; }
+h6 { font-family: 'Merriweather'; font-weight: ; font-size: 16px; color: #252525; }</style><style type="text/css" id="syntaxhighlighteranchor"></style> <script data-no-minify="1" data-cfasync="false">(function(w,d){function a(){var b=d.createElement("script");b.async=!0;b.src="http://www.androidhive.info/wp-content/plugins/wp-rocket/inc/front/js/lazyload.1.0.2.min.js";var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)}w.attachEvent?w.attachEvent("onload",a):w.addEventListener("load",a,!1)})(window,document);</script> <style type="text/css">#nik{opacity:.0002;height:auto;width:auto;position:absolute;top:50px;left:50px;border-bottom:1px #76e042 solid;border-bottom:0 blue solid;color:#fff;padding:0;z-index:1001;font-size:13px;background:red}</style><div id="nik"> <a href="#" onclick="getValue()"> </a> <script type="text/javascript">(function () {
+                                var hidden = "hidden";
+
+                    // Standards:
+                    if (hidden in document)
+                                document.addEventListener("visibilitychange", onchange);
+                                else if ((hidden = "mozHidden") in document)
+                                document.addEventListener("mozvisibilitychange", onchange);                 else if ((hidden = "webkitHidden") in document)
+                                document.addEventListener("webkitvisibilitychange", onchange);
+                                else if ((hidden = "msHidden") in document)
+                                document.addEventListener("msvisibilitychange", onchange);                 // IE 9 and lower:
+                                else if ("onfocusin" in document)
+                                document.onfocusin = document.onfocusout = onchange;
+                    // All others:
+                    else
+                                window.onpageshow = window.onpagehide
+                                        = window.onfocus = window.onblur = onchange;
+
+                    function onchange(evt) {
+                        var v = "visible", h = "hidden",
+                                        evtMap = {focus: v, focusin: v, pageshow: v, blur: h, focusout: h, pagehide: h};
+                                        evt = evt || window.event;
+                        if (evt.type in evtMap) {
+                                chkvis(evtMap[evt.type]);
+                                }
+                        else {
+                                var visible = this[hidden] ? "hidden" : "visible";
+                                        chkvis(visible);
+                                }
+                    }
+
+                        // set the initial state (but only if browser supports the Page Visibility API)
+                        if (document[hidden] !== undefined)
+                        onchange({type: document[hidden] ? "blur" : "focus"});
+                })();
+                        function chkvis(status) {
+                            if (status == 'hidden') {
+                                createCookie('k', 'p');
+                                document.getElementById('nik').style.display = 'none';
+                            }
+                        }
+
+                var t = 3, ts = 45, te = 55;
+                var r = Math.floor(Math.random() * (t)) + 1;
+                var d = new Date();
+                var n = d.getMinutes();
+
+                var p1 = '<script async src="\/\/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script> <!-- Article --> <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-9207768510467156" data-ad-slot="1410361821"><\/ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>';
+                var p2 = '<script async src="\/\/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script> <!-- End --> <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-9207768510467156" data-ad-slot="4363828227"><\/ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>';
+                var p3 = '<script async src="\/\/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script> <!-- Middle Content --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9207768510467156" data-ad-slot="2887095024"><\/ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>';
+
+
+               
+                
+                    if (getCookie("k") !== "p") {
+
+                        switch (r) {
+                            case 1:
+                                document.write(p1);
+                                break;
+                            case 2:
+                                document.write(p2);
+                                break;
+                            default:
+                                document.write(p3);
+                        }
+                    }
+                
+               
+
+                function createCookie(name, value) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (86400));
+                    var expires = "; expires=" + date.toGMTString();
+
+                    document.cookie = name + "=" + value + expires + "; path=/";
+                }
+
+                function getCookie(cname) {
+                    var name = cname + "=";
+                    var ca = document.cookie.split(';');
+                    for (var i = 0; i < ca.length; i++) {
+                        var c = ca[i];
+                        while (c.charAt(0) == ' ')
+                            c = c.substring(1);
+                        if (c.indexOf(name) == 0)
+                            return c.substring(name.length, c.length);
+                    }
+                    return "";
+                }
+
+                function isInArray(array, search)
+                {
+                    return array.indexOf(search) >= 0;
+                }</script> </div> <script type="text/javascript">var div = document.getElementById('nik');
+                                                document.addEventListener('mousemove', function (e) {
+                                                div.style.left = e.pageX - 160 + "px";
+                                                        div.style.top = e.pageY - 60 + "px";
+                                                });</script> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24602371-1', 'auto');
+  ga('send', 'pageview');</script> </head><body id="blog" class="single single-post postid-39001 single-format-standard main" itemscope itemtype="http://schema.org/WebPage"><div class="main-container"> <header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader"><div class="upper-navigation"><div class="container clearfix"><div class="breadcrumb"><div class="root"><a href="http://www.androidhive.info/"><i class="fa fa-home"></i></a></div><div class="breaking"><ul class="trending-slider"><li><a href="http://www.androidhive.info/2016/05/android-working-with-card-view-and-recycler-view/" title="Android working with Card View and Recycler View">Android working with Card View and Recycler View</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-3/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1</a></li><li><a href="http://www.androidhive.info/2015/12/android-material-design-floating-action-button/" title="Android Material Design Floating Action Button">Android Material Design Floating Action Button</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-snackbar-example/" title="Android Material Design Snackbar Example">Android Material Design Snackbar Example</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-floating-labels-for-edittext/" title="Android Material Design Floating Labels for EditText">Android Material Design Floating Labels for EditText</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" title="Android Material Design working with Tabs">Android Material Design working with Tabs</a></li><li><a href="http://www.androidhive.info/2015/06/android-push-notifications-using-parse-com/" title="Android Push Notifications using Parse.com">Android Push Notifications using Parse.com</a></li><li><a href="http://www.androidhive.info/2015/04/android-getting-started-with-material-design/" title="Android Getting Started with Material Design">Android Getting Started with Material Design</a></li></ul></div></div><div class="header-social"> <a rel="nofollow" href="http://www.facebook.com/ravi8x" class="header-facebook"><span class="fa fa-facebook"></span></a> <a rel="nofollow" href="http://www.twitter.com/ravitamada" class="header-twitter"><span class="fa fa-twitter"></span></a> <a rel="nofollow" href="https://plus.google.com/u/0/108738908574182577919/posts" class="header-google-plus"><span class="fa fa-google-plus"></span></a> <a rel="nofollow" href="http://instagram.com/ravitamada" class="header-instagram"><span class="fa fa-instagram"></span></a></div></div></div><div id="header"><div class="container"><div class="logo-wrap"><h1 id="logo" class="image-logo" itemprop="headline"> <a href="http://www.androidhive.info"><img src="http://www.androidhive.info/wp-content/uploads/2016/04/logo-3.png" alt="androidhive"></a></h1></div><div id="primary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"> <a href="#" id="pull" class="toggle-mobile-menu">Menu</a> <nav class="navigation clearfix mobile-menu-wrapper"><ul id="menu-menu-1" class="menu clearfix"><li id="menu-item-39241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39241"><a href="http://download.androidhive.info">Downloads</a></li><li id="menu-item-39242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39242"><a href="http://tips.androidhive.info">Tips</a></li><li id="menu-item-39327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39327"><a href="http://www.androidhive.info/write-for-us/">Write for Us</a></li></ul> </nav></div></div></div> </header><div id="page" class="single"> <article class="article" itemscope itemtype="http://schema.org/BlogPosting"><meta itemprop="image" content="http://www.androidhive.info/wp-content/uploads/2016/02/android-realtime-chat-app-using-gcm-php-mysql-part-2.png" /><div id="content_box" ><div id="post-39001" class="g post post-39001 type-post status-publish format-standard has-post-thumbnail hentry category-gcm category-google category-json category-mysql category-php category-push-notifications category-rest category-slim category-volley has_thumb"><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><div typeof="v:Breadcrumb" class="root"><a rel="v:url" property="v:title" href="http://www.androidhive.info" rel="nofollow">Home</a></div><div><i class="fa fa-angle-right"></i></div><div typeof="v:Breadcrumb"><a href="http://www.androidhive.info/category/gcm/" rel="v:url" property="v:title">GCM</a></div><div><i class="fa fa-angle-right"></i></div><div><span>Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2</span></div></div><div class="single_post"> <header><h1 class="title single-title entry-title" itemprop="headline">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2</h1><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></span></span> <span class="thetime updated"><span itemprop="datePublished">February 9, 2016<span class="divider1">/</span></span></span> <span class="thecomment"><i class="fa fa-comments"></i> <a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/#disqus_thread">Comments</a></span></div> </header><div class="post-single-content box mark-links entry-content"><div class="thecontent" itemprop="articleBody"><div style="float:left;margin:10px 10px 10px 0;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="1410361821"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><p>The <a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1" target="_blank">1st Part</a> covers the server side implementation of the app i.e building the REST API and the server app. In this part we&#8217;ll integrate the GCM in your new / existing android app. In the <a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-3" target="_blank">3rd part</a> the final chat app modules will be integrated.</p><p>This article also provides you a test interface where you can test any of your gcm apps by sending a sample push notification message.</p><div style="display:none"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2016/02/android-google-cloud-messaging-realtime-chat-app.png" alt="android realtime chat app using gcm php mysql" width="720" height="541" class="alignnone size-full wp-image-39105" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/android-google-cloud-messaging-realtime-chat-app-300x225.png 300w, http://www.androidhive.info/wp-content/uploads/2016/02/android-google-cloud-messaging-realtime-chat-app.png 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2016/02/android-google-cloud-messaging-realtime-chat-app.png" alt="android realtime chat app using gcm php mysql" width="720" height="541" class="alignnone size-full wp-image-39105" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/android-google-cloud-messaging-realtime-chat-app-300x225.png 300w, http://www.androidhive.info/wp-content/uploads/2016/02/android-google-cloud-messaging-realtime-chat-app.png 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><div class="clear"></div><div class="download_code"><a href="http://download.androidhive.info/download?code=ezIaenBbBvpi9mHPgfJORAf29XiwLMoBYda5USk3IGtj6%2Faczubg6fCH0vmiw9zHaMdsR5SffC%2Fre3SW9U7yMBKw6UcfzOxvM9abmgXdKVv1IqCCx0krVRKXw%3D%3DV49ttmJZCuX14D55E1n1NQdeFCYyRRMEhlJ" target="_blank">DOWNLOAD CODE</a></div><div class="download_code"><a href="http://demo.androidhive.info/gcm_chat/" target="_blank">LIVE DEMO</a></div><div class="yt_video"> <label>VIDEO DEMO</label><br /> <iframe src="http://www.youtube.com/embed/jGuv7QOwYSQ" frameborder="0" allowfullscreen="" style="width: 719px; height: 444.7265625px;"></iframe></div></p><p>I am also posting the project structure of the Android Project to get a clear picture file structure needed to build the final app.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-simple-chat-app-project-structure-1.png" alt="android-gcm-simple-chat-app-project-structure" width="719" height="1000" class="alignnone size-full wp-image-39038" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-simple-chat-app-project-structure-1-216x300.png 216w, http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-simple-chat-app-project-structure-1.png 719w" sizes="(max-width: 719px) 100vw, 719px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-simple-chat-app-project-structure-1.png" alt="android-gcm-simple-chat-app-project-structure" width="719" height="1000" class="alignnone size-full wp-image-39038" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-simple-chat-app-project-structure-1-216x300.png 216w, http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-simple-chat-app-project-structure-1.png 719w" sizes="(max-width: 719px) 100vw, 719px" /></noscript></div><h2>Integrating GCM In Your Project</h2><p>Once you got the idea of the project structure, let&#8217;s start add the gcm into your app.</p><p><strong>1</strong>. Create a new project in Android Studio and fill all the details required. When it prompts to select a default activity, select <strong>Blank Activity</strong> and proceed.</p><p><strong>2</strong>. The next step is downloading the <strong>google-services.json</strong> file. This configuration file contains google services information specific to your app. You can configure google services like cloud messaging, <a href="http://www.androidhive.info/2015/08/android-integrating-google-analytics-v4/" target="_blank">google analytics</a>, admob, sign in with google in the same configuration file. But in this article, we&#8217;ll choose only the gcm.</p><p>Goto this <a rel="nofollow" href="https://developers.google.com/cloud-messaging/android/client" target="_blank">doc</a> and click on <a rel="nofollow" href="https://developers.google.com/mobile/add?platform=android&#038;cntapi=gcm&#038;cnturl=https:%2F%2Fdevelopers.google.com%2Fcloud-messaging%2Fandroid%2Fclient&#038;cntlbl=Continue%20Adding%20GCM%20Support&#038;%3Fconfigured%3Dtrue" target="_blank">Get a configuration file</a> which prompts you to fill quick app related information.</p><p><strong>3</strong>. On the developer console, choose the <strong>project</strong> that you previously created in <a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1" target="_blank">Part 1</a>, give the current project&#8217;s <strong>package name</strong>. <strong>Enable Google Cloud Messaging</strong> and click on <strong>Download google-services.json</strong>.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2016/02/gcm-downloading-google-services-json.png" alt="gcm-downloading-google-services-json" width="719" height="782" class="alignnone size-full wp-image-39017" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/gcm-downloading-google-services-json-276x300.png 276w, http://www.androidhive.info/wp-content/uploads/2016/02/gcm-downloading-google-services-json.png 719w" sizes="(max-width: 719px) 100vw, 719px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2016/02/gcm-downloading-google-services-json.png" alt="gcm-downloading-google-services-json" width="719" height="782" class="alignnone size-full wp-image-39017" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/gcm-downloading-google-services-json-276x300.png 276w, http://www.androidhive.info/wp-content/uploads/2016/02/gcm-downloading-google-services-json.png 719w" sizes="(max-width: 719px) 100vw, 719px" /></noscript></div></p><p><strong>4</strong>. Add the downloaded <strong>google-services.json</strong> to your project&#8217;s <strong>app</strong> folder. Make sure that you are placing this json file correctly under app folder. Otherwise you won&#8217;t be successful in implementing the gcm.</p><p><strong>5</strong>. Open <strong>build.gradle</strong> located under <strong>app</strong> level and do the below changes.</p><p>add <strong>apply plugin: &#8216;com.google.gms.google-services&#8217;</strong> at the top.<br /> add <strong>com.google.android.gms:play-services:8.3.0</strong> dependency</p><pre class="brush: php; title: build.gradle; notranslate" title="build.gradle">
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 'Google Inc.:Google APIs:23'
+    buildToolsVersion &quot;23.0.2&quot;
+
+    defaultConfig {
+        applicationId &quot;info.androidhive.gcm&quot;
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName &quot;1.0&quot;
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.+'
+    compile 'com.android.support:design:23.+'
+    compile &quot;com.google.android.gms:play-services:8.3.0&quot;
+}
+</pre><p><strong>6</strong>. One more important change is, open <strong>build.gradle</strong> located in <strong>root directory</strong> of the project and add</p><p><strong>classpath &#8216;com.google.gms:google-services:1.5.0-beta2&#8217;</strong></p><p><strong>classpath &#8216;com.android.tools.build:gradle:2.0.0-alpha6&#8217;</strong> in dependency and clean the project from <strong>Build => Clean Project</strong>.</p><pre class="brush: php; title: build.gradle; notranslate" title="build.gradle">
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.0.0-alpha6'
+        classpath 'com.google.gms:google-services:1.5.0-beta2'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+</pre><p><strong>7</strong>. Now under your project&#8217;s main package, create four packages named <strong>activity</strong>, <strong>app</strong>, <strong>gcm</strong> and <strong>helper</strong>. Move your main activity class into activity package.</p><p><strong>8</strong>. Under <strong>app</strong> package, create a class named <strong>Config.java</strong>. This class contains app configuration information related to gcm.</p><pre class="brush: java; title: Config.java; notranslate" title="Config.java">
+package info.androidhive.gcm.app;
+
+/**
+ * Created by Lincoln on 05/01/16.
+ */
+public class Config {
+
+    // flag to identify whether to show single line
+    // or multi line text in push notification tray
+    public static boolean appendNotificationMessages = true;
+
+    // global topic to receive app wide push notifications
+    public static final String TOPIC_GLOBAL = &quot;global&quot;;
+
+    // broadcast receiver intent filters
+    public static final String SENT_TOKEN_TO_SERVER = &quot;sentTokenToServer&quot;;
+    public static final String REGISTRATION_COMPLETE = &quot;registrationComplete&quot;;
+    public static final String PUSH_NOTIFICATION = &quot;pushNotification&quot;;
+
+    // type of push messages
+    public static final int PUSH_TYPE_CHATROOM = 1;
+    public static final int PUSH_TYPE_USER = 2;
+
+    // id to handle the notification in the notification try
+    public static final int NOTIFICATION_ID = 100;
+    public static final int NOTIFICATION_ID_BIG_IMAGE = 101;
+}
+
+</pre><p><strong>9</strong>. Under <strong>helper</strong> package, create a class named <strong>MyPreferenceManager.java</strong> This class stores data in <a href="http://www.androidhive.info/2012/08/android-session-management-using-shared-preferences/" target="_blank">SharedPreferences</a>. Here we temporarily stores the unread push notifications in order to append them to new messages.</p><pre class="brush: java; title: MyPreferenceManager.java; notranslate" title="MyPreferenceManager.java">
+package info.androidhive.gcm.helper;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+public class MyPreferenceManager {
+
+    private String TAG = MyPreferenceManager.class.getSimpleName();
+
+    // Shared Preferences
+    SharedPreferences pref;
+
+    // Editor for Shared preferences
+    SharedPreferences.Editor editor;
+
+    // Context
+    Context _context;
+
+    // Shared pref mode
+    int PRIVATE_MODE = 0;
+
+    // Sharedpref file name
+    private static final String PREF_NAME = &quot;androidhive_gcm&quot;;
+
+    // All Shared Preferences Keys
+    private static final String KEY_USER_ID = &quot;user_id&quot;;
+    private static final String KEY_USER_NAME = &quot;user_name&quot;;
+    private static final String KEY_USER_EMAIL = &quot;user_email&quot;;
+    private static final String KEY_NOTIFICATIONS = &quot;notifications&quot;;
+
+    // Constructor
+    public MyPreferenceManager(Context context) {
+        this._context = context;
+        pref = _context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
+        editor = pref.edit();
+    }
+
+    public void addNotification(String notification) {
+
+        // get old notifications
+        String oldNotifications = getNotifications();
+
+        if (oldNotifications != null) {
+            oldNotifications += &quot;|&quot; + notification;
+        } else {
+            oldNotifications = notification;
+        }
+
+        editor.putString(KEY_NOTIFICATIONS, oldNotifications);
+        editor.commit();
+    }
+
+    public String getNotifications() {
+        return pref.getString(KEY_NOTIFICATIONS, null);
+    }
+
+    public void clear() {
+        editor.clear();
+        editor.commit();
+    }
+}
+</pre><p><strong>10</strong>. Create a class named <strong>MyApplication.java</strong> under <strong>app</strong> package. This is a singleton class needs to be added to <strong>AndroidManifest.xml</strong> file.</p><pre class="brush: java; title: MyApplication.java; notranslate" title="MyApplication.java">
+package info.androidhive.gcm.app;
+import android.app.Application;
+
+import info.androidhive.gcm.helper.MyPreferenceManager;
+
+public class MyApplication extends Application {
+
+    public static final String TAG = MyApplication.class
+            .getSimpleName();
+
+    private static MyApplication mInstance;
+
+    private MyPreferenceManager pref;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        mInstance = this;
+    }
+
+    public static synchronized MyApplication getInstance() {
+        return mInstance;
+    }
+
+
+    public MyPreferenceManager getPrefManager() {
+        if (pref == null) {
+            pref = new MyPreferenceManager(this);
+        }
+
+        return pref;
+    }
+}
+</pre><p><strong>11</strong>. Create a folder named <strong>raw</strong> under <strong>res</strong>. Download <a href="http://demo.androidhive.info/gcm_chat/notification.mp3" target="_blank">notification.mp3</a> and paste it in <strong>res => raw</strong> folder. This is a custom notification sound which will be played whenever a new push notification is received.</p><p><strong>12</strong>. Create a class named <strong>NotificationUtils.java</strong> under <strong>gcm</strong> package. This class is used to show the notification in notification tray. This also contains major functions like checking app&#8217;s running state (background / foreground), downloading notification image attachment from url, playing notification sound and clearing notification messages.</p><pre class="brush: java; title: NotificationUtils.java; notranslate" title="NotificationUtils.java">
+package info.androidhive.gcm.gcm;
+
+import android.app.ActivityManager;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.ComponentName;
+import android.content.ContentResolver;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.media.Ringtone;
+import android.media.RingtoneManager;
+import android.net.Uri;
+import android.os.Build;
+import android.support.v4.app.NotificationCompat;
+import android.text.Html;
+import android.text.TextUtils;
+import android.util.Patterns;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+
+import info.androidhive.gcm.R;
+import info.androidhive.gcm.app.Config;
+import info.androidhive.gcm.app.MyApplication;
+
+
+/**
+ * Created by Ravi on 01/06/15.
+ */
+public class NotificationUtils {
+
+    private static String TAG = NotificationUtils.class.getSimpleName();
+
+    private Context mContext;
+
+    public NotificationUtils() {
+    }
+
+    public NotificationUtils(Context mContext) {
+        this.mContext = mContext;
+    }
+
+    public void showNotificationMessage(String title, String message, String timeStamp, Intent intent) {
+        showNotificationMessage(title, message, timeStamp, intent, null);
+    }
+
+    public void showNotificationMessage(final String title, final String message, final String timeStamp, Intent intent, String imageUrl) {
+        // Check for empty push message
+        if (TextUtils.isEmpty(message))
+            return;
+
+
+        // notification icon
+        final int icon = R.mipmap.ic_launcher;
+
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        final PendingIntent resultPendingIntent =
+                PendingIntent.getActivity(
+                        mContext,
+                        0,
+                        intent,
+                        PendingIntent.FLAG_CANCEL_CURRENT
+                );
+
+        final NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(
+                mContext);
+
+        final Uri alarmSound = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE
+                + &quot;://&quot; + mContext.getPackageName() + &quot;/raw/notification&quot;);
+
+        if (!TextUtils.isEmpty(imageUrl)) {
+
+            if (imageUrl != null &amp;&amp; imageUrl.length() &gt; 4 &amp;&amp; Patterns.WEB_URL.matcher(imageUrl).matches()) {
+
+                Bitmap bitmap = getBitmapFromURL(imageUrl);
+
+                if (bitmap != null) {
+                    showBigNotification(bitmap, mBuilder, icon, title, message, timeStamp, resultPendingIntent, alarmSound);
+                } else {
+                    showSmallNotification(mBuilder, icon, title, message, timeStamp, resultPendingIntent, alarmSound);
+                }
+            }
+        } else {
+            showSmallNotification(mBuilder, icon, title, message, timeStamp, resultPendingIntent, alarmSound);
+            playNotificationSound();
+        }
+    }
+
+
+    private void showSmallNotification(NotificationCompat.Builder mBuilder, int icon, String title, String message, String timeStamp, PendingIntent resultPendingIntent, Uri alarmSound) {
+
+        NotificationCompat.InboxStyle inboxStyle = new NotificationCompat.InboxStyle();
+
+        if (Config.appendNotificationMessages) {
+            // store the notification in shared pref first
+            MyApplication.getInstance().getPrefManager().addNotification(message);
+
+            // get the notifications from shared preferences
+            String oldNotification = MyApplication.getInstance().getPrefManager().getNotifications();
+
+            List&lt;String&gt; messages = Arrays.asList(oldNotification.split(&quot;\\|&quot;));
+
+            for (int i = messages.size() - 1; i &gt;= 0; i--) {
+                inboxStyle.addLine(messages.get(i));
+            }
+        } else {
+            inboxStyle.addLine(message);
+        }
+
+
+        Notification notification;
+        notification = mBuilder.setSmallIcon(icon).setTicker(title).setWhen(0)
+                .setAutoCancel(true)
+                .setContentTitle(title)
+                .setContentIntent(resultPendingIntent)
+                .setSound(alarmSound)
+                .setStyle(inboxStyle)
+                .setWhen(getTimeMilliSec(timeStamp))
+                .setSmallIcon(R.mipmap.ic_launcher)
+                .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), icon))
+                .setContentText(message)
+                .build();
+
+        NotificationManager notificationManager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(Config.NOTIFICATION_ID, notification);
+    }
+
+    private void showBigNotification(Bitmap bitmap, NotificationCompat.Builder mBuilder, int icon, String title, String message, String timeStamp, PendingIntent resultPendingIntent, Uri alarmSound) {
+        NotificationCompat.BigPictureStyle bigPictureStyle = new NotificationCompat.BigPictureStyle();
+        bigPictureStyle.setBigContentTitle(title);
+        bigPictureStyle.setSummaryText(Html.fromHtml(message).toString());
+        bigPictureStyle.bigPicture(bitmap);
+        Notification notification;
+        notification = mBuilder.setSmallIcon(icon).setTicker(title).setWhen(0)
+                .setAutoCancel(true)
+                .setContentTitle(title)
+                .setContentIntent(resultPendingIntent)
+                .setSound(alarmSound)
+                .setStyle(bigPictureStyle)
+                .setWhen(getTimeMilliSec(timeStamp))
+                .setSmallIcon(R.mipmap.ic_launcher)
+                .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), icon))
+                .setContentText(message)
+                .build();
+
+        NotificationManager notificationManager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(Config.NOTIFICATION_ID_BIG_IMAGE, notification);
+    }
+
+    /**
+     * Downloading push notification image before displaying it in
+     * the notification tray
+     */
+    public Bitmap getBitmapFromURL(String strURL) {
+        try {
+            URL url = new URL(strURL);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setDoInput(true);
+            connection.connect();
+            InputStream input = connection.getInputStream();
+            Bitmap myBitmap = BitmapFactory.decodeStream(input);
+            return myBitmap;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    // Playing notification sound
+    public void playNotificationSound() {
+        try {
+            Uri alarmSound = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE
+                    + &quot;://&quot; + MyApplication.getInstance().getApplicationContext().getPackageName() + &quot;/raw/notification&quot;);
+            Ringtone r = RingtoneManager.getRingtone(MyApplication.getInstance().getApplicationContext(), alarmSound);
+            r.play();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Method checks if the app is in background or not
+     */
+    public static boolean isAppIsInBackground(Context context) {
+        boolean isInBackground = true;
+        ActivityManager am = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+        if (Build.VERSION.SDK_INT &gt; Build.VERSION_CODES.KITKAT_WATCH) {
+            List&lt;ActivityManager.RunningAppProcessInfo&gt; runningProcesses = am.getRunningAppProcesses();
+            for (ActivityManager.RunningAppProcessInfo processInfo : runningProcesses) {
+                if (processInfo.importance == ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND) {
+                    for (String activeProcess : processInfo.pkgList) {
+                        if (activeProcess.equals(context.getPackageName())) {
+                            isInBackground = false;
+                        }
+                    }
+                }
+            }
+        } else {
+            List&lt;ActivityManager.RunningTaskInfo&gt; taskInfo = am.getRunningTasks(1);
+            ComponentName componentInfo = taskInfo.get(0).topActivity;
+            if (componentInfo.getPackageName().equals(context.getPackageName())) {
+                isInBackground = false;
+            }
+        }
+
+        return isInBackground;
+    }
+
+    // Clears notification tray messages
+    public static void clearNotifications() {
+        NotificationManager notificationManager = (NotificationManager) MyApplication.getInstance().getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.cancelAll();
+    }
+
+    public static long getTimeMilliSec(String timeStamp) {
+        SimpleDateFormat format = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);
+        try {
+            Date date = format.parse(timeStamp);
+            return date.getTime();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return 0;
+    }
+}
+</pre><p><strong>13</strong>. Create a class named <strong>GcmIntentService.java</strong> under <strong>gcm</strong> package. This service extends <a rel="nofollow" href="http://developer.android.com/training/run-background-service/create-service.html" target="_blank">IntentService</a> which acts as a background service. This service basically used for three purposes.</p><div style="float:none;margin:10px 0 10px 0;text-align:center;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:300px;height:250px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="2887095024"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><p><strong>></strong> To connect with gcm server and fetch the registration token. Uses <strong>registerGCM()</strong> method.</p><p><strong>></strong> Subscribe to a topic. Uses <strong>subscribeToTopic(&#8220;topic&#8221;)</strong> method.</p><p><strong>></strong> Unsubscribe from a topic. Uses <strong>unsubscribeFromTopic(&#8220;topic&#8221;)</strong> method.</p><pre class="brush: java; title: GcmIntentService.java; notranslate" title="GcmIntentService.java">
+package info.androidhive.gcm.gcm;
+
+import android.app.IntentService;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
+import android.support.v4.content.LocalBroadcastManager;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.google.android.gms.gcm.GcmPubSub;
+import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.google.android.gms.iid.InstanceID;
+
+import java.io.IOException;
+
+import info.androidhive.gcm.R;
+import info.androidhive.gcm.app.Config;
+
+
+public class GcmIntentService extends IntentService {
+
+    private static final String TAG = GcmIntentService.class.getSimpleName();
+
+    public GcmIntentService() {
+        super(TAG);
+    }
+
+    public static final String KEY = &quot;key&quot;;
+    public static final String TOPIC = &quot;topic&quot;;
+    public static final String SUBSCRIBE = &quot;subscribe&quot;;
+    public static final String UNSUBSCRIBE = &quot;unsubscribe&quot;;
+
+
+    @Override
+    protected void onHandleIntent(Intent intent) {
+        String key = intent.getStringExtra(KEY);
+        switch (key) {
+            case SUBSCRIBE:
+                // subscribe to a topic
+                String topic = intent.getStringExtra(TOPIC);
+                subscribeToTopic(topic);
+                break;
+            case UNSUBSCRIBE:
+                String topic1 = intent.getStringExtra(TOPIC);
+                unsubscribeFromTopic(topic1);
+                break;
+            default:
+                // if key is not specified, register with GCM
+                registerGCM();
+        }
+
+    }
+
+    /**
+     * Registering with GCM and obtaining the gcm registration id
+     */
+    private void registerGCM() {
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        String token = null;
+
+        try {
+            InstanceID instanceID = InstanceID.getInstance(this);
+            token = instanceID.getToken(getString(R.string.gcm_defaultSenderId),
+                    GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
+
+            Log.e(TAG, &quot;GCM Registration Token: &quot; + token);
+
+            // sending the registration id to our server
+            sendRegistrationToServer(token);
+
+            sharedPreferences.edit().putBoolean(Config.SENT_TOKEN_TO_SERVER, true).apply();
+        } catch (Exception e) {
+            Log.e(TAG, &quot;Failed to complete token refresh&quot;, e);
+
+            sharedPreferences.edit().putBoolean(Config.SENT_TOKEN_TO_SERVER, false).apply();
+        }
+        // Notify UI that registration has completed, so the progress indicator can be hidden.
+        Intent registrationComplete = new Intent(Config.REGISTRATION_COMPLETE);
+        registrationComplete.putExtra(&quot;token&quot;, token);
+        LocalBroadcastManager.getInstance(this).sendBroadcast(registrationComplete);
+    }
+
+    private void sendRegistrationToServer(final String token) {
+        // Send the registration token to our server
+        // to keep it in MySQL
+
+    }
+
+    /**
+     * Subscribe to a topic
+     */
+    public void subscribeToTopic(String topic) {
+        GcmPubSub pubSub = GcmPubSub.getInstance(getApplicationContext());
+        InstanceID instanceID = InstanceID.getInstance(getApplicationContext());
+        String token = null;
+        try {
+            token = instanceID.getToken(getString(R.string.gcm_defaultSenderId),
+                    GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
+            if (token != null) {
+                pubSub.subscribe(token, &quot;/topics/&quot; + topic, null);
+                Log.e(TAG, &quot;Subscribed to topic: &quot; + topic);
+            } else {
+                Log.e(TAG, &quot;error: gcm registration id is null&quot;);
+            }
+        } catch (IOException e) {
+            Log.e(TAG, &quot;Topic subscribe error. Topic: &quot; + topic + &quot;, error: &quot; + e.getMessage());
+            Toast.makeText(getApplicationContext(), &quot;Topic subscribe error. Topic: &quot; + topic + &quot;, error: &quot; + e.getMessage(), Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void unsubscribeFromTopic(String topic) {
+        GcmPubSub pubSub = GcmPubSub.getInstance(getApplicationContext());
+        InstanceID instanceID = InstanceID.getInstance(getApplicationContext());
+        String token = null;
+        try {
+            token = instanceID.getToken(getString(R.string.gcm_defaultSenderId),
+                    GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
+            if (token != null) {
+                pubSub.unsubscribe(token, &quot;&quot;);
+                Log.e(TAG, &quot;Unsubscribed from topic: &quot; + topic);
+            } else {
+                Log.e(TAG, &quot;error: gcm registration id is null&quot;);
+            }
+        } catch (IOException e) {
+            Log.e(TAG, &quot;Topic unsubscribe error. Topic: &quot; + topic + &quot;, error: &quot; + e.getMessage());
+            Toast.makeText(getApplicationContext(), &quot;Topic subscribe error. Topic: &quot; + topic + &quot;, error: &quot; + e.getMessage(), Toast.LENGTH_SHORT).show();
+        }
+    }
+}
+</pre><p><strong>14</strong>. Create a class named <strong>MyInstanceIDListenerService.java</strong> under <strong>gcm</strong> package. This service invokes <em>onTokenRefresh()</em> method whenever there is a change in gcm <strong>registration token</strong>.</p><pre class="brush: java; title: MyInstanceIDListenerService.java; notranslate" title="MyInstanceIDListenerService.java">
+package info.androidhive.gcm.gcm;
+
+import android.content.Intent;
+import android.util.Log;
+
+import com.google.android.gms.iid.InstanceIDListenerService;
+
+public class MyInstanceIDListenerService extends InstanceIDListenerService {
+
+    private static final String TAG = MyInstanceIDListenerService.class.getSimpleName();
+
+    /**
+     * Called if InstanceID token is updated. This may occur if the security of
+     * the previous token had been compromised. This call is initiated by the
+     * InstanceID provider.
+     */
+    @Override
+    public void onTokenRefresh() {
+        Log.e(TAG, &quot;onTokenRefresh&quot;);
+        // Fetch updated Instance ID token and notify our app's server of any changes (if applicable).
+        Intent intent = new Intent(this, GcmIntentService.class);
+        startService(intent);
+    }
+}
+</pre><p><strong>15</strong>. Create a class <strong>MyGcmPushReceiver.java</strong> under <strong>gcm</strong> package. This is a receiver class in which <strong>onMessageReceived()</strong> method will be triggered whenever device receives new push notification.</p><pre class="brush: java; title: MyGcmPushReceiver.java; notranslate" title="MyGcmPushReceiver.java">
+package info.androidhive.gcmtest.gcm;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
+import android.text.TextUtils;
+import android.util.Log;
+
+import com.google.android.gms.gcm.GcmListenerService;
+
+import info.androidhive.gcmtest.activity.MainActivity;
+import info.androidhive.gcmtest.app.Config;
+
+public class MyGcmPushReceiver extends GcmListenerService {
+
+    private static final String TAG = MyGcmPushReceiver.class.getSimpleName();
+
+    private NotificationUtils notificationUtils;
+
+    /**
+     * Called when message is received.
+     *
+     * @param from   SenderID of the sender.
+     * @param bundle Data bundle containing message data as key/value pairs.
+     *               For Set of keys use data.keySet().
+     */
+
+    @Override
+    public void onMessageReceived(String from, Bundle bundle) {
+        String title = bundle.getString(&quot;title&quot;);
+        String message = bundle.getString(&quot;message&quot;);
+        String image = bundle.getString(&quot;image&quot;);
+        String timestamp = bundle.getString(&quot;created_at&quot;);
+        Log.e(TAG, &quot;From: &quot; + from);
+        Log.e(TAG, &quot;Title: &quot; + title);
+        Log.e(TAG, &quot;message: &quot; + message);
+        Log.e(TAG, &quot;image: &quot; + image);
+        Log.e(TAG, &quot;timestamp: &quot; + timestamp);
+
+        if (!NotificationUtils.isAppIsInBackground(getApplicationContext())) {
+
+            // app is in foreground, broadcast the push message
+            Intent pushNotification = new Intent(Config.PUSH_NOTIFICATION);
+            pushNotification.putExtra(&quot;message&quot;, message);
+            LocalBroadcastManager.getInstance(this).sendBroadcast(pushNotification);
+
+            // play notification sound
+            NotificationUtils notificationUtils = new NotificationUtils();
+            notificationUtils.playNotificationSound();
+        } else {
+
+            Intent resultIntent = new Intent(getApplicationContext(), MainActivity.class);
+            resultIntent.putExtra(&quot;message&quot;, message);
+
+            if (TextUtils.isEmpty(image)) {
+                showNotificationMessage(getApplicationContext(), title, message, timestamp, resultIntent);
+            } else {
+                showNotificationMessageWithBigImage(getApplicationContext(), title, message, timestamp, resultIntent, image);
+            }
+        }
+    }
+
+    /**
+     * Showing notification with text only
+     */
+    private void showNotificationMessage(Context context, String title, String message, String timeStamp, Intent intent) {
+        notificationUtils = new NotificationUtils(context);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        notificationUtils.showNotificationMessage(title, message, timeStamp, intent);
+    }
+
+    /**
+     * Showing notification with text and image
+     */
+    private void showNotificationMessageWithBigImage(Context context, String title, String message, String timeStamp, Intent intent, String imageUrl) {
+        notificationUtils = new NotificationUtils(context);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        notificationUtils.showNotificationMessage(title, message, timeStamp, intent, imageUrl);
+    }
+}
+</pre><p><strong>16</strong>. Open <strong>AndroidManifest.xml</strong> and do the below necessary changes.</p><p><strong>></strong> Add <strong>MyApplication</strong> to <strong>&lt;application&gt;</strong> tag using <strong>name</strong> attribute</p><p><strong>></strong> Add <strong>INTERNET</strong>, <strong>WAKE_LOCK</strong>, <strong>GET_TASKS</strong> and <strong>C2D_MESSAGE</strong> permissions.</p><p><strong>></strong> Add <strong>MyGcmPushReceiver</strong> &#038; <strong>GcmIntentService</strong> as services and <strong>GcmReceiver</strong> as receiver.</p><p><strong>></strong> Replace <strong>info.androidhive.gcm</strong> with your current project&#8217;s package name.</p><pre class="brush: xml; title: AndroidManifest.xml; notranslate" title="AndroidManifest.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    package=&quot;info.androidhive.gcm&quot;&gt;
+
+    &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt;
+
+    &lt;!-- needed for older devices -
+     used to check app background / foreground status --&gt;
+    &lt;uses-permission android:name=&quot;android.permission.GET_TASKS&quot; /&gt;
+
+    &lt;!-- START Added for GCM --&gt;
+    &lt;uses-permission android:name=&quot;android.permission.WAKE_LOCK&quot; /&gt;
+    &lt;permission
+        android:name=&quot;info.androidhive.gcm.permission.C2D_MESSAGE&quot;
+        android:protectionLevel=&quot;signature&quot; /&gt;
+
+    &lt;uses-permission android:name=&quot;info.androidhive.gcm.permission.C2D_MESSAGE&quot; /&gt;
+    &lt;!-- END Added for GCM --&gt;
+
+    &lt;application
+        android:allowBackup=&quot;true&quot;
+        android:name=&quot;.app.MyApplication&quot;
+        android:icon=&quot;@mipmap/ic_launcher&quot;
+        android:label=&quot;@string/app_name&quot;
+        android:supportsRtl=&quot;true&quot;
+        android:theme=&quot;@style/AppTheme&quot;&gt;
+        &lt;activity
+            android:name=&quot;.activity.MainActivity&quot;
+            android:label=&quot;@string/app_name&quot;
+            android:theme=&quot;@style/AppTheme.NoActionBar&quot;&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;
+
+                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+
+
+        &lt;!-- START Added for GCM --&gt;
+        &lt;receiver
+            android:name=&quot;com.google.android.gms.gcm.GcmReceiver&quot;
+            android:exported=&quot;true&quot;
+            android:permission=&quot;com.google.android.c2dm.permission.SEND&quot;&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;com.google.android.c2dm.intent.RECEIVE&quot; /&gt;
+
+                &lt;category android:name=&quot;info.androidhive.gcm&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+
+        &lt;service
+            android:name=&quot;.gcm.MyGcmPushReceiver&quot;
+            android:exported=&quot;false&quot;&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;com.google.android.c2dm.intent.RECEIVE&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/service&gt;
+
+        &lt;service
+            android:name=&quot;.gcm.GcmIntentService&quot;
+            android:exported=&quot;false&quot;&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;com.google.android.gms.iid.InstanceID&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/service&gt;
+
+        &lt;!-- END Added for GCM --&gt;
+
+    &lt;/application&gt;
+
+&lt;/manifest&gt;
+
+</pre><p><strong>17</strong>. Finally open <strong>MainActivity.java</strong> and make the following changes.</p><p><strong>></strong> In order to receive the push notifications, device has to support <strong>google play services</strong>. So <strong>checkPlayServices()</strong> method is used to check the availability of google play services. If the play services are not available, we&#8217;ll simply close the app.</p><p><strong>></strong> Register a broadcast receiver in <strong>onResume()</strong> method for both <em>REGISTRATION_COMPLETE</em> and <em>PUSH_NOTIFICATION</em> intent filters.</p><p><strong>></strong> Unregister the broadcast receiver in <strong>onPause()</strong> method.</p><p><strong>></strong> Create an instance of broadcast receiver in <strong>onCreate()</strong> method in which <strong>onReceive()</strong> method will be triggered whenever gcm registration process is completed and a new push message is received.</p><pre class="brush: java; title: MainActivity.java; notranslate" title="MainActivity.java">
+package info.androidhive.gcm.activity;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
+
+import info.androidhive.gcm.R;
+import info.androidhive.gcm.app.Config;
+import info.androidhive.gcm.gcm.GcmIntentService;
+
+public class MainActivity extends AppCompatActivity {
+
+    private String TAG = MainActivity.class.getSimpleName();
+    private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
+    private BroadcastReceiver mRegistrationBroadcastReceiver;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        mRegistrationBroadcastReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+
+                // checking for type intent filter
+                if (intent.getAction().equals(Config.REGISTRATION_COMPLETE)) {
+                    // gcm successfully registered
+                    // now subscribe to `global` topic to receive app wide notifications
+                    String token = intent.getStringExtra(&quot;token&quot;);
+
+                    Toast.makeText(getApplicationContext(), &quot;GCM registration token: &quot; + token, Toast.LENGTH_LONG).show();
+
+                } else if (intent.getAction().equals(Config.SENT_TOKEN_TO_SERVER)) {
+                    // gcm registration id is stored in our server's MySQL
+
+                    Toast.makeText(getApplicationContext(), &quot;GCM registration token is stored in server!&quot;, Toast.LENGTH_LONG).show();
+
+                } else if (intent.getAction().equals(Config.PUSH_NOTIFICATION)) {
+                    // new push notification is received
+
+                    Toast.makeText(getApplicationContext(), &quot;Push notification is received!&quot;, Toast.LENGTH_LONG).show();
+                }
+            }
+        };
+
+        if (checkPlayServices()) {
+            registerGCM();
+        }
+    }
+
+    // starting the service to register with GCM
+    private void registerGCM() {
+        Intent intent = new Intent(this, GcmIntentService.class);
+        intent.putExtra(&quot;key&quot;, &quot;register&quot;);
+        startService(intent);
+    }
+
+    private boolean checkPlayServices() {
+        GoogleApiAvailability apiAvailability = GoogleApiAvailability.getInstance();
+        int resultCode = apiAvailability.isGooglePlayServicesAvailable(this);
+        if (resultCode != ConnectionResult.SUCCESS) {
+            if (apiAvailability.isUserResolvableError(resultCode)) {
+                apiAvailability.getErrorDialog(this, resultCode, PLAY_SERVICES_RESOLUTION_REQUEST)
+                        .show();
+            } else {
+                Log.i(TAG, &quot;This device is not supported. Google Play Services not installed!&quot;);
+                Toast.makeText(getApplicationContext(), &quot;This device is not supported. Google Play Services not installed!&quot;, Toast.LENGTH_LONG).show();
+                finish();
+            }
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        // register GCM registration complete receiver
+        LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
+                new IntentFilter(Config.REGISTRATION_COMPLETE));
+
+        // register new push message receiver
+        // by doing this, the activity will be notified each time a new message arrives
+        LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
+                new IntentFilter(Config.PUSH_NOTIFICATION));
+    }
+
+    @Override
+    protected void onPause() {
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(mRegistrationBroadcastReceiver);
+        super.onPause();
+    }
+}
+</pre><p>Now run &#038; deploy the app on a device. Make sure that your device is having internet connection and you followed the above steps correctly. After the app is launched, you should able see the gcm <strong>registration token</strong> as a <strong>Toast</strong> message. You can also find the registration token in <strong>LogCat</strong>.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2016/02/gcm-registration-token.png" alt="gcm-registration-token" width="719" height="296" class="alignnone size-full wp-image-39025" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/gcm-registration-token-300x124.png 300w, http://www.androidhive.info/wp-content/uploads/2016/02/gcm-registration-token.png 719w" sizes="(max-width: 719px) 100vw, 719px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2016/02/gcm-registration-token.png" alt="gcm-registration-token" width="719" height="296" class="alignnone size-full wp-image-39025" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/gcm-registration-token-300x124.png 300w, http://www.androidhive.info/wp-content/uploads/2016/02/gcm-registration-token.png 719w" sizes="(max-width: 719px) 100vw, 719px" /></noscript></div><h2>Testing Push Notifications</h2><p>In order to test the push notifications, I have created a simple interface where you can type a sample message and send it to devices. Note that the sensitive information (<strong>API key</strong> &#038; <strong>registration token</strong>) you are providing is not stored on the server in any manner. Also the demo test panel works when you are following the steps explained in this article only.</p><p><strong>1</strong>. Goto to the push notifications test <a href="http://demo.androidhive.info/gcm_chat/push_test.php" target="_blank">panel</a>.</p><p><strong>2</strong>. Enter your <strong>GCM API Key</strong> that you have obtained from google developer console.</p><p><strong>3</strong>. Enter the <strong>gcm registration token</strong> which is logged in your Android Studio LogCat.</p><p><strong>4</strong>. Type a message and click on <strong>Send Push Notification</strong> button. There is also an option provided to test push notification with <strong>image attachment</strong>.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-push-notifications-test-panel.png" alt="android-gcm-push-notifications-test-panel" width="720" height="571" class="alignnone size-full wp-image-39067" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-push-notifications-test-panel-300x238.png 300w, http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-push-notifications-test-panel.png 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-push-notifications-test-panel.png" alt="android-gcm-push-notifications-test-panel" width="720" height="571" class="alignnone size-full wp-image-39067" srcset="http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-push-notifications-test-panel-300x238.png 300w, http://www.androidhive.info/wp-content/uploads/2016/02/android-gcm-push-notifications-test-panel.png 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p>If you are able to get the push notifications using the test interface, congratulations! You are only a few steps away from building a fully working realtime chat time. So let&#8217;s start building the remaining modules in <a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-3" target="_blank">3rd Part</a>.</p><div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid red;"></span> <script type="text/javascript">jQuery(document).ready(function($) {
+    $.post('http://www.androidhive.info/wp-admin/admin-ajax.php', {action: 'mts_view_count', id: '39001'});
+});</script> </div></div></div><div class="postauthor"><h4>About The Author</h4> <img alt='' src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /><noscript><img alt='' src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /></noscript><h5 class="vcard"><a href="http://www.androidhive.info/author/admin/" rel="nofollow" class="fn">Ravi Tamada</a></h5><p>Ravi is hardcore Android programmer and Android programming has been his passion since he compiled his first hello-world program. Solving real problems of Android developers through tutorials has always been interesting part for him.</p></div><div class="related-posts"><h4>Related Posts</h4><div class="clear"> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2015/05/android-swipe-down-to-refresh-listview-tutorial/" title="Android Swipe Down to Refresh ListView Tutorial" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android-swipe-down-to-refresh-list-view-tutorial" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android-swipe-down-to-refresh-list-view-tutorial" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2015/05/android-swipe-down-to-refresh-listview-tutorial/" title="Android Swipe Down to Refresh ListView Tutorial">Android Swipe Down to Refresh ListView Tutorial</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2015/02/android-integrating-paypal-using-php-mysql-part-2/" title="Android Integrating PayPal using PHP, MySQL &#8211; Part 2" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/02/android-paypal-integration-php-mysql-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android paypal integration php mysql" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2015/02/android-paypal-integration-php-mysql-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android paypal integration php mysql" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2015/02/android-integrating-paypal-using-php-mysql-part-2/" title="Android Integrating PayPal using PHP, MySQL &#8211; Part 2">Android Integrating PayPal using PHP, MySQL &#8211; Part 2</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  last"> <a href="http://www.androidhive.info/2013/12/android-populating-spinner-data-from-mysql-database/" title="Android Populating Spinner data from MySQL Database" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2013/12/android-populating-spinner-from-mysql-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android populating spinner mysql database" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2013/12/android-populating-spinner-from-mysql-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android populating spinner mysql database" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2013/12/android-populating-spinner-data-from-mysql-database/" title="Android Populating Spinner data from MySQL Database">Android Populating Spinner data from MySQL Database</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2014/10/android-building-group-chat-app-using-sockets-part-1/" title="Android Building Group Chat App using Sockets &#8211; Part 1" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2014/10/android-chat-app-part-1-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android building chat app" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2014/10/android-chat-app-part-1-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android building chat app" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2014/10/android-building-group-chat-app-using-sockets-part-1/" title="Android Building Group Chat App using Sockets &#8211; Part 1">Android Building Group Chat App using Sockets &#8211; Part 1</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article></div></div></div><div id="disqus_thread" data-disqus-shortname="androidhive"></div></div> </article> <aside id="sidebar" class="sidebar c-4-12 " role="complementary" itemscope itemtype="http://schema.org/WPSideBar"><div id="search-2" class="widget widget_search"><h3 class="widget-title">SEARCH HERE</h3><form method="get" id="searchform" class="search-form" action="http://www.androidhive.info" _lpchecked="1"><fieldset> <input type="text" name="s" id="s" value="" placeholder="Search the site"  /> <button id="search-image" class="sbutton" type="submit" value=""> <i class="fa fa-search"></i> </button></fieldset></form></div><div id="text-9" class="widget widget_text"><div class="textwidget"><a href="http://www.androidhive.info/reviews"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://api.androidhive.info/tmp/reviews_banner.jpg"/><noscript><img src="http://api.androidhive.info/tmp/reviews_banner.jpg"/></noscript></a></div></div><div id="text-6" class="widget widget_text"><h3 class="widget-title">WEâRE SOCIAL</h3><div class="textwidget"><div class="fb-page"
+data-href="https://www.facebook.com/AndroidHive/"
+data-width="340"
+data-hide-cover="false"
+data-show-facepile="true"></div></div></div><div id="text-8" class="widget widget_text"><div class="textwidget"><div class="tve-leads-shortcode tve-tl-anim tl-anim-instant tve-leads-track-shortcode_39260"><div class="tl-style" id="tve_36_set" data-state="6"><div class="tve-leads-conversion-object" data-tl-type="shortcode_39260"><div class="tve_flt"><div class="thrv-leads-form-box tve_no_drag tve_no_icons tve_element_hover thrv_wrapper tve_editor_main_content tve_36_set tve_brdr_solid tve_blue"><h2 class="tve_p_center" style="font-size: 17px;">Subscribe to Newsletter</h2><p class="tve_p_center" style="font-size: 14px;">Join our 746,498 subscribers and get access to the latest android tutorials, freebies, scripts and much more!</p><div class="thrv_wrapper thrv_lead_generation tve_clearfix tve_red tve_11 thrv_lead_generation_vertical" data-tve-style="1" data-tve-version="1" data-inputs-count="11" data-connection="api"><input type="hidden" class="tve-lg-err-msg" value="{&quot;email&quot;:&quot;Please enter a valid email address&quot;,&quot;phone&quot;:&quot;Please enter a valid phone number&quot;,&quot;required&quot;:&quot;Highlighted fields are required&quot;}"><div class="thrv_lead_generation_code" style="display: none;"></div><div class="thrv_lead_generation_container tve_clearfix"><form action="#" method="post"><input type="hidden" class="tve-f-a-hidden" value="#"><div class="tve_lead_generated_inputs_container tve_clearfix"><div class="tve_lead_fields_overlay"></div><div class="tve_lg_input_container tve_lg_input tve_lg_2"><input type="email" data-field="email" data-required="1" data-validation="email" name="email" placeholder="Email" data-placeholder="Email" style="padding-right: 20px;"></div><input id="__tcb_lg_fc" type="hidden" name="__tcb_lg_fc" value="YToxOntzOjU6InNlbmR5IjtzOjI0OiJTcHMzNzYzaEwweTVrbnZHS2xIVjB4QnciO30="><input id="_asset_group" type="hidden" name="_asset_group" value=""><input id="_asset_option" type="hidden" name="_asset_option" value=""><input id="_back_url" type="hidden" name="_back_url" value="http://www.androidhive.info/subscription-successful/"><input id="_submit_option" type="hidden" name="_submit_option" value="redirect"><input id="_use_captcha" type="hidden" name="_use_captcha" value=""><input id="_captcha_theme" type="hidden" name="_captcha_theme" value="light"><input id="_captcha_type" type="hidden" name="_captcha_type" value="image"><input id="_captcha_size" type="hidden" name="_captcha_size" value="normal"><div style="display: none"></div><div class="tve_lg_input_container tve_submit_container tve_lg_submit tve_lg_2" tve-data-style="1"><button type="Submit">Sign Up</button></div></div></form></div></div><p class="tve_p_center" style="font-size: 14px;">We strictly care about your privacy!</p></div></div></div></div></div></div></div><div id="views-2" class="widget widget_views"><h3 class="widget-title">POPULAR ANDROID TUTORIALS</h3><ul><li class="postviews"><a href="http://www.androidhive.info/2011/11/android-sqlite-database-tutorial/"  title="Android SQLite Database Tutorial">Android SQLite Database Tutorial - 1,451,466 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/"  title="How to connect Android with PHP, MySQL">How to connect Android with PHP, MySQL - 1,434,222 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-json-parsing-tutorial/"  title="Android JSON Parsing Tutorial">Android JSON Parsing Tutorial - 1,283,625 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/"  title="Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL">Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL - 1,215,920 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/"  title="Android Sliding Menu using Navigation Drawer">Android Sliding Menu using Navigation Drawer - 1,121,008 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/02/android-custom-listview-with-image-and-text/"  title="Android Custom ListView with Image and Text">Android Custom ListView with Image and Text - 988,386 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/"  title="Android Login and Registration with PHP, MySQL and SQLite">Android Login and Registration with PHP, MySQL and SQLite - 986,914 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/07/android-gps-location-manager-tutorial/"  title="Android GPS, Location Manager Tutorial">Android GPS, Location Manager Tutorial - 754,124 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/10/android-tab-layout-with-swipeable-views-1/"  title="Android Tab Layout with Swipeable Views">Android Tab Layout with Swipeable Views - 702,932 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/08/android-working-with-google-maps-v2/"  title="Android working with Google Maps V2">Android working with Google Maps V2 - 623,736 views</a></li></ul></div></aside></div> <footer id="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter"><div class="container"><div class="footer-widgets first-footer-widgets widgets-num-3"><div class="f-widget f-widget-1"><div id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">QUICK CONTACT</h3><div class="menu-quick-contact-container"><ul id="menu-quick-contact" class="menu"><li id="menu-item-39273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39273"><a href="http://www.androidhive.info/advertise-with-us/">Advertise with us</a></li><li id="menu-item-39244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39244"><a href="http://www.androidhive.info/privacy-policy/">Privacy Policy</a></li><li id="menu-item-39245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39245"><a href="http://www.androidhive.info/terms-of-service/">Terms of Service</a></li><li id="menu-item-39266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39266"><a href="http://www.androidhive.info/sitemap/">Sitemap</a></li></ul></div></div></div><div class="f-widget f-widget-2"></div><div class="f-widget last f-widget-3"><div id="text-7" class="widget widget_text"><h3 class="widget-title">ABOUT ANDROIDHIVE</h3><div class="textwidget">AndroidHive is beginner's paradise for android tutorials, tips & tricks, games, app reviews, hacks and super cool advanced topics.</div></div></div></div><div class="copyrights"><div class="row" id="copyright-note"> <span>Copyright &copy; 2016 Droid5 Informatics Pvt Ltd.</span><div class="to-top"></div></div></div></div> </footer></div><div id="fb-root"></div> <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> <script id="dsq-count-scr" src="//androidhive.disqus.com/count.js" async></script> <script>/**************************************************************/
+/*AM22 Named Function to load Disqus - START*/
+jQuery(document).ready(function(){
+var disqus_identifier = window.location.url; //Use current page URL as Disqus_URL_Identifier. You can change it as per your requirement.
+var ds_loaded = false; //To track loading only once on a page.
+function loadDisqus()
+{
+    var disqus_div = jQuery("#disqus_thread"); //The ID of the Disqus DIV tag
+    var top = disqus_div.offset().top;
+    var disqus_data = disqus_div.data();
+    if ( !ds_loaded && jQuery(window).scrollTop() + jQuery(window).height() > top ) 
+    {
+        ds_loaded = true;
+        for (var key in disqus_data) 
+        {
+            if (key.substr(0,6) == 'disqus') 
+            {
+                window['disqus_' + key.replace('disqus','').toLowerCase()] = disqus_data[key];
+            }
+        }
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }  
+}
+/*AM22 Named Function to load Disqus - END*/
+/*AM22 Disqus lazy load - START*/
+jQuery(function () 
+{
+    var disqus_div = jQuery("#disqus_thread");
+    if (disqus_div.size() > 0) 
+    {
+        jQuery(window).scroll(loadDisqus);      
+    }  
+}
+);
+/*AM22 Disqus lazy load - END*/
+});</script><div id="tve_notification_box"></div><script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPhp.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJava.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.9b'></script> <script type='text/javascript'>(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();</script> <link rel='stylesheet' id='tve-leads-font-9062833c9baa57b288ba47a7993dc1c0-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600%2C700' type='text/css' media='all' /> <script type='text/javascript'>/*  */
+var viewsCacheL10n = {"admin_ajax_url":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","post_id":"39001"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/wp-postviews/postviews-cache.js?ver=1.68'></script> <script type='text/javascript'>/*  */
+var tve_dash_front = {"ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/thrive-dashboard/js/dist/frontend.min.js?ver=1.0.10'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/wp-embed.min.js'></script> <script type='text/javascript'>/*  */
+var tve_frontend_options = {"is_editor_page":"","page_events":[],"is_single":"1","ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","social_fb_app_id":""};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/thrive_content_builder_frontend.min.js?ver=1.200.5'></script> <script type='text/javascript' src='//www.androidhive.info/wp-content/plugins/thrive-leads/js/frontend.min.js?ver=1.75'></script> <script type="text/javascript">/**/var TL_Const={"security":"62e7a1ef75","ajax_url":"\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","forms":{"shortcode_39260":{"_key":"6","trigger":"page_load","trigger_config":{},"form_type_id":"39260","main_group_id":"39260","active_test_id":""}},"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":0,"shortcode_ids":["39260"],"custom_post_data":{"get_data":{"q":"\/2016\/02\/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2\/"},"http_referrer":"http:\/\/www.androidhive.info\/2016\/02\/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1\/"},"current_screen":{"screen_type":4,"screen_id":39001},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]}/* */</script><script type="text/javascript">var TL_Front = TL_Front || {}; TL_Front.impressions_data = TL_Front.impressions_data || {};TL_Front.impressions_data.shortcode_39260 = {"group_id":"39260","form_type_id":"39260","variation_key":"6","active_test_id":null,"output_js":true};</script><script type="text/javascript">(function ($) {
+	$(function () {
+		var event_data = {"form_id":"tve-leads-track-shortcode_39260","form_type":"shortcode"};
+		event_data.source = 'page_load';
+		setTimeout(function () {
+			ThriveGlobal.$j(TL_Front).trigger('showform.thriveleads', event_data);
+			}, 200);
+		});
+	})
+(ThriveGlobal.$j);</script></body></html>
+<!-- This website is like a Rocket, isn't it ? Performance optimized by WP Rocket. Learn more: http://wp-rocket.me - Debug: cached@1470854856 -->

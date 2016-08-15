@@ -1,0 +1,956 @@
+<!DOCTYPE html><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"><head itemscope itemtype="http://schema.org/WebSite"><!--[if IE]><![endif]--><link rel="dns-prefetch" href="//fonts.googleapis.com" /><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/911656fa177846aec61d653c98674a7b.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/eb9f2973d1f94378cd51f247183dd68f.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/ed23373be97de98fd59b5c1ee55222f2.css" data-minify="1"/><meta charset="UTF-8"> <!--[if IE ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]--><link rel="profile" href="http://gmpg.org/xfn/11" /><link rel="icon" href="http://test.androidhive.info/wp-content/uploads/2016/04/favicon.png" type="image/x-icon" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta itemprop="name" content="androidhive" /><meta itemprop="url" content="http://www.androidhive.info" /><meta itemprop="creator accountablePerson" content=" " /><link rel="pingback" href="http://www.androidhive.info/xmlrpc.php" /><title>Android Fullscreen Image Slider with Swipe and Pinch Zoom Gestures</title><style type="text/css">.thrive-adminbar-icon {
+				background: url('http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/css/images/tcb-close-icon.png') no-repeat 0px 0px;
+				padding-left: 25px !important;
+				width: 20px !important;
+				height: 20px !important;
+			}</style> <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace( /\bno-js\b/,'js' );</script> <meta name="description" content="Android tutorial about building full screen image viewer for your albums. This tutorial covers grid view, full screen image slider with swipe and pinching zooming functionality. You can also learn how to use BaseAdapter and PagerAdapter."/><meta name="robots" content="noodp"/><link rel="canonical" href="http://www.androidhive.info/2013/09/android-fullscreen-image-slider-with-swipe-and-pinch-zoom-gestures/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Android Fullscreen Image Slider with Swipe and Pinch Zoom Gestures" /><meta property="og:description" content="Android tutorial about building full screen image viewer for your albums. This tutorial covers grid view, full screen image slider with swipe and pinching zooming functionality. You can also learn how to use BaseAdapter and PagerAdapter." /><meta property="og:url" content="http://www.androidhive.info/2013/09/android-fullscreen-image-slider-with-swipe-and-pinch-zoom-gestures/" /><meta property="og:site_name" content="androidhive" /><meta property="article:section" content="Gestures" /><meta property="article:published_time" content="2013-09-01T20:23:18+00:00" /><meta property="article:modified_time" content="2014-01-07T17:12:37+00:00" /><meta property="og:updated_time" content="2014-01-07T17:12:37+00:00" /><meta property="og:image" content="http://www.androidhive.info/wp-content/uploads/2013/09/fullscreen-imageslider-banner.jpg" /><meta property="og:image:width" content="718" /><meta property="og:image:height" content="372" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Android tutorial about building full screen image viewer for your albums. This tutorial covers grid view, full screen image slider with swipe and pinching zooming functionality. You can also learn how to use BaseAdapter and PagerAdapter." /><meta name="twitter:title" content="Android Fullscreen Image Slider with Swipe and Pinch Zoom Gestures" /><meta name="twitter:image" content="http://www.androidhive.info/wp-content/uploads/2013/09/fullscreen-imageslider-banner.jpg" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Feed" href="http://www.androidhive.info/feed/" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Comments Feed" href="http://www.androidhive.info/comments/feed/" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Android Fullscreen Image Slider with Swipe and Pinch Zoom Gestures Comments Feed" href="http://www.androidhive.info/2013/09/android-fullscreen-image-slider-with-swipe-and-pinch-zoom-gestures/feed/" /> <script type="text/javascript">window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.androidhive.info\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);</script> <style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style><style id='stylesheet-inline-css' type='text/css'>body {background-color:#ffffff; }
+		body {background-image: url( http://www.androidhive.info/wp-content/themes/androidhive-theme/images/nobg.png );}
+
+        .header-social a:hover, header .breadcrumb > div i:hover, header .breadcrumb > div a:hover, .breadcrumb > div a:hover, .post-info a, .latestPost .title a:hover, #site-footer .toggle-menu .toggle-caret .fa:hover, #primary-navigation .sub-menu a:hover, .latestPost .title a:hover, ul.ajax-search-results li a:hover, .sidebar .ajax-search-meta a, .breadcrumb > div i, .single .tags a, .postauthor h5 a:hover, .sidebar a, .comment-meta a, .trending-stories .latestPost .title:hover, .postauthor h5, .copyrights a, .single_post a, .textwidget a, .pnavigation2 a, #sidebar a:hover, .copyrights a:hover, #site-footer .widget li a:hover, .related-posts a:hover, .reply a, .title a:hover, .post-info a:hover, .comm, #tabber .inside li a:hover, .readMore a:hover, .fn a, a, a:hover { color: #000000; }
+
+        .latestPost-categories ul li:hover a, .footer-widgets h3, .reply a:hover, #primary-navigation .sub-menu a:hover, #primary-navigation .sub-menu li.current-menu-item a { color: #000000 !important; }
+
+        .latestPost-news .latestPost { border-top: 2px solid #000000; }
+
+        
+        .navigation.mobile-menu-wrapper { background: #000000 !important; }
+
+        #header, .pace .pace-progress, #mobile-menu-wrapper ul li a:hover, .widget h3:before, .featured-category-title:before, .widget .wpt_widget_content .tab_title.selected a, #move-to-top, #load-posts, .featured-videos h4:after, .related-posts h4:after, .postauthor h4:after, #comments h4:after, #commentsAdd h4:after, .contact-form input[type='submit'], #commentform input#submit:hover, .contact-form input[type='submit']:hover, #primary-navigation li a:hover, .pagination a:hover, .pagination ul, .latestPost-review-wrapper, a#pull, #commentform input#submit, .contactform #submit, #move-to-top:hover, .navigation ul .current-menu-item > a, .navigation ul li:hover, .pagination a, #tabber ul.tabs li a.selected, .tagcloud a:hover, .latestPost .review-type-circle.review-total-only, .latestPost .review-type-circle.wp-review-show-total, .single .pagination > .current, .bypostauthor .comment-author .fn:after { background-color:#000000; color: #fff!important; }
+
+		.owl-prev, .owl-next { background-color:#000000!important; }
+
+        #site-footer { background: #EAEAEA; }
+		
+		.shareit { top: 282px; left: 0; margin: 0; width: 90px; position: fixed; padding: 5px; border:none; border-right: 0;}
+		.share-item {margin: 2px;}
+		
+		.bypostauthor { background: none; }
+        .bypostauthor > div .comment-author .fn:after { content: "Author"; position: relative; padding: 2px 10px; margin: 0 10px; color: #FFF; font-size: 13px; line-height: 1; font-weight: normal; border-radius: 3px; }</style> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/compat.min.js?ver=1.200.5'></script> <script type='text/javascript'>/*  */
+var mts_customscript = {"responsive":"1","nav_menu":"primary"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/customscript.js'></script> <script type='text/javascript'>/*  */
+var tickeropts = {"rtl_support":"0"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/jquery.webticker.js'></script> <link rel='https://api.w.org/' href='http://www.androidhive.info/wp-json/' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.androidhive.info/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.androidhive.info/wp-includes/wlwmanifest.xml" /><link rel='shortlink' href='http://www.androidhive.info/?p=3087' /><link rel="alternate" type="application/json+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2013%2F09%2Fandroid-fullscreen-image-slider-with-swipe-and-pinch-zoom-gestures%2F" /><link rel="alternate" type="text/xml+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2013%2F09%2Fandroid-fullscreen-image-slider-with-swipe-and-pinch-zoom-gestures%2F&#038;format=xml" /> <script type="text/javascript">window._wp_rp_static_base_url = 'https://wprp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.androidhive.info/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.6';
+	window._wp_rp_post_id = '3087';
+	window._wp_rp_num_rel_posts = '4';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Android+Fullscreen+Image+Slider+with+Swipe+and+Pinch+Zoom+Gestures';
+	window._wp_rp_post_tags = ['gestures', 'grid', 'pinch', 'swipe', 'ui', 'view+pager', 'android', 'articl', 'slider', 'grid', 'class', 'galleri', 'app', 'project', 'tutori', 'imag', 'height', 'screen', 'zoom', 'applic', 'eclips'];
+	window._wp_rp_promoted_content = true;</script> <script type="text/javascript" src="https://wprp.zemanta.com/static/js/loader.js?version=3.6" async></script> <style type="text/css">.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style><link href="//fonts.googleapis.com/css?family=Open+Sans|Merriweather&amp;subset=latin" rel="stylesheet" type="text/css"><style type="text/css">#header h1, #header h2 { font-family: 'Open Sans'; font-weight: ; font-size: 25px; color: #ffffff; }
+.menu li, .menu li a { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #ffffff; }
+.latestPost .title a, .latestPost-news .title, .latestPost .title { font-family: 'Merriweather'; font-weight: ; font-size: 23px; color: #252525; }
+.single-title { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+body { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+.widget h3, .featured-category-title { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+#sidebar .widget { font-family: 'Open Sans'; font-weight: ; font-size: 14px; color: #252525; }
+.footer-widgets, footer .widget li a { font-family: 'Open Sans'; font-weight: ; font-size: 13px; color: #252525; }
+h1 { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+h2 { font-family: 'Merriweather'; font-weight: ; font-size: 24px; color: #252525; }
+h3 { font-family: 'Merriweather'; font-weight: ; font-size: 25px; color: #252525; }
+h4 { font-family: 'Merriweather'; font-weight: ; font-size: 20px; color: #252525; }
+h5 { font-family: 'Merriweather'; font-weight: ; font-size: 18px; color: #252525; }
+h6 { font-family: 'Merriweather'; font-weight: ; font-size: 16px; color: #252525; }</style><style type="text/css" id="syntaxhighlighteranchor"></style> <script data-no-minify="1" data-cfasync="false">(function(w,d){function a(){var b=d.createElement("script");b.async=!0;b.src="http://www.androidhive.info/wp-content/plugins/wp-rocket/inc/front/js/lazyload.1.0.2.min.js";var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)}w.attachEvent?w.attachEvent("onload",a):w.addEventListener("load",a,!1)})(window,document);</script> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24602371-1', 'auto');
+  ga('send', 'pageview');</script> </head><body id="blog" class="single single-post postid-3087 single-format-standard main" itemscope itemtype="http://schema.org/WebPage"><div class="main-container"> <header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader"><div class="upper-navigation"><div class="container clearfix"><div class="breadcrumb"><div class="root"><a href="http://www.androidhive.info/"><i class="fa fa-home"></i></a></div><div class="breaking"><ul class="trending-slider"><li><a href="http://www.androidhive.info/2016/05/android-working-with-card-view-and-recycler-view/" title="Android working with Card View and Recycler View">Android working with Card View and Recycler View</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-3/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1</a></li><li><a href="http://www.androidhive.info/2015/12/android-material-design-floating-action-button/" title="Android Material Design Floating Action Button">Android Material Design Floating Action Button</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-snackbar-example/" title="Android Material Design Snackbar Example">Android Material Design Snackbar Example</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-floating-labels-for-edittext/" title="Android Material Design Floating Labels for EditText">Android Material Design Floating Labels for EditText</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" title="Android Material Design working with Tabs">Android Material Design working with Tabs</a></li><li><a href="http://www.androidhive.info/2015/06/android-push-notifications-using-parse-com/" title="Android Push Notifications using Parse.com">Android Push Notifications using Parse.com</a></li><li><a href="http://www.androidhive.info/2015/04/android-getting-started-with-material-design/" title="Android Getting Started with Material Design">Android Getting Started with Material Design</a></li></ul></div></div><div class="header-social"> <a rel="nofollow" href="http://www.facebook.com/ravi8x" class="header-facebook"><span class="fa fa-facebook"></span></a> <a rel="nofollow" href="http://www.twitter.com/ravitamada" class="header-twitter"><span class="fa fa-twitter"></span></a> <a rel="nofollow" href="https://plus.google.com/u/0/108738908574182577919/posts" class="header-google-plus"><span class="fa fa-google-plus"></span></a> <a rel="nofollow" href="http://instagram.com/ravitamada" class="header-instagram"><span class="fa fa-instagram"></span></a></div></div></div><div id="header"><div class="container"><div class="logo-wrap"><h1 id="logo" class="image-logo" itemprop="headline"> <a href="http://www.androidhive.info"><img src="http://www.androidhive.info/wp-content/uploads/2016/04/logo-3.png" alt="androidhive"></a></h1></div><div id="primary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"> <a href="#" id="pull" class="toggle-mobile-menu">Menu</a> <nav class="navigation clearfix mobile-menu-wrapper"><ul id="menu-menu-1" class="menu clearfix"><li id="menu-item-39241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39241"><a href="http://download.androidhive.info">Downloads</a></li><li id="menu-item-39242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39242"><a href="http://tips.androidhive.info">Tips</a></li><li id="menu-item-39327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39327"><a href="http://www.androidhive.info/write-for-us/">Write for Us</a></li></ul> </nav></div></div></div> </header><div id="page" class="single"> <article class="article" itemscope itemtype="http://schema.org/BlogPosting"><meta itemprop="image" content="http://www.androidhive.info/wp-content/uploads/2013/09/fullscreen-imageslider-banner.jpg" /><div id="content_box" ><div id="post-3087" class="g post post-3087 type-post status-publish format-standard has-post-thumbnail hentry category-gestures category-grid category-pinch category-swipe category-ui category-view-pager has_thumb"><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><div typeof="v:Breadcrumb" class="root"><a rel="v:url" property="v:title" href="http://www.androidhive.info" rel="nofollow">Home</a></div><div><i class="fa fa-angle-right"></i></div><div typeof="v:Breadcrumb"><a href="http://www.androidhive.info/category/gestures/" rel="v:url" property="v:title">Gestures</a></div><div><i class="fa fa-angle-right"></i></div><div><span>Android Fullscreen Image Slider with Swipe and Pinch Zoom Gestures</span></div></div><div class="single_post"> <header><h1 class="title single-title entry-title" itemprop="headline">Android Fullscreen Image Slider with Swipe and Pinch Zoom Gestures</h1><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></span></span> <span class="thetime updated"><span itemprop="datePublished">September 1, 2013<span class="divider1">/</span></span></span> <span class="thecomment"><i class="fa fa-comments"></i> <a href="http://www.androidhive.info/2013/09/android-fullscreen-image-slider-with-swipe-and-pinch-zoom-gestures/#disqus_thread">Comments</a></span></div> </header><div class="post-single-content box mark-links entry-content"><div class="thecontent" itemprop="articleBody"><div style="float:left;margin:10px 10px 10px 0;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="1410361821"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><p>This tutorial explains how to build your own image gallery browser in your android applications with swipe and pinch zooming functionality. This article is combination of three separate concepts such as Grid View, Swiping and Pinch Gesture in one project.</p><p>I already covered Grid View previously. Refer <a href="http://www.androidhive.info/2012/02/android-gridview-layout-tutorial/" target="_blank" class="link">Android GridView Layout Tutorial</a> incase if you are new to Grid View.</p><div class="clear"></div><div class="download_code"><a href="http://download.androidhive.info/download?code=KKQBSdTDnrDlLv1XaAAOFJByIs4OAOOVFW5iXnHhMER3XT9NjvewzHRESGdE66dWju9%2F%2F8a%2BRVmbltXYExgmX1aUd4a4GGSJ%2B46h1DvQP6AoYBAEMThsiCHmzQXYd1ctNrSZTn8HgJZ7CN0S6lHqmQzzsQkW3qqgaVtuvbzdxuiarjUoXtF5Z54YTlU5oyZ9gZwNh1" target="_blank">DOWNLOAD CODE</a></div><div class="yt_video"> <label>VIDEO DEMO</label><iframe src="http://www.youtube.com/embed/fEdwYL79lfc" frameborder="0" allowfullscreen="" style="width: 719px; height: 444.7265625px;"></iframe></div><div style="display:none"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2013/09/android-full-screen-image-slider-with-swipe-gesture.jpg" alt="android full screen image slider with swipe gesture" width="718" height="500" class="alignnone size-full wp-image-3153" srcset="http://www.androidhive.info/wp-content/uploads/2013/09/android-full-screen-image-slider-with-swipe-gesture-300x209.jpg 300w, http://www.androidhive.info/wp-content/uploads/2013/09/android-full-screen-image-slider-with-swipe-gesture.jpg 718w" sizes="(max-width: 718px) 100vw, 718px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2013/09/android-full-screen-image-slider-with-swipe-gesture.jpg" alt="android full screen image slider with swipe gesture" width="718" height="500" class="alignnone size-full wp-image-3153" srcset="http://www.androidhive.info/wp-content/uploads/2013/09/android-full-screen-image-slider-with-swipe-gesture-300x209.jpg 300w, http://www.androidhive.info/wp-content/uploads/2013/09/android-full-screen-image-slider-with-swipe-gesture.jpg 718w" sizes="(max-width: 718px) 100vw, 718px" /></noscript></div><p>This project is divided in to three tasks. First one is building Grid View display of all the images. Second is showing selected grid image in full screen slider. And finally adding pinch zooming functionality to fullscreen image.</p><p> Let&#8217;s start with creating a new project</p><h2>Creating new project</h2><p><strong>1</strong>. Create new project in Eclipse IDE from <strong>File â New â Android Application Project</strong> and fill all the required details. I kept my package name as <em>info.androidhive.imageslider</em> and main activity name as <em>GridViewActivity.java</em><br /></p><h4>App Constant Class</h4><p>I am creating a app constant class file to store static variables which will be used across application. In this way you don&#8217;t have modify much code if you want to change app configuration.</p><p><strong>2</strong>. In order to maintaining good project structure I am creating a separate package for storing this kind of helper classes. <strong>Right click on src â New â Package</strong> and name it as <strong>your_package_name.helper</strong>.<br /> (So my helper package becomes <em>info.androidhive.imageslider.helper</em>)</p><p><strong>3</strong>. Under helper package create a new class named <em>AppConstant.java</em> and paste the following code. In the following I declared required constant variables</p><p><em>NUM_OF_COLUMNS</em> &#8211; Number of columns to be displayed in Grid view<br /> <em>PHOTO_ALBUM</em> &#8211; Name of the photo album directory in the sd card. Make sure that you have some images inside this directory before you start the project.<br /> <em>FILE_EXTN</em> &#8211; Image file extensions to be supported</p><pre class="brush: java; title: AppConstant.java; notranslate" title="AppConstant.java">
+package info.androidhive.imageslider.helper;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class AppConstant {
+
+	// Number of columns of Grid View
+	public static final int NUM_OF_COLUMNS = 3;
+
+	// Gridview image padding
+	public static final int GRID_PADDING = 8; // in dp
+
+	// SD card image directory
+	public static final String PHOTO_ALBUM = &quot;androidhive&quot;;
+
+	// supported file formats
+	public static final List&lt;String&gt; FILE_EXTN = Arrays.asList(&quot;jpg&quot;, &quot;jpeg&quot;,
+			&quot;png&quot;);
+}
+</pre><p></p><h4>Helper Utils Class</h4><p><strong>4</strong>. I am creating another class to define reusable functions across applications. Create another class under helper package named <em>Utils.java</em></p><p>Following are major functions defined in Utils class</p><p><em>getFilePaths()</em> &#8211; This function will return all image paths of a directory<br /> <em>IsSupportedFile()</em> &#8211; This will check for supported file extensions</p><pre class="brush: java; title: Utils.java; notranslate" title="Utils.java">
+package info.androidhive.imageslider.helper;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Locale;
+
+import android.app.AlertDialog;
+import android.content.Context;
+import android.graphics.Point;
+import android.view.Display;
+import android.view.WindowManager;
+import android.widget.Toast;
+
+public class Utils {
+
+	private Context _context;
+
+	// constructor
+	public Utils(Context context) {
+		this._context = context;
+	}
+
+	// Reading file paths from SDCard
+	public ArrayList&lt;String&gt; getFilePaths() {
+		ArrayList&lt;String&gt; filePaths = new ArrayList&lt;String&gt;();
+
+		File directory = new File(
+				android.os.Environment.getExternalStorageDirectory()
+						+ File.separator + AppConstant.PHOTO_ALBUM);
+
+		// check for directory
+		if (directory.isDirectory()) {
+			// getting list of file paths
+			File[] listFiles = directory.listFiles();
+
+			// Check for count
+			if (listFiles.length &gt; 0) {
+
+				// loop through all files
+				for (int i = 0; i &lt; listFiles.length; i++) {
+
+					// get file path
+					String filePath = listFiles[i].getAbsolutePath();
+
+					// check for supported file extension
+					if (IsSupportedFile(filePath)) {
+						// Add image path to array list
+						filePaths.add(filePath);
+					}
+				}
+			} else {
+				// image directory is empty
+				Toast.makeText(
+						_context,
+						AppConstant.PHOTO_ALBUM
+								+ &quot; is empty. Please load some images in it !&quot;,
+						Toast.LENGTH_LONG).show();
+			}
+
+		} else {
+			AlertDialog.Builder alert = new AlertDialog.Builder(_context);
+			alert.setTitle(&quot;Error!&quot;);
+			alert.setMessage(AppConstant.PHOTO_ALBUM
+					+ &quot; directory path is not valid! Please set the image directory name AppConstant.java class&quot;);
+			alert.setPositiveButton(&quot;OK&quot;, null);
+			alert.show();
+		}
+
+		return filePaths;
+	}
+
+	// Check supported file extensions
+	private boolean IsSupportedFile(String filePath) {
+		String ext = filePath.substring((filePath.lastIndexOf(&quot;.&quot;) + 1),
+				filePath.length());
+
+		if (AppConstant.FILE_EXTN
+				.contains(ext.toLowerCase(Locale.getDefault())))
+			return true;
+		else
+			return false;
+
+	}
+
+	/*
+	 * getting screen width
+	 */
+	public int getScreenWidth() {
+		int columnWidth;
+		WindowManager wm = (WindowManager) _context
+				.getSystemService(Context.WINDOW_SERVICE);
+		Display display = wm.getDefaultDisplay();
+
+		final Point point = new Point();
+		try {
+			display.getSize(point);
+		} catch (java.lang.NoSuchMethodError ignore) { // Older device
+			point.x = display.getWidth();
+			point.y = display.getHeight();
+		}
+		columnWidth = point.x;
+		return columnWidth;
+	}
+}
+</pre><p></p><h2>Displaying thumbnail images in Grid View</h2><p>Until now we are done with some utility functions which required further. So let&#8217;s start first view of the application which is displaying images in grid view.</p><p><strong>5</strong>. Create a new layout file under <strong>res â layout</strong> folder named <em>activity_grid_view.xml</em> and paste the following code</p><pre class="brush: xml; title: activity_grid_view.xml; notranslate" title="activity_grid_view.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;GridView xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:id=&quot;@+id/grid_view&quot;
+    android:layout_width=&quot;fill_parent&quot;
+    android:layout_height=&quot;fill_parent&quot;
+    android:numColumns=&quot;auto_fit&quot;
+    android:gravity=&quot;center&quot;
+    android:stretchMode=&quot;columnWidth&quot;
+    android:background=&quot;#000000&quot;&gt; 
+&lt;/GridView&gt;
+</pre><h4>GridView Adapter</h4><p>I am creating a custom grid adapter class for the grid view. In this way you can create a reusable view for the grid view blocks. As this class is not an activity class I prefer to keep it in another package.</p><p><strong>6</strong>. Create another package named <strong>adapter</strong> under <strong>src</strong> folder. I created another package named <em>info.androidhive.imageslider.adapter</em></p><p><strong>7</strong>. Under adapter package create a class file named <em>GridViewImageAdapter.java</em> and extend it from <em>BaseAdapter</em> This adapter class simply returns image view to gridview.</p><pre class="brush: java; title: GridViewImageAdapter.java; notranslate" title="GridViewImageAdapter.java">
+package info.androidhive.imageslider.adapter;
+
+import info.androidhive.imageslider.FullScreenViewActivity;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.GridView;
+import android.widget.ImageView;
+
+public class GridViewImageAdapter extends BaseAdapter {
+
+	private Activity _activity;
+	private ArrayList&lt;String&gt; _filePaths = new ArrayList&lt;String&gt;();
+	private int imageWidth;
+
+	public GridViewImageAdapter(Activity activity, ArrayList&lt;String&gt; filePaths,
+			int imageWidth) {
+		this._activity = activity;
+		this._filePaths = filePaths;
+		this.imageWidth = imageWidth;
+	}
+
+	@Override
+	public int getCount() {
+		return this._filePaths.size();
+	}
+
+	@Override
+	public Object getItem(int position) {
+		return this._filePaths.get(position);
+	}
+
+	@Override
+	public long getItemId(int position) {
+		return position;
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		ImageView imageView;
+		if (convertView == null) {
+			imageView = new ImageView(_activity);
+		} else {
+			imageView = (ImageView) convertView;
+		}
+
+		// get screen dimensions
+		Bitmap image = decodeFile(_filePaths.get(position), imageWidth,
+				imageWidth);
+
+		imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+		imageView.setLayoutParams(new GridView.LayoutParams(imageWidth,
+				imageWidth));
+		imageView.setImageBitmap(image);
+
+		// image view click listener
+		imageView.setOnClickListener(new OnImageClickListener(position));
+
+		return imageView;
+	}
+
+	class OnImageClickListener implements OnClickListener {
+
+		int _postion;
+
+		// constructor
+		public OnImageClickListener(int position) {
+			this._postion = position;
+		}
+
+		@Override
+		public void onClick(View v) {
+			// on selecting grid view image
+			// launch full screen activity
+			Intent i = new Intent(_activity, FullScreenViewActivity.class);
+			i.putExtra(&quot;position&quot;, _postion);
+			_activity.startActivity(i);
+		}
+
+	}
+
+	/*
+	 * Resizing image size
+	 */
+	public static Bitmap decodeFile(String filePath, int WIDTH, int HIGHT) {
+		try {
+
+			File f = new File(filePath);
+
+			BitmapFactory.Options o = new BitmapFactory.Options();
+			o.inJustDecodeBounds = true;
+			BitmapFactory.decodeStream(new FileInputStream(f), null, o);
+
+			final int REQUIRED_WIDTH = WIDTH;
+			final int REQUIRED_HIGHT = HIGHT;
+			int scale = 1;
+			while (o.outWidth / scale / 2 &gt;= REQUIRED_WIDTH
+					&amp;&amp; o.outHeight / scale / 2 &gt;= REQUIRED_HIGHT)
+				scale *= 2;
+
+			BitmapFactory.Options o2 = new BitmapFactory.Options();
+			o2.inSampleSize = scale;
+			return BitmapFactory.decodeStream(new FileInputStream(f), null, o2);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+}
+</pre><p><strong>8</strong>. Finally open the activity class for grid view. In my case my grid view activity name is <em>GridViewActivity.java</em>.</p><p><em>InitilizeGridLayout()</em> &#8211; This will initialize the grid view layout by setting necessary attributes like padding, number of columns, spacing between grid images etc.,</p><pre class="brush: java; title: GridViewActivity.java; notranslate" title="GridViewActivity.java">
+package info.androidhive.imageslider;
+
+import info.androidhive.imageslider.adapter.GridViewImageAdapter;
+import info.androidhive.imageslider.helper.AppConstant;
+import info.androidhive.imageslider.helper.Utils;
+
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.content.res.Resources;
+import android.os.Bundle;
+import android.util.TypedValue;
+import android.widget.GridView;
+
+public class GridViewActivity extends Activity {
+
+	private Utils utils;
+	private ArrayList&lt;String&gt; imagePaths = new ArrayList&lt;String&gt;();
+	private GridViewImageAdapter adapter;
+	private GridView gridView;
+	private int columnWidth;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_grid_view);
+
+		gridView = (GridView) findViewById(R.id.grid_view);
+
+		utils = new Utils(this);
+
+		// Initilizing Grid View
+		InitilizeGridLayout();
+
+		// loading all image paths from SD card
+		imagePaths = utils.getFilePaths();
+
+		// Gridview adapter
+		adapter = new GridViewImageAdapter(GridViewActivity.this, imagePaths,
+				columnWidth);
+
+		// setting grid view adapter
+		gridView.setAdapter(adapter);
+	}
+
+	private void InitilizeGridLayout() {
+		Resources r = getResources();
+		float padding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+				AppConstant.GRID_PADDING, r.getDisplayMetrics());
+
+		columnWidth = (int) ((utils.getScreenWidth() - ((AppConstant.NUM_OF_COLUMNS + 1) * padding)) / AppConstant.NUM_OF_COLUMNS);
+
+		gridView.setNumColumns(AppConstant.NUM_OF_COLUMNS);
+		gridView.setColumnWidth(columnWidth);
+		gridView.setStretchMode(GridView.NO_STRETCH);
+		gridView.setPadding((int) padding, (int) padding, (int) padding,
+				(int) padding);
+		gridView.setHorizontalSpacing((int) padding);
+		gridView.setVerticalSpacing((int) padding);
+	}
+
+}
+</pre><p>Now run your project and test it once. You should see a grid view displaying the images from the sd card. Following is the screenshot of my grid view</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2013/09/android-grid-view-fullscreen-image-slider.jpg" alt="android grid view and fullscreen image slider" width="720" height="1198" class="alignnone size-full wp-image-3127" srcset="http://www.androidhive.info/wp-content/uploads/2013/09/android-grid-view-fullscreen-image-slider-615x1024.jpg 615w, http://www.androidhive.info/wp-content/uploads/2013/09/android-grid-view-fullscreen-image-slider.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2013/09/android-grid-view-fullscreen-image-slider.jpg" alt="android grid view and fullscreen image slider" width="720" height="1198" class="alignnone size-full wp-image-3127" srcset="http://www.androidhive.info/wp-content/uploads/2013/09/android-grid-view-fullscreen-image-slider-615x1024.jpg 615w, http://www.androidhive.info/wp-content/uploads/2013/09/android-grid-view-fullscreen-image-slider.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p></p><h2>Creating Fullscreen Image Slider</h2><p>Second task in this tutorial is to build a fullscreen image slider for the images displayed in the grid view. This also involves swiping gesture to navigate through the album.</p><p>To create swiping gesture functionality I am using <a rel="nofollow" href="http://developer.android.com/reference/android/support/v4/view/PagerAdapter.html" class="link" target="_blank">PagerAdapter</a> class provided by android.</p><p><strong>9</strong>. Create an xml layout file for full screen activity. I created a file called <em>activity_fullscreen_view.xml</em> under <strong>res â  layout</strong> folder. Add a <em>android.support.v4.view.ViewPager</em> element inside it.</p><pre class="brush: xml; title: activity_fullscreen_view.xml; notranslate" title="activity_fullscreen_view.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;
+    android:orientation=&quot;vertical&quot; &gt;
+
+    &lt;android.support.v4.view.ViewPager
+        android:id=&quot;@+id/pager&quot;
+        android:layout_width=&quot;fill_parent&quot;
+        android:layout_height=&quot;fill_parent&quot; /&gt;
+
+&lt;/LinearLayout&gt;
+</pre><p><strong>10</strong>. In fullscreen view instead of showing only fullview image you might want to show some other UI elments like text, buttons along with the image. So I created a separate layout for fullscreen view, so that you can customize the fullscreen view in this layout file.</p><p>As of now I am just adding a close button over the image. Create an xml layout file under <strong>res â  layout</strong> folder named <em>layout_fullscreen_image.xml</em> and add the following code</p><div style="float:none;margin:10px 0 10px 0;text-align:center;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:300px;height:250px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="2887095024"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><pre class="brush: xml; title: layout_fullscreen_image.xml; notranslate" title="layout_fullscreen_image.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot; &gt;
+
+    &lt;ImageView
+        android:id=&quot;@+id/imgDisplay&quot;
+        android:layout_width=&quot;fill_parent&quot;
+        android:layout_height=&quot;fill_parent&quot;
+        android:scaleType=&quot;fitCenter&quot; /&gt;
+
+    &lt;Button
+        android:id=&quot;@+id/btnClose&quot;
+        android:layout_width=&quot;wrap_content&quot;
+        android:layout_height=&quot;30dp&quot;
+        android:layout_alignParentRight=&quot;true&quot;
+        android:layout_alignParentTop=&quot;true&quot;
+        android:layout_marginRight=&quot;15dp&quot;
+        android:layout_marginTop=&quot;15dp&quot;
+        android:paddingTop=&quot;2dp&quot;
+        android:paddingBottom=&quot;2dp&quot;
+        android:background=&quot;@drawable/button_background&quot;
+        android:textColor=&quot;#ffffff&quot;
+        android:text=&quot;Close&quot; /&gt;
+
+&lt;/RelativeLayout&gt;
+</pre><p>Also create a file called <em>button_background.xml</em> under <strong>drawable</strong> folder. This is just for styling the button</p><pre class="brush: xml; title: button_background.xml; notranslate" title="button_background.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:shape=&quot;rectangle&quot; &gt;
+
+    &lt;corners android:radius=&quot;3dp&quot; /&gt;
+
+    &lt;solid android:color=&quot;#000000&quot; /&gt;
+
+    &lt;stroke
+        android:width=&quot;2px&quot;
+        android:color=&quot;#ffffff&quot; /&gt;
+
+&lt;/shape&gt;
+</pre><p></p><h4>Fullscreen Image Viewer Adapter</h4><p>Just like grid adapter, we are going to create another adapter for the full screen activity too. This is the data provider for the fullscreen image viewer.</p><p><strong>11</strong>. Create another class under <strong>adapter</strong> package named <em>FullScreenImageAdapter.java</em> and extend it from <em>PagerAdapter</em>.</p><pre class="brush: java; title: FullScreenImageAdapter.java; notranslate" title="FullScreenImageAdapter.java">
+package info.androidhive.imageslider.adapter;
+
+import info.androidhive.imageslider.R;
+
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+
+public class FullScreenImageAdapter extends PagerAdapter {
+
+	private Activity _activity;
+	private ArrayList&lt;String&gt; _imagePaths;
+	private LayoutInflater inflater;
+
+	// constructor
+	public FullScreenImageAdapter(Activity activity,
+			ArrayList&lt;String&gt; imagePaths) {
+		this._activity = activity;
+		this._imagePaths = imagePaths;
+	}
+
+	@Override
+	public int getCount() {
+		return this._imagePaths.size();
+	}
+
+	@Override
+    public boolean isViewFromObject(View view, Object object) {
+        return view == ((RelativeLayout) object);
+    }
+	
+	@Override
+    public Object instantiateItem(ViewGroup container, int position) {
+        ImageView imgDisplay;
+        Button btnClose;
+ 
+        inflater = (LayoutInflater) _activity
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View viewLayout = inflater.inflate(R.layout.layout_fullscreen_image, container,
+                false);
+ 
+        imgDisplay = (ImageView) viewLayout.findViewById(R.id.imgDisplay);
+        btnClose = (Button) viewLayout.findViewById(R.id.btnClose);
+        
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inPreferredConfig = Bitmap.Config.ARGB_8888;
+        Bitmap bitmap = BitmapFactory.decodeFile(_imagePaths.get(position), options);
+        imgDisplay.setImageBitmap(bitmap);
+        
+        // close button click event
+        btnClose.setOnClickListener(new View.OnClickListener() {			
+			@Override
+			public void onClick(View v) {
+				_activity.finish();
+			}
+		});
+ 
+        ((ViewPager) container).addView(viewLayout);
+ 
+        return viewLayout;
+	}
+	
+	@Override
+    public void destroyItem(ViewGroup container, int position, Object object) {
+        ((ViewPager) container).removeView((RelativeLayout) object);
+ 
+    }
+}
+</pre><p>Also make sure that you have added <em>FullScreenViewActivity</em> to <em>AndroidManifest.xml</em> file before testing your project.</p><pre class="brush: xml; title: AndroidManifest.xml; notranslate" title="AndroidManifest.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    package=&quot;info.androidhive.imageslider&quot;
+    android:versionCode=&quot;1&quot;
+    android:versionName=&quot;1.0&quot; &gt;
+
+    &lt;uses-sdk
+        android:minSdkVersion=&quot;8&quot;
+        android:targetSdkVersion=&quot;17&quot; /&gt;
+
+    &lt;application
+        android:allowBackup=&quot;true&quot;
+        android:icon=&quot;@drawable/ic_launcher&quot;
+        android:label=&quot;@string/app_name&quot;
+        android:theme=&quot;@style/AppTheme&quot; &gt;
+        &lt;activity
+            android:name=&quot;info.androidhive.imageslider.GridViewActivity&quot;
+            android:theme=&quot;@android:style/Theme.Holo.NoActionBar&quot;&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;
+
+                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+        
+        &lt;activity
+            android:name=&quot;info.androidhive.imageslider.FullScreenViewActivity&quot;
+            android:theme=&quot;@android:style/Theme.Holo.NoActionBar&quot;&gt;
+        &lt;/activity&gt;
+    &lt;/application&gt;
+
+&lt;/manifest&gt;
+</pre><p>Run your project once again and click on grid view image. You should see fullscreen view of selected grid view image. Also swipe left or right to cycle through album.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2013/09/android-fullscreen-image-slider-with-swipe1.jpg" alt="android full screen image slider with swipe" width="720" height="1198" class="alignnone size-full wp-image-3139" srcset="http://www.androidhive.info/wp-content/uploads/2013/09/android-fullscreen-image-slider-with-swipe1-615x1024.jpg 615w, http://www.androidhive.info/wp-content/uploads/2013/09/android-fullscreen-image-slider-with-swipe1.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2013/09/android-fullscreen-image-slider-with-swipe1.jpg" alt="android full screen image slider with swipe" width="720" height="1198" class="alignnone size-full wp-image-3139" srcset="http://www.androidhive.info/wp-content/uploads/2013/09/android-fullscreen-image-slider-with-swipe1-615x1024.jpg 615w, http://www.androidhive.info/wp-content/uploads/2013/09/android-fullscreen-image-slider-with-swipe1.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p></p><h2>Adding Pinch Zooming Functionality</h2><p>For pinching functionality instead of writing my own class from scratch, I just borrowed the code from <a rel="nofollow" href="https://github.com/MikeOrtiz/TouchImageView" target="_blank" class="link">TouchImageView</a>. Thanks to <a rel="nofollow" href="https://github.com/MikeOrtiz" target="_blank" class="link">Michael Ortiz</a> for writing such a beautiful code <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" /></p><p>Adding this class in your project needs very few modifications.</p><p><strong>12</strong>. Create class in helper package named <em>TouchImageView.java</em> and paste the following code.</p><pre class="brush: java; title: TouchImageView.java; notranslate" title="TouchImageView.java">
+package info.androidhive.imageslider.helper;
+
+import android.content.Context;
+import android.graphics.Matrix;
+import android.graphics.PointF;
+import android.graphics.drawable.Drawable;
+import android.util.AttributeSet;
+import android.util.Log;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
+import android.view.View;
+import android.widget.ImageView;
+
+public class TouchImageView extends ImageView {
+
+	Matrix matrix;
+
+	// We can be in one of these 3 states
+	static final int NONE = 0;
+	static final int DRAG = 1;
+	static final int ZOOM = 2;
+	int mode = NONE;
+
+	// Remember some things for zooming
+	PointF last = new PointF();
+	PointF start = new PointF();
+	float minScale = 1f;
+	float maxScale = 3f;
+	float[] m;
+
+	int viewWidth, viewHeight;
+	static final int CLICK = 3;
+	float saveScale = 1f;
+	protected float origWidth, origHeight;
+	int oldMeasuredWidth, oldMeasuredHeight;
+
+	ScaleGestureDetector mScaleDetector;
+
+	Context context;
+
+	public TouchImageView(Context context) {
+		super(context);
+		sharedConstructing(context);
+	}
+
+	public TouchImageView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		sharedConstructing(context);
+	}
+
+	private void sharedConstructing(Context context) {
+		super.setClickable(true);
+		this.context = context;
+		mScaleDetector = new ScaleGestureDetector(context, new ScaleListener());
+		matrix = new Matrix();
+		m = new float[9];
+		setImageMatrix(matrix);
+		setScaleType(ScaleType.MATRIX);
+
+		setOnTouchListener(new OnTouchListener() {
+
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				mScaleDetector.onTouchEvent(event);
+				PointF curr = new PointF(event.getX(), event.getY());
+
+				switch (event.getAction()) {
+				case MotionEvent.ACTION_DOWN:
+					last.set(curr);
+					start.set(last);
+					mode = DRAG;
+					break;
+
+				case MotionEvent.ACTION_MOVE:
+					if (mode == DRAG) {
+						float deltaX = curr.x - last.x;
+						float deltaY = curr.y - last.y;
+						float fixTransX = getFixDragTrans(deltaX, viewWidth,
+								origWidth * saveScale);
+						float fixTransY = getFixDragTrans(deltaY, viewHeight,
+								origHeight * saveScale);
+						matrix.postTranslate(fixTransX, fixTransY);
+						fixTrans();
+						last.set(curr.x, curr.y);
+					}
+					break;
+
+				case MotionEvent.ACTION_UP:
+					mode = NONE;
+					int xDiff = (int) Math.abs(curr.x - start.x);
+					int yDiff = (int) Math.abs(curr.y - start.y);
+					if (xDiff &lt; CLICK &amp;&amp; yDiff &lt; CLICK)
+						performClick();
+					break;
+
+				case MotionEvent.ACTION_POINTER_UP:
+					mode = NONE;
+					break;
+				}
+
+				setImageMatrix(matrix);
+				invalidate();
+				return true; // indicate event was handled
+			}
+
+		});
+	}
+
+	public void setMaxZoom(float x) {
+		maxScale = x;
+	}
+
+	private class ScaleListener extends
+			ScaleGestureDetector.SimpleOnScaleGestureListener {
+		@Override
+		public boolean onScaleBegin(ScaleGestureDetector detector) {
+			mode = ZOOM;
+			return true;
+		}
+
+		@Override
+		public boolean onScale(ScaleGestureDetector detector) {
+			float mScaleFactor = detector.getScaleFactor();
+			float origScale = saveScale;
+			saveScale *= mScaleFactor;
+			if (saveScale &gt; maxScale) {
+				saveScale = maxScale;
+				mScaleFactor = maxScale / origScale;
+			} else if (saveScale &lt; minScale) {
+				saveScale = minScale;
+				mScaleFactor = minScale / origScale;
+			}
+
+			if (origWidth * saveScale &lt;= viewWidth
+					|| origHeight * saveScale &lt;= viewHeight)
+				matrix.postScale(mScaleFactor, mScaleFactor, viewWidth / 2,
+						viewHeight / 2);
+			else
+				matrix.postScale(mScaleFactor, mScaleFactor,
+						detector.getFocusX(), detector.getFocusY());
+
+			fixTrans();
+			return true;
+		}
+	}
+
+	void fixTrans() {
+		matrix.getValues(m);
+		float transX = m[Matrix.MTRANS_X];
+		float transY = m[Matrix.MTRANS_Y];
+
+		float fixTransX = getFixTrans(transX, viewWidth, origWidth * saveScale);
+		float fixTransY = getFixTrans(transY, viewHeight, origHeight
+				* saveScale);
+
+		if (fixTransX != 0 || fixTransY != 0)
+			matrix.postTranslate(fixTransX, fixTransY);
+	}
+
+	float getFixTrans(float trans, float viewSize, float contentSize) {
+		float minTrans, maxTrans;
+
+		if (contentSize &lt;= viewSize) {
+			minTrans = 0;
+			maxTrans = viewSize - contentSize;
+		} else {
+			minTrans = viewSize - contentSize;
+			maxTrans = 0;
+		}
+
+		if (trans &lt; minTrans)
+			return -trans + minTrans;
+		if (trans &gt; maxTrans)
+			return -trans + maxTrans;
+		return 0;
+	}
+
+	float getFixDragTrans(float delta, float viewSize, float contentSize) {
+		if (contentSize &lt;= viewSize) {
+			return 0;
+		}
+		return delta;
+	}
+
+	@Override
+	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+		super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+		viewWidth = MeasureSpec.getSize(widthMeasureSpec);
+		viewHeight = MeasureSpec.getSize(heightMeasureSpec);
+
+		//
+		// Rescales image on rotation
+		//
+		if (oldMeasuredHeight == viewWidth &amp;&amp; oldMeasuredHeight == viewHeight
+				|| viewWidth == 0 || viewHeight == 0)
+			return;
+		oldMeasuredHeight = viewHeight;
+		oldMeasuredWidth = viewWidth;
+
+		if (saveScale == 1) {
+			// Fit to screen.
+			float scale;
+
+			Drawable drawable = getDrawable();
+			if (drawable == null || drawable.getIntrinsicWidth() == 0
+					|| drawable.getIntrinsicHeight() == 0)
+				return;
+			int bmWidth = drawable.getIntrinsicWidth();
+			int bmHeight = drawable.getIntrinsicHeight();
+
+			Log.d(&quot;bmSize&quot;, &quot;bmWidth: &quot; + bmWidth + &quot; bmHeight : &quot; + bmHeight);
+
+			float scaleX = (float) viewWidth / (float) bmWidth;
+			float scaleY = (float) viewHeight / (float) bmHeight;
+			scale = Math.min(scaleX, scaleY);
+			matrix.setScale(scale, scale);
+
+			// Center the image
+			float redundantYSpace = (float) viewHeight
+					- (scale * (float) bmHeight);
+			float redundantXSpace = (float) viewWidth
+					- (scale * (float) bmWidth);
+			redundantYSpace /= (float) 2;
+			redundantXSpace /= (float) 2;
+
+			matrix.postTranslate(redundantXSpace, redundantYSpace);
+
+			origWidth = viewWidth - 2 * redundantXSpace;
+			origHeight = viewHeight - 2 * redundantYSpace;
+			setImageMatrix(matrix);
+		}
+		fixTrans();
+	}
+}
+</pre><p><strong>13</strong>. After adding the class open your <em>layout_fullscreen_image.xml</em> file which used to display fullscreen image and modify <em>ImageView</em> to <em>info.androidhive.imageslider.helper.TouchImageView</em> element.</p><pre class="brush: java; title: layout_fullscreen_image.xml; notranslate" title="layout_fullscreen_image.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot; &gt;
+
+    &lt;info.androidhive.imageslider.helper.TouchImageView
+        android:id=&quot;@+id/imgDisplay&quot;
+        android:layout_width=&quot;fill_parent&quot;
+        android:layout_height=&quot;fill_parent&quot;
+        android:scaleType=&quot;fitCenter&quot; /&gt;
+
+    &lt;Button
+        android:id=&quot;@+id/btnClose&quot;
+        android:layout_width=&quot;wrap_content&quot;
+        android:layout_height=&quot;30dp&quot;
+        android:layout_alignParentRight=&quot;true&quot;
+        android:layout_alignParentTop=&quot;true&quot;
+        android:layout_marginRight=&quot;15dp&quot;
+        android:layout_marginTop=&quot;15dp&quot;
+        android:paddingTop=&quot;2dp&quot;
+        android:paddingBottom=&quot;2dp&quot;
+        android:background=&quot;@drawable/button_background&quot;
+        android:textColor=&quot;#ffffff&quot;
+        android:text=&quot;Close&quot; /&gt;
+
+&lt;/RelativeLayout&gt;
+</pre><p><strong>14</strong>. In <em>FullScreenImageAdapter.java</em> class also we used <em>ImageView</em>. Just replace this one with <em>TouchImageView</em></p><pre class="brush: java; title: ; notranslate" title="">
+public class FullScreenImageAdapter extends PagerAdapter {
+	.
+	.
+	.	
+	@Override
+    public Object instantiateItem(ViewGroup container, int position) {
+        TouchImageView imgDisplay; // Replace here with TouchImageView
+	.
+	// this one too
+        imgDisplay = (TouchImageView) viewLayout.findViewById(R.id.imgDisplay); // this one too
+	.
+	.
+	.
+ 
+        return viewLayout;
+	}
+}
+
+</pre><p>Run your project now and test the pinch zooming functionality.</p><h4>Testing Pinch Zooming in Emulator</h4><div class="note_positive"> As of now Emulator is not supporting multi touch gesture. So you should use real device to test the pinch zooming functionality</div><div class="clear"></div><p>I know this project has some performance issues like grid scrolling is little bit slow. Search and try to find a solution to make it better.</p><p>Happy Coding &#8230;. <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" /></p><p></p><div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid red;"></span> <script type="text/javascript">jQuery(document).ready(function($) {
+    $.post('http://www.androidhive.info/wp-admin/admin-ajax.php', {action: 'mts_view_count', id: '3087'});
+});</script> </div></div></div><div class="postauthor"><h4>About The Author</h4> <img alt='' src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /><noscript><img alt='' src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /></noscript><h5 class="vcard"><a href="http://www.androidhive.info/author/admin/" rel="nofollow" class="fn">Ravi Tamada</a></h5><p>Ravi is hardcore Android programmer and Android programming has been his passion since he compiled his first hello-world program. Solving real problems of Android developers through tutorials has always been interesting part for him.</p></div><div class="related-posts"><h4>Related Posts</h4><div class="clear"> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2012/03/android-building-audio-player-tutorial/" title="Android Building Audio Player Tutorial" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_audio_player-270x165.png" class="attachment-featured size-featured wp-post-image" alt="Android building music player" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_audio_player-270x165.png" class="attachment-featured size-featured wp-post-image" alt="Android building music player" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2012/03/android-building-audio-player-tutorial/" title="Android Building Audio Player Tutorial">Android Building Audio Player Tutorial</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" title="Android Material Design working with Tabs" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android design support library tab layout" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android design support library tab layout" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" title="Android Material Design working with Tabs">Android Material Design working with Tabs</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  last"> <a href="http://www.androidhive.info/2016/05/android-working-with-card-view-and-recycler-view/" title="Android working with Card View and Recycler View" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2016/05/android-working-with-cardview-and-recycler-view-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android-working-with-cardview-and-recycler-view" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2016/05/android-working-with-cardview-and-recycler-view-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android-working-with-cardview-and-recycler-view" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2016/05/android-working-with-card-view-and-recycler-view/" title="Android working with Card View and Recycler View">Android working with Card View and Recycler View</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2011/09/how-to-show-alert-dialog-in-android/" title="How to Show Alert Dialog in Android" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2011/09/alert_dialog_banner11-270x165.png" class="attachment-featured size-featured wp-post-image" alt="Android alert Dialog" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2011/09/alert_dialog_banner11-270x165.png" class="attachment-featured size-featured wp-post-image" alt="Android alert Dialog" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2011/09/how-to-show-alert-dialog-in-android/" title="How to Show Alert Dialog in Android">How to Show Alert Dialog in Android</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/ravi8x/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article></div></div></div><div id="disqus_thread" data-disqus-shortname="androidhive"></div></div> </article> <aside id="sidebar" class="sidebar c-4-12 " role="complementary" itemscope itemtype="http://schema.org/WPSideBar"><div id="search-2" class="widget widget_search"><h3 class="widget-title">SEARCH HERE</h3><form method="get" id="searchform" class="search-form" action="http://www.androidhive.info" _lpchecked="1"><fieldset> <input type="text" name="s" id="s" value="" placeholder="Search the site"  /> <button id="search-image" class="sbutton" type="submit" value=""> <i class="fa fa-search"></i> </button></fieldset></form></div><div id="text-9" class="widget widget_text"><div class="textwidget"><a href="http://www.androidhive.info/reviews"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://api.androidhive.info/tmp/reviews_banner.jpg"/><noscript><img src="http://api.androidhive.info/tmp/reviews_banner.jpg"/></noscript></a></div></div><div id="text-6" class="widget widget_text"><h3 class="widget-title">WEâRE SOCIAL</h3><div class="textwidget"><div class="fb-page"
+data-href="https://www.facebook.com/AndroidHive/"
+data-width="340"
+data-hide-cover="false"
+data-show-facepile="true"></div></div></div><div id="text-8" class="widget widget_text"><div class="textwidget"><div class="tve-leads-shortcode tve-tl-anim tl-anim-instant tve-leads-track-shortcode_39260"><div class="tl-style" id="tve_36_set" data-state="6"><div class="tve-leads-conversion-object" data-tl-type="shortcode_39260"><div class="tve_flt"><div class="thrv-leads-form-box tve_no_drag tve_no_icons tve_element_hover thrv_wrapper tve_editor_main_content tve_36_set tve_brdr_solid tve_blue"><h2 class="tve_p_center" style="font-size: 17px;">Subscribe to Newsletter</h2><p class="tve_p_center" style="font-size: 14px;">Join our 746,498 subscribers and get access to the latest android tutorials, freebies, scripts and much more!</p><div class="thrv_wrapper thrv_lead_generation tve_clearfix tve_red tve_11 thrv_lead_generation_vertical" data-tve-style="1" data-tve-version="1" data-inputs-count="11" data-connection="api"><input type="hidden" class="tve-lg-err-msg" value="{&quot;email&quot;:&quot;Please enter a valid email address&quot;,&quot;phone&quot;:&quot;Please enter a valid phone number&quot;,&quot;required&quot;:&quot;Highlighted fields are required&quot;}"><div class="thrv_lead_generation_code" style="display: none;"></div><div class="thrv_lead_generation_container tve_clearfix"><form action="#" method="post"><input type="hidden" class="tve-f-a-hidden" value="#"><div class="tve_lead_generated_inputs_container tve_clearfix"><div class="tve_lead_fields_overlay"></div><div class="tve_lg_input_container tve_lg_input tve_lg_2"><input type="email" data-field="email" data-required="1" data-validation="email" name="email" placeholder="Email" data-placeholder="Email" style="padding-right: 20px;"></div><input id="__tcb_lg_fc" type="hidden" name="__tcb_lg_fc" value="YToxOntzOjU6InNlbmR5IjtzOjI0OiJTcHMzNzYzaEwweTVrbnZHS2xIVjB4QnciO30="><input id="_asset_group" type="hidden" name="_asset_group" value=""><input id="_asset_option" type="hidden" name="_asset_option" value=""><input id="_back_url" type="hidden" name="_back_url" value="http://www.androidhive.info/subscription-successful/"><input id="_submit_option" type="hidden" name="_submit_option" value="redirect"><input id="_use_captcha" type="hidden" name="_use_captcha" value=""><input id="_captcha_theme" type="hidden" name="_captcha_theme" value="light"><input id="_captcha_type" type="hidden" name="_captcha_type" value="image"><input id="_captcha_size" type="hidden" name="_captcha_size" value="normal"><div style="display: none"></div><div class="tve_lg_input_container tve_submit_container tve_lg_submit tve_lg_2" tve-data-style="1"><button type="Submit">Sign Up</button></div></div></form></div></div><p class="tve_p_center" style="font-size: 14px;">We strictly care about your privacy!</p></div></div></div></div></div></div></div><div id="views-2" class="widget widget_views"><h3 class="widget-title">POPULAR ANDROID TUTORIALS</h3><ul><li class="postviews"><a href="http://www.androidhive.info/2011/11/android-sqlite-database-tutorial/"  title="Android SQLite Database Tutorial">Android SQLite Database Tutorial - 1,451,471 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/"  title="How to connect Android with PHP, MySQL">How to connect Android with PHP, MySQL - 1,434,231 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-json-parsing-tutorial/"  title="Android JSON Parsing Tutorial">Android JSON Parsing Tutorial - 1,283,632 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/"  title="Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL">Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL - 1,215,923 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/"  title="Android Sliding Menu using Navigation Drawer">Android Sliding Menu using Navigation Drawer - 1,121,019 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/02/android-custom-listview-with-image-and-text/"  title="Android Custom ListView with Image and Text">Android Custom ListView with Image and Text - 988,390 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/"  title="Android Login and Registration with PHP, MySQL and SQLite">Android Login and Registration with PHP, MySQL and SQLite - 986,922 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/07/android-gps-location-manager-tutorial/"  title="Android GPS, Location Manager Tutorial">Android GPS, Location Manager Tutorial - 754,133 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/10/android-tab-layout-with-swipeable-views-1/"  title="Android Tab Layout with Swipeable Views">Android Tab Layout with Swipeable Views - 702,936 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/08/android-working-with-google-maps-v2/"  title="Android working with Google Maps V2">Android working with Google Maps V2 - 623,736 views</a></li></ul></div></aside></div> <footer id="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter"><div class="container"><div class="footer-widgets first-footer-widgets widgets-num-3"><div class="f-widget f-widget-1"><div id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">QUICK CONTACT</h3><div class="menu-quick-contact-container"><ul id="menu-quick-contact" class="menu"><li id="menu-item-39273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39273"><a href="http://www.androidhive.info/advertise-with-us/">Advertise with us</a></li><li id="menu-item-39244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39244"><a href="http://www.androidhive.info/privacy-policy/">Privacy Policy</a></li><li id="menu-item-39245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39245"><a href="http://www.androidhive.info/terms-of-service/">Terms of Service</a></li><li id="menu-item-39266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39266"><a href="http://www.androidhive.info/sitemap/">Sitemap</a></li></ul></div></div></div><div class="f-widget f-widget-2"></div><div class="f-widget last f-widget-3"><div id="text-7" class="widget widget_text"><h3 class="widget-title">ABOUT ANDROIDHIVE</h3><div class="textwidget">AndroidHive is beginner's paradise for android tutorials, tips & tricks, games, app reviews, hacks and super cool advanced topics.</div></div></div></div><div class="copyrights"><div class="row" id="copyright-note"> <span>Copyright &copy; 2016 Droid5 Informatics Pvt Ltd.</span><div class="to-top"></div></div></div></div> </footer></div><div id="fb-root"></div> <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> <script id="dsq-count-scr" src="//androidhive.disqus.com/count.js" async></script> <script>/**************************************************************/
+/*AM22 Named Function to load Disqus - START*/
+jQuery(document).ready(function(){
+var disqus_identifier = window.location.url; //Use current page URL as Disqus_URL_Identifier. You can change it as per your requirement.
+var ds_loaded = false; //To track loading only once on a page.
+function loadDisqus()
+{
+    var disqus_div = jQuery("#disqus_thread"); //The ID of the Disqus DIV tag
+    var top = disqus_div.offset().top;
+    var disqus_data = disqus_div.data();
+    if ( !ds_loaded && jQuery(window).scrollTop() + jQuery(window).height() > top ) 
+    {
+        ds_loaded = true;
+        for (var key in disqus_data) 
+        {
+            if (key.substr(0,6) == 'disqus') 
+            {
+                window['disqus_' + key.replace('disqus','').toLowerCase()] = disqus_data[key];
+            }
+        }
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }  
+}
+/*AM22 Named Function to load Disqus - END*/
+/*AM22 Disqus lazy load - START*/
+jQuery(function () 
+{
+    var disqus_div = jQuery("#disqus_thread");
+    if (disqus_div.size() > 0) 
+    {
+        jQuery(window).scroll(loadDisqus);      
+    }  
+}
+);
+/*AM22 Disqus lazy load - END*/
+});</script><div id="tve_notification_box"></div><script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJava.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.9b'></script> <script type='text/javascript'>(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();</script> <link rel='stylesheet' id='tve-leads-font-9062833c9baa57b288ba47a7993dc1c0-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600%2C700' type='text/css' media='all' /> <script type='text/javascript'>/*  */
+var viewsCacheL10n = {"admin_ajax_url":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","post_id":"3087"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/wp-postviews/postviews-cache.js?ver=1.68'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/comment-reply.min.js'></script> <script type='text/javascript'>/*  */
+var tve_dash_front = {"ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/thrive-dashboard/js/dist/frontend.min.js?ver=1.0.10'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/wp-embed.min.js'></script> <script type='text/javascript'>/*  */
+var tve_frontend_options = {"is_editor_page":"","page_events":[],"is_single":"1","ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","social_fb_app_id":""};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/thrive_content_builder_frontend.min.js?ver=1.200.5'></script> <script type='text/javascript' src='//www.androidhive.info/wp-content/plugins/thrive-leads/js/frontend.min.js?ver=1.75'></script> <script type="text/javascript">/**/var TL_Const={"security":"62e7a1ef75","ajax_url":"\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","forms":{"shortcode_39260":{"_key":"6","trigger":"page_load","trigger_config":{},"form_type_id":"39260","main_group_id":"39260","active_test_id":""}},"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":0,"shortcode_ids":["39260"],"custom_post_data":{"get_data":{"q":"\/2013\/09\/android-fullscreen-image-slider-with-swipe-and-pinch-zoom-gestures\/"}},"current_screen":{"screen_type":4,"screen_id":3087},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]}/* */</script><script type="text/javascript">var TL_Front = TL_Front || {}; TL_Front.impressions_data = TL_Front.impressions_data || {};TL_Front.impressions_data.shortcode_39260 = {"group_id":"39260","form_type_id":"39260","variation_key":"6","active_test_id":null,"output_js":true};</script><script type="text/javascript">(function ($) {
+	$(function () {
+		var event_data = {"form_id":"tve-leads-track-shortcode_39260","form_type":"shortcode"};
+		event_data.source = 'page_load';
+		setTimeout(function () {
+			ThriveGlobal.$j(TL_Front).trigger('showform.thriveleads', event_data);
+			}, 200);
+		});
+	})
+(ThriveGlobal.$j);</script></body></html>
+<!-- This website is like a Rocket, isn't it ? Performance optimized by WP Rocket. Learn more: http://wp-rocket.me - Debug: cached@1470856269 -->

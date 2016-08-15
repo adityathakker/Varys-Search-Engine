@@ -1,0 +1,599 @@
+<!DOCTYPE html><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"><head itemscope itemtype="http://schema.org/WebSite"><!--[if IE]><![endif]--><link rel="dns-prefetch" href="//fonts.googleapis.com" /><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/911656fa177846aec61d653c98674a7b.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/eb9f2973d1f94378cd51f247183dd68f.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/ed23373be97de98fd59b5c1ee55222f2.css" data-minify="1"/><meta charset="UTF-8"> <!--[if IE ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]--><link rel="profile" href="http://gmpg.org/xfn/11" /><link rel="icon" href="http://test.androidhive.info/wp-content/uploads/2016/04/favicon.png" type="image/x-icon" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta itemprop="name" content="androidhive" /><meta itemprop="url" content="http://www.androidhive.info" /><meta itemprop="creator accountablePerson" content=" " /><link rel="pingback" href="http://www.androidhive.info/xmlrpc.php" /><title>Android Swipe Down to Refresh ListView Tutorial</title><style type="text/css">.thrive-adminbar-icon {
+				background: url('http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/css/images/tcb-close-icon.png') no-repeat 0px 0px;
+				padding-left: 25px !important;
+				width: 20px !important;
+				height: 20px !important;
+			}</style> <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace( /\bno-js\b/,'js' );</script> <meta name="description" content="Android tutorial about implementing swipe down to refresh list view. Explained with an example of fetching json and shown in list view."/><meta name="robots" content="noodp"/><link rel="canonical" href="http://www.androidhive.info/2015/05/android-swipe-down-to-refresh-listview-tutorial/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Android Swipe Down to Refresh ListView Tutorial" /><meta property="og:description" content="Android tutorial about implementing swipe down to refresh list view. Explained with an example of fetching json and shown in list view." /><meta property="og:url" content="http://www.androidhive.info/2015/05/android-swipe-down-to-refresh-listview-tutorial/" /><meta property="og:site_name" content="androidhive" /><meta property="article:section" content="json" /><meta property="article:published_time" content="2015-05-14T11:30:52+00:00" /><meta property="og:image" content="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial.jpg" /><meta property="og:image:width" content="720" /><meta property="og:image:height" content="359" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Android tutorial about implementing swipe down to refresh list view. Explained with an example of fetching json and shown in list view." /><meta name="twitter:title" content="Android Swipe Down to Refresh ListView Tutorial" /><meta name="twitter:image" content="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial.jpg" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Feed" href="http://www.androidhive.info/feed/" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Comments Feed" href="http://www.androidhive.info/comments/feed/" /> <script type="text/javascript">window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.androidhive.info\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);</script> <style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style><style id='stylesheet-inline-css' type='text/css'>body {background-color:#ffffff; }
+		body {background-image: url( http://www.androidhive.info/wp-content/themes/androidhive-theme/images/nobg.png );}
+
+        .header-social a:hover, header .breadcrumb > div i:hover, header .breadcrumb > div a:hover, .breadcrumb > div a:hover, .post-info a, .latestPost .title a:hover, #site-footer .toggle-menu .toggle-caret .fa:hover, #primary-navigation .sub-menu a:hover, .latestPost .title a:hover, ul.ajax-search-results li a:hover, .sidebar .ajax-search-meta a, .breadcrumb > div i, .single .tags a, .postauthor h5 a:hover, .sidebar a, .comment-meta a, .trending-stories .latestPost .title:hover, .postauthor h5, .copyrights a, .single_post a, .textwidget a, .pnavigation2 a, #sidebar a:hover, .copyrights a:hover, #site-footer .widget li a:hover, .related-posts a:hover, .reply a, .title a:hover, .post-info a:hover, .comm, #tabber .inside li a:hover, .readMore a:hover, .fn a, a, a:hover { color: #000000; }
+
+        .latestPost-categories ul li:hover a, .footer-widgets h3, .reply a:hover, #primary-navigation .sub-menu a:hover, #primary-navigation .sub-menu li.current-menu-item a { color: #000000 !important; }
+
+        .latestPost-news .latestPost { border-top: 2px solid #000000; }
+
+        
+        .navigation.mobile-menu-wrapper { background: #000000 !important; }
+
+        #header, .pace .pace-progress, #mobile-menu-wrapper ul li a:hover, .widget h3:before, .featured-category-title:before, .widget .wpt_widget_content .tab_title.selected a, #move-to-top, #load-posts, .featured-videos h4:after, .related-posts h4:after, .postauthor h4:after, #comments h4:after, #commentsAdd h4:after, .contact-form input[type='submit'], #commentform input#submit:hover, .contact-form input[type='submit']:hover, #primary-navigation li a:hover, .pagination a:hover, .pagination ul, .latestPost-review-wrapper, a#pull, #commentform input#submit, .contactform #submit, #move-to-top:hover, .navigation ul .current-menu-item > a, .navigation ul li:hover, .pagination a, #tabber ul.tabs li a.selected, .tagcloud a:hover, .latestPost .review-type-circle.review-total-only, .latestPost .review-type-circle.wp-review-show-total, .single .pagination > .current, .bypostauthor .comment-author .fn:after { background-color:#000000; color: #fff!important; }
+
+		.owl-prev, .owl-next { background-color:#000000!important; }
+
+        #site-footer { background: #EAEAEA; }
+		
+		.shareit { top: 282px; left: 0; margin: 0; width: 90px; position: fixed; padding: 5px; border:none; border-right: 0;}
+		.share-item {margin: 2px;}
+		
+		.bypostauthor { background: none; }
+        .bypostauthor > div .comment-author .fn:after { content: "Author"; position: relative; padding: 2px 10px; margin: 0 10px; color: #FFF; font-size: 13px; line-height: 1; font-weight: normal; border-radius: 3px; }</style> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/compat.min.js?ver=1.200.5'></script> <script type='text/javascript'>/*  */
+var mts_customscript = {"responsive":"1","nav_menu":"primary"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/customscript.js'></script> <script type='text/javascript'>/*  */
+var tickeropts = {"rtl_support":"0"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/jquery.webticker.js'></script> <link rel='https://api.w.org/' href='http://www.androidhive.info/wp-json/' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.androidhive.info/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.androidhive.info/wp-includes/wlwmanifest.xml" /><link rel='shortlink' href='http://www.androidhive.info/?p=38270' /><link rel="alternate" type="application/json+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2015%2F05%2Fandroid-swipe-down-to-refresh-listview-tutorial%2F" /><link rel="alternate" type="text/xml+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2015%2F05%2Fandroid-swipe-down-to-refresh-listview-tutorial%2F&#038;format=xml" /> <script type="text/javascript">window._wp_rp_static_base_url = 'https://wprp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.androidhive.info/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.6';
+	window._wp_rp_post_id = '38270';
+	window._wp_rp_num_rel_posts = '4';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Android+Swipe+Down+to+Refresh+ListView+Tutorial';
+	window._wp_rp_post_tags = ['json', 'list+view', 'swipe', 'volley', 'class', 'twitter', 'android', 'http', 'top', 'tutori', 'activ', 'detect', 'app', 'case', 'googl', 'custom', 'height', 'content', 'vertic'];
+	window._wp_rp_promoted_content = true;</script> <script type="text/javascript" src="https://wprp.zemanta.com/static/js/loader.js?version=3.6" async></script> <style type="text/css">.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style><link href="//fonts.googleapis.com/css?family=Open+Sans|Merriweather&amp;subset=latin" rel="stylesheet" type="text/css"><style type="text/css">#header h1, #header h2 { font-family: 'Open Sans'; font-weight: ; font-size: 25px; color: #ffffff; }
+.menu li, .menu li a { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #ffffff; }
+.latestPost .title a, .latestPost-news .title, .latestPost .title { font-family: 'Merriweather'; font-weight: ; font-size: 23px; color: #252525; }
+.single-title { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+body { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+.widget h3, .featured-category-title { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+#sidebar .widget { font-family: 'Open Sans'; font-weight: ; font-size: 14px; color: #252525; }
+.footer-widgets, footer .widget li a { font-family: 'Open Sans'; font-weight: ; font-size: 13px; color: #252525; }
+h1 { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+h2 { font-family: 'Merriweather'; font-weight: ; font-size: 24px; color: #252525; }
+h3 { font-family: 'Merriweather'; font-weight: ; font-size: 25px; color: #252525; }
+h4 { font-family: 'Merriweather'; font-weight: ; font-size: 20px; color: #252525; }
+h5 { font-family: 'Merriweather'; font-weight: ; font-size: 18px; color: #252525; }
+h6 { font-family: 'Merriweather'; font-weight: ; font-size: 16px; color: #252525; }</style><style type="text/css" id="syntaxhighlighteranchor"></style> <script data-no-minify="1" data-cfasync="false">(function(w,d){function a(){var b=d.createElement("script");b.async=!0;b.src="http://www.androidhive.info/wp-content/plugins/wp-rocket/inc/front/js/lazyload.1.0.2.min.js";var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)}w.attachEvent?w.attachEvent("onload",a):w.addEventListener("load",a,!1)})(window,document);</script> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24602371-1', 'auto');
+  ga('send', 'pageview');</script> </head><body id="blog" class="single single-post postid-38270 single-format-standard main" itemscope itemtype="http://schema.org/WebPage"><div class="main-container"> <header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader"><div class="upper-navigation"><div class="container clearfix"><div class="breadcrumb"><div class="root"><a href="http://www.androidhive.info/"><i class="fa fa-home"></i></a></div><div class="breaking"><ul class="trending-slider"><li><a href="http://www.androidhive.info/2016/05/android-working-with-card-view-and-recycler-view/" title="Android working with Card View and Recycler View">Android working with Card View and Recycler View</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-3/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1</a></li><li><a href="http://www.androidhive.info/2015/12/android-material-design-floating-action-button/" title="Android Material Design Floating Action Button">Android Material Design Floating Action Button</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-snackbar-example/" title="Android Material Design Snackbar Example">Android Material Design Snackbar Example</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-floating-labels-for-edittext/" title="Android Material Design Floating Labels for EditText">Android Material Design Floating Labels for EditText</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" title="Android Material Design working with Tabs">Android Material Design working with Tabs</a></li><li><a href="http://www.androidhive.info/2015/06/android-push-notifications-using-parse-com/" title="Android Push Notifications using Parse.com">Android Push Notifications using Parse.com</a></li><li><a href="http://www.androidhive.info/2015/04/android-getting-started-with-material-design/" title="Android Getting Started with Material Design">Android Getting Started with Material Design</a></li></ul></div></div><div class="header-social"> <a rel="nofollow" href="http://www.facebook.com/ravi8x" class="header-facebook"><span class="fa fa-facebook"></span></a> <a rel="nofollow" href="http://www.twitter.com/ravitamada" class="header-twitter"><span class="fa fa-twitter"></span></a> <a rel="nofollow" href="https://plus.google.com/u/0/108738908574182577919/posts" class="header-google-plus"><span class="fa fa-google-plus"></span></a> <a rel="nofollow" href="http://instagram.com/ravitamada" class="header-instagram"><span class="fa fa-instagram"></span></a></div></div></div><div id="header"><div class="container"><div class="logo-wrap"><h1 id="logo" class="image-logo" itemprop="headline"> <a href="http://www.androidhive.info"><img src="http://www.androidhive.info/wp-content/uploads/2016/04/logo-3.png" alt="androidhive"></a></h1></div><div id="primary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"> <a href="#" id="pull" class="toggle-mobile-menu">Menu</a> <nav class="navigation clearfix mobile-menu-wrapper"><ul id="menu-menu-1" class="menu clearfix"><li id="menu-item-39241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39241"><a href="http://download.androidhive.info">Downloads</a></li><li id="menu-item-39242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39242"><a href="http://tips.androidhive.info">Tips</a></li><li id="menu-item-39327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39327"><a href="http://www.androidhive.info/write-for-us/">Write for Us</a></li></ul> </nav></div></div></div> </header><div id="page" class="single"> <article class="article" itemscope itemtype="http://schema.org/BlogPosting"><meta itemprop="image" content="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial.jpg" /><div id="content_box" ><div id="post-38270" class="g post post-38270 type-post status-publish format-standard has-post-thumbnail hentry category-json category-list-view category-swipe category-volley has_thumb"><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><div typeof="v:Breadcrumb" class="root"><a rel="v:url" property="v:title" href="http://www.androidhive.info" rel="nofollow">Home</a></div><div><i class="fa fa-angle-right"></i></div><div typeof="v:Breadcrumb"><a href="http://www.androidhive.info/category/json/" rel="v:url" property="v:title">json</a></div><div><i class="fa fa-angle-right"></i></div><div><span>Android Swipe Down to Refresh ListView Tutorial</span></div></div><div class="single_post"> <header><h1 class="title single-title entry-title" itemprop="headline">Android Swipe Down to Refresh ListView Tutorial</h1><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></span></span> <span class="thetime updated"><span itemprop="datePublished">May 14, 2015<span class="divider1">/</span></span></span> <span class="thecomment"><i class="fa fa-comments"></i> <a href="http://www.androidhive.info/2015/05/android-swipe-down-to-refresh-listview-tutorial/#disqus_thread">Comments</a></span></div> </header><div class="post-single-content box mark-links entry-content"><div class="thecontent" itemprop="articleBody"><div style="float:left;margin:10px 10px 10px 0;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="1410361821"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><p>You might have noticed that lot of android apps like Twitter, Google+ provides an option to swipe / pull down to refresh it&#8217;s content. Whenever user swipes down from top, a loader will be shown and will disappear once the new content is loaded. In this tutorial we are going to learn how to provide the same option to your apps too.</p><p>Previously we used to implement a custom swipe view to detect the swipe down. But android made our day easier by introducing <a rel="nofollow" href="https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html" title="Android SwipeRefreshLayout tutorial" target="_blank" class="link">SwipeRefreshLayout</a> in android.support.v4 to detect the vertical swipe on any view.</p><div style="display:none"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial.jpg" alt="android-swipe-down-to-refresh-list-view-tutorial" width="720" height="359" class="alignnone size-full wp-image-38302" srcset="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial-300x150.jpg 300w, http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial.jpg" alt="android-swipe-down-to-refresh-list-view-tutorial" width="720" height="359" class="alignnone size-full wp-image-38302" srcset="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial-300x150.jpg 300w, http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><div class="clear"></div><div class="download_code"><a href="http://download.androidhive.info/download?code=lavjFbCO2cdXRIIZvAh2NeE2sBNHV3jBznfXtN%2Fcmw78flgrHUY0Yv8phMYVl74rZ8AZFnU6UjauCWpTyKVEAkMw7p6oRrECShnPjaMo4r57Y5NoMzvafBvfQ%3D%3DCfBVT7tqWJCl0DyQz3BVm38kjvBCIr7jKty" target="_blank">DOWNLOAD CODE</a></div><div class="yt_video"> <label>VIDEO DEMO</label><br /> <iframe src="http://www.youtube.com/embed/2bZyT4TETFI" frameborder="0" allowfullscreen="" style="width: 719px; height: 444.7265625px;"></iframe></div><p></p><h2>1. Android SwipeRefreshLayout</h2><p>Implementing SwipeRefreshLayout is very easy. Whenever you want to detect the swipe down on any view, just the wrap the view around <strong>SwipeRefreshLayout</strong> element. In our case, we are going to use it with ListView. And implement your activity class from <strong>SwipeRefreshLayout.OnRefreshListener</strong>. When user swipes down the view, <strong>onRefresh()</strong> method will be triggered. In you need to take appropriate action in that function like making an http call and fetch the latest data.</p><pre class="brush: xml; title: ; notranslate" title="">
+&lt;android.support.v4.widget.SwipeRefreshLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:id=&quot;@+id/swipe_refresh_layout&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;wrap_content&quot;&gt;
+
+    &lt;!-- place your view here --&gt;
+
+&lt;/android.support.v4.widget.SwipeRefreshLayout&gt;
+
+</pre><p></p><h2>2. Example JSON</h2><p>To demonstrate this tutorial, I am showing <strong>IMDB top 250</strong> movies in a List View. For this I have created a <a href="http://api.androidhive.info/json/imdb_top_250.php?offset=0" title="Android IMDB top 250 movies json" target="_blank" class="link">json</a> service which gives 20 movies in each request. You need to pass <em>offset</em> param to get the next set of results. Initially offset value should be 0, whenever the list is swiped down, we make an http call to get the next 20 movies and will update the ListView.</p><p>URL: <a href="http://api.androidhive.info/json/imdb_top_250.php?offset=0" title="Android IMDB top 250 movies json service" target="_blank" class="link">http://api.androidhive.info/json/imdb_top_250.php?offset=0</a></p><p></p><h2>3. Creating Android Project</h2><p><strong>1</strong>. In Android Studio, create a new project by navigating to <strong>File â New Project</strong> and fill all the required details. When it prompts to select a default activity, select <strong>Blank Activity</strong> and proceed.</p><p><strong>2</strong>. Open <strong>build.gradle</strong> located under <strong>app</strong> folder and add volley library dependency. We are going to use volley to make HTTP calls to fetch the json.</p><p><em>com.mcxiaoke.volley:library-aar:1.0.0</em></p><pre class="brush: sql; title: build.gradle; notranslate" title="build.gradle">
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.1.0'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+}
+</pre><p> <strong>3</strong>. Open <strong>colors.xml</strong> under <strong>res â values</strong> and add below color resources. If you don&#8217;t find colors.xml, create a new file with the name. The color resources added below are used to set background color for movies rank in list view.</p><pre class="brush: xml; title: colors.xml; notranslate" title="colors.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;resources&gt;
+    &lt;string-array name=&quot;movie_serial_bg&quot;&gt;
+        &lt;item&gt;#24c6d5&lt;/item&gt;
+        &lt;item&gt;#57dd86&lt;/item&gt;
+        &lt;item&gt;#ad7dcf&lt;/item&gt;
+        &lt;item&gt;#ff484d&lt;/item&gt;
+        &lt;item&gt;#fcba59&lt;/item&gt;
+        &lt;item&gt;#24c6d5&lt;/item&gt;
+    &lt;/string-array&gt;
+&lt;/resources&gt;
+</pre><p> <strong>3</strong>. Now under your project&#8217;s package, create three packages named <strong>app</strong>, <strong>activity</strong> and <strong>helper</strong>.</p><p><strong>4</strong>. Under <strong>app</strong> package, create a class named <strong>MyApplication.java</strong> and add below code. This is a singleton <a rel="nofollow" href="http://developer.android.com/reference/android/app/Application.html" title="Android Application Class" target="_blank" class="link">Application</a> class which initiates volley core objects on app launch.</p><pre class="brush: java; title: MyApplication.java; notranslate" title="MyApplication.java">
+package info.androidhive.swiperefresh.app;
+
+import android.app.Application;
+import android.text.TextUtils;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
+
+/**
+ * Created by Ravi on 13/05/15.
+ */
+
+public class MyApplication extends Application {
+
+    public static final String TAG = MyApplication.class
+            .getSimpleName();
+
+    private RequestQueue mRequestQueue;
+
+    private static MyApplication mInstance;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        mInstance = this;
+    }
+
+    public static synchronized MyApplication getInstance() {
+        return mInstance;
+    }
+
+    public RequestQueue getRequestQueue() {
+        if (mRequestQueue == null) {
+            mRequestQueue = Volley.newRequestQueue(getApplicationContext());
+        }
+
+        return mRequestQueue;
+    }
+
+    public &lt;T&gt; void addToRequestQueue(Request&lt;T&gt; req, String tag) {
+        req.setTag(TextUtils.isEmpty(tag) ? TAG : tag);
+        getRequestQueue().add(req);
+    }
+
+    public &lt;T&gt; void addToRequestQueue(Request&lt;T&gt; req) {
+        req.setTag(TAG);
+        getRequestQueue().add(req);
+    }
+
+    public void cancelPendingRequests(Object tag) {
+        if (mRequestQueue != null) {
+            mRequestQueue.cancelAll(tag);
+        }
+    }
+}
+</pre><p> <strong>5</strong>. Open <strong>AndroidManifest.xml</strong> and add <strong>MyApplication.java</strong> class to <strong>&lt;application></strong> tag. Also you need to add <em>INTERNET</em> permission as we need to make http calls.</p><pre class="brush: xml; title: AndroidManifest.xml; notranslate" title="AndroidManifest.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    package=&quot;info.androidhive.swiperefresh&quot;&gt;
+
+    &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot;/&gt;
+
+    &lt;application
+        android:name=&quot;.app.MyApplication&quot;
+        android:allowBackup=&quot;true&quot;
+        android:icon=&quot;@mipmap/ic_launcher&quot;
+        android:label=&quot;@string/app_name&quot;
+        android:theme=&quot;@style/AppTheme&quot;&gt;
+        &lt;activity
+            android:name=&quot;.activity.MainActivity&quot;
+            android:label=&quot;@string/app_name&quot;&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;
+
+                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+    &lt;/application&gt;
+
+&lt;/manifest&gt;
+</pre><p> <strong>6</strong>. Now let&#8217;s create a custom adapter class for our list view. Under <strong>res â layout</strong> folder, create an xml layout named <strong>list_row.xml</strong>. This xml renders single list row in the ListView.</p><pre class="brush: xml; title: list_row.xml; notranslate" title="list_row.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:orientation=&quot;horizontal&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;wrap_content&quot;&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/serial&quot;
+        android:layout_width=&quot;wrap_content&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:padding=&quot;25dp&quot;
+        android:layout_margin=&quot;5dp&quot;
+        android:layout_alignParentLeft=&quot;true&quot;
+        android:textSize=&quot;20dp&quot;
+        android:textStyle=&quot;bold&quot; /&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/title&quot;
+        android:layout_toRightOf=&quot;@id/serial&quot;
+        android:layout_centerVertical=&quot;true&quot;
+        android:layout_width=&quot;wrap_content&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:textStyle=&quot;bold&quot;
+        android:paddingLeft=&quot;20dp&quot;
+        android:textSize=&quot;18dp&quot; /&gt;
+
+&lt;/RelativeLayout&gt;
+</pre><p> <strong>7</strong>. Under <strong>helper</strong> package, create a java class named <strong>Movie.java</strong> and add below code. This is a model class required to create movie objects to provide data to the List View</p><pre class="brush: java; title: Movie.java; notranslate" title="Movie.java">
+package info.androidhive.swiperefresh.helper;
+
+/**
+ * Created by Ravi on 13/05/15.
+ */
+public class Movie {
+    public int id;
+    public String title;
+
+    public Movie() {
+    }
+
+    public Movie(int id, String title) {
+        this.title = title;
+        this.id = id;
+    }
+}
+</pre><p> <strong>8</strong>. Under <strong>helper</strong> package, create another class named <strong>SwipeListAdapter.java</strong>. This class is a custom adapter class which inflates the <strong>list_row.xml</strong> by applying proper data.</p><pre class="brush: java; title: SwipeListAdapter.java; notranslate" title="SwipeListAdapter.java">
+package info.androidhive.swiperefresh.helper;
+
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Color;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+
+import java.util.List;
+
+import info.androidhive.swiperefresh.R;
+
+/**
+ * Created by Ravi on 13/05/15.
+ */
+public class SwipeListAdapter extends BaseAdapter {
+    private Activity activity;
+    private LayoutInflater inflater;
+    private List&lt;Movie&gt; movieList;
+    private String[] bgColors;
+
+    public SwipeListAdapter(Activity activity, List&lt;Movie&gt; movieList) {
+        this.activity = activity;
+        this.movieList = movieList;
+        bgColors = activity.getApplicationContext().getResources().getStringArray(R.array.movie_serial_bg);
+    }
+
+    @Override
+    public int getCount() {
+        return movieList.size();
+    }
+
+    @Override
+    public Object getItem(int location) {
+        return movieList.get(location);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+
+        if (inflater == null)
+            inflater = (LayoutInflater) activity
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        if (convertView == null)
+            convertView = inflater.inflate(R.layout.list_row, null);
+
+        TextView serial = (TextView) convertView.findViewById(R.id.serial);
+        TextView title = (TextView) convertView.findViewById(R.id.title);
+
+        serial.setText(String.valueOf(movieList.get(position).id));
+        title.setText(movieList.get(position).title);
+
+        String color = bgColors[position % bgColors.length];
+        serial.setBackgroundColor(Color.parseColor(color));
+
+        return convertView;
+    }
+
+}
+</pre><p> <strong>10</strong>. Now we have all the required files in place, let&#8217;s start implementing the actual swipe refresh view. Open the layout file of your main activity (<strong>activity_main.xml</strong>) and modify the layout as shown below. I have added a ListView to show list of movies and wrapped it around <strong>SwipeRefreshLayout</strong> to get the swipe to refresh.</p><pre class="brush: xml; title: activity_main.xml; notranslate" title="activity_main.xml">
+&lt;android.support.v4.widget.SwipeRefreshLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:id=&quot;@+id/swipe_refresh_layout&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;wrap_content&quot;&gt;
+
+    &lt;ListView
+        android:layout_width=&quot;fill_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:id=&quot;@+id/listView&quot;&gt;
+
+    &lt;/ListView&gt;
+
+&lt;/android.support.v4.widget.SwipeRefreshLayout&gt;
+</pre><p> <strong>11</strong>. Finally open <strong>MainActivity.java</strong> and do the below changes to achieve the swipe refresh list view.</p><p><strong>></strong> Implement the activity from <em>SwipeRefreshLayout.OnRefreshListener</em> and override the <em>onRefresh()</em> method.</p><p><strong>></strong> Call <strong>fetchMovies()</strong> which is a volley&#8217;s json array call to fetch the json and update the list view.</p><div style="float:none;margin:10px 0 10px 0;text-align:center;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:300px;height:250px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="2887095024"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><p><strong>></strong> <em>onRefresh()</em> is triggered whenever user swipes down the view. So call <strong>fetchMovies()</strong> inside this method to get the next set of movies response.</p><pre class="brush: java; title: MainActivity.java; notranslate" title="MainActivity.java">
+package info.androidhive.swiperefresh.activity;
+
+import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import info.androidhive.swiperefresh.R;
+import info.androidhive.swiperefresh.app.MyApplication;
+import info.androidhive.swiperefresh.helper.Movie;
+import info.androidhive.swiperefresh.helper.SwipeListAdapter;
+
+
+public class MainActivity extends ActionBarActivity implements SwipeRefreshLayout.OnRefreshListener {
+
+    private String TAG = MainActivity.class.getSimpleName();
+
+    private String URL_TOP_250 = &quot;http://api.androidhive.info/json/imdb_top_250.php?offset=&quot;;
+
+    private SwipeRefreshLayout swipeRefreshLayout;
+    private ListView listView;
+    private SwipeListAdapter adapter;
+    private List&lt;Movie&gt; movieList;
+
+    // initially offset will be 0, later will be updated while parsing the json
+    private int offSet = 0;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        listView = (ListView) findViewById(R.id.listView);
+        swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
+
+        movieList = new ArrayList&lt;&gt;();
+        adapter = new SwipeListAdapter(this, movieList);
+        listView.setAdapter(adapter);
+
+        swipeRefreshLayout.setOnRefreshListener(this);
+
+        /**
+         * Showing Swipe Refresh animation on activity create
+         * As animation won't start on onCreate, post runnable is used
+         */
+        swipeRefreshLayout.post(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        swipeRefreshLayout.setRefreshing(true);
+
+                                        fetchMovies();
+                                    }
+                                }
+        );
+
+    }
+
+    /**
+     * This method is called when swipe refresh is pulled down
+     */
+    @Override
+    public void onRefresh() {
+        fetchMovies();
+    }
+
+    /**
+     * Fetching movies json by making http call
+     */
+    private void fetchMovies() {
+
+        // showing refresh animation before making http call
+        swipeRefreshLayout.setRefreshing(true);
+
+        // appending offset to url
+        String url = URL_TOP_250 + offSet;
+
+        // Volley's json array request object
+        JsonArrayRequest req = new JsonArrayRequest(url,
+                new Response.Listener&lt;JSONArray&gt;() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        Log.d(TAG, response.toString());
+
+                        if (response.length() &gt; 0) {
+
+                            // looping through json and adding to movies list
+                            for (int i = 0; i &lt; response.length(); i++) {
+                                try {
+                                    JSONObject movieObj = response.getJSONObject(i);
+
+                                    int rank = movieObj.getInt(&quot;rank&quot;);
+                                    String title = movieObj.getString(&quot;title&quot;);
+
+                                    Movie m = new Movie(rank, title);
+
+                                    movieList.add(0, m);
+
+                                    // updating offset value to highest value
+                                    if (rank &gt;= offSet)
+                                        offSet = rank;
+
+                                } catch (JSONException e) {
+                                    Log.e(TAG, &quot;JSON Parsing error: &quot; + e.getMessage());
+                                }
+                            }
+
+                            adapter.notifyDataSetChanged();
+                        }
+
+                        // stopping swipe refresh
+                        swipeRefreshLayout.setRefreshing(false);
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e(TAG, &quot;Server Error: &quot; + error.getMessage());
+
+                Toast.makeText(getApplicationContext(), error.getMessage(), Toast.LENGTH_LONG).show();
+
+                // stopping swipe refresh
+                swipeRefreshLayout.setRefreshing(false);
+            }
+        });
+
+        // Adding request to request queue
+        MyApplication.getInstance().addToRequestQueue(req);
+    }
+
+}
+
+</pre><p> Run the project and test it. You should able see the swipe refresh animation on app launch and list view updated each time you swipe down it.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-listview-tutorial.png" alt="android swipe down to refresh listview" width="720" height="829" class="alignnone size-full wp-image-38299" srcset="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-listview-tutorial-261x300.png 261w, http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-listview-tutorial.png 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-listview-tutorial.png" alt="android swipe down to refresh listview" width="720" height="829" class="alignnone size-full wp-image-38299" srcset="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-listview-tutorial-261x300.png 261w, http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-listview-tutorial.png 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p></p><h2>4. PHP Class to Generate JSON</h2><p>As lot of people are requesting me to provide the PHP code to generate the json, I am giving the code to generate the json used in this article. You can run this code using WAMP or XAMP softwares. Checkout <a rel="nofollow" href="https://www.youtube.com/watch?v=a-dcmT-xGHc" title="WAMP downloading and installing" target="_blank" class="link">Video 1</a> and <a rel="nofollow" href="https://www.youtube.com/watch?v=M9m93bD9CK4" title="Android wamp running php project" target="_blank" class="link">Video 2</a> for installation and running PHP project in WAMP.</p><pre class="brush: php; title: ; notranslate" title="">
+&lt;?php
+
+// sleep for 2 sec show that the androd swipe refresh will be visible for sometime
+sleep(2);
+
+// all top 250 movies
+$movies = array(&quot;The Shawshank Redemption&quot;, &quot;The Godfather&quot;, &quot;The Godfather: Part II&quot;, &quot;The Dark Knight&quot;, &quot;Pulp Fiction&quot;, &quot;Schindler's List&quot;, &quot;12 Angry Men&quot;, &quot;The Good, the Bad and the Ugly&quot;, &quot;The Lord of the Rings: The Return of the King&quot;, &quot;Fight Club&quot;, &quot;The Lord of the Rings: The Fellowship of the Ring&quot;, &quot;Star Wars: Episode V - The Empire Strikes Back&quot;, &quot;Forrest Gump&quot;, &quot;Inception&quot;, &quot;One Flew Over the Cuckoo's Nest&quot;, &quot;The Lord of the Rings: The Two Towers&quot;, &quot;Goodfellas&quot;, &quot;The Matrix&quot;, &quot;Star Wars&quot;, &quot;Seven Samurai&quot;, &quot;City of God&quot;, &quot;Se7en&quot;, &quot;The Usual Suspects&quot;, &quot;The Silence of the Lambs&quot;, &quot;It's a Wonderful Life&quot;, &quot;Interstellar&quot;, &quot;LÃ©on: The Professional&quot;, &quot;Life Is Beautiful&quot;, &quot;Once Upon a Time in the West&quot;, &quot;Casablanca&quot;, &quot;American History X&quot;, &quot;Saving Private Ryan&quot;, &quot;Spirited Away&quot;, &quot;Raiders of the Lost Ark&quot;, &quot;City Lights&quot;, &quot;Psycho&quot;, &quot;Rear Window&quot;, &quot;The Intouchables&quot;, &quot;Whiplash&quot;, &quot;Modern Times&quot;, &quot;The Green Mile&quot;, &quot;Terminator 2: Judgment Day&quot;, &quot;Memento&quot;, &quot;The Pianist&quot;, &quot;The Departed&quot;, &quot;Apocalypse Now&quot;, &quot;Gladiator&quot;, &quot;Sunset Blvd.&quot;, &quot;Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb&quot;, &quot;Back to the Future&quot;, &quot;Alien&quot;, &quot;The Prestige&quot;, &quot;The Lion King&quot;, &quot;The Great Dictator&quot;, &quot;The Lives of Others&quot;, &quot;Cinema Paradiso&quot;, &quot;Django Unchained&quot;, &quot;The Shining&quot;, &quot;Paths of Glory&quot;, &quot;The Dark Knight Rises&quot;, &quot;American Beauty&quot;, &quot;WALLÂ·E&quot;, &quot;North by Northwest&quot;, &quot;Aliens&quot;, &quot;Citizen Kane&quot;, &quot;Grave of the Fireflies&quot;, &quot;Vertigo&quot;, &quot;M&quot;, &quot;Oldboy&quot;, &quot;Das Boot&quot;, &quot;AmÃ©lie&quot;, &quot;Princess Mononoke&quot;, &quot;Star Wars: Episode VI - Return of the Jedi&quot;, &quot;Once Upon a Time in America&quot;, &quot;Toy Story 3&quot;, &quot;Reservoir Dogs&quot;, &quot;A Clockwork Orange&quot;, &quot;Braveheart&quot;, &quot;Taxi Driver&quot;, &quot;Double Indemnity&quot;, &quot;Witness for the Prosecution&quot;, &quot;Requiem for a Dream&quot;, &quot;To Kill a Mockingbird&quot;, &quot;Lawrence of Arabia&quot;, &quot;Eternal Sunshine of the Spotless Mind&quot;, &quot;Full Metal Jacket&quot;, &quot;Bicycle Thieves&quot;, &quot;The Sting&quot;, &quot;Singin' in the Rain&quot;, &quot;Amadeus&quot;, &quot;Monty Python and the Holy Grail&quot;, &quot;Snatch.&quot;, &quot;2001: A Space Odyssey&quot;, &quot;For a Few Dollars More&quot;, &quot;Rashomon&quot;, &quot;L.A. Confidential&quot;, &quot;The Kid&quot;, &quot;All About Eve&quot;, &quot;The Apartment&quot;, &quot;Inglourious Basterds&quot;, &quot;Toy Story&quot;, &quot;The Treasure of the Sierra Madre&quot;, &quot;A Separation&quot;, &quot;Indiana Jones and the Last Crusade&quot;, &quot;Yojimbo&quot;, &quot;The Third Man&quot;, &quot;Some Like It Hot&quot;, &quot;Metropolis&quot;, &quot;Batman Begins&quot;, &quot;Unforgiven&quot;, &quot;Scarface&quot;, &quot;Like Stars on Earth&quot;, &quot;Raging Bull&quot;, &quot;Up&quot;, &quot;3 Idiots&quot;, &quot;Downfall&quot;, &quot;Chinatown&quot;, &quot;The Great Escape&quot;, &quot;Die Hard&quot;, &quot;The Hunt&quot;, &quot;On the Waterfront&quot;, &quot;Heat&quot;, &quot;Mr. Smith Goes to Washington&quot;, &quot;Pan's Labyrinth&quot;, &quot;Good Will Hunting&quot;, &quot;The Bridge on the River Kwai&quot;, &quot;My Neighbor Totoro&quot;, &quot;Ikiru&quot;, &quot;The Seventh Seal&quot;, &quot;The Gold Rush&quot;, &quot;Ran&quot;, &quot;Wild Strawberries&quot;, &quot;The General&quot;, &quot;Blade Runner&quot;, &quot;The Elephant Man&quot;, &quot;Lock, Stock and Two Smoking Barrels&quot;, &quot;The Secret in Their Eyes&quot;, &quot;The Wolf of Wall Street&quot;, &quot;Casino&quot;, &quot;Gran Torino&quot;, &quot;Howl's Moving Castle&quot;, &quot;Warrior&quot;, &quot;The Big Lebowski&quot;, &quot;V for Vendetta&quot;, &quot;Rebecca&quot;, &quot;The Bandit&quot;, &quot;Gone Girl&quot;, &quot;The Deer Hunter&quot;, &quot;Judgment at Nuremberg&quot;, &quot;Cool Hand Luke&quot;, &quot;How to Train Your Dragon&quot;, &quot;It Happened One Night&quot;, &quot;Fargo&quot;, &quot;A Beautiful Mind&quot;, &quot;Gone with the Wind&quot;, &quot;Trainspotting&quot;, &quot;Into the Wild&quot;, &quot;Rush&quot;, &quot;Dial M for Murder&quot;, &quot;The Maltese Falcon&quot;, &quot;The Sixth Sense&quot;, &quot;Mary and Max&quot;, &quot;Finding Nemo&quot;, &quot;The Thing&quot;, &quot;The Wages of Fear&quot;, &quot;Hotel Rwanda&quot;, &quot;No Country for Old Men&quot;, &quot;Incendies&quot;, &quot;Rang De Basanti&quot;, &quot;Kill Bill: Vol. 1&quot;, &quot;Platoon&quot;, &quot;Life of Brian&quot;, &quot;Butch Cassidy and the Sundance Kid&quot;, &quot;Network&quot;, &quot;A Wednesday&quot;, &quot;Munna Bhai M.B.B.S.&quot;, &quot;Touch of Evil&quot;, &quot;There Will Be Blood&quot;, &quot;12 Years a Slave&quot;, &quot;Annie Hall&quot;, &quot;The 400 Blows&quot;, &quot;Stand by Me&quot;, &quot;The Princess Bride&quot;, &quot;Persona&quot;, &quot;The Grand Budapest Hotel&quot;, &quot;Amores Perros&quot;, &quot;Ben-Hur&quot;, &quot;Diabolique&quot;, &quot;In the Name of the Father&quot;, &quot;The Grapes of Wrath&quot;, &quot;Million Dollar Baby&quot;, &quot;Sin City&quot;, &quot;Hachi: A Dog's Tale&quot;, &quot;NausicaÃ¤ of the Valley of the Wind&quot;, &quot;The Wizard of Oz&quot;, &quot;The Best Years of Our Lives&quot;, &quot;Gandhi&quot;, &quot;The Avengers&quot;, &quot;The Bourne Ultimatum&quot;, &quot;Donnie Darko&quot;, &quot;Shutter Island&quot;, &quot;Stalker&quot;, &quot;8Â½&quot;, &quot;Guardians of the Galaxy&quot;, &quot;Strangers on a Train&quot;, &quot;Infernal Affairs&quot;, &quot;Twelve Monkeys&quot;, &quot;Fanny and Alexander&quot;, &quot;Before Sunrise&quot;, &quot;Boyhood&quot;, &quot;Jaws&quot;, &quot;The Imitation Game&quot;, &quot;The Battle of Algiers&quot;, &quot;The Terminator&quot;, &quot;High Noon&quot;, &quot;Groundhog Day&quot;, &quot;Harry Potter and the Deathly Hallows: Part 2&quot;, &quot;Memories of Murder&quot;, &quot;The King's Speech&quot;, &quot;Ip Man&quot;, &quot;Monsters, Inc.&quot;, &quot;Notorious&quot;, &quot;Rocky&quot;, &quot;Dog Day Afternoon&quot;, &quot;Barry Lyndon&quot;, &quot;La Haine&quot;, &quot;The Truman Show&quot;, &quot;Who's Afraid of Virginia Woolf?&quot;, &quot;A Fistful of Dollars&quot;, &quot;Dil Chahta Hai&quot;, &quot;The Night of the Hunter&quot;, &quot;Pirates of the Caribbean: The Curse of the Black Pearl&quot;, &quot;Lagaan: Once Upon a Time in India&quot;, &quot;Castle in the Sky&quot;, &quot;Jurassic Park&quot;, &quot;X-Men: Days of Future Past&quot;, &quot;La Strada&quot;, &quot;The Help&quot;, &quot;Roman Holiday&quot;, &quot;Wild Tales&quot;, &quot;The Big Sleep&quot;, &quot;Spring, Summer, Fall, Winter... and Spring&quot;, &quot;Le SamouraÃ¯&quot;, &quot;Prisoners&quot;, &quot;Underground&quot;, &quot;The Graduate&quot;, &quot;Paris, Texas&quot;, &quot;Solaris&quot;, &quot;Three Colors: Red&quot;, &quot;Papillon&quot;);
+
+// reading offset from get parameter
+$offset = isset($_GET['offset']) &amp;&amp; $_GET['offset'] != '' ? $_GET['offset'] : 0;
+
+// page limit
+$limit = 20;
+
+
+$movies_array = array();
+
+// loop through page movies
+for ($j = $offset; $j &lt; $offset + $limit &amp;&amp; $j &lt; sizeof($movies); $j++) {
+    $tmp = array();
+    $tmp['rank'] = $j + 1;
+    $tmp['title'] = $movies[$j];
+
+    array_push($movies_array, $tmp);
+}
+
+// printing json response
+echo json_encode($movies_array);
+?&gt;
+</pre><div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid red;"></span> <script type="text/javascript">jQuery(document).ready(function($) {
+    $.post('http://www.androidhive.info/wp-admin/admin-ajax.php', {action: 'mts_view_count', id: '38270'});
+});</script> </div></div></div><div class="postauthor"><h4>About The Author</h4> <img alt='' src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /><noscript><img alt='' src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /></noscript><h5 class="vcard"><a href="http://www.androidhive.info/author/admin/" rel="nofollow" class="fn">Ravi Tamada</a></h5><p>Ravi is hardcore Android programmer and Android programming has been his passion since he compiled his first hello-world program. Solving real problems of Android developers through tutorials has always been interesting part for him.</p></div><div class="related-posts"><h4>Related Posts</h4><div class="clear"> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2016/05/android-working-with-retrofit-http-library/" title="Android Working with Retrofit HTTP Library" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2016/05/android-working-with-retrofit-http-library-example-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android-working-with-retrofit-http-library-example" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2016/05/android-working-with-retrofit-http-library-example-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android-working-with-retrofit-http-library-example" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2016/05/android-working-with-retrofit-http-library/" title="Android Working with Retrofit HTTP Library">Android Working with Retrofit HTTP Library</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2016/02/android-realtime-chat-app-using-gcm-php-mysql-part-1-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android-realtime-chat-app-using-gcm-php-mysql-part-1" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2016/02/android-realtime-chat-app-using-gcm-php-mysql-part-1-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android-realtime-chat-app-using-gcm-php-mysql-part-1" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  last"> <a href="http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/" title="How to connect Android with PHP, MySQL" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_mysql_php1-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android connecting to mysql php" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_mysql_php1-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android connecting to mysql php" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/" title="How to connect Android with PHP, MySQL">How to connect Android with PHP, MySQL</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2014/08/android-building-free-wallpapers-app-part-2/" title="Android Building Free Wallpapers App &#8211; Part 2" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2014/08/android-free-wallpapers-app-banner-2-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android-free-wallpapers-app-banner-2" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2014/08/android-free-wallpapers-app-banner-2-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android-free-wallpapers-app-banner-2" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2014/08/android-building-free-wallpapers-app-part-2/" title="Android Building Free Wallpapers App &#8211; Part 2">Android Building Free Wallpapers App &#8211; Part 2</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article></div></div></div><div id="disqus_thread" data-disqus-shortname="androidhive"></div></div> </article> <aside id="sidebar" class="sidebar c-4-12 " role="complementary" itemscope itemtype="http://schema.org/WPSideBar"><div id="search-2" class="widget widget_search"><h3 class="widget-title">SEARCH HERE</h3><form method="get" id="searchform" class="search-form" action="http://www.androidhive.info" _lpchecked="1"><fieldset> <input type="text" name="s" id="s" value="" placeholder="Search the site"  /> <button id="search-image" class="sbutton" type="submit" value=""> <i class="fa fa-search"></i> </button></fieldset></form></div><div id="text-9" class="widget widget_text"><div class="textwidget"><a href="http://www.androidhive.info/reviews"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://api.androidhive.info/tmp/reviews_banner.jpg"/><noscript><img src="http://api.androidhive.info/tmp/reviews_banner.jpg"/></noscript></a></div></div><div id="text-6" class="widget widget_text"><h3 class="widget-title">WEâRE SOCIAL</h3><div class="textwidget"><div class="fb-page"
+data-href="https://www.facebook.com/AndroidHive/"
+data-width="340"
+data-hide-cover="false"
+data-show-facepile="true"></div></div></div><div id="text-8" class="widget widget_text"><div class="textwidget"><div class="tve-leads-shortcode tve-tl-anim tl-anim-instant tve-leads-track-shortcode_39260"><div class="tl-style" id="tve_36_set" data-state="6"><div class="tve-leads-conversion-object" data-tl-type="shortcode_39260"><div class="tve_flt"><div class="thrv-leads-form-box tve_no_drag tve_no_icons tve_element_hover thrv_wrapper tve_editor_main_content tve_36_set tve_brdr_solid tve_blue"><h2 class="tve_p_center" style="font-size: 17px;">Subscribe to Newsletter</h2><p class="tve_p_center" style="font-size: 14px;">Join our 746,498 subscribers and get access to the latest android tutorials, freebies, scripts and much more!</p><div class="thrv_wrapper thrv_lead_generation tve_clearfix tve_red tve_11 thrv_lead_generation_vertical" data-tve-style="1" data-tve-version="1" data-inputs-count="11" data-connection="api"><input type="hidden" class="tve-lg-err-msg" value="{&quot;email&quot;:&quot;Please enter a valid email address&quot;,&quot;phone&quot;:&quot;Please enter a valid phone number&quot;,&quot;required&quot;:&quot;Highlighted fields are required&quot;}"><div class="thrv_lead_generation_code" style="display: none;"></div><div class="thrv_lead_generation_container tve_clearfix"><form action="#" method="post"><input type="hidden" class="tve-f-a-hidden" value="#"><div class="tve_lead_generated_inputs_container tve_clearfix"><div class="tve_lead_fields_overlay"></div><div class="tve_lg_input_container tve_lg_input tve_lg_2"><input type="email" data-field="email" data-required="1" data-validation="email" name="email" placeholder="Email" data-placeholder="Email" style="padding-right: 20px;"></div><input id="__tcb_lg_fc" type="hidden" name="__tcb_lg_fc" value="YToxOntzOjU6InNlbmR5IjtzOjI0OiJTcHMzNzYzaEwweTVrbnZHS2xIVjB4QnciO30="><input id="_asset_group" type="hidden" name="_asset_group" value=""><input id="_asset_option" type="hidden" name="_asset_option" value=""><input id="_back_url" type="hidden" name="_back_url" value="http://www.androidhive.info/subscription-successful/"><input id="_submit_option" type="hidden" name="_submit_option" value="redirect"><input id="_use_captcha" type="hidden" name="_use_captcha" value=""><input id="_captcha_theme" type="hidden" name="_captcha_theme" value="light"><input id="_captcha_type" type="hidden" name="_captcha_type" value="image"><input id="_captcha_size" type="hidden" name="_captcha_size" value="normal"><div style="display: none"></div><div class="tve_lg_input_container tve_submit_container tve_lg_submit tve_lg_2" tve-data-style="1"><button type="Submit">Sign Up</button></div></div></form></div></div><p class="tve_p_center" style="font-size: 14px;">We strictly care about your privacy!</p></div></div></div></div></div></div></div><div id="views-2" class="widget widget_views"><h3 class="widget-title">POPULAR ANDROID TUTORIALS</h3><ul><li class="postviews"><a href="http://www.androidhive.info/2011/11/android-sqlite-database-tutorial/"  title="Android SQLite Database Tutorial">Android SQLite Database Tutorial - 1,451,468 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/"  title="How to connect Android with PHP, MySQL">How to connect Android with PHP, MySQL - 1,434,226 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-json-parsing-tutorial/"  title="Android JSON Parsing Tutorial">Android JSON Parsing Tutorial - 1,283,628 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/"  title="Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL">Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL - 1,215,922 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/"  title="Android Sliding Menu using Navigation Drawer">Android Sliding Menu using Navigation Drawer - 1,121,014 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/02/android-custom-listview-with-image-and-text/"  title="Android Custom ListView with Image and Text">Android Custom ListView with Image and Text - 988,388 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/"  title="Android Login and Registration with PHP, MySQL and SQLite">Android Login and Registration with PHP, MySQL and SQLite - 986,919 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/07/android-gps-location-manager-tutorial/"  title="Android GPS, Location Manager Tutorial">Android GPS, Location Manager Tutorial - 754,127 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/10/android-tab-layout-with-swipeable-views-1/"  title="Android Tab Layout with Swipeable Views">Android Tab Layout with Swipeable Views - 702,933 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/08/android-working-with-google-maps-v2/"  title="Android working with Google Maps V2">Android working with Google Maps V2 - 623,736 views</a></li></ul></div></aside></div> <footer id="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter"><div class="container"><div class="footer-widgets first-footer-widgets widgets-num-3"><div class="f-widget f-widget-1"><div id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">QUICK CONTACT</h3><div class="menu-quick-contact-container"><ul id="menu-quick-contact" class="menu"><li id="menu-item-39273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39273"><a href="http://www.androidhive.info/advertise-with-us/">Advertise with us</a></li><li id="menu-item-39244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39244"><a href="http://www.androidhive.info/privacy-policy/">Privacy Policy</a></li><li id="menu-item-39245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39245"><a href="http://www.androidhive.info/terms-of-service/">Terms of Service</a></li><li id="menu-item-39266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39266"><a href="http://www.androidhive.info/sitemap/">Sitemap</a></li></ul></div></div></div><div class="f-widget f-widget-2"></div><div class="f-widget last f-widget-3"><div id="text-7" class="widget widget_text"><h3 class="widget-title">ABOUT ANDROIDHIVE</h3><div class="textwidget">AndroidHive is beginner's paradise for android tutorials, tips & tricks, games, app reviews, hacks and super cool advanced topics.</div></div></div></div><div class="copyrights"><div class="row" id="copyright-note"> <span>Copyright &copy; 2016 Droid5 Informatics Pvt Ltd.</span><div class="to-top"></div></div></div></div> </footer></div><div id="fb-root"></div> <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> <script id="dsq-count-scr" src="//androidhive.disqus.com/count.js" async></script> <script>/**************************************************************/
+/*AM22 Named Function to load Disqus - START*/
+jQuery(document).ready(function(){
+var disqus_identifier = window.location.url; //Use current page URL as Disqus_URL_Identifier. You can change it as per your requirement.
+var ds_loaded = false; //To track loading only once on a page.
+function loadDisqus()
+{
+    var disqus_div = jQuery("#disqus_thread"); //The ID of the Disqus DIV tag
+    var top = disqus_div.offset().top;
+    var disqus_data = disqus_div.data();
+    if ( !ds_loaded && jQuery(window).scrollTop() + jQuery(window).height() > top ) 
+    {
+        ds_loaded = true;
+        for (var key in disqus_data) 
+        {
+            if (key.substr(0,6) == 'disqus') 
+            {
+                window['disqus_' + key.replace('disqus','').toLowerCase()] = disqus_data[key];
+            }
+        }
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }  
+}
+/*AM22 Named Function to load Disqus - END*/
+/*AM22 Disqus lazy load - START*/
+jQuery(function () 
+{
+    var disqus_div = jQuery("#disqus_thread");
+    if (disqus_div.size() > 0) 
+    {
+        jQuery(window).scroll(loadDisqus);      
+    }  
+}
+);
+/*AM22 Disqus lazy load - END*/
+});</script><div id="tve_notification_box"></div><script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushSql.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJava.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPhp.js?ver=3.0.9b'></script> <script type='text/javascript'>(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();</script> <link rel='stylesheet' id='tve-leads-font-9062833c9baa57b288ba47a7993dc1c0-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600%2C700' type='text/css' media='all' /> <script type='text/javascript'>/*  */
+var viewsCacheL10n = {"admin_ajax_url":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","post_id":"38270"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/wp-postviews/postviews-cache.js?ver=1.68'></script> <script type='text/javascript'>/*  */
+var tve_dash_front = {"ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/thrive-dashboard/js/dist/frontend.min.js?ver=1.0.10'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/wp-embed.min.js'></script> <script type='text/javascript'>/*  */
+var tve_frontend_options = {"is_editor_page":"","page_events":[],"is_single":"1","ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","social_fb_app_id":""};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/thrive_content_builder_frontend.min.js?ver=1.200.5'></script> <script type='text/javascript' src='//www.androidhive.info/wp-content/plugins/thrive-leads/js/frontend.min.js?ver=1.75'></script> <script type="text/javascript">/**/var TL_Const={"security":"62e7a1ef75","ajax_url":"\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","forms":{"shortcode_39260":{"_key":"6","trigger":"page_load","trigger_config":{},"form_type_id":"39260","main_group_id":"39260","active_test_id":""}},"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":0,"shortcode_ids":["39260"],"custom_post_data":{"get_data":{"q":"\/2015\/05\/android-swipe-down-to-refresh-listview-tutorial\/"},"http_referrer":"https:\/\/www.google.com.mx\/"},"current_screen":{"screen_type":4,"screen_id":38270},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]}/* */</script><script type="text/javascript">var TL_Front = TL_Front || {}; TL_Front.impressions_data = TL_Front.impressions_data || {};TL_Front.impressions_data.shortcode_39260 = {"group_id":"39260","form_type_id":"39260","variation_key":"6","active_test_id":null,"output_js":true};</script><script type="text/javascript">(function ($) {
+	$(function () {
+		var event_data = {"form_id":"tve-leads-track-shortcode_39260","form_type":"shortcode"};
+		event_data.source = 'page_load';
+		setTimeout(function () {
+			ThriveGlobal.$j(TL_Front).trigger('showform.thriveleads', event_data);
+			}, 200);
+		});
+	})
+(ThriveGlobal.$j);</script></body></html>
+<!-- This website is like a Rocket, isn't it ? Performance optimized by WP Rocket. Learn more: http://wp-rocket.me - Debug: cached@1470855222 -->

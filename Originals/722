@@ -1,0 +1,2893 @@
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr"
+      
+  xmlns:schema="http://schema.org/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"      class="no-js">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="sailthru.date" content="2016-04-19T09:00:00-04:00" />
+<meta name="sailthru.description" content="There&amp;#039;s an app for just about anything. We dug through hundreds of them to find the ones that are actually worthy of the precious space on your smartphone. " />
+<meta name="sailthru.image.full" content="http://greatist.com/sites/default/files/health-fitness-apps-2016.jpg" />
+<meta name="sailthru.tags" content="Live,List With Images,Health and Fitness Apps,Healthy Tech,Technology" />
+<link rel="shortcut icon" href="http://greatist.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="sailthru.author" content="jeffcattel" />
+<meta name="sailthru.title" content="The 39 Best Health and Fitness Apps of 2016" />
+<link href="http://greatist.com/fitness/best-health-fitness-apps" rel="canonical" />
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type":"WebPage",
+    "@id":"http://greatist.com/fitness/best-health-fitness-apps"
+  },
+  "headline": "The 39 Best Health and Fitness Apps of 2016",
+  
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://greatist.com/sites/default/files/health-fitness-apps-2016.jpg",
+    "height": 1236,
+    "width": 1800
+  },
+  "datePublished": "2016-04-19T09:00:00-04:00",
+  "dateModified": "2016-07-29T06:57:28-04:00",
+  "description": "There's an app for just about anything. We dug through hundreds of them to find the ones that are actually worthy of the precious space on your smartphone. ",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Live",
+      "sameAs": "http://greatist.com/live"
+    },
+    {
+      "@type": "Thing",
+      "name": "Health and Fitness Apps",
+      "sameAs": "http://greatist.com/health-and-fitness-apps"
+    },
+    {
+      "@type": "Thing",
+      "name": "Healthy Tech",
+      "sameAs": "http://greatist.com/healthy-tech"
+    },
+    {
+      "@type": "Thing",
+      "name": "Technology",
+      "sameAs": "http://greatist.com/technology"
+    }],
+  "articleBody": "&lt;p&gt;We spend too much time staring at our phones&mdash;just ask the pedestrians we almost walk into on a daily basis. If scrolling through your Newsfeed or swiping right were Olympic sports, we&rsquo;d definitely take home a medal. But in reality, the only things getting a workout in either case are our thumbs. That&rsquo;s not to say your phone can&rsquo;t help you lead a healthier, happier life. You just need to know the right apps to download. &lt;/p&gt;  &lt;p&gt;Before you fall down the rabbit hole that is the app store, check out our list of the best health and fitness apps. We tested out hundreds before whittling it down to the 39 that are really worth checking out. (Some are repeats from &lt;a href=&quot;http://greatist.com/live/best-health-and-fitness-apps-2015&quot;&gt;last year&rsquo;s list&lt;/a&gt;, but there are plenty of newbies as well.) &lt;/p&gt;  &lt;p&gt;&lt;em&gt;Note: This list is presented in no particular order. To check out the methodology we used to determine which apps made the cut, scroll to the bottom.&lt;/em&gt;&lt;/p&gt;  &lt;section class=&quot;slideshow list-image-left&quot;  &gt;
+            &lt;h3 class=&quot;subhead&quot;&gt;Fitness&lt;/h3&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.c25k.com&quot;&gt;1. Couch to 5K &lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/c25k.png?itok=5oz-JhGR&quot;
+
+          alt=&quot;c25k&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;If you&rsquo;ve wanted to try running but never known where to start, Couch to 5K should be the next app you download. The free eight-week program gives users three workouts per week that get you ready for your local Turkey Trot or Fourth of July road race. (Free; &lt;a href=&quot;https://itunes.apple.com/au/app/c25k-5k-trainer-free-go-from/id485971733?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.c25k&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.blogilates.com&quot;&gt;2. Blogilates&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/blogilates.png?itok=ZSrBRKKn&quot;
+
+          alt=&quot;Blogilates&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;We first fell in love with &lt;a href=&quot;http://greatist.com/health/most-influential-health-fitness-people&quot;&gt;Cassey Ho&lt;/a&gt; while watching her Blogilates videos on YouTube. This app takes things to the next level&mdash;you get access to all of her videos, plus an online forum and monthly workout calendar. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/blogilates-official-app/id677023207?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=co.veam.veam31000015&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://zombiesrungame.com&quot;&gt;3. Zombies, Run!&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/zombies-run.png?itok=zBhpF8nI&quot;
+
+          alt=&quot;Zombies, Run!&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Running becomes way more fun when each step gets you closer to carrying out your mission, collecting materials for your base camp, and keeping humans safe from the zombie apocalypse. There&rsquo;s a reason this game became the highest-grossing health and fitness app on iTunes in just two weeks&mdash;even though it&rsquo;s free to download, you&rsquo;ll start shelling out money like you do for Candy Crush. Except this game helps you get your sweat on. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/zombies-run!/id503519713?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.sixtostart.zombiesrunclient&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://fit.net&quot;&gt;4. Fitnet&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/fitnet.png?itok=44ZxjyU1&quot;
+
+          alt=&quot;Fitnet&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Fitnet is the workout app for people who can&rsquo;t carve out time to go to the gym. The app features an abundance of five- and seven-minute targeted workouts, so you don&rsquo;t have to sacrifice time with your friends and family to achieve your fitness goals. Plus, the app uses your phone&rsquo;s camera for a whole new kind of selfie&mdash;this one measures how closely you follow the moves shown on the screen. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/fitnet-personal-trainer/id718444936?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=net.fit.app&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://sworkit.com&quot;&gt;5. Sworkit&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/sworkit_0.png?itok=INFzHFTl&quot;
+
+          alt=&quot;Sworkit&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Tell Sworkit the type of workout you&rsquo;re looking for (strength, cardio, yoga, or stretching) and the amount of time you&rsquo;ve got (anywhere from five minutes to an hour), and the app delivers the moves to follow during your sweat session. If you opt for premium ($4.99 per month), the app lets you get even more personalized, by setting the number of reps and the areas of the body you want to focus on. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/sworkit-daily-circuit-training/id527219710?mt=8&amp;amp;ign-mpt=uo%3D4&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=sworkitapp.sworkit.com&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.motiontraxx.com&quot;&gt;6. Motion Traxx&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/motion-traxx.jpeg?itok=QXrhvaHR&quot;
+
+          alt=&quot;MotionTraxx&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Listening to music can be the perfect way to add extra oomph to your workout, but crafting the perfect playlist is tricky. That&rsquo;s where Motion Traxx comes in. The app combines coaching from world-class trainers with music designed to set the perfect intensity for every phase of your workout. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/motion-traxx-fitness-cardio/id905096566?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.motiontraxx.motiontraxxand&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://stronglifts.com&quot;&gt;7. StrongLifts 5x5&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/stronglifts-5x5.png?itok=Ho9yZVj7&quot;
+
+          alt=&quot;Stronglifts 5x5&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;No need to carry around a paper and pencil while lifting at the gym anymore. This app keeps track of the exercise, number of reps, and rest time, so all you have to worry about is getting to the gym and getting &lt;s&gt;huge&lt;/s&gt; stronger. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/stronglifts-5x5-simplest-most/id488580022?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.stronglifts.app&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;) &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.strava.com/&quot;&gt;8. Strava Running and Cycling&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/strava.png?itok=JhouQZQK&quot;
+
+          alt=&quot;Strava&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;If you&rsquo;re a serious runner or cyclist, you need one place to keep track of your most recent runs and rides, and no app comes close to the capabilities offered by Strava. The app can track distance, speed, elevation, calories burned, heart rate, power, and cadence. Then it synthesizes all of this data into easy-to-understand graphics. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/app/strava-cycling/id426826309?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.strava&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.spotify.com/us/running/&quot;&gt;9. Spotify Running&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/spotify.png?itok=wOvaW7PD&quot;
+
+          alt=&quot;Spotify Running&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Part of the Spotify app (and let&rsquo;s be honest, you probably already have that on your phone), Spotify Running measures your pace and picks a song with the beats per minute to match it. It&rsquo;s about time your music matches your cadence instead of the other way around. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.spotify.music&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.yonder.it/download/&quot;&gt;10. Yonder&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/yonder.png?itok=Kaog0ixs&quot;
+
+          alt=&quot;Yonder&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Think of this like Yelp for the outdoor enthusiast. Enter your location and find dozens of suggestions for hiking, biking, kayaking, and skiing with reviews and tips from fellow outdoorsmen and women. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/yonder-outdoor-adventures/id643341612?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.yonder.android&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.dailyyoga.com/&quot;&gt;11. Daily Yoga&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/daily-yoga.png?itok=98QiD8Nd&quot;
+
+          alt=&quot;Daily Yoga&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Never be bored by yoga again: More than 50 classes shot in HD video are just a few taps away. Each sequence has a specific focus, from increasing flexibility to strengthening your core. Plus, there&rsquo;s a library with detailed videos of more than 500 poses. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/id545849922?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.dailyyoga.inc&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://itunes.apple.com/us/app/yoga-wake-up/id973221723?mt=8&quot;&gt;12. Yoga Wake Up&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/yoga-wake-up.png?itok=25MIXWZ9&quot;
+
+          alt=&quot;Yoga Wake Up&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;What better way to ease into the day than with a quick morning yoga flow? This app delivers a 10-minute sequence at your designated wake-up time. Each sequence is a little different. Some focus more on meditation, while others hone in on holding poses and setting intentions. Yoga every damn day just got a whole lot easier. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/yoga-wake-up/id973221723?mt=8&quot;&gt;iOS&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.nike.com/us/en_us/c/womens-training/apps/nike-training-club&quot;&gt;13. Nike+ Training Club&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/nike-plus.png?itok=P8ukZ3Cw&quot;
+
+          alt=&quot;Nike+ Training Club&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Nike+ Training Club comes with all the things you&rsquo;d expect from a top-notch fitness app: workouts designed by professional trainers and athletes, customizable fitness programs, sharing capabilities to compare your progress with others, and a totally sleek interface. And in Nike fashion, it just does it better than the competition. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/nike+-training-club/id301521403?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.nike.ntc&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.endomondo.com/&quot;&gt;14. Endomondo&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/endomondo.png?itok=ZiB0rCd2&quot;
+
+          alt=&quot;Endomondo&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Cardio exercise can quickly get boring and repetitive. That&rsquo;s why Endomondo is so great. Set a goal for your run, walk, or bike ride, and the app&rsquo;s virtual trainer lets you know if you&rsquo;re on track to meet it or if you need to speed up. It&rsquo;s great to compete against yourself (and your goals), but it&rsquo;s even better when you can use Endomondo to challenge or cheer on friends. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/running-walking-endomondo/id333210180?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.endomondo.android&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.freeletics.com/en&quot;&gt;15. Freeletics&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/freeletics.png?itok=ljxCFBg9&quot;
+
+          alt=&quot;Freeletics&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Looking for bodyweight workouts? Freeletics has more than 900 that last anywhere from 10 to 30 minutes. Whether you choose to work out in the kitchen, on the subway, or in your office, you can rely on Freeletics to deliver a great workout for your fitness level. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/freeletics-bodyweight-workouts/id654810212?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.freeletics.lite&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3 class=&quot;subhead&quot;&gt;Food and Nutrition&lt;/h3&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.fooducate.com&quot;&gt;16. Fooducate&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/fooducate.png?itok=87o8xTId&quot;
+
+          alt=&quot;Fooducate&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Foodcuate makes grocery shopping surprisingly fun. Open the app, scan barcodes, and get a quick read on how healthy each item is. It also tracks sleep, mood, and hunger levels. Then Fooducate analyzes all of the information and provides feedback to help you meet your health and fitness goals. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/weight-loss-coach-by-fooducate/id398436747?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.fooducate.nutritionapp&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.shopwell.com/mobileapp&quot;&gt;17. ShopWell&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/shopwell1.png?itok=Bqrj53U3&quot;
+
+          alt=&quot;Shopwell&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;The field of calorie-counting apps is heavily saturated, but ShopWell still manages to stand out. The app is all about personalization. Enter in your height, weight, age, and allergies, and then it scores every food you can think of on how healthy it is for you&mdash;the closer to 100, the better. And it even makes individual recommendations for similar, healthier products to eat instead. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/shopwell-healthy-diet-grocery/id393422300?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.shopwell.shopwellandroid&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;) &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.sidechef.com&quot;&gt;18. SideChef&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/sidechef1.png?itok=OdZrZX9F&quot;
+
+          alt=&quot;SideChef&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;So you&rsquo;re totally game to try out new recipes, but fiddling with your phone to follow the directions while your hands are sticky is a huge pain. That&rsquo;s where SideChef comes in. The app provides step-by-step voice command instructions. If it&rsquo;s going too fast, you can ask SideChef to repeat directions without ever having to get your phone dirty&mdash;or worse, waterlogged. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/sidechef-step-by-step-cooking/id905229928?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.sidechef.sidechef&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://mysugr.com/apps/&quot;&gt;19. mySugr&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/mysugr_0.png?itok=bE6ggen7&quot;
+
+          alt=&quot;mySugr&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Most of us can&rsquo;t remember what we had for lunch yesterday, but diabetics don&rsquo;t have the luxury of not paying attention to their food and how it affects their blood glucose levels. It&rsquo;s very tricky to keep mental notes, and a pen and paper just doesn&rsquo;t measure up to the tracking capabilities of this app. Wonder why certain days you feel crummier than others? mySugr can be your diabetes detective to determine the foods you need to cut back on. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/app/id516509211?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.mysugr.android.companion&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://thrivemarket.com/&quot;&gt;20. Thrive Market&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/thrive-market.jpeg?itok=AqbTnhxc&quot;
+
+          alt=&quot;Thrive Market&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Buying healthy food has never been easier and cheaper. Thrive Market is basically the Costco for natural and organic products. Pay a yearly fee ($59.95) and have access to insane deals on everything from coconut oil to kale chips. The app makes it easy to shop for groceries whenever you&rsquo;ve got the time, and then Thrive sends your order right to your door. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/thrive-market/id1077909668?mt=8&quot;&gt;iOS&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.rise.us/&quot;&gt;21. Rise&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/rise_0.png?itok=Gq4V6dgG&quot;
+
+          alt=&quot;Rise&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;We have the best of intentions when it comes to eating healthy, but Rise is the app that really keeps you honest. It pairs you up with a nutritionist, and every day you send them photos of the food you&rsquo;ve eaten. Based on your specific goal (losing weight, gaining strength, feeling more energized), your nutritionist will help you tweak your diet. At $14.99 per week, it&rsquo;s cheaper than IRL appointments with an R.D. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/rise-nutrition-weight-loss/id794278760?mt=8&quot;&gt;iOS&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.ingredient1.com/&quot;&gt;22. Ingredient1&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/ingredient.png?itok=7rZ77ZHR&quot;
+
+          alt=&quot;ingredient1&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;If you have dietary restrictions, you know how much of a pain it can be to check the ingredients on every label at the grocery store. That&rsquo;s where Ingredient1&rsquo;s FoodID comes in handy. Answer a series of questions about your typical diet (from foods that are absolute no-nos to things you&rsquo;d rather avoid), and Ingredient1 introduces you to hundreds of products that fit your criteria. Plus it finds stores nearby where you can buy them. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/ingredient1/id900453506?mt=8&quot;&gt;iOS&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.myfitnesspal.com&quot;&gt;23. MyFitnessPal&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/myfitnesspal.png?itok=bJe0OVR5&quot;
+
+          alt=&quot;MyFitnessPal&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;MyFitnessPal is the most popular health and fitness app in the world, and it&rsquo;s easy to see why. The app&rsquo;s database of more than 6 million foods makes it easy to track your diet, no matter what you eat. Whether you&rsquo;re trying to lose weight or put on muscle, the app helps determine the best things to eat to meet your goals. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/calorie-counter-diet-tracker/id341232718&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.myfitnesspal.android&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://lifesum.com&quot;&gt;24. Lifesum&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/lifesum.png?itok=CrXfmMzs&quot;
+
+          alt=&quot;Lifesum&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Have a sweet tooth or a love of junk food? It can feel like you need a whole lifestyle makeover to start eating healthy. But Lifesum proves it&rsquo;s all about small, sustainable changes. Pick a goal (lose weight, bulk up, or eat better) and the app sends you reminders (drink more water), feedback to improve your diet, and simple graphics ways to visualize your progress. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/lifesum-healthier-living-better/id286906691?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.sillens.shapeupclub&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.dietbet.com&quot;&gt;25. DietBet&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/dietbet.jpg?itok=YDRFcU7x&quot;
+
+          alt=&quot;DietBet&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Just like its name implies, this app forces you to put your money where your mouth is and show you&rsquo;re not full of hot air when it comes to your weight-loss goals. Users enter into a challenge where they can bet they&rsquo;ll lose either 4 percent of their weight in four weeks or 10 percent of their weight in six months. Progress is monitored by DietBet&rsquo;s referees, and the pot is then split between everyone in your group who makes their goal weight. (Free to download, $25-$25 per bet; &lt;a href=&quot;https://itunes.apple.com/us/app/dietbet-lose-weight.-make/id532353287?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.dietbet.app&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://us.noom.com/coach/&quot;&gt;26. Noom Coach&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/noom.png?itok=Ed1AYjUQ&quot;
+
+          alt=&quot;Noom Coach&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Dieting can be so complex. Don&rsquo;t have time to check your macros (or don&rsquo;t know what those are)? Time to download Noom Coach. Unlike other calorie-counting apps, Noom uses the stoplight approach (green is good, red is not so great) to label healthy food. And you can join in on challenges with other Noomers to get even more motivated to meet your health goals. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/noom-coach-weight-loss/id634598719?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.wsl.noom&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3 class=&quot;subhead&quot;&gt;Mind and Brain&lt;/h3&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://itunes.apple.com/us/app/deep-sleep-andrew-johnson/id337349999?mt=8&quot;&gt;27. Deep Sleep With Andrew Johnson&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/deep-sleep1.png?itok=uXFl2ZdC&quot;
+
+          alt=&quot;Deep Sleep With Andrew Johnson&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Find yourself tossing and turning, unable to catch any zzzs? Perhaps the soothing, melodic voice of Andrew Johnson&rsquo;s guided meditation will help lull you into a restful stupor. ($2.99; &lt;a href=&quot;https://itunes.apple.com/us/app/deep-sleep-andrew-johnson/id337349999?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.hivebrain.andrewjohnson.deepsleep&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.meditationstudioapp.com&quot;&gt;28. Meditation Studio&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/meditation-studio.jpeg?itok=rqANhdpq&quot;
+
+          alt=&quot;Meditation Studio&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;There are so many different types of guided meditation. Rather than try a general practice that focuses on relaxation, this app offers meditations catered to your needs, whether it&rsquo;s anxiety, stress, happiness, or gratitude. And best of all, it&rsquo;s a one-time fee for access to more than 160 meditations. ($2.99; &lt;a href=&quot;https://itunes.apple.com/us/app/meditation-studio/id1066018502&quot;&gt;iOS&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://itunes.apple.com/app/id1059195733&quot;&gt;29. H*nest Meditation App&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/honest-meditation-app.jpeg?itok=fT-sK4YJ&quot;
+
+          alt=&quot;Honest Meditation App&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Ah, the drunk uncle of meditation apps&mdash;it wants the best for you, but you know it will tell it like it f*cking is. Strangely enough, cussing and calm really do make a good combination. If anything, H*nest Meditation is bringing calm to the common (wo)man, and we&rsquo;re damn grateful for that. Just make sure to wear your headphones. ($1.99; &lt;a href=&quot;https://itunes.apple.com/us/app/h*nest-meditation/id1059195733?mt=8&quot;&gt;iOS&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.talkspace.com/&quot;&gt;30. Talkspace&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/talkspace.jpeg?itok=xLYNht54&quot;
+
+          alt=&quot;Talkspace&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Bet you didn&rsquo;t think you could chat with a therapist for just $25 per week. Well, Talkspace makes that possible. For that low fee, you can text with a trained professional as often as you need. They also offer services for individuals and couples. Oh, and the best part? You can do it from your couch. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/app/id661829386?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.talkspace.talkspaceapp&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://my.happify.com/&quot;&gt;31. Happify&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/happify.jpeg?itok=hy3ATUp9&quot;
+
+          alt=&quot;Happify&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;This app is like a gym membership for your emotional health. The first time you open Happify, you&rsquo;re prompted to select a track that best meets your needs, whether it's finding more &ldquo;me&rdquo; time or getting better at handling stress. Each track is designed by an expert using the latest scientific research and full of quick, daily activities, including games, mindful meditations, and assessments. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/happify/id730601963?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.happify.happifyinc&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.relationup.com/&quot;&gt;32. Relationup&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/relationup.jpg?itok=C_Gb36DZ&quot;
+
+          alt=&quot;RelationUP&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;We all have moments when we need relationship advice. We often turn to friends, but sometimes it's best to call in the big guns. That's when Relationup comes to the rescue. The app lets you text with one of the qualified, prescreened relationship counselors, and it's cheaper than going to therapy. Counselors are available 24/7 to help you with anything that&rsquo;s troubling you, from a breakup to questions about a second date to family drama. Your first conversation is free, and they run $12 per 15 minutes thereafter. (Free with optional in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/relationup-get-live-help-from/id1006899801?mt=8&amp;amp;ign-mpt=uo%3D4&quot;&gt;iOS&lt;/a&gt;) &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.7cups.com&quot;&gt;33. 7 Cups &lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/7cups.png?itok=-pJ3ezPI&quot;
+
+          alt=&quot;7 Cups&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Sometimes you just want to talk, and 7 Cups gives you an alternative to waking up your friends at 3 a.m. to vent about your annoying boss or significant other. The app offers fast, free responses from trained listeners. Now you can speak your mind without feeling judged whenever and wherever you need to. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/7-cups-anxiety-stress-depression/id921814681?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.sevencupsoftea.app&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3 class=&quot;subhead&quot;&gt;Overall Health&lt;/h3&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.healthtap.com/&quot;&gt;34. HealthTap&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/healthtap.png?itok=F4riEDVt&quot;
+
+          alt=&quot;HealthTap&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Next time you have a pressing medical concern (should I be worried about this rash?), don&rsquo;t ask Dr. Google. Turn to HealthTap instead. The app sends your question to its network of doctors, and one will answer you within a few hours. HealthTap also comes with a library of information on common ailments, so you can be better at spotting symptoms and picking the best remedy. And if you are looking for even more care, you can choose the prime membership ($99 per month), which allows you unlimited video and text chatting with doctors. (Free with in-app purchases; &lt;a href=&quot;https://itunes.apple.com/us/app/id466079030?&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.healthtap.userhtexpress&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.iodine.com/start&quot;&gt;35. Start&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/start.jpeg?itok=fPrclts-&quot;
+
+          alt=&quot;Start&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;If you&rsquo;re suffering from depression, it can take months upon months to find the right medicine (or drug cocktail) that works for you. Start aims to make that process a whole lot easier. The app includes a depression test, as well as programs to track your progress and the side effects of your medication&mdash;all helpful information to share with the medical professional treating you. (Free: &lt;a href=&quot;https://itunes.apple.com/us/app/id1012099928?_branch_match_id=246340427857593590&quot;&gt;iOS&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.helloclue.com/&quot;&gt;36. Clue&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/clue-app.jpg?itok=kb-R2WVL&quot;
+
+          alt=&quot;Clue&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Never be blindsided by your period again. Clue tracks your menstrual cycle, offering reminders before your next period. As Clue&rsquo;s algorithm finds the unique patterns of your own cycle, it will provide valuable insights for your everyday life. The app&rsquo;s designers also promise to never use flowers, butterflies, or euphemisms, so you can face your next period like an adult. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/clue-period-pms-tracker-health/id657189652?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.clue.android&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.sleepcycle.com/&quot;&gt;37. Sleep Cycle&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/sleep_cycle_android_icon.png?itok=cN5EwJVa&quot;
+
+          alt=&quot;Sleep Cycle&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;Say sayonara to feeling groggy in the morning. This app measures your sleep cycle, as its name suggests. Then it wakes you sometime during a 30-minute window before your alarm when you&rsquo;re in the lightest sleep state. Sure, you might get up before your alarm goes off, but you&rsquo;ll feel refreshed and ready to take on the day. (Free with in-app purchases on &lt;a href=&quot;https://itunes.apple.com/app/apple-store/id320606217?mt=8&quot;&gt;iOS&lt;/a&gt;, $0.99 on &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.northcube.sleepcycle&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://itunes.apple.com/app/id866001468&quot;&gt;38. Power Nap App&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/power-nap-app2.jpeg?itok=xV7m9Gas&quot;
+
+          alt=&quot;Power Nap App&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;If there are two things we love, it&rsquo;s &lt;a href=&quot;http://greatist.com/fitness/cat-turned-pro-soccer-goalie-video&quot;&gt;cats&lt;/a&gt; and &lt;a href=&quot;http://greatist.com/live/naps-boost-productivity&quot;&gt;naps&lt;/a&gt;. The Power Nap App combines these natural gifts, complete with a timer (that only goes up to 30 minutes), pleasant sounds to help you sleep, and an alarm that gently wakes you back up, so you can rock the rest of your day. (Free; &lt;a href=&quot;https://itunes.apple.com/app/id866001468&quot;&gt;iOS&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+          
+            &lt;div class=&quot;slide&quot;&gt;
+        
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.leafly.com&quot;&gt;39. Leafly&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;span
+  class=&quot;media media-element-container media-g_tiny_float_left&quot;
+  &gt;
+    &lt;img
+    src=&quot;http://greatist.com/sites/default/files/styles/mini_content/public/leafly.png?itok=gaU0oHzb&quot;
+
+          alt=&quot;Leafly&quot;
+    
+        class=&quot;media-element file-g-tiny-float-left&quot;
+  /&gt;
+
+  
+  &lt;/span&gt;This sleek app is the Wikipedia of weed, offering exhaustive information on thousands of marijuana strains, from Girl Scout Cookies (yes, that&rsquo;s a real strain) to Purple Urkle. It also offers directions to the nearest dispensary (in states where pot is legal) and regular updates on cannabis news. (Free; &lt;a href=&quot;https://itunes.apple.com/us/app/leafly-marijuana-strain-dispensary/id416456429?mt=8&quot;&gt;iOS&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=leafly.android&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt;)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/section&gt;
+  &lt;p&gt;&lt;em&gt;Methodology: We asked a number of questions to determine if each app we tested should appear on our list. Is it highly rated? Does it offer something unique? It is user-friendly? Is it reliable and not buggy? Does it drain a smartphone&rsquo;s battery? Can it continue to grow and innovate? Apps that scored well on all criteria ended up the final list. Do you think we missed an app? Send a message to &lt;a href=&quot;mailto:tips@greatist.com&quot;&gt;tips@greatist.com&lt;/a&gt;, and we&rsquo;ll consider it for next year&rsquo;s ranking. &lt;/em&gt;&lt;/p&gt; ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Greatist",
+    "sameAs": "http://www.greatist.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://greatist.com/sites/all/themes/greatist2x/images/design/greatist_jsonld_logo.png",
+      "height": 60,
+      "width": 206
+    }
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Jeff Cattel",
+      "sameAs": "http://greatist.com/p/jeffcattel"
+    }
+  ]
+}</script>
+<meta name="sailthru.image" content="http://greatist.com/sites/default/files/styles/newsletter-feature-652x338/public/health-fitness-apps-2016.jpg?itok=2oWTdKyf" />
+<link href="http://greatist.com/fitness/best-health-fitness-apps/amp" rel="amphtml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="There&#039;s an app for just about anything. We dug through hundreds of them to find the ones that are actually worthy of the precious space on your smartphone." />
+
+<meta property="fb:admins" content="1101180055" />
+<meta property="fb:app_id" content="338405982951793" />
+<meta property="og:site_name" content="Greatist" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The 39 Best Health and Fitness Apps of 2016" />
+<meta property="og:url" content="http://greatist.com/fitness/best-health-fitness-apps" />
+<meta property="og:description" content="There&#039;s an app for just about anything. We dug through hundreds of them to find the ones that are actually worthy of the precious space on your smartphone." />
+<meta property="og:image" content="http://greatist.com/sites/default/files/styles/big_share/public/health-fitness-apps-2016.jpg?itok=_BUIkQUt" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@greatist" />
+<meta name="twitter:url" content="http://greatist.com/fitness/best-health-fitness-apps" />
+<meta name="twitter:title" content="The 39 Best Health and Fitness Apps of 2016" />
+<meta name="twitter:description" content="There&#039;s an app for just about anything. We dug through hundreds of them to find the ones that are actually worthy of the precious space on your smartphone." />
+<meta name="twitter:image:src" content="http://greatist.com/sites/default/files/styles/article_main/public/health-fitness-apps-2016.jpg?itok=QjjRrYhU" />
+<meta property="article:author" content="https://twitter.com/JCattel" />
+<meta property="article:publisher" content="https://www.facebook.com/greatist" />
+<meta property="article:section" content="Live" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQAFVldUGwsJU1BWAQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+  <meta name="google-site-verification" content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE" />
+  <link href="https://plus.google.com/+Greatist" rel="publisher" />
+  <!-- <link rel="apple-touch-icon" href="/sites/default/files/Mobile-Icon-V3.jpg"/> -->
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-128.png" sizes="128x128" />
+  <meta name="msapplication-TileImage" content="/sites/all/themes/greatist2x/images/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x310.png" />
+  <meta name="google-site-verification"
+        content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE"/>
+  <link href="https://plus.google.com/+Greatist" rel="publisher"/>
+
+  <title>The 39 Best Health and Fitness Apps of 2016 | Greatist</title>
+  <link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_qKsSCcrOVT4pKULgi4iAVuPQPU3lfSzuSXMJCARUKic.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_apECqqs4IfYxrJBKMsMh0b_85X5CyllXLp6hODNanx4.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_yYuTvjdq5_epDRBZUITk8EG5FPEk00zL4y1ftmiAgXY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css__kLaRzNXRI_NisJDTD0u5qnEU3iVMT3xBsvltojOvYg.css" media="all" />
+  <script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_jAem-GbtffJErQNlP33_rowrrkscx9kVa0aYdo8r3pQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};googletag.cmd = googletag.cmd || [];var gads = document.createElement("script");gads.async = true;gads.type = "text/javascript";var useSSL = "https:" == document.location.protocol;gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";var node =document.getElementsByTagName("script")[0];node.parentNode.insertBefore(gads, node);
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_I8yX6RYPZb7AtMcDUA3QKDZqVkvEn35ED11_1i7vVpc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-20914064-2", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("require", "displayfeatures");ga("set", "dimension1", "April 19, 2016");ga("set", "dimension2", "The Greatist Team");ga("set", "dimension3", "health and fitness apps,healthy tech,technology");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.pubads().setTargeting('post_id', '3105');googletag.pubads().setTargeting('is_testing', 'no');});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.defineSlot('/38507188/Teads_1x1',[1,1],'page').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.enableServices();});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var greatist_globals = {"env":"live","build_id":1470903983,"themepath":"\/sites\/all\/themes\/greatist2x","jsfolder":"\/sites\/all\/themes\/greatist2x\/js\/c","height_analytics_frequency":100,"yieldbot":true,"yb_pub_id":"1ce9","yb_pub_id_mobile":"7a53","horizon":true,"thinglink":false,"require":{"baseUrl":"\/sites\/all\/themes\/greatist2x\/js\/c\/greatist-build","urlArgs":"v=1470903983"},"amazon_tag":"greatist-20","uid":0,"nodepage":true,"prod_url":"http:\/\/greatist.com\/fitness\/best-health-fitness-apps","article_nid":"3105","article_uid":"7","article_created":"1461070800","article_title":"The 39 Best Health and Fitness Apps of 2016","article_type":"article","article_subtype":"List With Images","tags":["Health and Fitness Apps","Healthy Tech","Technology"],"tags_dfp":["health and fitness apps","healthy tech","technology"],"categories":"Live","categories_dfp":"live","pinterest_hashtags":"#health #fitness #apps","author":"The Greatist Team","shares":{"gplus":564,"twitter":0,"fb":0,"stumble":23047,"pinterest":43070,"total":67149},"kargo_ad_line_items":["189420108"]};
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_35WjR-K-c1eoIjZOUUMFSuAkyRxZn3QW5GWmChFKAXU.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_dynamic.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_static.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_su0LbO_kIcrk2xwJfPUqU2MlKQEFTfzu-XRzjcV6gwI.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_Fpfp_QVPEaF7N8wcBw0ZYabifSNdisHqFagZ7VgQqTY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greatist2x","theme_token":"EhYY3m1xfOVJpkXrCocJ_mSelkMS4DyFAqICxniW2Q4","js":{"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/main.js":1,"0":1,"sites\/all\/modules\/custom\/gr8ist_social\/includes\/js\/gr8ist_instagram_embed.js":1,"\/\/wms-na.amazon-adsystem.com\/20070822\/US\/js\/auto-tagger.js?tag=greatist-20\u0026locale=US\u0026overwrite=1":1,"1":1,"2":1,"\/\/dc8xl0ndzn2cb.cloudfront.net\/js\/greatist\/v0\/keywee.min.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1,"5":1,"6":1,"7":1,"sites\/all\/themes\/greatist2x\/js\/c\/require_m.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_dynamic.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_static.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/require-config.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/lib\/modernizr.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/print.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/magnific-popup.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/jquery.qtip.min.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/style.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+  <!--[if lte IE 9 ]>
+  <link type="text/css" rel="stylesheet"
+        href="/sites/all/themes/greatist2x/css/old-ie.css" media="all"/>
+  <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-3105 node-type-article env-live" >
+<div id="skip-link">
+  <a href="#main-content"
+     class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div id="page">
+  <div class="leaderboard"><div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-leaderboard"
+  data-ad-dfp="/38507188/ROS_728x90"
+  data-ad-slot="div-gpt-ad-1408633905912-0"
+  data-ad-size="728x90"
+  class="dfp-tag-wrapper dfp-ad-article-ad-leaderboard"></div>
+
+<div
+  data-restrict-context-to="x-small,small,medium"
+  data-dfp-g-id="article-ad-mobile-top"
+  data-ad-dfp="/38507188/ROS_320x50_Mobile"
+  data-ad-slot="div-gpt-ad-1412623396310-0"
+  data-ad-size="300x50,320x50"
+  class="dfp-tag-wrapper dfp-ad-article-ad-mobile-top"></div>
+
+</div>
+  <header role="banner" data-header class="clearfix">
+  <nav role="navigation">
+    <div id="nav-touch-wrapper" ng-controller="menuCtrl">
+      <div id="main-menu">
+  <div class="menu-mobile" ng-controller="hamburgerCtrl">
+    <a href="#" class="icon-wrapper" ng-click="toggle()">
+      <i class="fa fa-bars" ng-hide="open=='open'"></i>
+      <img class="close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" ng-show="open" ng-cloak />
+    </a>
+    <div class="hamburger-menu" ng-class="open">
+  <ul class="categories">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-eat', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/eat">EAT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-move', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/move">MOVE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-live', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/live">LIVE</a>        </h3>
+      </li>
+      </ul>
+
+  <ul class="more">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/newsletter">SUBSCRIBE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/about">ABOUT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-careers', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/careers">CAREERS</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-advertise', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/advertise">ADVERTISE</a>        </h3>
+      </li>
+      </ul>
+</div>
+  </div>
+
+  <div class="menu group-left">
+    <div itemscope itemtype="http://schema.org/Organization" class="menu-item logo">
+      <a itemprop="url" href="/" title="Home" rel="home" id="logo">
+        <img itemprop="logo" src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_White.svg" alt="Home" />
+        <span class="element-hidden" itemprop="name">Greatist</span>
+      </a>
+    </div>
+    <div class="menu-items categories">
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-eat"  href="/eat" >
+            <h4>EAT</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-move"  href="/move" >
+            <h4>MOVE</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-live"  href="/live" >
+            <h4>LIVE</h4>
+          </a>
+        </div>
+          </div>
+  </div>
+
+  <div class="menu group-right">
+    <div class="menu-item more-medium">
+  <h4>MORE <i class="fa fa-angle-down"></i> </h4>
+  <ul class="sub-menu-list">
+        <li class="subscribe">
+      <a ng-click="click()" track="cat-subscribe"  href="/newsletter" >
+        <h5>SUBSCRIBE</h5>
+      </a>
+    </li>
+        <li class="about">
+      <a ng-click="click()" track="cat-about"  href="/about" >
+        <h5>ABOUT</h5>
+      </a>
+    </li>
+      </ul>
+</div>
+
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+    <a href="/newsletter">
+      <h4>
+        <i class="fa fa-envelope-o"></i>        SUBSCRIBE      </h4>
+    </a>
+  </div>
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+    <a href="/about">
+      <h4>
+                ABOUT      </h4>
+    </a>
+  </div>
+    <div class="menu-item search">
+      <a href="/search" class="search-button discover-cta">
+        <h4>EXPLORE</h4>
+      </a>
+    </div>
+  </div>
+</div>
+    </div>
+  </nav>
+</header>
+  
+  
+  
+  
+  <div class="article-container  "
+    ng-controller="ArticleCtrl"
+    ng-init="init()">
+  <div class="article-main">
+    <article
+      class="article-main-column main-column"
+      itemscope
+      itemtype="http://schema.org/Article"
+    >
+      <div class="article-top">
+                  <div itemprop="description" class="element-hidden">There&#039;s an app for just about anything. We dug through hundreds of them to find the ones that are actually worthy of the precious space on your smartphone. </div>
+                <header class="article-header">
+          <div class="group-article-meta">
+            <div
+  class="field field-name-post-date"
+  itemprop="datePublished"
+  content="2016-04-19"
+>
+  April 19, 2016  <span class="separator">|</span> </div>
+            <div class="field article-author-top" itemscope itemprop="author" itemtype="http://schema.org/Person">
+  <span class="label">By </span>
+       <span><a
+          href="http://greatist.com/p/jeffcattel"
+          title="User profile of "
+          class="username"
+          about="http://greatist.com/p/jeffcattel"
+          typeof="sioc:UserAccount"
+          itemprop="url"
+        ><span itemprop="name">Jeff Cattel</span>
+        </a>
+      </span>
+         <span> and <a
+          href="http://greatist.com/p/zachwatson"
+          title="User profile of "
+          class="username"
+          about="http://greatist.com/p/zachwatson"
+          typeof="sioc:UserAccount"
+          itemprop="url"
+        ><span itemprop="name">Zach Watson</span>
+        </a>
+      </span>
+    </div>
+          </div>
+          <h1 class="title" id="page-title" itemprop="name headline alternativeHeadline">The 39 Best Health and Fitness Apps of 2016</h1>
+        </header>
+        <div class="top-share">
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="top">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/fitness/best-health-fitness-apps"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2Fhealth-and-fitness-apps-2016-banner.jpg%3Fitok%3DyOT0WZPO"
+  data-mediatitle="The 39 Best Health and Fitness Apps of 2016"
+  data-title="The 39 Best Health and Fitness Apps of 2016"
+  data-promotitle="The 39 Best Health and Fitness Apps of 2016"
+  data-pintitle="There\'s an app for just about anything. We dug through hundreds of them to find the ones that..."
+  data-twitter=""
+  data-twitter-url="http://grt.st/1rKpOy0"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  <a class="print-button" title="Print this article" href="/print/3105" rel="nofollow" ng-click="print()">
+  <i class="fa fa-print"></i>
+  </a>
+
+      <div class="fb-like-wrapper ng-cloak">
+      <span class="label">LIKE US ON FACEBOOK</span>
+    </div>
+  </div>
+  </div>
+</div>
+        </div>
+      </div>
+
+      <div class="side-share">
+        <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/fitness/best-health-fitness-apps"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2Fhealth-and-fitness-apps-2016-banner.jpg%3Fitok%3DyOT0WZPO"
+  data-mediatitle="The 39 Best Health and Fitness Apps of 2016"
+  data-title="The 39 Best Health and Fitness Apps of 2016"
+  data-promotitle="The 39 Best Health and Fitness Apps of 2016"
+  data-pintitle="There\'s an app for just about anything. We dug through hundreds of them to find the ones that..."
+  data-twitter=""
+  data-twitter-url="http://grt.st/1rKpOy0"
+  class="share-buttons"
+  data-origin="side"
+>
+      <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+      <i class="fa fa-facebook"></i>
+    </a>
+        <a class="share-pinterest" ng-click="share_pin()">
+      <i class="fa fa-pinterest-p"></i>
+    </a>
+    <a class="share-twitter" ng-click="share_tw()">
+    <i class="fa fa-twitter"></i>
+  </a>
+  <a class="share-email" ng-click="share_email()">
+    <i class="fa fa-envelope-o"></i>
+  </a>
+</div>
+      </div>
+
+      <div class="article-body block" data-scroll-reach-tracking="article-content-beginning">
+                <div class="article-body-content" data-target-blank itemprop="articleBody">
+  <p>We spend too much time staring at our phones—just ask the pedestrians we almost walk into on a daily basis. If scrolling through your Newsfeed or swiping right were Olympic sports, we’d definitely take home a medal. But in reality, the only things getting a workout in either case are our thumbs. That’s not to say your phone can’t help you lead a healthier, happier life. You just need to know the right apps to download. </p>  <p>Before you fall down the rabbit hole that is the app store, check out our list of the best health and fitness apps. We tested out hundreds before whittling it down to the 39 that are really worth checking out. (Some are repeats from <a href="http://greatist.com/live/best-health-and-fitness-apps-2015">last year’s list</a>, but there are plenty of newbies as well.) </p>  <p><em>Note: This list is presented in no particular order. To check out the methodology we used to determine which apps made the cut, scroll to the bottom.</em></p>  <section class="slideshow list-image-left" ng-controller="SlideshowListCtrl" ng-init="init()">
+            <h3 class="subhead">Fitness</h3>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.c25k.com">1. Couch to 5K </a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/c25k.png?itok=5oz-JhGR"
+
+          alt="c25k"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>If you’ve wanted to try running but never known where to start, Couch to 5K should be the next app you download. The free eight-week program gives users three workouts per week that get you ready for your local Turkey Trot or Fourth of July road race. (Free; <a href="https://itunes.apple.com/au/app/c25k-5k-trainer-free-go-from/id485971733?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.c25k&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.blogilates.com">2. Blogilates</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/blogilates.png?itok=ZSrBRKKn"
+
+          alt="Blogilates"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>We first fell in love with <a href="http://greatist.com/health/most-influential-health-fitness-people">Cassey Ho</a> while watching her Blogilates videos on YouTube. This app takes things to the next level—you get access to all of her videos, plus an online forum and monthly workout calendar. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/blogilates-official-app/id677023207?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=co.veam.veam31000015&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://zombiesrungame.com">3. Zombies, Run!</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/zombies-run.png?itok=zBhpF8nI"
+
+          alt="Zombies, Run!"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Running becomes way more fun when each step gets you closer to carrying out your mission, collecting materials for your base camp, and keeping humans safe from the zombie apocalypse. There’s a reason this game became the highest-grossing health and fitness app on iTunes in just two weeks—even though it’s free to download, you’ll start shelling out money like you do for Candy Crush. Except this game helps you get your sweat on. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/zombies-run!/id503519713?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.sixtostart.zombiesrunclient&amp;hl=en">Android</a>)</p>
+
+
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://fit.net">4. Fitnet</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/fitnet.png?itok=44ZxjyU1"
+
+          alt="Fitnet"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Fitnet is the workout app for people who can’t carve out time to go to the gym. The app features an abundance of five- and seven-minute targeted workouts, so you don’t have to sacrifice time with your friends and family to achieve your fitness goals. Plus, the app uses your phone’s camera for a whole new kind of selfie—this one measures how closely you follow the moves shown on the screen. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/fitnet-personal-trainer/id718444936?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=net.fit.app&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://sworkit.com">5. Sworkit</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/sworkit_0.png?itok=INFzHFTl"
+
+          alt="Sworkit"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Tell Sworkit the type of workout you’re looking for (strength, cardio, yoga, or stretching) and the amount of time you’ve got (anywhere from five minutes to an hour), and the app delivers the moves to follow during your sweat session. If you opt for premium ($4.99 per month), the app lets you get even more personalized, by setting the number of reps and the areas of the body you want to focus on. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/sworkit-daily-circuit-training/id527219710?mt=8&amp;ign-mpt=uo%3D4">iOS</a> and <a href="https://play.google.com/store/apps/details?id=sworkitapp.sworkit.com">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.motiontraxx.com">6. Motion Traxx</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/motion-traxx.jpeg?itok=QXrhvaHR"
+
+          alt="MotionTraxx"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Listening to music can be the perfect way to add extra oomph to your workout, but crafting the perfect playlist is tricky. That’s where Motion Traxx comes in. The app combines coaching from world-class trainers with music designed to set the perfect intensity for every phase of your workout. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/motion-traxx-fitness-cardio/id905096566?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.motiontraxx.motiontraxxand&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://stronglifts.com">7. StrongLifts 5x5</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/stronglifts-5x5.png?itok=Ho9yZVj7"
+
+          alt="Stronglifts 5x5"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>No need to carry around a paper and pencil while lifting at the gym anymore. This app keeps track of the exercise, number of reps, and rest time, so all you have to worry about is getting to the gym and getting <s>huge</s> stronger. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/stronglifts-5x5-simplest-most/id488580022?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.stronglifts.app&amp;hl=en">Android</a>) </p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.strava.com/">8. Strava Running and Cycling</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/strava.png?itok=JhouQZQK"
+
+          alt="Strava"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>If you’re a serious runner or cyclist, you need one place to keep track of your most recent runs and rides, and no app comes close to the capabilities offered by Strava. The app can track distance, speed, elevation, calories burned, heart rate, power, and cadence. Then it synthesizes all of this data into easy-to-understand graphics. (Free with optional in-app purchases; <a href="https://itunes.apple.com/app/strava-cycling/id426826309?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.strava">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.spotify.com/us/running/">9. Spotify Running</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/spotify.png?itok=wOvaW7PD"
+
+          alt="Spotify Running"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Part of the Spotify app (and let’s be honest, you probably already have that on your phone), Spotify Running measures your pace and picks a song with the beats per minute to match it. It’s about time your music matches your cadence instead of the other way around. (Free; <a href="https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.spotify.music&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.yonder.it/download/">10. Yonder</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/yonder.png?itok=Kaog0ixs"
+
+          alt="Yonder"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Think of this like Yelp for the outdoor enthusiast. Enter your location and find dozens of suggestions for hiking, biking, kayaking, and skiing with reviews and tips from fellow outdoorsmen and women. (Free; <a href="https://itunes.apple.com/us/app/yonder-outdoor-adventures/id643341612?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.yonder.android&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.dailyyoga.com/">11. Daily Yoga</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/daily-yoga.png?itok=98QiD8Nd"
+
+          alt="Daily Yoga"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Never be bored by yoga again: More than 50 classes shot in HD video are just a few taps away. Each sequence has a specific focus, from increasing flexibility to strengthening your core. Plus, there’s a library with detailed videos of more than 500 poses. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/id545849922?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.dailyyoga.inc">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://itunes.apple.com/us/app/yoga-wake-up/id973221723?mt=8">12. Yoga Wake Up</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/yoga-wake-up.png?itok=25MIXWZ9"
+
+          alt="Yoga Wake Up"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>What better way to ease into the day than with a quick morning yoga flow? This app delivers a 10-minute sequence at your designated wake-up time. Each sequence is a little different. Some focus more on meditation, while others hone in on holding poses and setting intentions. Yoga every damn day just got a whole lot easier. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/yoga-wake-up/id973221723?mt=8">iOS</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.nike.com/us/en_us/c/womens-training/apps/nike-training-club">13. Nike+ Training Club</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/nike-plus.png?itok=P8ukZ3Cw"
+
+          alt="Nike+ Training Club"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Nike+ Training Club comes with all the things you’d expect from a top-notch fitness app: workouts designed by professional trainers and athletes, customizable fitness programs, sharing capabilities to compare your progress with others, and a totally sleek interface. And in Nike fashion, it just does it better than the competition. (Free; <a href="https://itunes.apple.com/us/app/nike+-training-club/id301521403?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.nike.ntc&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.endomondo.com/">14. Endomondo</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/endomondo.png?itok=ZiB0rCd2"
+
+          alt="Endomondo"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Cardio exercise can quickly get boring and repetitive. That’s why Endomondo is so great. Set a goal for your run, walk, or bike ride, and the app’s virtual trainer lets you know if you’re on track to meet it or if you need to speed up. It’s great to compete against yourself (and your goals), but it’s even better when you can use Endomondo to challenge or cheer on friends. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/running-walking-endomondo/id333210180?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.endomondo.android&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.freeletics.com/en">15. Freeletics</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/freeletics.png?itok=ljxCFBg9"
+
+          alt="Freeletics"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Looking for bodyweight workouts? Freeletics has more than 900 that last anywhere from 10 to 30 minutes. Whether you choose to work out in the kitchen, on the subway, or in your office, you can rely on Freeletics to deliver a great workout for your fitness level. (Free; <a href="https://itunes.apple.com/us/app/freeletics-bodyweight-workouts/id654810212?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.freeletics.lite&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+                <h3 class="subhead">Food and Nutrition</h3>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.fooducate.com">16. Fooducate</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/fooducate.png?itok=87o8xTId"
+
+          alt="Fooducate"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Foodcuate makes grocery shopping surprisingly fun. Open the app, scan barcodes, and get a quick read on how healthy each item is. It also tracks sleep, mood, and hunger levels. Then Fooducate analyzes all of the information and provides feedback to help you meet your health and fitness goals. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/weight-loss-coach-by-fooducate/id398436747?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.fooducate.nutritionapp&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.shopwell.com/mobileapp">17. ShopWell</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/shopwell1.png?itok=Bqrj53U3"
+
+          alt="Shopwell"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>The field of calorie-counting apps is heavily saturated, but ShopWell still manages to stand out. The app is all about personalization. Enter in your height, weight, age, and allergies, and then it scores every food you can think of on how healthy it is for you—the closer to 100, the better. And it even makes individual recommendations for similar, healthier products to eat instead. (Free; <a href="https://itunes.apple.com/us/app/shopwell-healthy-diet-grocery/id393422300?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.shopwell.shopwellandroid&amp;hl=en">Android</a>) </p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.sidechef.com">18. SideChef</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/sidechef1.png?itok=OdZrZX9F"
+
+          alt="SideChef"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>So you’re totally game to try out new recipes, but fiddling with your phone to follow the directions while your hands are sticky is a huge pain. That’s where SideChef comes in. The app provides step-by-step voice command instructions. If it’s going too fast, you can ask SideChef to repeat directions without ever having to get your phone dirty—or worse, waterlogged. (Free; <a href="https://itunes.apple.com/us/app/sidechef-step-by-step-cooking/id905229928?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.sidechef.sidechef&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://mysugr.com/apps/">19. mySugr</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/mysugr_0.png?itok=bE6ggen7"
+
+          alt="mySugr"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Most of us can’t remember what we had for lunch yesterday, but diabetics don’t have the luxury of not paying attention to their food and how it affects their blood glucose levels. It’s very tricky to keep mental notes, and a pen and paper just doesn’t measure up to the tracking capabilities of this app. Wonder why certain days you feel crummier than others? mySugr can be your diabetes detective to determine the foods you need to cut back on. (Free with optional in-app purchases; <a href="https://itunes.apple.com/app/id516509211?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.mysugr.android.companion">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://thrivemarket.com/">20. Thrive Market</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/thrive-market.jpeg?itok=AqbTnhxc"
+
+          alt="Thrive Market"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Buying healthy food has never been easier and cheaper. Thrive Market is basically the Costco for natural and organic products. Pay a yearly fee ($59.95) and have access to insane deals on everything from coconut oil to kale chips. The app makes it easy to shop for groceries whenever you’ve got the time, and then Thrive sends your order right to your door. (Free; <a href="https://itunes.apple.com/us/app/thrive-market/id1077909668?mt=8">iOS</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.rise.us/">21. Rise</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/rise_0.png?itok=Gq4V6dgG"
+
+          alt="Rise"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>We have the best of intentions when it comes to eating healthy, but Rise is the app that really keeps you honest. It pairs you up with a nutritionist, and every day you send them photos of the food you’ve eaten. Based on your specific goal (losing weight, gaining strength, feeling more energized), your nutritionist will help you tweak your diet. At $14.99 per week, it’s cheaper than IRL appointments with an R.D. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/rise-nutrition-weight-loss/id794278760?mt=8">iOS</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.ingredient1.com/">22. Ingredient1</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/ingredient.png?itok=7rZ77ZHR"
+
+          alt="ingredient1"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>If you have dietary restrictions, you know how much of a pain it can be to check the ingredients on every label at the grocery store. That’s where Ingredient1’s FoodID comes in handy. Answer a series of questions about your typical diet (from foods that are absolute no-nos to things you’d rather avoid), and Ingredient1 introduces you to hundreds of products that fit your criteria. Plus it finds stores nearby where you can buy them. (Free; <a href="https://itunes.apple.com/us/app/ingredient1/id900453506?mt=8">iOS</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.myfitnesspal.com">23. MyFitnessPal</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/myfitnesspal.png?itok=bJe0OVR5"
+
+          alt="MyFitnessPal"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>MyFitnessPal is the most popular health and fitness app in the world, and it’s easy to see why. The app’s database of more than 6 million foods makes it easy to track your diet, no matter what you eat. Whether you’re trying to lose weight or put on muscle, the app helps determine the best things to eat to meet your goals. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/calorie-counter-diet-tracker/id341232718">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.myfitnesspal.android&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://lifesum.com">24. Lifesum</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/lifesum.png?itok=CrXfmMzs"
+
+          alt="Lifesum"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Have a sweet tooth or a love of junk food? It can feel like you need a whole lifestyle makeover to start eating healthy. But Lifesum proves it’s all about small, sustainable changes. Pick a goal (lose weight, bulk up, or eat better) and the app sends you reminders (drink more water), feedback to improve your diet, and simple graphics ways to visualize your progress. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/lifesum-healthier-living-better/id286906691?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.sillens.shapeupclub&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.dietbet.com">25. DietBet</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/dietbet.jpg?itok=YDRFcU7x"
+
+          alt="DietBet"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Just like its name implies, this app forces you to put your money where your mouth is and show you’re not full of hot air when it comes to your weight-loss goals. Users enter into a challenge where they can bet they’ll lose either 4 percent of their weight in four weeks or 10 percent of their weight in six months. Progress is monitored by DietBet’s referees, and the pot is then split between everyone in your group who makes their goal weight. (Free to download, $25-$25 per bet; <a href="https://itunes.apple.com/us/app/dietbet-lose-weight.-make/id532353287?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.dietbet.app&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://us.noom.com/coach/">26. Noom Coach</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/noom.png?itok=Ed1AYjUQ"
+
+          alt="Noom Coach"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Dieting can be so complex. Don’t have time to check your macros (or don’t know what those are)? Time to download Noom Coach. Unlike other calorie-counting apps, Noom uses the stoplight approach (green is good, red is not so great) to label healthy food. And you can join in on challenges with other Noomers to get even more motivated to meet your health goals. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/noom-coach-weight-loss/id634598719?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.wsl.noom&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+                <h3 class="subhead">Mind and Brain</h3>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://itunes.apple.com/us/app/deep-sleep-andrew-johnson/id337349999?mt=8">27. Deep Sleep With Andrew Johnson</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/deep-sleep1.png?itok=uXFl2ZdC"
+
+          alt="Deep Sleep With Andrew Johnson"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Find yourself tossing and turning, unable to catch any zzzs? Perhaps the soothing, melodic voice of Andrew Johnson’s guided meditation will help lull you into a restful stupor. ($2.99; <a href="https://itunes.apple.com/us/app/deep-sleep-andrew-johnson/id337349999?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.hivebrain.andrewjohnson.deepsleep&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.meditationstudioapp.com">28. Meditation Studio</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/meditation-studio.jpeg?itok=rqANhdpq"
+
+          alt="Meditation Studio"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>There are so many different types of guided meditation. Rather than try a general practice that focuses on relaxation, this app offers meditations catered to your needs, whether it’s anxiety, stress, happiness, or gratitude. And best of all, it’s a one-time fee for access to more than 160 meditations. ($2.99; <a href="https://itunes.apple.com/us/app/meditation-studio/id1066018502">iOS</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://itunes.apple.com/app/id1059195733">29. H*nest Meditation App</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/honest-meditation-app.jpeg?itok=fT-sK4YJ"
+
+          alt="Honest Meditation App"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Ah, the drunk uncle of meditation apps—it wants the best for you, but you know it will tell it like it f*cking is. Strangely enough, cussing and calm really do make a good combination. If anything, H*nest Meditation is bringing calm to the common (wo)man, and we’re damn grateful for that. Just make sure to wear your headphones. ($1.99; <a href="https://itunes.apple.com/us/app/h*nest-meditation/id1059195733?mt=8">iOS</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.talkspace.com/">30. Talkspace</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/talkspace.jpeg?itok=xLYNht54"
+
+          alt="Talkspace"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Bet you didn’t think you could chat with a therapist for just $25 per week. Well, Talkspace makes that possible. For that low fee, you can text with a trained professional as often as you need. They also offer services for individuals and couples. Oh, and the best part? You can do it from your couch. (Free with optional in-app purchases; <a href="https://itunes.apple.com/app/id661829386?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.talkspace.talkspaceapp">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://my.happify.com/">31. Happify</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/happify.jpeg?itok=hy3ATUp9"
+
+          alt="Happify"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>This app is like a gym membership for your emotional health. The first time you open Happify, you’re prompted to select a track that best meets your needs, whether it's finding more “me” time or getting better at handling stress. Each track is designed by an expert using the latest scientific research and full of quick, daily activities, including games, mindful meditations, and assessments. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/happify/id730601963?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.happify.happifyinc&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.relationup.com/">32. Relationup</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/relationup.jpg?itok=C_Gb36DZ"
+
+          alt="RelationUP"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>We all have moments when we need relationship advice. We often turn to friends, but sometimes it's best to call in the big guns. That's when Relationup comes to the rescue. The app lets you text with one of the qualified, prescreened relationship counselors, and it's cheaper than going to therapy. Counselors are available 24/7 to help you with anything that’s troubling you, from a breakup to questions about a second date to family drama. Your first conversation is free, and they run $12 per 15 minutes thereafter. (Free with optional in-app purchases; <a href="https://itunes.apple.com/us/app/relationup-get-live-help-from/id1006899801?mt=8&amp;ign-mpt=uo%3D4">iOS</a>) </p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.7cups.com">33. 7 Cups </a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/7cups.png?itok=-pJ3ezPI"
+
+          alt="7 Cups"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Sometimes you just want to talk, and 7 Cups gives you an alternative to waking up your friends at 3 a.m. to vent about your annoying boss or significant other. The app offers fast, free responses from trained listeners. Now you can speak your mind without feeling judged whenever and wherever you need to. (Free; <a href="https://itunes.apple.com/us/app/7-cups-anxiety-stress-depression/id921814681?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.sevencupsoftea.app&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+                <h3 class="subhead">Overall Health</h3>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.healthtap.com/">34. HealthTap</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/healthtap.png?itok=F4riEDVt"
+
+          alt="HealthTap"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Next time you have a pressing medical concern (should I be worried about this rash?), don’t ask Dr. Google. Turn to HealthTap instead. The app sends your question to its network of doctors, and one will answer you within a few hours. HealthTap also comes with a library of information on common ailments, so you can be better at spotting symptoms and picking the best remedy. And if you are looking for even more care, you can choose the prime membership ($99 per month), which allows you unlimited video and text chatting with doctors. (Free with in-app purchases; <a href="https://itunes.apple.com/us/app/id466079030?">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.healthtap.userhtexpress">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.iodine.com/start">35. Start</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/start.jpeg?itok=fPrclts-"
+
+          alt="Start"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>If you’re suffering from depression, it can take months upon months to find the right medicine (or drug cocktail) that works for you. Start aims to make that process a whole lot easier. The app includes a depression test, as well as programs to track your progress and the side effects of your medication—all helpful information to share with the medical professional treating you. (Free: <a href="https://itunes.apple.com/us/app/id1012099928?_branch_match_id=246340427857593590">iOS</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.helloclue.com/">36. Clue</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/clue-app.jpg?itok=kb-R2WVL"
+
+          alt="Clue"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Never be blindsided by your period again. Clue tracks your menstrual cycle, offering reminders before your next period. As Clue’s algorithm finds the unique patterns of your own cycle, it will provide valuable insights for your everyday life. The app’s designers also promise to never use flowers, butterflies, or euphemisms, so you can face your next period like an adult. (Free; <a href="https://itunes.apple.com/us/app/clue-period-pms-tracker-health/id657189652?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.clue.android&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.sleepcycle.com/">37. Sleep Cycle</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/sleep_cycle_android_icon.png?itok=cN5EwJVa"
+
+          alt="Sleep Cycle"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>Say sayonara to feeling groggy in the morning. This app measures your sleep cycle, as its name suggests. Then it wakes you sometime during a 30-minute window before your alarm when you’re in the lightest sleep state. Sure, you might get up before your alarm goes off, but you’ll feel refreshed and ready to take on the day. (Free with in-app purchases on <a href="https://itunes.apple.com/app/apple-store/id320606217?mt=8">iOS</a>, $0.99 on <a href="https://play.google.com/store/apps/details?id=com.northcube.sleepcycle">Android</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://itunes.apple.com/app/id866001468">38. Power Nap App</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/power-nap-app2.jpeg?itok=xV7m9Gas"
+
+          alt="Power Nap App"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>If there are two things we love, it’s <a href="http://greatist.com/fitness/cat-turned-pro-soccer-goalie-video">cats</a> and <a href="http://greatist.com/live/naps-boost-productivity">naps</a>. The Power Nap App combines these natural gifts, complete with a timer (that only goes up to 30 minutes), pleasant sounds to help you sleep, and an alarm that gently wakes you back up, so you can rock the rest of your day. (Free; <a href="https://itunes.apple.com/app/id866001468">iOS</a>)</p>
+        </div>
+      </div>
+          
+            <div class="slide">
+        
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.leafly.com">39. Leafly</a>
+                      </h4>
+                  </div>
+        <div class="slide-body">
+          <p><span
+  class="media media-element-container media-g_tiny_float_left"
+  >
+    <img
+    src="http://greatist.com/sites/default/files/styles/mini_content/public/leafly.png?itok=gaU0oHzb"
+
+          alt="Leafly"
+    
+        class="media-element file-g-tiny-float-left"
+  />
+
+  
+  </span>This sleek app is the Wikipedia of weed, offering exhaustive information on thousands of marijuana strains, from Girl Scout Cookies (yes, that’s a real strain) to Purple Urkle. It also offers directions to the nearest dispensary (in states where pot is legal) and regular updates on cannabis news. (Free; <a href="https://itunes.apple.com/us/app/leafly-marijuana-strain-dispensary/id416456429?mt=8">iOS</a> and <a href="https://play.google.com/store/apps/details?id=leafly.android&amp;hl=en">Android</a>)</p>
+        </div>
+      </div>
+      </section>
+  <p><em>Methodology: We asked a number of questions to determine if each app we tested should appear on our list. Is it highly rated? Does it offer something unique? It is user-friendly? Is it reliable and not buggy? Does it drain a smartphone’s battery? Can it continue to grow and innovate? Apps that scored well on all criteria ended up the final list. Do you think we missed an app? Send a message to <a href="mailto:tips@greatist.com">tips@greatist.com</a>, and we’ll consider it for next year’s ranking. </em></p>         </div>
+
+                <span class="article-suggestion-readnext-embed" data-recirc-section ng-controller="basicTracking" ng-init="initAnalytics('read-next-bottom', {implicitClick: true})" >
+  <span class="label"><i class="fa fa-chevron-circle-right"></i> READ THIS NEXT:</span>
+  <a href="http://greatist.com/move/best-free-workout-videos-youtube"  data-nid="5731"  ng-click="click($event)" >
+    <span class="article-title">The Best Free Workout Videos on YouTube</span>
+  </a>
+</span>
+        <a href="http://greatist.com/live/advice-that-will-help-you-think-like-an-olympic-athlete"
+   class="promotion-embed" data-recirc-section ng-controller="basicTracking"
+   ng-init="initAnalytics('promotion-krave---bottom-article---live--article-bottom', {implicitClick: true})">
+  <img src="http://greatist.com/sites/default/files/styles/promotion-article-558/public/greatist_promotion/KRAVE_Promo4_Final.jpg?itok=hcjrYe79"
+       alt="Krave - Bottom Article - Live "/>
+</a>
+
+        <div
+          class="bottom-share"
+          data-scroll-reach-tracking="article-content-end"
+          data-scroll-reach-tracking-near="article-content-near-end"
+        >
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="bottom">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/fitness/best-health-fitness-apps"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2Fhealth-and-fitness-apps-2016-banner.jpg%3Fitok%3DyOT0WZPO"
+  data-mediatitle="The 39 Best Health and Fitness Apps of 2016"
+  data-title="The 39 Best Health and Fitness Apps of 2016"
+  data-promotitle="The 39 Best Health and Fitness Apps of 2016"
+  data-pintitle="There\'s an app for just about anything. We dug through hundreds of them to find the ones that..."
+  data-twitter=""
+  data-twitter-url="http://grt.st/1rKpOy0"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  
+  </div>
+  </div>
+</div>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="article-sidebar-column sidebar-column" data-sidebar-height="x-tall" ng-controller="articleSidebarCtrl">
+      <div class="sidebar-top">
+                                                <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-1"
+  data-ad-dfp="/38507188/ROS_Flex_300x250_300x600"
+  data-ad-slot="div-gpt-ad-1409786991744-0"
+  data-ad-size="300x250,300x600"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-1"></div>
+
+          <div class="article-sidebar-newsletter no-small no-medium" ng-controller="NewsletterCtrl" data-origin="homepage_sidebar">
+  <div class="intro">
+    <i class="fa fa-inbox"></i> <span>Your Inbox Deserves Better</span>
+  </div>
+  <form name="newsletterForm" ng-submit="subscribeEmail('article-sidebar-newsletter')">
+    <div class="line">
+      <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+      <input type="submit" value="GO" ng-hide="submitted">
+      <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+    </div>
+    <div class="newsletter-messages">
+      <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+    </div>
+  </form>
+</div>
+        
+        <div class="sticky-block">
+          <div class="popular-list-block"
+  ng-init='initAnalytics("article-sidebar-must-read", {implicitClick: true, countHiddenAsImpression: false})'
+  ng-controller="basicTracking"
+  data-recirc-section
+>
+  <h2 class="section-title">MUST READS</h2>
+  <ol class="sidebar-list sidebar-list-thumbnail" >
+          <li  data-nid="7252"
+            data-source="cb">
+        <a
+          data-nid="7252"
+          ng-click="click($event)"
+          href="http://greatist.com/move/got-good-workout"
+          title="How to Know If You Actually Got a Good Workout"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/Man-Workout-Pulse-1236.jpg?itok=hiFVWNU_" />
+          <span>How to Know If You Actually Got a Good Workout</span>
+        </a>
+      </li>
+          <li  data-nid="2900"
+            data-source="cb">
+        <a
+          data-nid="2900"
+          ng-click="click($event)"
+          href="http://greatist.com/health/healthy-fast-breakfast-recipes"
+          title="34 Healthy Breakfasts for Busy Mornings"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/7-Ingredient-DARK-CHOCOLATE-Quinoa-Breakfast-Bowl-Full-of-antioxidants-fiber-and-protein-vegan-glutenfree-quinoa-breakfast.jpg?itok=BNuLNJNx" />
+          <span>34 Healthy Breakfasts for Busy Mornings</span>
+        </a>
+      </li>
+          <li  data-nid="6959"
+            data-source="cb">
+        <a
+          data-nid="6959"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/healthy-freezer-meals"
+          title="21 Freezer Meals for People With Zero Time During the Week"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/baked-potato.jpg?itok=an-0vMvV" />
+          <span>21 Freezer Meals for People With Zero Time During the Week</span>
+        </a>
+      </li>
+          <li  data-nid="2031"
+            data-source="cb">
+        <a
+          data-nid="2031"
+          ng-click="click($event)"
+          href="http://greatist.com/health/cant-sleep-advice-and-tips"
+          title="32 Solutions for When You Can't Sleep"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/Sleep-Solutions-Feature.png?itok=OHZsjl3C" />
+          <span>32 Solutions for When You Can't Sleep</span>
+        </a>
+      </li>
+          <li  data-nid="7036"
+            data-source="cb">
+        <a
+          data-nid="7036"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/foods-to-fight-fatigue"
+          title="The Best Foods to Fight Fatigue "
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/food-fatigue-feat.jpg?itok=9ZSbLJZv" />
+          <span>The Best Foods to Fight Fatigue </span>
+        </a>
+      </li>
+          <li  data-nid="1268"
+            data-source="cb">
+        <a
+          data-nid="1268"
+          ng-click="click($event)"
+          href="http://greatist.com/fitness/50-awesome-pre-and-post-workout-snacks"
+          title="What to Eat Before a Workout: 50 Pre and Post Workout Snacks"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/WorkoutSnacks_A_Feature.png?itok=GqjaPoGN" />
+          <span>What to Eat Before a Workout: 50 Pre and Post Workout Snacks</span>
+        </a>
+      </li>
+          <li  data-nid="8301"
+            data-source="ga">
+        <a
+          data-nid="8301"
+          ng-click="click($event)"
+          href="http://greatist.com/live/womens-clothing-sizes-are-complete-bs"
+          title="Think of Women’s Clothing Sizes as Random Numbers—Because They Are "
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/jeans.jpg?itok=cGs7fn0V" />
+          <span>Think of Women’s Clothing Sizes as Random Numbers—Because They Are </span>
+        </a>
+      </li>
+          <li  data-nid="1392"
+            data-source="ga">
+        <a
+          data-nid="1392"
+          ng-click="click($event)"
+          href="http://greatist.com/health/high-protein-snacks-portable"
+          title="27 Healthy and Portable High-Protein Snacks"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/PORTABLE-SNACKS_FEATURE.jpg?itok=Grq8reUv" />
+          <span>27 Healthy and Portable High-Protein Snacks</span>
+        </a>
+      </li>
+      </ol>
+</div>
+                      <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-2"
+  data-ad-dfp="/38507188/ROS_300x250_BTM"
+  data-ad-slot="div-gpt-ad-1411421640459-0"
+  data-ad-size="300x250"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-2"></div>
+
+                  </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <div class="article-middle">
+    <div
+  data-restrict-context-to="medium,small,x-small"
+  data-dfp-g-id="article-ad-mobile-below-content"
+  data-ad-dfp="/38507188/ROS_300x250_Mobile"
+  data-ad-slot="div-gpt-ad-1410553537006-0"
+  data-ad-size="300x250"
+  class="dfp-tag-wrapper dfp-ad-article-ad-mobile-below-content"></div>
+
+
+    <div id="fb-article-mobile-bottom-page-box" data-fb-page="article-mobile-bottom-page-box" data-restrict-context-to=">medium" class="hide-for-ready">
+      <h2 class="section-title">Like Us On Facebook</h2>
+    </div>
+
+    <div id="tags">
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/health-and-fitness-apps"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Health and Fitness Apps    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/healthy-tech"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Healthy Tech    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/technology"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Technology    </span>
+  </a>
+</span>
+  
+            <span
+  rel="dc:subject"
+  itemscope
+            itemtype="http://data-vocabulary.org/Breadcrumb"
+  >
+  <a
+    href="http://greatist.com/live"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+          itemprop="url"
+      >
+    <span
+              itemprop="title"
+          >
+      Live    </span>
+  </a>
+</span>
+      </div>
+  </div>
+</div>
+
+<div class="recirc" data-recirc-section>
+  <div class="esi-placeholder"data-esi="article/recirculation" data-token="FKbIMIP4nFFFGADcI6ehppu5l87J3jvR7qq-8KZ7-yA" data-params="{&quot;nid&quot;:&quot;3105&quot;,&quot;show_must_reads&quot;:0}" data-bodyevent="reach-article-content-near-end"><img src="/sites/all/themes/greatist2x/images/design/SiteLoader.gif">Loading...</div></div>
+
+
+  <!-- Extras -->
+  <div ng-controller="BottomStickyCtrl">
+      <div class="article-sticky-bottom share hide-for-load" data-origin="sticky-bottom">
+      <div ng-controller="socialCtrl" data-href="http://greatist.com/fitness/best-health-fitness-apps">
+        <a class="share-button share-button-facebook" ng-click="share_fb($event)" data-share-fb>
+          <span class="share-alt"><i class="fa fa-facebook"></i> Share on Facebook</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="article-sticky-bottom like hide-for-load" data-origin="sticky-bottom">
+      <img class="close-button" ng-click="clickClose()" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+      <span>Like Greatist on Facebook</span>
+      <div
+        class="fb-like"
+        data-href="https://www.facebook.com/greatist"
+        data-layout="button"
+        data-fb-tracking-id="bottom-sticky-mobile"
+        data-fb-click-tracking-id="bottom-sticky-mobile">
+      </div>
+    </div>
+  </div>
+  <div class="bottom-slider fb-slider" ng-controller="BottomSliderCtrl" ng-class="status">
+  <a href="#" ng-click="clickClose()" title="Close" type="button" class="close-button">
+    <img src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+  </a>
+
+  <h3>Like us on Facebook to get more stories like this!</h3>
+
+  <div
+    class="fb-like"
+    data-href="https://www.facebook.com/greatist"
+    data-layout="button"
+    data-fb-tracking-id="popup-like"
+    data-fb-click-tracking-id="popup-like">
+  </div>
+</div>
+  <div class="overlay-wrapper">
+  <div id="search-page-wrapper">
+    <div id="search-page-overlay" ng-controller="SearchCtrl" ng-init="init()" ng-keydown="keydown($event)">
+
+      <img class="search-close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+
+      <h2>{{discoverSettings.title}}</h2>
+
+      <!-- SEARCH FORM -->
+      <form name="searchForm" ng-submit="search()" class="search-form">
+        <input type="text" ng-model="searchQuery" placeholder="Enter Search Term" id="search-input">
+        <div data-search-autocomplete class="search-autocomplete">
+          <ul>
+            <div class="header" >
+              Categories
+            </div>
+            <li ng-repeat="suggestion in suggestedTaxonomies track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+
+            <div class="header">
+              Profiles
+            </div>
+            <li ng-repeat="suggestion in suggestedUsers track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </form>
+
+      <!-- DISCOVER -->
+      <div class="discover deck-3" ng-cloak ng-hide="hideDiscover">
+        <div class="main-column">
+          <div class="card" ng-repeat="discover in discoverList">
+            <a href="{{discover.url}}" ng-click="trackDiscoverLink(discover)">
+              <img ng-src="{{discover.imgUrl}}" class="img-large">
+              <img ng-src="{{discover.imgUrlSmall}}" class="img-small">
+              <div class="title-wrapper">
+                <div class="title">{{discover.title}}</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-status">
+        <div ng-show="isLoading">
+            <img alt="Search Loading" class="loader-image"/>
+        </div>
+        <div class="search-message">{{searchMessage}}</div>
+      </div>
+
+      <!-- SEARCH RESULTS -->
+      <div class="search-result article-feed">
+        <div class="article" ng-repeat="article in articles">
+          <div class="article-image">
+            <a href='{{article.articlePath}}'>
+              <img ng-src='{{article.imagePath}}' />
+            </a>
+          </div>
+          <div class="article-title"><a href='{{article.articlePath}}'>{{article.title}}</a></div>
+          <div class="article-author" ng-if="article.byline === ''">{{article.author}}</div>
+          <div class="article-author" ng-if="article.byline !== ''">{{article.byline}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="popup-wrapper">
+  <div ng-controller="popupCtrl" class="newsletter-template mfp-with-anim mfp-hide">
+    <div newsletter
+      model="popup"
+      subscribe="subscribeEmail"
+      init="initPopup"
+      close="closeBottomBar()"
+      cta1="applyCTA('cta1')"
+      cta2="applyCTA('cta2')"
+    >
+    </div>
+  </div>
+</div>
+    <div>
+  <div data-fb-popup class="fb-popup popup-post-share mfp-with-anim mfp-hide">
+    <h1>
+      Nice share!<br>
+      Like us on <a class="like-us" href="http://facebook.com/greatist">Facebook</a> while you're at it.
+    </h1>
+    <div class="fb-like-body">
+      <div class="fb-like" data-href="https://facebook.com/greatist" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false">
+      </div>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-post-share-fb"/>
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+
+  <div data-pin-popup class="pin-popup popup-post-share mfp-with-anim mfp-hide">
+    <button title="Close (Esc)" type="button" class="mfp-close cta-x" ng-click="eventHandler()"></button>
+    <h1>Nice pin! Follow us for more.</h1>
+    <div class="follow-pin">
+      <a data-pin-do="buttonFollow" href="http://www.pinterest.com/greatist/">Follow Greatist on Pinterest</a>
+    </div>
+    <div class="pins">
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/229754018468166392/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+       <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124149397557/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124150404836/">Greatist on Pinterest.</a>
+      </span>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-pin-board" />
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+</div>
+  <div class="footer-bottom-wrapper">
+    <footer id="footer-wrapper">
+  <div id="footer">
+    <div class="footer-logo-menu">
+  <div class="greatist-logo">
+    <a href="/">
+      <img src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_G_White.svg" class="footer-logo" />
+    </a>
+  </div>
+  <ul class="menu"><li class="first leaf"><a href="/about" title="">About</a></li>
+<li class="leaf"><a href="/advertise" title="">Advertise</a></li>
+<li class="leaf"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf"><a href="/drop-us-line" title="">Contact</a></li>
+</ul></div>
+    <div class="footer-newsletter">
+  <div class="newsletter-block" ng-controller="NewsletterCtrl" data-origin="footer">
+    <div class="description">
+      <i class="fa fa-envelope-o"></i> AWESOME WORKOUTS, EASY RECIPES, WELLNESS TIPS!
+    </div>
+    <form name="newsletterForm" ng-submit="subscribeEmail('footer-newsletter')">
+      <div class="line">
+        <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+        <input type="submit" value="GO" ng-hide="submitted">
+        <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+      </div>
+      <div class="newsletter-messages">
+        <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+      </div>
+    </form>
+  </div>
+
+  <div class="social-links">
+    <a target="_blank" href="http://facebook.com/greatist" class="facebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a target="_blank" href="http://pinterest.com/greatist" class="pinterest" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+    <a target="_blank" href="http://twitter.com/greatist" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" href="http://instagram.com/greatist" class="instagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+  </div>
+</div>
+  </div>
+</footer>
+    <div id="bottom-wrapper">
+  <div id="bottom">
+    <div id="bottom-menu" class="bottom-block">
+  <ul class="menu"><li class="first leaf"><a href="/greatist-terms-use" title="Terms">Terms</a></li>
+<li class="leaf"><a href="/greatist-privacy-policy" title="Privacy">Privacy</a></li>
+<li class="leaf"><a href="/drop-us-line" title="">Contact</a></li>
+<li class="last leaf"><a href="/topics" title="">Sitemap</a></li>
+</ul></div>
+    <div id="copyright">&copy; 2016 Greatist</div>
+  </div>
+</div>
+  </div>
+</div>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_g5vRHAmImocIkh-4r-c10EIPRPCA0a21I08Y0d3s1mo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '1001l6TF']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/all/modules/custom/gr8ist_social/includes/js/gr8ist_instagram_embed.js?obn86g"></script>
+<script type="text/javascript" src="//wms-na.amazon-adsystem.com/20070822/US/js/auto-tagger.js?tag=greatist-20&amp;locale=US&amp;overwrite=1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {try{var a={l1:document.location.host.replace(/^www\./,""),l2:document.title||"Untitled",l3:"__page__",l4:"-",sa:"",sn:""},b=[],c;for(c in a)b.push(c+"="+encodeURIComponent(a[c]));b=b.join("&");(new Image).src="//d1cge8z5zrep3s.cloudfront.net?a=9d8720426e304e8ca738bd1ab1062e1f";var d=document.createElement("script");d.type="text/javascript";d.async=!0;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(d,e);d.src="https://z.moatads.com/greatistcontent247UepN76/moatcontent.js#"+b}catch(f){try{var g="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&ac=1&k="+encodeURIComponent(f)+"&j="+encodeURIComponent(document.referrer)+"&cs="+(new Date).getTime();(new Image).src=g}catch(h){}};})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.display('page');});
+//--><!]]>
+</script>
+<script type="text/javascript" src="//dc8xl0ndzn2cb.cloudfront.net/js/greatist/v0/keywee.min.js"></script>
+
+<div id="fb-root"></div>
+<noscript><img
+    src="http://b.scorecardresearch.com/p?c1=2&amp;c2=14988881&amp;cv=2.0&amp;cj=1"
+    alt=""/></noscript>
+<noscript><img style="position:absolute"
+               src="http://b.scorecardresearch.com/b?c1=2&c2=0000000&c3=0000000&c4=www.w3i.com/who-weare.aspx&c5=&c6=&c15=C67BD3C1&cv=1.3&cj=1"
+               style="display:none" width="0" height="0" alt=""/></noscript>
+<noscript>
+  <div style="display:none;"><img
+      src="//pixel.quantserve.com/pixel/p-46ydJU4yMQT2-.gif" border="0"
+      height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ad634f8ed0","applicationID":"897146","transactionName":"NVMHZRNYCkUFUkNeVwwZJFIVUAtYS1ZFUlkWXxZFPloLWxReWVJWFmkIVA9M","queueTime":0,"applicationTime":1496,"atts":"GRQEE1tCGUs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

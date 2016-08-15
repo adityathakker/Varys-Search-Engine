@@ -1,0 +1,2913 @@
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr"
+      
+  xmlns:schema="http://schema.org/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"      class="no-js">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="sailthru.description" content="No grains? No dairy? No problem with these healthy and delicious Paleo recipes for waffles, muffins, casseroles, and much more." />
+<meta name="sailthru.image.full" content="http://greatist.com/sites/default/files/paleo%20breakfast%20feature.jpg" />
+<link rel="shortcut icon" href="http://greatist.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="sailthru.author" content="Christine Skopec" />
+<meta name="sailthru.tags" content="Eat,Recipe Roundup,Breakfast,Gluten-Free,Healthy Recipes,Paleo" />
+<meta name="sailthru.title" content="41 Paleo Breakfasts That Aren&#039;t Eggs" />
+<meta name="sailthru.date" content="2016-03-02T13:00:11-05:00" />
+<link href="http://greatist.com/eat/paleo-breakfast-recipes" rel="canonical" />
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type":"WebPage",
+    "@id":"http://greatist.com/eat/paleo-breakfast-recipes"
+  },
+  "headline": "41 Paleo Breakfasts That Aren't Eggs",
+  
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://greatist.com/sites/default/files/paleo%20breakfast%20feature.jpg",
+    "height": 1236,
+    "width": 1800
+  },
+  "datePublished": "2016-03-02T13:00:11-05:00",
+  "dateModified": "2016-03-02T13:58:21-05:00",
+  "description": "No grains? No dairy? No problem with these healthy and delicious Paleo recipes for waffles, muffins, casseroles, and much more.",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Eat",
+      "sameAs": "http://greatist.com/eat"
+    },
+    {
+      "@type": "Thing",
+      "name": "Breakfast",
+      "sameAs": "http://greatist.com/breakfast"
+    },
+    {
+      "@type": "Thing",
+      "name": "Gluten-Free",
+      "sameAs": "http://greatist.com/gluten-free"
+    },
+    {
+      "@type": "Thing",
+      "name": "Healthy Recipes",
+      "sameAs": "http://greatist.com/healthy-recipes"
+    },
+    {
+      "@type": "Thing",
+      "name": "Paleo",
+      "sameAs": "http://greatist.com/paleo"
+    }],
+  "articleBody": "&lt;p&gt;Sneaking in a nutritious &lt;a href=&quot;http://greatist.com/breakfast&quot;&gt;breakfast&lt;/a&gt; can be hard for just about anyone. And for those sticking to a &lt;a href=&quot;http://greatist.com/paleo&quot;&gt;Paleo&lt;/a&gt; diet, the morning meal might seem even more daunting. &lt;a href=&quot;http://greatist.com/eat/perfect-boiled-eggs-tips&quot;&gt;Eggs&lt;/a&gt; are always an option, but going through multiple cartons per week gets old fast. Besides, no one should have to give up the goodness of waffles, pancakes, and muffins.&lt;/p&gt;  &lt;span data-nid=&quot;7450&quot;       class=&quot;article-suggestion article-suggestion-embed&quot;       ng-controller=&quot;articleSuggestionCtrl&quot;       data-track-name=&quot;article-suggestion-embed&quot;       ng-cloak&gt;   &lt;span class=&quot;top-label&quot;&gt;     &lt;img class=&quot;icon&quot; src=&quot;/sites/all/themes/greatist2x/images/design/HeartIcon.png&quot;&gt;     &lt;span&gt;You might also like&lt;/span&gt;   &lt;/span&gt;    &lt;a data-nid=&quot;7450&quot; href=&quot;{{linkUrl}}&quot; ng-click=&quot;click($event)&quot;&gt;     &lt;img nopin=&quot;nopin&quot; class=&quot;no-pin article-img&quot; ng-src=&quot;{{imgUrl}}&quot;/&gt;     &lt;div class=&quot;description-wrapper&quot;&gt;       &lt;div class=&quot;description&quot;&gt;         &lt;span class=&quot;article-title&quot;&gt;{{displayTitle}}&lt;/span&gt;         &lt;span class=&quot;more&quot;&gt;           &lt;span class=&quot;read-more&quot;&gt;       &lt;span&gt;READ&lt;/span&gt;     &lt;i class=&quot;fa fa-long-arrow-right&quot;&gt;       &lt;/i&gt;   &lt;/span&gt;         &lt;/span&gt;       &lt;/div&gt;     &lt;/div&gt;   &lt;/a&gt; &lt;/span&gt;  &lt;p&gt;Whether you&rsquo;re making an impressive brunch spread or just looking for something quick as you dash out the door, we&rsquo;ve done the heavy lifting for you. These a.m. options range from savory to sweet, refreshing to rich. The only hard part about breakfast now is picking which recipe to make first.&lt;/p&gt;  &lt;section class=&quot;slideshow list-image-full&quot; ng-controller=&quot;SlideshowListCtrl&quot; ng-init=&quot;init()&quot;&gt;
+            &lt;h3&gt;Muffins and Breads&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.bakerita.com/paleo-chocolate-chunk-banana-bread/&quot;&gt;1. Paleo Chocolate Chunk Banana Bread&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/1%20final_0.jpg?itok=gC5y2L58&quot;
+              alt=&quot;Paleo Chocolate Chunk Banana Bread&quot;
+              width=&quot;1449&quot;
+              height=&quot;2033&quot;
+                            pin-title=&quot;1. Paleo Chocolate Chunk Banana Bread&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Bakerita                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;It&rsquo;s hard to improve upon banana bread, but adding chocolate chunks does just that. This Paleo loaf stays nice and moist from plenty of mashed &lt;a href=&quot;http://greatist.com/eat/creative-banana-recipes&quot;&gt;banana&lt;/a&gt;. Just mix the wet ingredients and then add in a coconut flour and cinnamon mixture. Though the recipe calls for letting this goody cool before slicing, it might be even better when those bits of chocolate are still melty.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://detoxinista.com/2014/09/paleo-pumpkin-spice-muffins-nut-free/&quot;&gt;2. Paleo Pumpkin Spice Muffins&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/2-FINAL_0.jpg?itok=1L2iKvYU&quot;
+              alt=&quot;Paleo Pumpkin Spice Muffins&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;2. Paleo Pumpkin Spice Muffins&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Detoxinista                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Who decided that the best use of pumpkin spice was in a coffee drink? We think these muffins are a way tastier (and healthier!) option. Made from mostly eggs and pumpkin puree, these morning treats pack in a good amount fiber and protein. Put down the latte and pick up one of these to get all of that great flavor with a lot more staying power.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.runningtothekitchen.com/paleo-english-muffins/&quot;&gt;3. Paleo English Muffins&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/3-Final.jpg?itok=JRjIEuWV&quot;
+              alt=&quot;Paleo English Muffins&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;3. Paleo English Muffins&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Running to the Kitchen                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;If you thought going Paleo meant giving up English muffins, think again. The best part about this recipe is that it cooks in the &lt;a href=&quot;http://greatist.com/health/surprising-healthy-microwave-recipes&quot;&gt;microwave&lt;/a&gt; in just two minutes, so there&rsquo;s no need to preheat the oven. They&rsquo;re great with a swipe of nut butter or jam, but they also make a killer eggs Benedict on a leisurely Sunday. Bonus: &lt;a href=&quot;http://greatist.com/brunch&quot;&gt;Brunch&lt;/a&gt; at home means getting to wear pajamas well into the afternoon hours.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://notyourstandard.com/sweet-potato-paleo-muffins/&quot;&gt;4. Sweet Potato Paleo Muffins&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/4%20final.jpg?itok=E5Ndpsen&quot;
+              alt=&quot;Paleo Sweet Potato Muffins&quot;
+              width=&quot;900&quot;
+              height=&quot;1350&quot;
+                            pin-title=&quot;4. Sweet Potato Paleo Muffins&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Not Your Standard                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Some &lt;a href=&quot;http://greatist.com/eat/healthy-muffin-recipes&quot;&gt;muffins&lt;/a&gt; are so rich that they&rsquo;re more appropriate for dessert than breakfast. This Paleo version combines the goodness of mashed sweet potato with a base made from grated apple, shredded coconut, dried figs, and almond flour. They taste just like a fall dessert, but won&rsquo;t derail your eating for the rest of the day.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.ambitiouskitchen.com/2015/07/grain-free-chocolate-chip-peanut-butter-zucchini-bread-2-different-ways/&quot;&gt;5. Grain-Free Chocolate Chip Peanut Butter Zucchini Bread&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/5%20final.jpg?itok=VEl-J3tv&quot;
+              alt=&quot;Paleo Chocolate Chip Peanut Butter Zucchini Bread&quot;
+              width=&quot;800&quot;
+              height=&quot;1200&quot;
+                            pin-title=&quot;5. Grain-Free Chocolate Chip Peanut Butter Zucchini Bread&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Ambitious Kitchen                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Zucchini bread is a no-no for anyone forgoing grains&mdash;unless you make this loaf, which swaps out butter and sugar for coconut flour, pure maple syrup, and all-natural creamy peanut butter. This recipe also comes with the option to swap in protein powder instead of coconut flour, which will give this yummy breakfast an added nutritional boost. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://powerhungry.com/2013/05/paleo-almond-flour-muffins-master-recipe/&quot;&gt;6. Paleo Almond Flour Mushroom Muffins&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/6%20final.jpg?itok=X5uQO_Rb&quot;
+              alt=&quot;Paleo Mushroom Muffins with Almond Flour&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;6. Paleo Almond Flour Mushroom Muffins&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Power Hungry                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;This muffin recipe turns a traditionally sweet breakfast staple into a savory treat. This version calls for a simple combo of mushrooms, basil, and onions, but feel free to add whatever veggies you have on hand. You can even use the leftover for healthier and upgraded dinner rolls. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://watchfit.com/diet/paleo-breakfast-bread/&quot;&gt;7. Paleo Breakfast Bread&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/breakfast%20bread.jpg?itok=0peJTYp7&quot;
+              alt=&quot;Paleo Breakfast Bread&quot;
+              width=&quot;826&quot;
+              height=&quot;1024&quot;
+                            pin-title=&quot;7. Paleo Breakfast Bread&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Watch Fit                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;While quick breads get bonus points for being super easy to prepare, they don&rsquo;t typically win any health contests. This &lt;a href=&quot;http://greatist.com/eat/paleo-dessert-recipes&quot;&gt;Paleo&lt;/a&gt; bread gets healthy fats and protein from nut butter and just enough sweetness from a touch of honey. The recipe calls for cinnamon, but feel free to play around with different spices to suit your mood. Maybe it&rsquo;s more of a cardamom kind of day.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Pancakes and Waffles&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.bloggersclub.com/eat/paleo-chocolate-waffles-ari-eats/&quot;&gt;8. Paleo Chocolate Waffles&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/8-final.jpg?itok=fUWWg4Cf&quot;
+              alt=&quot;Paleo Chocolate Waffles&quot;
+              width=&quot;732&quot;
+              height=&quot;1211&quot;
+                            pin-title=&quot;8. Paleo Chocolate Waffles&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Bloggers Club                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Chocolate for breakfast usually brings to mind Pop-Tarts or kids&rsquo; cereal&mdash;and a massive sugar crash that leaves you asleep at your desk by midmorning. That won&rsquo;t happen with these waffles, which get just enough sweetness from raw cacao powder and coconut sugar. To give them even more staying power, top with strawberries, bananas, or &lt;a href=&quot;http://greatist.com/eat/peanut-butter-and-beyond-nutrient-packed-alternatives&quot;&gt;nut butter&lt;/a&gt; rather than the sauce.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://ditchthewheat.com/coconut-flour-pancakes/&quot;&gt;9. Coconut Flour Pancakes&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/9%20final.jpg?itok=Z_PU8ywc&quot;
+              alt=&quot;Coconut Flour Pancakes&quot;
+              width=&quot;1000&quot;
+              height=&quot;1504&quot;
+                            pin-title=&quot;9. Coconut Flour Pancakes&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Ditch the Wheat                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Traditional &lt;a href=&quot;http://greatist.com/eat/protein-pancake-recipes&quot;&gt;pancakes&lt;/a&gt; are definitely not an option for Paleo converts, so these coconut flour ones are a dream come true. With a triple dose of coconut&mdash;flour, milk, and oil&mdash;they&rsquo;re great with any of your favorite toppings, but why not go for it with a sprinkle of toasted, shredded coconut? &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://yurielkaim.com/sweet-potato-waffles/&quot;&gt;10. 3-Ingredient Paleo Sweet Potato Waffles&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/10%20final.jpg?itok=jnM23b2u&quot;
+              alt=&quot;3-Ingredient Sweet Potato Waffles&quot;
+              width=&quot;1000&quot;
+              height=&quot;1476&quot;
+                            pin-title=&quot;10. 3-Ingredient Paleo Sweet Potato Waffles&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo:Yuriel Kaim                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;The crispy edges of a fresh waffle make it one of the best on-the-go options out there, especially when it&rsquo;s a simple 3 ingredient (sweet potato, eggs, and coconut flour) sweet potato waffle. Sweet potatoes are one of the best sources of beta-carotene to support a healthy immune system, plus they could help reduce the risk of &lt;a href=&quot;http://www.scirp.org/journal/PaperInformation.aspx?PaperID=31005#.VQ4amvnF-So&quot;&gt;heart disease and diabetes&lt;/a&gt;. This version tops the waffles with a fried egg, avocado, cilantro, lime, and hot sauce but feel free to top with whatever healthy staples you have! &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://fitfoodiefinds.com/2014/06/grain-free-applesauce-pancakes/&quot;&gt;11. Grain-Free Applesauce Pancakes&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/11-final.jpg?itok=Z62fe1F8&quot;
+              alt=&quot;Apple Sauce Pancakes&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;11. Grain-Free Applesauce Pancakes&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Fit Foodie Finds                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;a href=&quot;http://greatist.com/eat/gluten-free-breakfast-recipes&quot;&gt;Two-ingredient banana pancakes&lt;/a&gt; are a quick breakfast option, but these ones are a great alternative when you&rsquo;re in the mood for something a little bit different. Don&rsquo;t worry, they&rsquo;re hardly any more work with just six ingredients and a simple method. They&rsquo;re perfect as is, but a sprinkle of cinnamon makes them taste just like an apple pie. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.ambitiouskitchen.com/2015/09/almond-butter-blueberry-paleo-waffles/&quot;&gt;12. Almond Butter Blueberry Paleo Waffles&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/12%20final.jpg?itok=wR14fg0p&quot;
+              alt=&quot;Almond Flour Blueberry Paleo Waffles&quot;
+              width=&quot;800&quot;
+              height=&quot;1200&quot;
+                            pin-title=&quot;12. Almond Butter Blueberry Paleo Waffles&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Ambitious Kitchen                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Any day that begins with a waffle is nearly guaranteed to be awesome. Enjoy the same taste of a classic Belgian waffle with this recipe that&rsquo;s made with almond butter, coconut oil, almond milk, eggs, and coconut flour. Purists will want to enjoy these as is, or try using them to make a seriously fun breakfast sandwich.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.forageddish.com/blog/2014/11/2/paleo-pear-and-bacon-pancakes-pancakeparty&quot;&gt;13. Paleo Pear and Bacon Pancakes&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/13-final.jpg?itok=rMPewbOh&quot;
+              alt=&quot;Paleo Pear and Bacon Pancakes&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;13. Paleo Pear and Bacon Pancakes&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Foraged Dish                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Pancakes and &lt;a href=&quot;http://greatist.com/eat/bacon-recipes&quot;&gt;bacon&lt;/a&gt; are a sweet and salty combination that just wins. This genius breakfast marries the flavors by putting the savory meat right in the batter along with some sweet, juicy pear. We&rsquo;re so happy that someone finally went there&mdash;and shared the recipe! &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Casseroles&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://acalculatedwhisk.com/breakfast-casserole/&quot;&gt;14. Breakfast Casserole With Bacon, Sausage, Sweet Potato, and Kale&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/14%20final.jpg?itok=iVvfNy5K&quot;
+              alt=&quot;Breakfast Casserole with Bacon, Sausage, Sweet Potato, and Kale&quot;
+              width=&quot;1200&quot;
+              height=&quot;1745&quot;
+                            pin-title=&quot;14. Breakfast Casserole With Bacon, Sausage, Sweet Potato, and Kale&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: A Calculated Whisk                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;While breakfast strata makes a great weekend treat, it&rsquo;s filled with tons of bread and not much else. Talk about bloat. This recipe gives the typical casserole a whole new look and taste with sweet potatoes, bacon, greens, and sausage. With so much flavor, you won&rsquo;t miss the cheesy topping one bit.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.wholesomelicious.com/baked-blueberry-coconut-french-toast/&quot;&gt;15. Baked Blueberry Coconut French Toast Casserole&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/15-final_0.jpg?itok=xsod9c4v&quot;
+              alt=&quot;Baked Blueberry Coconut French Toast&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;15. Baked Blueberry Coconut French Toast Casserole&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Wholesomelicious                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;If you thought eating a &lt;a href=&quot;http://http://greatist.com/health/paleo-recipes-list&quot; rel=&quot;&quot;&gt;Paleo&lt;/a&gt; diet meant no more French toast, think again. Use  your favorite paleo bread and load with flavorful  blueberries, and coconut flakes to prep the entire casserole the night before, pop the dish into the fridge, and then toss it into the oven for 35 to 40 minutes when you wake up. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.freckleditalian.com/blog/paleo-breakfast-casserole&quot;&gt;16. Paleo Breakfast Casserole&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/16%20final.jpeg?itok=XCoxftFJ&quot;
+              alt=&quot;Paleo Breakfast Casserole&quot;
+              width=&quot;1000&quot;
+              height=&quot;1500&quot;
+                            pin-title=&quot;16. Paleo Breakfast Casserole&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Freckled Italian                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Having some veggies for breakfast starts the day off right by offering up plenty of antioxidants and fiber. That doesn&rsquo;t mean a boring salad is the only option, though. This hearty casserole gets plenty of flavor from sausage, garlic, green onion, and sweet potato. Cook up the veggies, layer into a dish, and then pour a quick egg batter on top before sending it to the oven.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://civilizedcavemancooking.com/recipes/breakfast/paleo-french-toast/&quot;&gt;17. Paleo French Toast&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/17-final.jpg?itok=4eDrwT1W&quot;
+              alt=&quot;Paleo French Toast&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;17. Paleo French Toast&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Civilized Caveman Cooking                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;This French toast uses a &lt;a href=&quot;http://civilizedcavemancooking.com/recipes/desserts/paleo-banana-bread/&quot;&gt;paleo banana bread &lt;/a&gt;recipe as the base, but you can also use your favorite store-bought paleo bread if you're in a rush. Once you have the bread, the recipe is easy: just beat together eggs, cinnamon, sea salt, and almond (or coconut) milk for that signature French toast coating.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://peaceloveandlowcarb.com/italian-spaghetti-squash-breakfast-casserole-low-carb-gluten-free-paleo/&quot;&gt;18. Spaghetti Squash Breakfast Casserole&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/18%20REAL%20FINAL.jpg?itok=z_jUy9rN&quot;
+              alt=&quot;Spaghetti Squash Breakfast Casserole&quot;
+              width=&quot;589&quot;
+              height=&quot;750&quot;
+                            pin-title=&quot;18. Spaghetti Squash Breakfast Casserole&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Peace Love and Low Carb                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Italians like to use leftover pasta to make all sorts of breakfast dishes, and this &lt;a href=&quot;http://greatist.com/spaghetti-squash&quot;&gt;spaghetti squash&lt;/a&gt; casserole has a similarly hearty texture minus the wheat. One of the best things is that it&rsquo;s versatile enough to work with just about any meat or veggie you prefer. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.popsugar.com/fitness/Apple-Cinnamon-Quinoa-Breakfast-Bake-32210316&quot;&gt;19. Apple Cinnamon Quinoa Breakfast Bake&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/19-final.jpg?itok=vTaTrmMB&quot;
+              alt=&quot;Apple Cinnamon Quinoa Bake&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;19. Apple Cinnamon Quinoa Breakfast Bake&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: PopSugar                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Paleo or not, sometimes having another plate of scrambled eggs for breakfast can be maddening. This casserole is a sweet treat that seriously shakes up a boring morning routine. With no added sugars and plenty of produce, you can have seconds without overdoing it. And it&rsquo;s the perfect way to use up leftover veggies.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://paleogrubs.com/breakfast-casserole-recipe&quot;&gt;20. Paleo Breakfast Casserole in a Mug&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/20%20final.jpg?itok=--2Kuzmv&quot;
+              alt=&quot;Paleo Breakfast Casserole in a Cup&quot;
+              width=&quot;575&quot;
+              height=&quot;863&quot;
+                            pin-title=&quot;20. Paleo Breakfast Casserole in a Mug&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Paleo Grubs                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;This breakfast casserole takes a classic paleo combo of meat (this one uses ground turkey), veggies, and spices and loads it into an Instagram-worthy mug. You can get creative with this one, adding whichever veggies and meats you prefer, or maybe even sticking it in a mason jar (just make sure to use oven mitts if you're putting the jar in the oven).&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Smoothies&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.theironyou.com/2015/01/raspberry-grapefruit-smoothie.html&quot;&gt;21. Raspberry Grapefruit Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/21-final.jpg?itok=ImAkn3Tx&quot;
+              alt=&quot;Raspberry Grapefruit Smoothie&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;21. Raspberry Grapefruit Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: The Iron You                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;A lot of smoothie shops add all sorts of bizarre ingredients to their drinks. For those who prefer purity, this recipe is 100-percent fruit. With plenty of vitamin C and a tart flavor, grapefruit is like a seriously sassy version of an orange that works perfectly with the sweetness of banana and raspberries. Just remember to have some protein (like a &lt;a href=&quot;http://greatist.com/eat/perfect-boiled-eggs-tips&quot;&gt;hard-boiled egg&lt;/a&gt;) with it for staying power.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.abeautifulmess.com/2014/03/healthy-chocolate-banana-shake-dairy-free-no-added-sugar.html&quot;&gt;22. Healthy Chocolate Banana Shake&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/22%20final.jpg?itok=gxBpeZRE&quot;
+              alt=&quot;Healthy Chocolate Banana Shake&quot;
+              width=&quot;736&quot;
+              height=&quot;1104&quot;
+                            pin-title=&quot;22. Healthy Chocolate Banana Shake&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: A Beautiful Mess                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;For those with a sweet tooth, this beverage is one of the best breakfasts out there. Bananas and cacao powder means there&rsquo;s no need for &lt;a href=&quot;http://greatist.com/eat/low-sugar-recipes&quot;&gt;added sugar&lt;/a&gt;, and almond butter adds an addictive toasty flavor. Puree everything in the blender, pour it into a to-go cup, and breakfast is ready to zoom out the door.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://americanexpeditioners.com/paleo-tropical-sunrise-smoothie.php&quot;&gt;23. Paleo Tropical Sunrise Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/paleo-tropical-smoothie.jpg?itok=VEfrHFR9&quot;
+              alt=&quot;Paleo Tropical Sunrise Smoothie&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;23. Paleo Tropical Sunrise Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: American Expedtitioners                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;A &lt;a href=&quot;http://greatist.com/move/morning-workout-hacks&quot;&gt;morning workout&lt;/a&gt; can end with a serious craving for something sweet. Instead of heading for a sugary coffee drink, whip up this tropical paleo smoothie. This recipe has a cool twist on traditional smoothie making: you blend two separate mixtures and then combine them together to get the signature &quot;sunrise&quot; color. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.popsugar.com/fitness/Avocado-Banana-Smoothie-Recipe-37428389&quot;&gt;24. Avocado Banana Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/24-final.jpg?itok=wzSGv2_f&quot;
+              alt=&quot;Avocado Banana Smoothie&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;24. Avocado Banana Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: PopSugar                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Tons of &lt;a href=&quot;http://greatist.com/eat/expert-healthy-breakfasts&quot;&gt;health gurus&lt;/a&gt; swear by waking up with a green juice to get loads of nutrients. Unfortunately, that can leave stomachs grumbling hours before lunch. This smoothie gets a lot more heft with filling fats from avocado.  Move over green juice, it&rsquo;s time for &lt;a href=&quot;http://greatist.com/eat/green-smoothie-recipes&quot;&gt;green smoothies&lt;/a&gt; to shine. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://theblenderist.com/pumpkin-smoothie-vegan-paleo/&quot;&gt;25. Pumpkin Spice Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/25%20final.jpg?itok=oSCXua3W&quot;
+              alt=&quot;Pumpkin Paleo Smoothie&quot;
+              width=&quot;718&quot;
+              height=&quot;1073&quot;
+                            pin-title=&quot;25. Pumpkin Spice Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: The Blenderist                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Ever wondered what it would be like to stick a piece of pumpkin pie in the blender? This recipe has all the flavors of that fall favorite with a lot fewer calories. As easy as this smoothie is, speed it up even more by replacing all the spices with a rounded quarter teaspoon of pumpkin spice.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://acalculatedwhisk.com/orange-peach-raspberry-smoothie/&quot;&gt;26. Orange Peach Raspberry Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/26%20final.jpg?itok=Lp67VPXQ&quot;
+              alt=&quot;Orange Peach Raspberry Smoothie&quot;
+              width=&quot;1051&quot;
+              height=&quot;1390&quot;
+                            pin-title=&quot;26. Orange Peach Raspberry Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: A Calculated Whisk                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Orange juice for &lt;a href=&quot;http://greatist.com/eat/gluten-free-breakfast-recipes&quot;&gt;breakfast&lt;/a&gt; is such a yawn. This easy smoothie mixes oranges with peach and raspberry for a tropical twist. Blend up the fruit, an avocado, ginger, vanilla extract, and ground turmeric and this drink is ready for sipping. It might taste more like dessert than a healthy morning meal, but that just makes it extra fun.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.themodernbuttery.com/mojito-green-smoothie-dairy-free/&quot;&gt;27. Dairy-Free Mojito Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/27%20final.png?itok=4t-omQpX&quot;
+              alt=&quot;Mojito Green Smoothie&quot;
+              width=&quot;1200&quot;
+              height=&quot;1809&quot;
+                            pin-title=&quot;27. Dairy-Free Mojito Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: The Modern Buttery                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;It's five o'clock somewhere, right? This booze-free breakfast version of the cocktail packs loads of nutrients like Vitamin C and manganese from the &lt;a href=&quot;http://www.whfoods.com/genpage.php?tname=foodspice&amp;amp;dbid=34&quot;&gt;pineapple&lt;/a&gt;, healthy fats from the &lt;a href=&quot;http://greatist.com/health/superfood-avocado&quot;&gt;avocado&lt;/a&gt;, and all of &lt;a href=&quot;http://greatist.com/health/superfood-spinach&quot;&gt;spinach's superfood goodness&lt;/a&gt;. And chia seeds help thicken it up and further boost the fiber.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Bowls&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://paleofoodies.com.au/2014/09/chia-berry-paleo-parfait/&quot;&gt;28. Chia Berry Paleo Parfait&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/28%20final.jpg?itok=EWBWIhhB&quot;
+              alt=&quot;Chia Berry Paleo Parfait&quot;
+              width=&quot;3456&quot;
+              height=&quot;5184&quot;
+                            pin-title=&quot;28. Chia Berry Paleo Parfait&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Paleo Foodies                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Yogurt isn't usually paleo-friendly, but that doesn't mean you can't have parfaits! This version uses a mix of chia seeds, coconut milk, and honey for the base and packs in lots of colorful berries. If you're craving something sweet after dinner, too, this works great as a guilt-free dessert. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.theroastedroot.net/paleo-granola/&quot;&gt;29. Gluten-Free Granola&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/29-final.jpg?itok=IMvAk2yK&quot;
+              alt=&quot;Gluten Free Granola&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;29. Gluten-Free Granola&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: The Roasted Root                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Saying no to grains shouldn&rsquo;t mean having to say no to a helping of crunchy granola, and it doesn&rsquo;t have to anymore. This recipe lets the food processor do most of the work, chopping up a combo of nuts and seeds with some coconut. Full of copper, manganese, and healthy fats that may help protect against heart disease &lt;cite data-cite-reference=&quot;&quot; class=&quot;citation-reference&quot;&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23866098&quot; rel=&quot;&quot;&gt;Nuts, Blood Lipids and Cardiovascular Disease&lt;/a&gt;. Sabate, J. Wien, M. Asia Pacific Journal of Clinical Nutrition, 2010; 19(1):131-6.&lt;/cite&gt;&lt;cite data-cite-reference=&quot;&quot; class=&quot;citation-reference&quot;&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20820955&quot; rel=&quot;&quot;&gt;Nuts and Berries for Heart Health&lt;/a&gt;. Ros, E., Tapsell, LC., Sabate, J. Current Atherosclerosis Reports. 2010 Nov; 12(6):397-406.&lt;/cite&gt;&lt;cite data-cite-reference=&quot;&quot; class=&quot;citation-reference&quot;&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23866098&quot; rel=&quot;&quot;&gt;Frequency of Nut Consumption and Mortality Risk in the PREDIMED Nutrition Intervention Trial&lt;/a&gt;. Guasch-Ferr&eacute;, M., Bull&oacute;, M., Mart&iacute;nez-Gonz&aacute;lez M&Aacute;., et al. BMC Medicine. 2013 Jul 16; 11:164.&lt;/cite&gt;, nuts make a super nutritious morning meal.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://meatified.com/paleo-peach-parfait/&quot;&gt;30. Paleo Peach Parfait With Blueberry and Basil&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/30-final.jpg?itok=oUfXxLy2&quot;
+              alt=&quot;Crunchy Banana Maple Nut Free Granola&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;30. Paleo Peach Parfait With Blueberry and Basil&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Meatified                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Miss the creamy goodness of yogurt for a morning treat? This recipe purees honey, lemon juice, grass-fed gelatin, coconut milk, and blueberries in the blender to get a luxurious puree that&rsquo;s every bit as good as the dairy stuff. Save this one for a day when you&rsquo;re feeling adventurous!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://kissmykiwis.tumblr.com/post/61405388930/paleo-pumpkin-porridge-%C2%BD-cup-pumpkin-%C2%BD-cup&quot;&gt;31. Paleo Pumpkin Pie Porridge&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/31-final.jpg?itok=k_jldMqe&quot;
+              alt=&quot;Paleo Pumpkin Porridge&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;31. Paleo Pumpkin Pie Porridge&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Kiss my Kiwis                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Bring the flavor of fall to a creamy morning treat with a porridge made from &lt;a href=&quot;http://greatist.com/health/pumpkin-recipes-every-meal&quot;&gt;pumpkin&lt;/a&gt; puree, almond milk, coconut flour, egg, and cinnamon. Any fruit and nut combo makes a great sweet porridge, plus this can easily morph into a savory offering my skipping the maple, adding some chopped chipotle, and topping with a sprinkle of cilantro and pumpkin seeds. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://grokgrub.com/2014/04/18/triple-chocolate-paleo-granola/&quot;&gt;32. Triple Chocolate Paleo Granola&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/32%20final.jpg?itok=AmGxgBGX&quot;
+              alt=&quot;Triple Chocolate Paleo Granola&quot;
+              width=&quot;900&quot;
+              height=&quot;1332&quot;
+                            pin-title=&quot;32. Triple Chocolate Paleo Granola&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Grok Grub                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;This is a great paleo granola staple to have in your kitchen. This one is for a weekend where you have lots of time, since the recipe involves soaking nuts overnight, but it'll be a great way to get ahead on your breakfast-prep for the week. The chocolate extract and cacao butter give this nut mixture a flavorful bonus that will keep you coming back for more. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.rubiesandradishes.com/2014/11/05/paleo-slow-cooker-noatmeal/&quot;&gt;33. Paleo Slow Cooker Oatmeal&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/33%20final.jpg?itok=77oxlxof&quot;
+              alt=&quot;Paleo Slow Cooker Oatmeal&quot;
+              width=&quot;752&quot;
+              height=&quot;1128&quot;
+                            pin-title=&quot;33. Paleo Slow Cooker Oatmeal&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Rubies and Radishes                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;It&rsquo;s hard to beat a comforting bowl of &lt;a href=&quot;http://greatist.com/oatmeal for breakfast&quot;&gt;oatmeal&lt;/a&gt;, but this Paleo version might be even better thanks to the delicious coconut. Just throw the igredients (feel free to add in your favorite nuts and spices) in your slow cooker and enjoy a perfect breakfast the next morning. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.tessadomesticdiva.com/2013/01/creamy-paleo-maple-nut-porridge-w-banana.html&quot;&gt;34. Creamy Paleo Maple-Nut Porridge With Banana&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/34%20final.jpg?itok=veZ-V_s6&quot;
+              alt=&quot;Maple-Nut Banana Paleo Porridge&quot;
+              width=&quot;2848&quot;
+              height=&quot;4272&quot;
+                            pin-title=&quot;34. Creamy Paleo Maple-Nut Porridge With Banana&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Tessa the Domestic Diva                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;A bowl of something warm and creamy is always a great way to wake up since it&rsquo;s basically like a hug from the inside. This dreamy concoction comes together in the blender before a quick blast on the stove. Just note that the nuts need to soak overnight, so plan ahead or else you&rsquo;ll wind up with a chunky mess.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://weelicious.com/2015/03/06/creamy-avocado-lime-parfaits-recipe/&quot;&gt;35. Creamy Avocado Lime Parfait&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/35%20final.jpg?itok=QiiqsJsc&quot;
+              alt=&quot;Creamy Avocado Parfait&quot;
+              width=&quot;800&quot;
+              height=&quot;1146&quot;
+                            pin-title=&quot;35. Creamy Avocado Lime Parfait&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Welicious                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Most people probably scrunch up their noses at the thought of heading to a &lt;a href=&quot;http://greatist.com/health/ultimate-guide-eating-paleo-infographic&quot;&gt;Paleo&lt;/a&gt; friend&rsquo;s place for weekend brunch, but that doubt will turn to delight if they get one of these gorgeous parfaits. Alternate layers of a pistachio and date mixture and a creamy avocado puree for a colorful, green masterpiece. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.ibreatheimhungry.com/2012/07/cinnamon-faux-st-crunch-cereal-3.html&quot;&gt;36. Paleo Cinnamon Toast Crunch&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/36%20final.jpg?itok=RvJGgILw&quot;
+              alt=&quot;Paleo Cinnamon Toast Crunch&quot;
+              width=&quot;1156&quot;
+              height=&quot;1600&quot;
+                            pin-title=&quot;36. Paleo Cinnamon Toast Crunch&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: I Breathe Im Hungry                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Finding a grain-free &lt;a href=&quot;http://greatist.com/health/best-healthy-cereal-brands&quot;&gt;cereal&lt;/a&gt; in the grocery store is pretty much an impossible mission, so making it at home is the best option. This twist on Cinnamon Toast Crunch is made with hemp seeds, flax seeds, cinnamon, apple juice, and coconut oil. Storing it in an airtight container also means it&rsquo;ll stay fresh way longer than that boxed stuff. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Bars&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.thepescetarianandthepig.com/2013/04/10/raw-coconut-cranberry-cashew-fig-bars/&quot;&gt;37. Raw Coconut Cranberry Cashew Fig Bars&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/37%20final.jpg?itok=i6fQH3J6&quot;
+              alt=&quot;Fig Paleo Granola Bar&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;37. Raw Coconut Cranberry Cashew Fig Bars&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: The Pescetarian and the Pig                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;While there are plenty of great homemade bar options out there, a lot of them take forever to make. Not these sweet treats. Nuts, fruit, coconut oil, and honey go into a food processor, and then the whole mixture gets pressed into a pan. No baking, no fuss, and totally tasty.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.redclogkitchen.com/2014/10/18/paleo-breakfast-bars-2/&quot;&gt;38. Paleo Breakfast Bars&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/38-final.jpg?itok=ELpRAiBa&quot;
+              alt=&quot;Paleo Breakfast Bar&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;38. Paleo Breakfast Bars&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Most packaged breakfast bars don&rsquo;t have much flavor apart from crazy amounts of sugar. These DIY &lt;a href=&quot;http://greatist.com/health/high-protein-snacks-portable&quot;&gt;portables&lt;/a&gt; will leave your taste buds dancing with a combo of cinnamon, ginger, and cloves, plus some molasses for extra richness. Made from mostly nuts and dried fruits, these bars offer up plenty of filling fiber and an addictive crunch that makes them great for breakfast or a late-night snack. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.tessadomesticdiva.com/2012/01/gluten-free-vegan-fig-newtons.html&quot;&gt;39. Paleo Fig Newtons&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/39%20final.jpg?itok=PLm8E0vJ&quot;
+              alt=&quot;Paleo Fig Newtons&quot;
+              width=&quot;2848&quot;
+              height=&quot;4272&quot;
+                            pin-title=&quot;39. Paleo Fig Newtons&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Tessa the Domestic Diva                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Let&rsquo;s face it, we all grab a bar on the go from time to time. And then wonder what half the ingredients are that we&rsquo;re eating. Eek! These use only pronounceable ingredients including figs, oat flour, coconut oil, and maple syrup. With a sweet and nutty taste, they&rsquo;re basically Fig Newtons' sophisticated older sister.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://yumandyummer.com/2012/12/19/coconut-date-bars-how-to-make-your-own-larabars/&quot;&gt;40. Coconut Date Bars&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/40-final.jpg?itok=w6zzRAYo&quot;
+              alt=&quot;Paleo Date Bars&quot;
+              width=&quot;1120&quot;
+              height=&quot;1680&quot;
+                            pin-title=&quot;40. Coconut Date Bars&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Yum and Yummer                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Requiring only three ingredients and 10 minutes to make, this recipe may make you never buy another bar again. But how do they taste? Sweet and tropical, with an occasional crunch from a piece of almond. This is proof of how amazing clean eating can be.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://kipsandkale.wordpress.com/tag/paleo-snack/&quot;&gt;41. No-Bake Paleo Chocolate Protein Bars&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/41-final.jpg?itok=auRJZ46L&quot;
+              alt=&quot;Paleo No-Bake Chocolate Protein Bars&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;41. No-Bake Paleo Chocolate Protein Bars&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Kips and Kale                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Perfect for post-workout, these bars are made with nuts, cocoa powder, shredded coconut, and chia seeds. They&rsquo;ll satisfy any stubborn sweet tooth while offering up antioxidants and protein. Add a scoop of your favorite &lt;a href=&quot;http://greatist.com/discover/plantfusion&quot;&gt;protein powder&lt;/a&gt; to the recipe for even more muscle-building, belly-satisfying benefit.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+  &lt;/section&gt;
+  &lt;p&gt;&lt;br /&gt;&lt;em&gt;Originally published March 2015. Updated March 2016. &lt;/em&gt;&lt;/p&gt; ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Greatist",
+    "sameAs": "http://www.greatist.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://greatist.com/sites/all/themes/greatist2x/images/design/greatist_jsonld_logo.png",
+      "height": 60,
+      "width": 206
+    }
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Christine Skopec",
+      "sameAs": "http://greatist.com/p/christine-skopec"
+    }
+  ]
+}</script>
+<meta name="sailthru.image" content="http://greatist.com/sites/default/files/styles/newsletter-feature-652x338/public/paleo%20breakfast%20feature.jpg?itok=CEDRKIMZ" />
+<link href="http://greatist.com/eat/paleo-breakfast-recipes/amp" rel="amphtml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="No grains? No dairy? No problem with these healthy and delicious Paleo recipes for waffles, muffins, casseroles, and much more." />
+
+<meta property="fb:admins" content="1101180055" />
+<meta property="fb:app_id" content="338405982951793" />
+<meta property="og:site_name" content="Greatist" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="41 Paleo Breakfasts That Aren&#039;t Eggs" />
+<meta property="og:url" content="http://greatist.com/eat/paleo-breakfast-recipes" />
+<meta property="og:description" content="No grains? No dairy? No problem with these healthy and delicious Paleo recipes for waffles, muffins, casseroles, and much more." />
+<meta property="og:image" content="http://greatist.com/sites/default/files/styles/big_share/public/paleo%20breakfast%20feature.jpg?itok=ILtdxIcJ" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@greatist" />
+<meta name="twitter:url" content="http://greatist.com/eat/paleo-breakfast-recipes" />
+<meta name="twitter:title" content="41 Paleo Breakfasts That Aren&#039;t Eggs" />
+<meta name="twitter:description" content="No grains? No dairy? No problem with these healthy and delicious Paleo recipes for waffles, muffins, casseroles, and much more." />
+<meta name="twitter:image:src" content="http://greatist.com/sites/default/files/styles/article_main/public/paleo%20breakfast%20feature.jpg?itok=Q0S4BJez" />
+<meta property="article:publisher" content="https://www.facebook.com/greatist" />
+<meta property="article:section" content="Eat" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQAFVldUGwsJU1BWAQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+  <meta name="google-site-verification" content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE" />
+  <link href="https://plus.google.com/+Greatist" rel="publisher" />
+  <!-- <link rel="apple-touch-icon" href="/sites/default/files/Mobile-Icon-V3.jpg"/> -->
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-128.png" sizes="128x128" />
+  <meta name="msapplication-TileImage" content="/sites/all/themes/greatist2x/images/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x310.png" />
+  <meta name="google-site-verification"
+        content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE"/>
+  <link href="https://plus.google.com/+Greatist" rel="publisher"/>
+
+  <title>Paleo Breakfast Recipes That Aren't All Eggs | Greatist</title>
+  <link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_qKsSCcrOVT4pKULgi4iAVuPQPU3lfSzuSXMJCARUKic.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_apECqqs4IfYxrJBKMsMh0b_85X5CyllXLp6hODNanx4.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_yYuTvjdq5_epDRBZUITk8EG5FPEk00zL4y1ftmiAgXY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css__kLaRzNXRI_NisJDTD0u5qnEU3iVMT3xBsvltojOvYg.css" media="all" />
+  <script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_jAem-GbtffJErQNlP33_rowrrkscx9kVa0aYdo8r3pQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};googletag.cmd = googletag.cmd || [];var gads = document.createElement("script");gads.async = true;gads.type = "text/javascript";var useSSL = "https:" == document.location.protocol;gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";var node =document.getElementsByTagName("script")[0];node.parentNode.insertBefore(gads, node);
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_I8yX6RYPZb7AtMcDUA3QKDZqVkvEn35ED11_1i7vVpc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-20914064-2", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("require", "displayfeatures");ga("set", "dimension1", "March 2, 2016");ga("set", "dimension2", "Christine Skopec");ga("set", "dimension3", "breakfast,gluten-free,healthy recipes,paleo");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.pubads().setTargeting('post_id', '6156');googletag.pubads().setTargeting('is_testing', 'no');});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.defineSlot('/38507188/Teads_1x1',[1,1],'page').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.enableServices();});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var greatist_globals = {"env":"live","build_id":1471275567,"themepath":"\/sites\/all\/themes\/greatist2x","jsfolder":"\/sites\/all\/themes\/greatist2x\/js\/c","height_analytics_frequency":100,"yieldbot":true,"yb_pub_id":"1ce9","yb_pub_id_mobile":"7a53","horizon":true,"thinglink":false,"require":{"baseUrl":"\/sites\/all\/themes\/greatist2x\/js\/c\/greatist-build","urlArgs":"v=1471275567"},"amazon_tag":"greatist-20","uid":0,"nodepage":true,"prod_url":"http:\/\/greatist.com\/eat\/paleo-breakfast-recipes","article_nid":"6156","article_uid":"465304","article_created":"1456941611","article_title":"41 Paleo Breakfasts That Aren't Eggs","article_type":"article","article_subtype":"Recipe Roundup","tags":["Breakfast","Gluten-Free","Healthy Recipes","Paleo"],"tags_dfp":["breakfast","gluten-free","healthy recipes","paleo"],"categories":"Eat","categories_dfp":"eat","pinterest_hashtags":"#paleo #breakfast #recipes","author":"Christine Skopec","shares":{"gplus":59,"twitter":0,"fb":7398,"stumble":8,"pinterest":92423,"total":109300},"kargo_ad_line_items":["189420108"]};
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_35WjR-K-c1eoIjZOUUMFSuAkyRxZn3QW5GWmChFKAXU.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_dynamic.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_static.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_su0LbO_kIcrk2xwJfPUqU2MlKQEFTfzu-XRzjcV6gwI.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_Fpfp_QVPEaF7N8wcBw0ZYabifSNdisHqFagZ7VgQqTY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greatist2x","theme_token":"k7IG8lyiyu9yEfZmeCr8xv6tAh0FKj8HFJ4RGM3OFz0","js":{"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/main.js":1,"0":1,"sites\/all\/modules\/custom\/gr8ist_social\/includes\/js\/gr8ist_instagram_embed.js":1,"\/\/wms-na.amazon-adsystem.com\/20070822\/US\/js\/auto-tagger.js?tag=greatist-20\u0026locale=US\u0026overwrite=1":1,"1":1,"2":1,"\/\/dc8xl0ndzn2cb.cloudfront.net\/js\/greatist\/v0\/keywee.min.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1,"5":1,"6":1,"7":1,"sites\/all\/themes\/greatist2x\/js\/c\/require_m.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_dynamic.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_static.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/require-config.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/lib\/modernizr.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/print.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/magnific-popup.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/jquery.qtip.min.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/style.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+  <!--[if lte IE 9 ]>
+  <link type="text/css" rel="stylesheet"
+        href="/sites/all/themes/greatist2x/css/old-ie.css" media="all"/>
+  <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-6156 node-type-article env-live" >
+<div id="skip-link">
+  <a href="#main-content"
+     class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div id="page">
+  <div class="leaderboard"><div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-leaderboard"
+  data-ad-dfp="/38507188/ROS_728x90"
+  data-ad-slot="div-gpt-ad-1408633905912-0"
+  data-ad-size="728x90"
+  class="dfp-tag-wrapper dfp-ad-article-ad-leaderboard"></div>
+
+<div
+  data-restrict-context-to="x-small,small,medium"
+  data-dfp-g-id="article-ad-mobile-top"
+  data-ad-dfp="/38507188/ROS_320x50_Mobile"
+  data-ad-slot="div-gpt-ad-1412623396310-0"
+  data-ad-size="300x50,320x50"
+  class="dfp-tag-wrapper dfp-ad-article-ad-mobile-top"></div>
+
+</div>
+  <header role="banner" data-header class="clearfix">
+  <nav role="navigation">
+    <div id="nav-touch-wrapper" ng-controller="menuCtrl">
+      <div id="main-menu">
+  <div class="menu-mobile" ng-controller="hamburgerCtrl">
+    <a href="#" class="icon-wrapper" ng-click="toggle()">
+      <i class="fa fa-bars" ng-hide="open=='open'"></i>
+      <img class="close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" ng-show="open" ng-cloak />
+    </a>
+    <div class="hamburger-menu" ng-class="open">
+  <ul class="categories">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-eat', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/eat">EAT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-move', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/move">MOVE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-live', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/live">LIVE</a>        </h3>
+      </li>
+      </ul>
+
+  <ul class="more">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/newsletter">SUBSCRIBE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/about">ABOUT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-careers', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/careers">CAREERS</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-advertise', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/advertise">ADVERTISE</a>        </h3>
+      </li>
+      </ul>
+</div>
+  </div>
+
+  <div class="menu group-left">
+    <div itemscope itemtype="http://schema.org/Organization" class="menu-item logo">
+      <a itemprop="url" href="/" title="Home" rel="home" id="logo">
+        <img itemprop="logo" src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_White.svg" alt="Home" />
+        <span class="element-hidden" itemprop="name">Greatist</span>
+      </a>
+    </div>
+    <div class="menu-items categories">
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-eat"  href="/eat" >
+            <h4>EAT</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-move"  href="/move" >
+            <h4>MOVE</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-live"  href="/live" >
+            <h4>LIVE</h4>
+          </a>
+        </div>
+          </div>
+  </div>
+
+  <div class="menu group-right">
+    <div class="menu-item more-medium">
+  <h4>MORE <i class="fa fa-angle-down"></i> </h4>
+  <ul class="sub-menu-list">
+        <li class="subscribe">
+      <a ng-click="click()" track="cat-subscribe"  href="/newsletter" >
+        <h5>SUBSCRIBE</h5>
+      </a>
+    </li>
+        <li class="about">
+      <a ng-click="click()" track="cat-about"  href="/about" >
+        <h5>ABOUT</h5>
+      </a>
+    </li>
+      </ul>
+</div>
+
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+    <a href="/newsletter">
+      <h4>
+        <i class="fa fa-envelope-o"></i>        SUBSCRIBE      </h4>
+    </a>
+  </div>
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+    <a href="/about">
+      <h4>
+                ABOUT      </h4>
+    </a>
+  </div>
+    <div class="menu-item search">
+      <a href="/search" class="search-button discover-cta">
+        <h4>EXPLORE</h4>
+      </a>
+    </div>
+  </div>
+</div>
+    </div>
+  </nav>
+</header>
+  
+  
+  
+  
+  <div class="article-container  "
+    ng-controller="ArticleCtrl"
+    ng-init="init()">
+  <div class="article-main">
+    <article
+      class="article-main-column main-column"
+      itemscope
+      itemtype="http://schema.org/Article"
+    >
+      <div class="article-top">
+                  <div itemprop="description" class="element-hidden">No grains? No dairy? No problem with these healthy and delicious Paleo recipes for waffles, muffins, casseroles, and much more.</div>
+                <header class="article-header">
+          <div class="group-article-meta">
+            <div
+  class="field field-name-post-date"
+  itemprop="datePublished"
+  content="2016-03-02"
+>
+  March 2, 2016  <span class="separator">|</span> </div>
+            <div class="field article-author-top" itemscope itemprop="author" itemtype="http://schema.org/Person">
+  <span class="label">By </span>
+    <a
+    href="http://greatist.com/p/christine-skopec"
+    title="User profile of "
+    class="username"
+    about="http://greatist.com/p/christine-skopec"
+    typeof="sioc:UserAccount"
+    itemprop="url"
+  >
+    <span itemprop="name">Christine Skopec</span>
+  </a>
+   </div>
+          </div>
+          <h1 class="title" id="page-title" itemprop="name headline alternativeHeadline">41 Paleo Breakfasts That Aren&#039;t Eggs</h1>
+        </header>
+        <div class="top-share">
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="top">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/eat/paleo-breakfast-recipes"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2FPaleoBFast_Banner.jpg%3Fitok%3D1TZpOiSv"
+  data-mediatitle="41 Paleo Breakfasts That Aren't Eggs"
+  data-title="41 Paleo Breakfasts That Aren\'t Eggs"
+  data-promotitle="41 Paleo Breakfasts That Aren\'t Eggs"
+  data-pintitle="No grains? No dairy? No problem with these healthy and delicious Paleo recipes for waffles..."
+  data-twitter=""
+  data-twitter-url="http://grt.st/1EY7tDw"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  <a class="print-button" title="Print this article" href="/print/6156" rel="nofollow" ng-click="print()">
+  <i class="fa fa-print"></i>
+  </a>
+
+      <div class="fb-like-wrapper ng-cloak">
+      <span class="label">LIKE US ON FACEBOOK</span>
+    </div>
+  </div>
+  </div>
+</div>
+        </div>
+      </div>
+
+      <div class="side-share">
+        <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/eat/paleo-breakfast-recipes"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2FPaleoBFast_Banner.jpg%3Fitok%3D1TZpOiSv"
+  data-mediatitle="41 Paleo Breakfasts That Aren't Eggs"
+  data-title="41 Paleo Breakfasts That Aren\'t Eggs"
+  data-promotitle="41 Paleo Breakfasts That Aren\'t Eggs"
+  data-pintitle="No grains? No dairy? No problem with these healthy and delicious Paleo recipes for waffles..."
+  data-twitter=""
+  data-twitter-url="http://grt.st/1EY7tDw"
+  class="share-buttons"
+  data-origin="side"
+>
+      <a class="share-pinterest" ng-click="share_pin()">
+      <i class="fa fa-pinterest-p"></i>
+    </a>
+        <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a class="share-twitter" ng-click="share_tw()">
+    <i class="fa fa-twitter"></i>
+  </a>
+  <a class="share-email" ng-click="share_email()">
+    <i class="fa fa-envelope-o"></i>
+  </a>
+</div>
+      </div>
+
+      <div class="article-body block" data-scroll-reach-tracking="article-content-beginning">
+                <div class="article-body-content" data-target-blank itemprop="articleBody">
+  <p>Sneaking in a nutritious <a href="http://greatist.com/breakfast">breakfast</a> can be hard for just about anyone. And for those sticking to a <a href="http://greatist.com/paleo">Paleo</a> diet, the morning meal might seem even more daunting. <a href="http://greatist.com/eat/perfect-boiled-eggs-tips">Eggs</a> are always an option, but going through multiple cartons per week gets old fast. Besides, no one should have to give up the goodness of waffles, pancakes, and muffins.</p>  <span data-nid="7450"       class="article-suggestion article-suggestion-embed"       ng-controller="articleSuggestionCtrl"       data-track-name="article-suggestion-embed"       ng-cloak>   <span class="top-label">     <img class="icon" src="/sites/all/themes/greatist2x/images/design/HeartIcon.png">     <span>You might also like</span>   </span>    <a data-nid="7450" href="{{linkUrl}}" ng-click="click($event)">     <img nopin="nopin" class="no-pin article-img" ng-src="{{imgUrl}}"/>     <div class="description-wrapper">       <div class="description">         <span class="article-title">{{displayTitle}}</span>         <span class="more">           <span class="read-more">       <span>READ</span>     <i class="fa fa-long-arrow-right">       </i>   </span>         </span>       </div>     </div>   </a> </span>  <p>Whether you’re making an impressive brunch spread or just looking for something quick as you dash out the door, we’ve done the heavy lifting for you. These a.m. options range from savory to sweet, refreshing to rich. The only hard part about breakfast now is picking which recipe to make first.</p>  <section class="slideshow list-image-full" ng-controller="SlideshowListCtrl" ng-init="init()">
+            <h3>Muffins and Breads</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.bakerita.com/paleo-chocolate-chunk-banana-bread/">1. Paleo Chocolate Chunk Banana Bread</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/1%20final_0.jpg?itok=gC5y2L58"
+              alt="Paleo Chocolate Chunk Banana Bread"
+              width="1449"
+              height="2033"
+                            pin-title="1. Paleo Chocolate Chunk Banana Bread"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Bakerita                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>It’s hard to improve upon banana bread, but adding chocolate chunks does just that. This Paleo loaf stays nice and moist from plenty of mashed <a href="http://greatist.com/eat/creative-banana-recipes">banana</a>. Just mix the wet ingredients and then add in a coconut flour and cinnamon mixture. Though the recipe calls for letting this goody cool before slicing, it might be even better when those bits of chocolate are still melty.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://detoxinista.com/2014/09/paleo-pumpkin-spice-muffins-nut-free/">2. Paleo Pumpkin Spice Muffins</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/2-FINAL_0.jpg?itok=1L2iKvYU"
+              alt="Paleo Pumpkin Spice Muffins"
+              width="752"
+              height="940"
+                            pin-title="2. Paleo Pumpkin Spice Muffins"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Detoxinista                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Who decided that the best use of pumpkin spice was in a coffee drink? We think these muffins are a way tastier (and healthier!) option. Made from mostly eggs and pumpkin puree, these morning treats pack in a good amount fiber and protein. Put down the latte and pick up one of these to get all of that great flavor with a lot more staying power.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.runningtothekitchen.com/paleo-english-muffins/">3. Paleo English Muffins</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/3-Final.jpg?itok=JRjIEuWV"
+              alt="Paleo English Muffins"
+              width="752"
+              height="940"
+                            pin-title="3. Paleo English Muffins"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Running to the Kitchen                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>If you thought going Paleo meant giving up English muffins, think again. The best part about this recipe is that it cooks in the <a href="http://greatist.com/health/surprising-healthy-microwave-recipes">microwave</a> in just two minutes, so there’s no need to preheat the oven. They’re great with a swipe of nut butter or jam, but they also make a killer eggs Benedict on a leisurely Sunday. Bonus: <a href="http://greatist.com/brunch">Brunch</a> at home means getting to wear pajamas well into the afternoon hours.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://notyourstandard.com/sweet-potato-paleo-muffins/">4. Sweet Potato Paleo Muffins</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/4%20final.jpg?itok=E5Ndpsen"
+              alt="Paleo Sweet Potato Muffins"
+              width="900"
+              height="1350"
+                            pin-title="4. Sweet Potato Paleo Muffins"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Not Your Standard                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Some <a href="http://greatist.com/eat/healthy-muffin-recipes">muffins</a> are so rich that they’re more appropriate for dessert than breakfast. This Paleo version combines the goodness of mashed sweet potato with a base made from grated apple, shredded coconut, dried figs, and almond flour. They taste just like a fall dessert, but won’t derail your eating for the rest of the day.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.ambitiouskitchen.com/2015/07/grain-free-chocolate-chip-peanut-butter-zucchini-bread-2-different-ways/">5. Grain-Free Chocolate Chip Peanut Butter Zucchini Bread</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/5%20final.jpg?itok=VEl-J3tv"
+              alt="Paleo Chocolate Chip Peanut Butter Zucchini Bread"
+              width="800"
+              height="1200"
+                            pin-title="5. Grain-Free Chocolate Chip Peanut Butter Zucchini Bread"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Ambitious Kitchen                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Zucchini bread is a no-no for anyone forgoing grains—unless you make this loaf, which swaps out butter and sugar for coconut flour, pure maple syrup, and all-natural creamy peanut butter. This recipe also comes with the option to swap in protein powder instead of coconut flour, which will give this yummy breakfast an added nutritional boost. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://powerhungry.com/2013/05/paleo-almond-flour-muffins-master-recipe/">6. Paleo Almond Flour Mushroom Muffins</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/6%20final.jpg?itok=X5uQO_Rb"
+              alt="Paleo Mushroom Muffins with Almond Flour"
+              width="752"
+              height="940"
+                            pin-title="6. Paleo Almond Flour Mushroom Muffins"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Power Hungry                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>This muffin recipe turns a traditionally sweet breakfast staple into a savory treat. This version calls for a simple combo of mushrooms, basil, and onions, but feel free to add whatever veggies you have on hand. You can even use the leftover for healthier and upgraded dinner rolls. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://watchfit.com/diet/paleo-breakfast-bread/">7. Paleo Breakfast Bread</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/breakfast%20bread.jpg?itok=0peJTYp7"
+              alt="Paleo Breakfast Bread"
+              width="826"
+              height="1024"
+                            pin-title="7. Paleo Breakfast Bread"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Watch Fit                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>While quick breads get bonus points for being super easy to prepare, they don’t typically win any health contests. This <a href="http://greatist.com/eat/paleo-dessert-recipes">Paleo</a> bread gets healthy fats and protein from nut butter and just enough sweetness from a touch of honey. The recipe calls for cinnamon, but feel free to play around with different spices to suit your mood. Maybe it’s more of a cardamom kind of day.</p>
+        </div>
+      </div>
+                <h3>Pancakes and Waffles</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.bloggersclub.com/eat/paleo-chocolate-waffles-ari-eats/">8. Paleo Chocolate Waffles</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/8-final.jpg?itok=fUWWg4Cf"
+              alt="Paleo Chocolate Waffles"
+              width="732"
+              height="1211"
+                            pin-title="8. Paleo Chocolate Waffles"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Bloggers Club                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Chocolate for breakfast usually brings to mind Pop-Tarts or kids’ cereal—and a massive sugar crash that leaves you asleep at your desk by midmorning. That won’t happen with these waffles, which get just enough sweetness from raw cacao powder and coconut sugar. To give them even more staying power, top with strawberries, bananas, or <a href="http://greatist.com/eat/peanut-butter-and-beyond-nutrient-packed-alternatives">nut butter</a> rather than the sauce.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://ditchthewheat.com/coconut-flour-pancakes/">9. Coconut Flour Pancakes</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/9%20final.jpg?itok=Z_PU8ywc"
+              alt="Coconut Flour Pancakes"
+              width="1000"
+              height="1504"
+                            pin-title="9. Coconut Flour Pancakes"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Ditch the Wheat                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Traditional <a href="http://greatist.com/eat/protein-pancake-recipes">pancakes</a> are definitely not an option for Paleo converts, so these coconut flour ones are a dream come true. With a triple dose of coconut—flour, milk, and oil—they’re great with any of your favorite toppings, but why not go for it with a sprinkle of toasted, shredded coconut? </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://yurielkaim.com/sweet-potato-waffles/">10. 3-Ingredient Paleo Sweet Potato Waffles</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/10%20final.jpg?itok=jnM23b2u"
+              alt="3-Ingredient Sweet Potato Waffles"
+              width="1000"
+              height="1476"
+                            pin-title="10. 3-Ingredient Paleo Sweet Potato Waffles"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo:Yuriel Kaim                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>The crispy edges of a fresh waffle make it one of the best on-the-go options out there, especially when it’s a simple 3 ingredient (sweet potato, eggs, and coconut flour) sweet potato waffle. Sweet potatoes are one of the best sources of beta-carotene to support a healthy immune system, plus they could help reduce the risk of <a href="http://www.scirp.org/journal/PaperInformation.aspx?PaperID=31005#.VQ4amvnF-So">heart disease and diabetes</a>. This version tops the waffles with a fried egg, avocado, cilantro, lime, and hot sauce but feel free to top with whatever healthy staples you have! </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://fitfoodiefinds.com/2014/06/grain-free-applesauce-pancakes/">11. Grain-Free Applesauce Pancakes</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/11-final.jpg?itok=Z62fe1F8"
+              alt="Apple Sauce Pancakes"
+              width="752"
+              height="940"
+                            pin-title="11. Grain-Free Applesauce Pancakes"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Fit Foodie Finds                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><a href="http://greatist.com/eat/gluten-free-breakfast-recipes">Two-ingredient banana pancakes</a> are a quick breakfast option, but these ones are a great alternative when you’re in the mood for something a little bit different. Don’t worry, they’re hardly any more work with just six ingredients and a simple method. They’re perfect as is, but a sprinkle of cinnamon makes them taste just like an apple pie. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.ambitiouskitchen.com/2015/09/almond-butter-blueberry-paleo-waffles/">12. Almond Butter Blueberry Paleo Waffles</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/12%20final.jpg?itok=wR14fg0p"
+              alt="Almond Flour Blueberry Paleo Waffles"
+              width="800"
+              height="1200"
+                            pin-title="12. Almond Butter Blueberry Paleo Waffles"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Ambitious Kitchen                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Any day that begins with a waffle is nearly guaranteed to be awesome. Enjoy the same taste of a classic Belgian waffle with this recipe that’s made with almond butter, coconut oil, almond milk, eggs, and coconut flour. Purists will want to enjoy these as is, or try using them to make a seriously fun breakfast sandwich.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.forageddish.com/blog/2014/11/2/paleo-pear-and-bacon-pancakes-pancakeparty">13. Paleo Pear and Bacon Pancakes</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/13-final.jpg?itok=rMPewbOh"
+              alt="Paleo Pear and Bacon Pancakes"
+              width="752"
+              height="940"
+                            pin-title="13. Paleo Pear and Bacon Pancakes"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Foraged Dish                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Pancakes and <a href="http://greatist.com/eat/bacon-recipes">bacon</a> are a sweet and salty combination that just wins. This genius breakfast marries the flavors by putting the savory meat right in the batter along with some sweet, juicy pear. We’re so happy that someone finally went there—and shared the recipe! </p>
+        </div>
+      </div>
+                <h3>Casseroles</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://acalculatedwhisk.com/breakfast-casserole/">14. Breakfast Casserole With Bacon, Sausage, Sweet Potato, and Kale</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/14%20final.jpg?itok=iVvfNy5K"
+              alt="Breakfast Casserole with Bacon, Sausage, Sweet Potato, and Kale"
+              width="1200"
+              height="1745"
+                            pin-title="14. Breakfast Casserole With Bacon, Sausage, Sweet Potato, and Kale"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: A Calculated Whisk                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>While breakfast strata makes a great weekend treat, it’s filled with tons of bread and not much else. Talk about bloat. This recipe gives the typical casserole a whole new look and taste with sweet potatoes, bacon, greens, and sausage. With so much flavor, you won’t miss the cheesy topping one bit.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.wholesomelicious.com/baked-blueberry-coconut-french-toast/">15. Baked Blueberry Coconut French Toast Casserole</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/15-final_0.jpg?itok=xsod9c4v"
+              alt="Baked Blueberry Coconut French Toast"
+              width="752"
+              height="940"
+                            pin-title="15. Baked Blueberry Coconut French Toast Casserole"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Wholesomelicious                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>If you thought eating a <a href="http://http://greatist.com/health/paleo-recipes-list" rel="">Paleo</a> diet meant no more French toast, think again. Use  your favorite paleo bread and load with flavorful  blueberries, and coconut flakes to prep the entire casserole the night before, pop the dish into the fridge, and then toss it into the oven for 35 to 40 minutes when you wake up. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.freckleditalian.com/blog/paleo-breakfast-casserole">16. Paleo Breakfast Casserole</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/16%20final.jpeg?itok=XCoxftFJ"
+              alt="Paleo Breakfast Casserole"
+              width="1000"
+              height="1500"
+                            pin-title="16. Paleo Breakfast Casserole"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Freckled Italian                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Having some veggies for breakfast starts the day off right by offering up plenty of antioxidants and fiber. That doesn’t mean a boring salad is the only option, though. This hearty casserole gets plenty of flavor from sausage, garlic, green onion, and sweet potato. Cook up the veggies, layer into a dish, and then pour a quick egg batter on top before sending it to the oven.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://civilizedcavemancooking.com/recipes/breakfast/paleo-french-toast/">17. Paleo French Toast</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/17-final.jpg?itok=4eDrwT1W"
+              alt="Paleo French Toast"
+              width="752"
+              height="940"
+                            pin-title="17. Paleo French Toast"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Civilized Caveman Cooking                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>This French toast uses a <a href="http://civilizedcavemancooking.com/recipes/desserts/paleo-banana-bread/">paleo banana bread </a>recipe as the base, but you can also use your favorite store-bought paleo bread if you're in a rush. Once you have the bread, the recipe is easy: just beat together eggs, cinnamon, sea salt, and almond (or coconut) milk for that signature French toast coating.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://peaceloveandlowcarb.com/italian-spaghetti-squash-breakfast-casserole-low-carb-gluten-free-paleo/">18. Spaghetti Squash Breakfast Casserole</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/18%20REAL%20FINAL.jpg?itok=z_jUy9rN"
+              alt="Spaghetti Squash Breakfast Casserole"
+              width="589"
+              height="750"
+                            pin-title="18. Spaghetti Squash Breakfast Casserole"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Peace Love and Low Carb                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Italians like to use leftover pasta to make all sorts of breakfast dishes, and this <a href="http://greatist.com/spaghetti-squash">spaghetti squash</a> casserole has a similarly hearty texture minus the wheat. One of the best things is that it’s versatile enough to work with just about any meat or veggie you prefer. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.popsugar.com/fitness/Apple-Cinnamon-Quinoa-Breakfast-Bake-32210316">19. Apple Cinnamon Quinoa Breakfast Bake</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/19-final.jpg?itok=vTaTrmMB"
+              alt="Apple Cinnamon Quinoa Bake"
+              width="752"
+              height="940"
+                            pin-title="19. Apple Cinnamon Quinoa Breakfast Bake"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: PopSugar                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Paleo or not, sometimes having another plate of scrambled eggs for breakfast can be maddening. This casserole is a sweet treat that seriously shakes up a boring morning routine. With no added sugars and plenty of produce, you can have seconds without overdoing it. And it’s the perfect way to use up leftover veggies.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://paleogrubs.com/breakfast-casserole-recipe">20. Paleo Breakfast Casserole in a Mug</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/20%20final.jpg?itok=--2Kuzmv"
+              alt="Paleo Breakfast Casserole in a Cup"
+              width="575"
+              height="863"
+                            pin-title="20. Paleo Breakfast Casserole in a Mug"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Paleo Grubs                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>This breakfast casserole takes a classic paleo combo of meat (this one uses ground turkey), veggies, and spices and loads it into an Instagram-worthy mug. You can get creative with this one, adding whichever veggies and meats you prefer, or maybe even sticking it in a mason jar (just make sure to use oven mitts if you're putting the jar in the oven).</p>
+        </div>
+      </div>
+                <h3>Smoothies</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.theironyou.com/2015/01/raspberry-grapefruit-smoothie.html">21. Raspberry Grapefruit Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/21-final.jpg?itok=ImAkn3Tx"
+              alt="Raspberry Grapefruit Smoothie"
+              width="752"
+              height="940"
+                            pin-title="21. Raspberry Grapefruit Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: The Iron You                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>A lot of smoothie shops add all sorts of bizarre ingredients to their drinks. For those who prefer purity, this recipe is 100-percent fruit. With plenty of vitamin C and a tart flavor, grapefruit is like a seriously sassy version of an orange that works perfectly with the sweetness of banana and raspberries. Just remember to have some protein (like a <a href="http://greatist.com/eat/perfect-boiled-eggs-tips">hard-boiled egg</a>) with it for staying power.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.abeautifulmess.com/2014/03/healthy-chocolate-banana-shake-dairy-free-no-added-sugar.html">22. Healthy Chocolate Banana Shake</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/22%20final.jpg?itok=gxBpeZRE"
+              alt="Healthy Chocolate Banana Shake"
+              width="736"
+              height="1104"
+                            pin-title="22. Healthy Chocolate Banana Shake"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: A Beautiful Mess                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>For those with a sweet tooth, this beverage is one of the best breakfasts out there. Bananas and cacao powder means there’s no need for <a href="http://greatist.com/eat/low-sugar-recipes">added sugar</a>, and almond butter adds an addictive toasty flavor. Puree everything in the blender, pour it into a to-go cup, and breakfast is ready to zoom out the door.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://americanexpeditioners.com/paleo-tropical-sunrise-smoothie.php">23. Paleo Tropical Sunrise Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/paleo-tropical-smoothie.jpg?itok=VEfrHFR9"
+              alt="Paleo Tropical Sunrise Smoothie"
+              width="752"
+              height="940"
+                            pin-title="23. Paleo Tropical Sunrise Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: American Expedtitioners                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>A <a href="http://greatist.com/move/morning-workout-hacks">morning workout</a> can end with a serious craving for something sweet. Instead of heading for a sugary coffee drink, whip up this tropical paleo smoothie. This recipe has a cool twist on traditional smoothie making: you blend two separate mixtures and then combine them together to get the signature "sunrise" color. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.popsugar.com/fitness/Avocado-Banana-Smoothie-Recipe-37428389">24. Avocado Banana Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/24-final.jpg?itok=wzSGv2_f"
+              alt="Avocado Banana Smoothie"
+              width="752"
+              height="940"
+                            pin-title="24. Avocado Banana Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: PopSugar                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Tons of <a href="http://greatist.com/eat/expert-healthy-breakfasts">health gurus</a> swear by waking up with a green juice to get loads of nutrients. Unfortunately, that can leave stomachs grumbling hours before lunch. This smoothie gets a lot more heft with filling fats from avocado.  Move over green juice, it’s time for <a href="http://greatist.com/eat/green-smoothie-recipes">green smoothies</a> to shine. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://theblenderist.com/pumpkin-smoothie-vegan-paleo/">25. Pumpkin Spice Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/25%20final.jpg?itok=oSCXua3W"
+              alt="Pumpkin Paleo Smoothie"
+              width="718"
+              height="1073"
+                            pin-title="25. Pumpkin Spice Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: The Blenderist                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Ever wondered what it would be like to stick a piece of pumpkin pie in the blender? This recipe has all the flavors of that fall favorite with a lot fewer calories. As easy as this smoothie is, speed it up even more by replacing all the spices with a rounded quarter teaspoon of pumpkin spice.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://acalculatedwhisk.com/orange-peach-raspberry-smoothie/">26. Orange Peach Raspberry Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/26%20final.jpg?itok=Lp67VPXQ"
+              alt="Orange Peach Raspberry Smoothie"
+              width="1051"
+              height="1390"
+                            pin-title="26. Orange Peach Raspberry Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: A Calculated Whisk                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Orange juice for <a href="http://greatist.com/eat/gluten-free-breakfast-recipes">breakfast</a> is such a yawn. This easy smoothie mixes oranges with peach and raspberry for a tropical twist. Blend up the fruit, an avocado, ginger, vanilla extract, and ground turmeric and this drink is ready for sipping. It might taste more like dessert than a healthy morning meal, but that just makes it extra fun.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.themodernbuttery.com/mojito-green-smoothie-dairy-free/">27. Dairy-Free Mojito Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/27%20final.png?itok=4t-omQpX"
+              alt="Mojito Green Smoothie"
+              width="1200"
+              height="1809"
+                            pin-title="27. Dairy-Free Mojito Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: The Modern Buttery                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>It's five o'clock somewhere, right? This booze-free breakfast version of the cocktail packs loads of nutrients like Vitamin C and manganese from the <a href="http://www.whfoods.com/genpage.php?tname=foodspice&amp;dbid=34">pineapple</a>, healthy fats from the <a href="http://greatist.com/health/superfood-avocado">avocado</a>, and all of <a href="http://greatist.com/health/superfood-spinach">spinach's superfood goodness</a>. And chia seeds help thicken it up and further boost the fiber.</p>
+        </div>
+      </div>
+                <h3>Bowls</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://paleofoodies.com.au/2014/09/chia-berry-paleo-parfait/">28. Chia Berry Paleo Parfait</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/28%20final.jpg?itok=EWBWIhhB"
+              alt="Chia Berry Paleo Parfait"
+              width="3456"
+              height="5184"
+                            pin-title="28. Chia Berry Paleo Parfait"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Paleo Foodies                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Yogurt isn't usually paleo-friendly, but that doesn't mean you can't have parfaits! This version uses a mix of chia seeds, coconut milk, and honey for the base and packs in lots of colorful berries. If you're craving something sweet after dinner, too, this works great as a guilt-free dessert. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.theroastedroot.net/paleo-granola/">29. Gluten-Free Granola</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/29-final.jpg?itok=IMvAk2yK"
+              alt="Gluten Free Granola"
+              width="752"
+              height="940"
+                            pin-title="29. Gluten-Free Granola"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: The Roasted Root                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Saying no to grains shouldn’t mean having to say no to a helping of crunchy granola, and it doesn’t have to anymore. This recipe lets the food processor do most of the work, chopping up a combo of nuts and seeds with some coconut. Full of copper, manganese, and healthy fats that may help protect against heart disease <cite data-cite-reference="" class="citation-reference"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23866098" rel="">Nuts, Blood Lipids and Cardiovascular Disease</a>. Sabate, J. Wien, M. Asia Pacific Journal of Clinical Nutrition, 2010; 19(1):131-6.</cite><cite data-cite-reference="" class="citation-reference"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20820955" rel="">Nuts and Berries for Heart Health</a>. Ros, E., Tapsell, LC., Sabate, J. Current Atherosclerosis Reports. 2010 Nov; 12(6):397-406.</cite><cite data-cite-reference="" class="citation-reference"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23866098" rel="">Frequency of Nut Consumption and Mortality Risk in the PREDIMED Nutrition Intervention Trial</a>. Guasch-Ferré, M., Bulló, M., Martínez-González MÁ., et al. BMC Medicine. 2013 Jul 16; 11:164.</cite>, nuts make a super nutritious morning meal.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://meatified.com/paleo-peach-parfait/">30. Paleo Peach Parfait With Blueberry and Basil</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/30-final.jpg?itok=oUfXxLy2"
+              alt="Crunchy Banana Maple Nut Free Granola"
+              width="752"
+              height="940"
+                            pin-title="30. Paleo Peach Parfait With Blueberry and Basil"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Meatified                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Miss the creamy goodness of yogurt for a morning treat? This recipe purees honey, lemon juice, grass-fed gelatin, coconut milk, and blueberries in the blender to get a luxurious puree that’s every bit as good as the dairy stuff. Save this one for a day when you’re feeling adventurous!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://kissmykiwis.tumblr.com/post/61405388930/paleo-pumpkin-porridge-%C2%BD-cup-pumpkin-%C2%BD-cup">31. Paleo Pumpkin Pie Porridge</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/31-final.jpg?itok=k_jldMqe"
+              alt="Paleo Pumpkin Porridge"
+              width="752"
+              height="940"
+                            pin-title="31. Paleo Pumpkin Pie Porridge"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Kiss my Kiwis                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Bring the flavor of fall to a creamy morning treat with a porridge made from <a href="http://greatist.com/health/pumpkin-recipes-every-meal">pumpkin</a> puree, almond milk, coconut flour, egg, and cinnamon. Any fruit and nut combo makes a great sweet porridge, plus this can easily morph into a savory offering my skipping the maple, adding some chopped chipotle, and topping with a sprinkle of cilantro and pumpkin seeds. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://grokgrub.com/2014/04/18/triple-chocolate-paleo-granola/">32. Triple Chocolate Paleo Granola</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/32%20final.jpg?itok=AmGxgBGX"
+              alt="Triple Chocolate Paleo Granola"
+              width="900"
+              height="1332"
+                            pin-title="32. Triple Chocolate Paleo Granola"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Grok Grub                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>This is a great paleo granola staple to have in your kitchen. This one is for a weekend where you have lots of time, since the recipe involves soaking nuts overnight, but it'll be a great way to get ahead on your breakfast-prep for the week. The chocolate extract and cacao butter give this nut mixture a flavorful bonus that will keep you coming back for more. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.rubiesandradishes.com/2014/11/05/paleo-slow-cooker-noatmeal/">33. Paleo Slow Cooker Oatmeal</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/33%20final.jpg?itok=77oxlxof"
+              alt="Paleo Slow Cooker Oatmeal"
+              width="752"
+              height="1128"
+                            pin-title="33. Paleo Slow Cooker Oatmeal"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Rubies and Radishes                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>It’s hard to beat a comforting bowl of <a href="http://greatist.com/oatmeal for breakfast">oatmeal</a>, but this Paleo version might be even better thanks to the delicious coconut. Just throw the igredients (feel free to add in your favorite nuts and spices) in your slow cooker and enjoy a perfect breakfast the next morning. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.tessadomesticdiva.com/2013/01/creamy-paleo-maple-nut-porridge-w-banana.html">34. Creamy Paleo Maple-Nut Porridge With Banana</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/34%20final.jpg?itok=veZ-V_s6"
+              alt="Maple-Nut Banana Paleo Porridge"
+              width="2848"
+              height="4272"
+                            pin-title="34. Creamy Paleo Maple-Nut Porridge With Banana"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Tessa the Domestic Diva                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>A bowl of something warm and creamy is always a great way to wake up since it’s basically like a hug from the inside. This dreamy concoction comes together in the blender before a quick blast on the stove. Just note that the nuts need to soak overnight, so plan ahead or else you’ll wind up with a chunky mess.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://weelicious.com/2015/03/06/creamy-avocado-lime-parfaits-recipe/">35. Creamy Avocado Lime Parfait</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/35%20final.jpg?itok=QiiqsJsc"
+              alt="Creamy Avocado Parfait"
+              width="800"
+              height="1146"
+                            pin-title="35. Creamy Avocado Lime Parfait"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Welicious                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Most people probably scrunch up their noses at the thought of heading to a <a href="http://greatist.com/health/ultimate-guide-eating-paleo-infographic">Paleo</a> friend’s place for weekend brunch, but that doubt will turn to delight if they get one of these gorgeous parfaits. Alternate layers of a pistachio and date mixture and a creamy avocado puree for a colorful, green masterpiece. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.ibreatheimhungry.com/2012/07/cinnamon-faux-st-crunch-cereal-3.html">36. Paleo Cinnamon Toast Crunch</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/36%20final.jpg?itok=RvJGgILw"
+              alt="Paleo Cinnamon Toast Crunch"
+              width="1156"
+              height="1600"
+                            pin-title="36. Paleo Cinnamon Toast Crunch"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: I Breathe Im Hungry                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Finding a grain-free <a href="http://greatist.com/health/best-healthy-cereal-brands">cereal</a> in the grocery store is pretty much an impossible mission, so making it at home is the best option. This twist on Cinnamon Toast Crunch is made with hemp seeds, flax seeds, cinnamon, apple juice, and coconut oil. Storing it in an airtight container also means it’ll stay fresh way longer than that boxed stuff. </p>
+        </div>
+      </div>
+                <h3>Bars</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.thepescetarianandthepig.com/2013/04/10/raw-coconut-cranberry-cashew-fig-bars/">37. Raw Coconut Cranberry Cashew Fig Bars</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/37%20final.jpg?itok=i6fQH3J6"
+              alt="Fig Paleo Granola Bar"
+              width="752"
+              height="940"
+                            pin-title="37. Raw Coconut Cranberry Cashew Fig Bars"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: The Pescetarian and the Pig                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>While there are plenty of great homemade bar options out there, a lot of them take forever to make. Not these sweet treats. Nuts, fruit, coconut oil, and honey go into a food processor, and then the whole mixture gets pressed into a pan. No baking, no fuss, and totally tasty.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.redclogkitchen.com/2014/10/18/paleo-breakfast-bars-2/">38. Paleo Breakfast Bars</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/38-final.jpg?itok=ELpRAiBa"
+              alt="Paleo Breakfast Bar"
+              width="752"
+              height="940"
+                            pin-title="38. Paleo Breakfast Bars"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Most packaged breakfast bars don’t have much flavor apart from crazy amounts of sugar. These DIY <a href="http://greatist.com/health/high-protein-snacks-portable">portables</a> will leave your taste buds dancing with a combo of cinnamon, ginger, and cloves, plus some molasses for extra richness. Made from mostly nuts and dried fruits, these bars offer up plenty of filling fiber and an addictive crunch that makes them great for breakfast or a late-night snack. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.tessadomesticdiva.com/2012/01/gluten-free-vegan-fig-newtons.html">39. Paleo Fig Newtons</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/39%20final.jpg?itok=PLm8E0vJ"
+              alt="Paleo Fig Newtons"
+              width="2848"
+              height="4272"
+                            pin-title="39. Paleo Fig Newtons"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Tessa the Domestic Diva                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Let’s face it, we all grab a bar on the go from time to time. And then wonder what half the ingredients are that we’re eating. Eek! These use only pronounceable ingredients including figs, oat flour, coconut oil, and maple syrup. With a sweet and nutty taste, they’re basically Fig Newtons' sophisticated older sister.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://yumandyummer.com/2012/12/19/coconut-date-bars-how-to-make-your-own-larabars/">40. Coconut Date Bars</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/40-final.jpg?itok=w6zzRAYo"
+              alt="Paleo Date Bars"
+              width="1120"
+              height="1680"
+                            pin-title="40. Coconut Date Bars"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Yum and Yummer                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Requiring only three ingredients and 10 minutes to make, this recipe may make you never buy another bar again. But how do they taste? Sweet and tropical, with an occasional crunch from a piece of almond. This is proof of how amazing clean eating can be.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://kipsandkale.wordpress.com/tag/paleo-snack/">41. No-Bake Paleo Chocolate Protein Bars</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/41-final.jpg?itok=auRJZ46L"
+              alt="Paleo No-Bake Chocolate Protein Bars"
+              width="752"
+              height="940"
+                            pin-title="41. No-Bake Paleo Chocolate Protein Bars"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Kips and Kale                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Perfect for post-workout, these bars are made with nuts, cocoa powder, shredded coconut, and chia seeds. They’ll satisfy any stubborn sweet tooth while offering up antioxidants and protein. Add a scoop of your favorite <a href="http://greatist.com/discover/plantfusion">protein powder</a> to the recipe for even more muscle-building, belly-satisfying benefit.</p>
+        </div>
+      </div>
+      
+  </section>
+  <p><br /><em>Originally published March 2015. Updated March 2016. </em></p>         </div>
+
+                <span class="article-suggestion-readnext-embed" data-recirc-section ng-controller="basicTracking" ng-init="initAnalytics('read-next-bottom', {implicitClick: true})" >
+  <span class="label"><i class="fa fa-chevron-circle-right"></i> READ THIS NEXT:</span>
+  <a href="http://greatist.com/health/paleo-recipes-list"  data-nid="3635"  ng-click="click($event)" >
+    <span class="article-title">51 Paleo Snacks Anyone Can Love</span>
+  </a>
+</span>
+        <a href="http://greatist.com/live/how-to-eat-better-according-to-an-olympic-dietitian"
+   class="promotion-embed" data-recirc-section ng-controller="basicTracking"
+   ng-init="initAnalytics('promotion-krave---bottom-article---fuel-your-body-article-bottom', {implicitClick: true})">
+  <img src="http://greatist.com/sites/default/files/styles/promotion-article-558/public/greatist_promotion/KRAVE_Promo2_Final.jpg?itok=bK7olpd1"
+       alt="Krave - Bottom Article - Fuel Your Body"/>
+</a>
+
+        <div
+          class="bottom-share"
+          data-scroll-reach-tracking="article-content-end"
+          data-scroll-reach-tracking-near="article-content-near-end"
+        >
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="bottom">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/eat/paleo-breakfast-recipes"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2FPaleoBFast_Banner.jpg%3Fitok%3D1TZpOiSv"
+  data-mediatitle="41 Paleo Breakfasts That Aren't Eggs"
+  data-title="41 Paleo Breakfasts That Aren\'t Eggs"
+  data-promotitle="41 Paleo Breakfasts That Aren\'t Eggs"
+  data-pintitle="No grains? No dairy? No problem with these healthy and delicious Paleo recipes for waffles..."
+  data-twitter=""
+  data-twitter-url="http://grt.st/1EY7tDw"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  
+  </div>
+  </div>
+</div>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="article-sidebar-column sidebar-column" data-sidebar-height="x-tall" ng-controller="articleSidebarCtrl">
+      <div class="sidebar-top">
+                                                <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-1"
+  data-ad-dfp="/38507188/ROS_Flex_300x250_300x600"
+  data-ad-slot="div-gpt-ad-1409786991744-0"
+  data-ad-size="300x250,300x600"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-1"></div>
+
+          <div class="article-sidebar-newsletter no-small no-medium" ng-controller="NewsletterCtrl" data-origin="homepage_sidebar">
+  <div class="intro">
+    <i class="fa fa-inbox"></i> <span>Your Inbox Deserves Better</span>
+  </div>
+  <form name="newsletterForm" ng-submit="subscribeEmail('article-sidebar-newsletter')">
+    <div class="line">
+      <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+      <input type="submit" value="GO" ng-hide="submitted">
+      <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+    </div>
+    <div class="newsletter-messages">
+      <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+    </div>
+  </form>
+</div>
+        
+        <div class="sticky-block">
+          <div class="popular-list-block"
+  ng-init='initAnalytics("article-sidebar-must-read", {implicitClick: true, countHiddenAsImpression: false})'
+  ng-controller="basicTracking"
+  data-recirc-section
+>
+  <h2 class="section-title">MUST READS</h2>
+  <ol class="sidebar-list sidebar-list-thumbnail" >
+          <li  data-nid="2900"
+            data-source="cb">
+        <a
+          data-nid="2900"
+          ng-click="click($event)"
+          href="http://greatist.com/health/healthy-fast-breakfast-recipes"
+          title="34 Healthy Breakfasts for Busy Mornings"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/7-Ingredient-DARK-CHOCOLATE-Quinoa-Breakfast-Bowl-Full-of-antioxidants-fiber-and-protein-vegan-glutenfree-quinoa-breakfast.jpg?itok=BNuLNJNx" />
+          <span>34 Healthy Breakfasts for Busy Mornings</span>
+        </a>
+      </li>
+          <li  data-nid="1408"
+            data-source="cb">
+        <a
+          data-nid="1408"
+          ng-click="click($event)"
+          href="http://greatist.com/health/35-quick-and-healthy-low-calorie-lunches"
+          title="35 Quick and Healthy Low-Calorie Lunches"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/LowCal_NewFeat.jpg?itok=svxI1Z2e" />
+          <span>35 Quick and Healthy Low-Calorie Lunches</span>
+        </a>
+      </li>
+          <li  data-nid="6346"
+            data-source="cb">
+        <a
+          data-nid="6346"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/summer-crock-pot-recipes"
+          title="42 Crock-Pot Recipes to Try This Summer (That's Right, Summer)"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/Crockpot-Low-Country-Boil.jpg?itok=1U0mUmB6" />
+          <span>42 Crock-Pot Recipes to Try This Summer (That's Right, Summer)</span>
+        </a>
+      </li>
+          <li  data-nid="1392"
+            data-source="cb">
+        <a
+          data-nid="1392"
+          ng-click="click($event)"
+          href="http://greatist.com/health/high-protein-snacks-portable"
+          title="27 Healthy and Portable High-Protein Snacks"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/PORTABLE-SNACKS_FEATURE.jpg?itok=Grq8reUv" />
+          <span>27 Healthy and Portable High-Protein Snacks</span>
+        </a>
+      </li>
+          <li  data-nid="3105"
+            data-source="cb">
+        <a
+          data-nid="3105"
+          ng-click="click($event)"
+          href="http://greatist.com/fitness/best-health-fitness-apps"
+          title="The 39 Best Health and Fitness Apps of 2016"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/health-fitness-apps-2016.jpg?itok=7D4bYrDu" />
+          <span>The 39 Best Health and Fitness Apps of 2016</span>
+        </a>
+      </li>
+          <li  data-nid="7326"
+            data-source="cb">
+        <a
+          data-nid="7326"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/best-food-blogs-2016"
+          title="32 Must-Follow Food and Nutrition Blogs"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/BestBlogs_Food_2016_Feat.jpg?itok=zwjW5UVc" />
+          <span>32 Must-Follow Food and Nutrition Blogs</span>
+        </a>
+      </li>
+          <li  data-nid="6048"
+            data-source="ga">
+        <a
+          data-nid="6048"
+          ng-click="click($event)"
+          href="http://greatist.com/grow/best-and-worst-foods-for-sleep"
+          title="The Best and Worst Foods to Eat Before Bed"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/SleepFoodsFeature.jpg?itok=ImVGdoL9" />
+          <span>The Best and Worst Foods to Eat Before Bed</span>
+        </a>
+      </li>
+          <li  data-nid="5355"
+            data-source="ga">
+        <a
+          data-nid="5355"
+          ng-click="click($event)"
+          href="http://greatist.com/move/quick-kettlebell-workout"
+          title="The 20-Minute Kettlebell Workout That Strengthens Your Whole Body"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/KBWorkoutFeature.png?itok=4WUV1KDO" />
+          <span>The 20-Minute Kettlebell Workout That Strengthens Your Whole Body</span>
+        </a>
+      </li>
+      </ol>
+</div>
+                      <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-2"
+  data-ad-dfp="/38507188/ROS_300x250_BTM"
+  data-ad-slot="div-gpt-ad-1411421640459-0"
+  data-ad-size="300x250"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-2"></div>
+
+                  </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <div class="article-middle">
+    <div
+  data-restrict-context-to="medium,small,x-small"
+  data-dfp-g-id="article-ad-mobile-below-content"
+  data-ad-dfp="/38507188/ROS_300x250_Mobile"
+  data-ad-slot="div-gpt-ad-1410553537006-0"
+  data-ad-size="300x250"
+  class="dfp-tag-wrapper dfp-ad-article-ad-mobile-below-content"></div>
+
+
+    <div id="fb-article-mobile-bottom-page-box" data-fb-page="article-mobile-bottom-page-box" data-restrict-context-to=">medium" class="hide-for-ready">
+      <h2 class="section-title">Like Us On Facebook</h2>
+    </div>
+
+    <div id="tags">
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/breakfast"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Breakfast    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/gluten-free"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Gluten-Free    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/healthy-recipes"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Healthy Recipes    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/paleo"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Paleo    </span>
+  </a>
+</span>
+  
+            <span
+  rel="dc:subject"
+  itemscope
+            itemtype="http://data-vocabulary.org/Breadcrumb"
+  >
+  <a
+    href="http://greatist.com/eat"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+          itemprop="url"
+      >
+    <span
+              itemprop="title"
+          >
+      Eat    </span>
+  </a>
+</span>
+      </div>
+  </div>
+</div>
+
+<div class="recirc" data-recirc-section>
+  <div class="esi-placeholder"data-esi="article/recirculation" data-token="9nal_z3mbhU7dqRHodNBASW0kLzPUoylVX8cVLQ4clg" data-params="{&quot;nid&quot;:&quot;6156&quot;,&quot;show_must_reads&quot;:0}" data-bodyevent="reach-article-content-near-end"><img src="/sites/all/themes/greatist2x/images/design/SiteLoader.gif">Loading...</div></div>
+
+
+  <!-- Extras -->
+  <div ng-controller="BottomStickyCtrl">
+      <div class="article-sticky-bottom share hide-for-load" data-origin="sticky-bottom">
+      <div ng-controller="socialCtrl" data-href="http://greatist.com/eat/paleo-breakfast-recipes">
+        <a class="share-button share-button-facebook" ng-click="share_fb($event)" data-share-fb>
+          <span class="share-alt"><i class="fa fa-facebook"></i> Share on Facebook</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="article-sticky-bottom like hide-for-load" data-origin="sticky-bottom">
+      <img class="close-button" ng-click="clickClose()" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+      <span>Like Greatist on Facebook</span>
+      <div
+        class="fb-like"
+        data-href="https://www.facebook.com/greatist"
+        data-layout="button"
+        data-fb-tracking-id="bottom-sticky-mobile"
+        data-fb-click-tracking-id="bottom-sticky-mobile">
+      </div>
+    </div>
+  </div>
+  <div class="bottom-slider fb-slider" ng-controller="BottomSliderCtrl" ng-class="status">
+  <a href="#" ng-click="clickClose()" title="Close" type="button" class="close-button">
+    <img src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+  </a>
+
+  <h3>Like us on Facebook to get more stories like this!</h3>
+
+  <div
+    class="fb-like"
+    data-href="https://www.facebook.com/greatist"
+    data-layout="button"
+    data-fb-tracking-id="popup-like"
+    data-fb-click-tracking-id="popup-like">
+  </div>
+</div>
+  <div class="overlay-wrapper">
+  <div id="search-page-wrapper">
+    <div id="search-page-overlay" ng-controller="SearchCtrl" ng-init="init()" ng-keydown="keydown($event)">
+
+      <img class="search-close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+
+      <h2>{{discoverSettings.title}}</h2>
+
+      <!-- SEARCH FORM -->
+      <form name="searchForm" ng-submit="search()" class="search-form">
+        <input type="text" ng-model="searchQuery" placeholder="Enter Search Term" id="search-input">
+        <div data-search-autocomplete class="search-autocomplete">
+          <ul>
+            <div class="header" >
+              Categories
+            </div>
+            <li ng-repeat="suggestion in suggestedTaxonomies track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+
+            <div class="header">
+              Profiles
+            </div>
+            <li ng-repeat="suggestion in suggestedUsers track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </form>
+
+      <!-- DISCOVER -->
+      <div class="discover deck-3" ng-cloak ng-hide="hideDiscover">
+        <div class="main-column">
+          <div class="card" ng-repeat="discover in discoverList">
+            <a href="{{discover.url}}" ng-click="trackDiscoverLink(discover)">
+              <img ng-src="{{discover.imgUrl}}" class="img-large">
+              <img ng-src="{{discover.imgUrlSmall}}" class="img-small">
+              <div class="title-wrapper">
+                <div class="title">{{discover.title}}</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-status">
+        <div ng-show="isLoading">
+            <img alt="Search Loading" class="loader-image"/>
+        </div>
+        <div class="search-message">{{searchMessage}}</div>
+      </div>
+
+      <!-- SEARCH RESULTS -->
+      <div class="search-result article-feed">
+        <div class="article" ng-repeat="article in articles">
+          <div class="article-image">
+            <a href='{{article.articlePath}}'>
+              <img ng-src='{{article.imagePath}}' />
+            </a>
+          </div>
+          <div class="article-title"><a href='{{article.articlePath}}'>{{article.title}}</a></div>
+          <div class="article-author" ng-if="article.byline === ''">{{article.author}}</div>
+          <div class="article-author" ng-if="article.byline !== ''">{{article.byline}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="popup-wrapper">
+  <div ng-controller="popupCtrl" class="newsletter-template mfp-with-anim mfp-hide">
+    <div newsletter
+      model="popup"
+      subscribe="subscribeEmail"
+      init="initPopup"
+      close="closeBottomBar()"
+      cta1="applyCTA('cta1')"
+      cta2="applyCTA('cta2')"
+    >
+    </div>
+  </div>
+</div>
+    <div>
+  <div data-fb-popup class="fb-popup popup-post-share mfp-with-anim mfp-hide">
+    <h1>
+      Nice share!<br>
+      Like us on <a class="like-us" href="http://facebook.com/greatist">Facebook</a> while you're at it.
+    </h1>
+    <div class="fb-like-body">
+      <div class="fb-like" data-href="https://facebook.com/greatist" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false">
+      </div>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-post-share-fb"/>
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+
+  <div data-pin-popup class="pin-popup popup-post-share mfp-with-anim mfp-hide">
+    <button title="Close (Esc)" type="button" class="mfp-close cta-x" ng-click="eventHandler()"></button>
+    <h1>Nice pin! Follow us for more.</h1>
+    <div class="follow-pin">
+      <a data-pin-do="buttonFollow" href="http://www.pinterest.com/greatist/">Follow Greatist on Pinterest</a>
+    </div>
+    <div class="pins">
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/229754018468166392/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+       <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124149397557/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124150404836/">Greatist on Pinterest.</a>
+      </span>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-pin-board" />
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+</div>
+  <div class="footer-bottom-wrapper">
+    <footer id="footer-wrapper">
+  <div id="footer">
+    <div class="footer-logo-menu">
+  <div class="greatist-logo">
+    <a href="/">
+      <img src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_G_White.svg" class="footer-logo" />
+    </a>
+  </div>
+  <ul class="menu"><li class="first leaf"><a href="/about" title="">About</a></li>
+<li class="leaf"><a href="/advertise" title="">Advertise</a></li>
+<li class="leaf"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf"><a href="/drop-us-line" title="">Contact</a></li>
+</ul></div>
+    <div class="footer-newsletter">
+  <div class="newsletter-block" ng-controller="NewsletterCtrl" data-origin="footer">
+    <div class="description">
+      <i class="fa fa-envelope-o"></i> AWESOME WORKOUTS, EASY RECIPES, WELLNESS TIPS!
+    </div>
+    <form name="newsletterForm" ng-submit="subscribeEmail('footer-newsletter')">
+      <div class="line">
+        <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+        <input type="submit" value="GO" ng-hide="submitted">
+        <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+      </div>
+      <div class="newsletter-messages">
+        <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+      </div>
+    </form>
+  </div>
+
+  <div class="social-links">
+    <a target="_blank" href="http://facebook.com/greatist" class="facebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a target="_blank" href="http://pinterest.com/greatist" class="pinterest" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+    <a target="_blank" href="http://twitter.com/greatist" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" href="http://instagram.com/greatist" class="instagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+  </div>
+</div>
+  </div>
+</footer>
+    <div id="bottom-wrapper">
+  <div id="bottom">
+    <div id="bottom-menu" class="bottom-block">
+  <ul class="menu"><li class="first leaf"><a href="/greatist-terms-use" title="Terms">Terms</a></li>
+<li class="leaf"><a href="/greatist-privacy-policy" title="Privacy">Privacy</a></li>
+<li class="leaf"><a href="/drop-us-line" title="">Contact</a></li>
+<li class="last leaf"><a href="/topics" title="">Sitemap</a></li>
+</ul></div>
+    <div id="copyright">&copy; 2016 Greatist</div>
+  </div>
+</div>
+  </div>
+</div>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_g5vRHAmImocIkh-4r-c10EIPRPCA0a21I08Y0d3s1mo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '1001l6TF']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/all/modules/custom/gr8ist_social/includes/js/gr8ist_instagram_embed.js?obn86g"></script>
+<script type="text/javascript" src="//wms-na.amazon-adsystem.com/20070822/US/js/auto-tagger.js?tag=greatist-20&amp;locale=US&amp;overwrite=1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {try{var a={l1:document.location.host.replace(/^www\./,""),l2:document.title||"Untitled",l3:"__page__",l4:"-",sa:"",sn:""},b=[],c;for(c in a)b.push(c+"="+encodeURIComponent(a[c]));b=b.join("&");(new Image).src="//d1cge8z5zrep3s.cloudfront.net?a=9d8720426e304e8ca738bd1ab1062e1f";var d=document.createElement("script");d.type="text/javascript";d.async=!0;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(d,e);d.src="https://z.moatads.com/greatistcontent247UepN76/moatcontent.js#"+b}catch(f){try{var g="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&ac=1&k="+encodeURIComponent(f)+"&j="+encodeURIComponent(document.referrer)+"&cs="+(new Date).getTime();(new Image).src=g}catch(h){}};})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.display('page');});
+//--><!]]>
+</script>
+<script type="text/javascript" src="//dc8xl0ndzn2cb.cloudfront.net/js/greatist/v0/keywee.min.js"></script>
+
+<div id="fb-root"></div>
+<noscript><img
+    src="http://b.scorecardresearch.com/p?c1=2&amp;c2=14988881&amp;cv=2.0&amp;cj=1"
+    alt=""/></noscript>
+<noscript><img style="position:absolute"
+               src="http://b.scorecardresearch.com/b?c1=2&c2=0000000&c3=0000000&c4=www.w3i.com/who-weare.aspx&c5=&c6=&c15=C67BD3C1&cv=1.3&cj=1"
+               style="display:none" width="0" height="0" alt=""/></noscript>
+<noscript>
+  <div style="display:none;"><img
+      src="//pixel.quantserve.com/pixel/p-46ydJU4yMQT2-.gif" border="0"
+      height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ad634f8ed0","applicationID":"897146","transactionName":"NVMHZRNYCkUFUkNeVwwZJFIVUAtYS1ZFUlkWXxZFPloLWxReWVJWFmkIVA9M","queueTime":0,"applicationTime":3874,"atts":"GRQEE1tCGUs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

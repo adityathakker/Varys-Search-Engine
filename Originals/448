@@ -1,0 +1,678 @@
+<!DOCTYPE html><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"><head itemscope itemtype="http://schema.org/WebSite"><!--[if IE]><![endif]--><link rel="dns-prefetch" href="//fonts.googleapis.com" /><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/911656fa177846aec61d653c98674a7b.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/eb9f2973d1f94378cd51f247183dd68f.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/ed23373be97de98fd59b5c1ee55222f2.css" data-minify="1"/><meta charset="UTF-8"> <!--[if IE ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]--><link rel="profile" href="http://gmpg.org/xfn/11" /><link rel="icon" href="http://test.androidhive.info/wp-content/uploads/2016/04/favicon.png" type="image/x-icon" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta itemprop="name" content="androidhive" /><meta itemprop="url" content="http://www.androidhive.info" /><meta itemprop="creator accountablePerson" content=" " /><link rel="pingback" href="http://www.androidhive.info/xmlrpc.php" /><title>Android adding SMS Verification Like WhatsApp - Part 1</title><style type="text/css">.thrive-adminbar-icon {
+				background: url('http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/css/images/tcb-close-icon.png') no-repeat 0px 0px;
+				padding-left: 25px !important;
+				width: 20px !important;
+				height: 20px !important;
+			}</style> <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace( /\bno-js\b/,'js' );</script> <meta name="description" content="Android tutorial about verifying user mobile number like WhatsApp. Explained complete tutorial about implementing server side REST API with sms gateway."/><meta name="robots" content="noodp"/><link rel="canonical" href="http://www.androidhive.info/2015/08/android-adding-sms-verification-like-whatsapp-part-1/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Android adding SMS Verification Like WhatsApp - Part 1" /><meta property="og:description" content="Android tutorial about verifying user mobile number like WhatsApp. Explained complete tutorial about implementing server side REST API with sms gateway." /><meta property="og:url" content="http://www.androidhive.info/2015/08/android-adding-sms-verification-like-whatsapp-part-1/" /><meta property="og:site_name" content="androidhive" /><meta property="article:section" content="json" /><meta property="article:published_time" content="2015-08-01T17:22:54+00:00" /><meta property="og:image" content="http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp.jpg" /><meta property="og:image:width" content="720" /><meta property="og:image:height" content="359" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Android tutorial about verifying user mobile number like WhatsApp. Explained complete tutorial about implementing server side REST API with sms gateway." /><meta name="twitter:title" content="Android adding SMS Verification Like WhatsApp - Part 1" /><meta name="twitter:image" content="http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp.jpg" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Feed" href="http://www.androidhive.info/feed/" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Comments Feed" href="http://www.androidhive.info/comments/feed/" /> <script type="text/javascript">window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.androidhive.info\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);</script> <style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style><style id='stylesheet-inline-css' type='text/css'>body {background-color:#ffffff; }
+		body {background-image: url( http://www.androidhive.info/wp-content/themes/androidhive-theme/images/nobg.png );}
+
+        .header-social a:hover, header .breadcrumb > div i:hover, header .breadcrumb > div a:hover, .breadcrumb > div a:hover, .post-info a, .latestPost .title a:hover, #site-footer .toggle-menu .toggle-caret .fa:hover, #primary-navigation .sub-menu a:hover, .latestPost .title a:hover, ul.ajax-search-results li a:hover, .sidebar .ajax-search-meta a, .breadcrumb > div i, .single .tags a, .postauthor h5 a:hover, .sidebar a, .comment-meta a, .trending-stories .latestPost .title:hover, .postauthor h5, .copyrights a, .single_post a, .textwidget a, .pnavigation2 a, #sidebar a:hover, .copyrights a:hover, #site-footer .widget li a:hover, .related-posts a:hover, .reply a, .title a:hover, .post-info a:hover, .comm, #tabber .inside li a:hover, .readMore a:hover, .fn a, a, a:hover { color: #000000; }
+
+        .latestPost-categories ul li:hover a, .footer-widgets h3, .reply a:hover, #primary-navigation .sub-menu a:hover, #primary-navigation .sub-menu li.current-menu-item a { color: #000000 !important; }
+
+        .latestPost-news .latestPost { border-top: 2px solid #000000; }
+
+        
+        .navigation.mobile-menu-wrapper { background: #000000 !important; }
+
+        #header, .pace .pace-progress, #mobile-menu-wrapper ul li a:hover, .widget h3:before, .featured-category-title:before, .widget .wpt_widget_content .tab_title.selected a, #move-to-top, #load-posts, .featured-videos h4:after, .related-posts h4:after, .postauthor h4:after, #comments h4:after, #commentsAdd h4:after, .contact-form input[type='submit'], #commentform input#submit:hover, .contact-form input[type='submit']:hover, #primary-navigation li a:hover, .pagination a:hover, .pagination ul, .latestPost-review-wrapper, a#pull, #commentform input#submit, .contactform #submit, #move-to-top:hover, .navigation ul .current-menu-item > a, .navigation ul li:hover, .pagination a, #tabber ul.tabs li a.selected, .tagcloud a:hover, .latestPost .review-type-circle.review-total-only, .latestPost .review-type-circle.wp-review-show-total, .single .pagination > .current, .bypostauthor .comment-author .fn:after { background-color:#000000; color: #fff!important; }
+
+		.owl-prev, .owl-next { background-color:#000000!important; }
+
+        #site-footer { background: #EAEAEA; }
+		
+		.shareit { top: 282px; left: 0; margin: 0; width: 90px; position: fixed; padding: 5px; border:none; border-right: 0;}
+		.share-item {margin: 2px;}
+		
+		.bypostauthor { background: none; }
+        .bypostauthor > div .comment-author .fn:after { content: "Author"; position: relative; padding: 2px 10px; margin: 0 10px; color: #FFF; font-size: 13px; line-height: 1; font-weight: normal; border-radius: 3px; }</style> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/compat.min.js?ver=1.200.5'></script> <script type='text/javascript'>/*  */
+var mts_customscript = {"responsive":"1","nav_menu":"primary"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/customscript.js'></script> <script type='text/javascript'>/*  */
+var tickeropts = {"rtl_support":"0"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/jquery.webticker.js'></script> <link rel='https://api.w.org/' href='http://www.androidhive.info/wp-json/' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.androidhive.info/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.androidhive.info/wp-includes/wlwmanifest.xml" /><link rel='shortlink' href='http://www.androidhive.info/?p=38258' /><link rel="alternate" type="application/json+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2015%2F08%2Fandroid-adding-sms-verification-like-whatsapp-part-1%2F" /><link rel="alternate" type="text/xml+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2015%2F08%2Fandroid-adding-sms-verification-like-whatsapp-part-1%2F&#038;format=xml" /> <script type="text/javascript">window._wp_rp_static_base_url = 'https://wprp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.androidhive.info/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.6';
+	window._wp_rp_post_id = '38258';
+	window._wp_rp_num_rel_posts = '4';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Android+adding+SMS+Verification+Like+WhatsApp+-+Part+1';
+	window._wp_rp_post_tags = ['sms', 'volley', 'json', 'mysql', 'php', 'rest', 'project', 'mobil', 'commun', 'height', 'collect', 'server', 'android', 'gatewai', 'sm', 'php', 'a', 'architectur', 'mysql', 'articl', 'whatsapp'];
+	window._wp_rp_promoted_content = true;</script> <script type="text/javascript" src="https://wprp.zemanta.com/static/js/loader.js?version=3.6" async></script> <style type="text/css">.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style><link href="//fonts.googleapis.com/css?family=Open+Sans|Merriweather&amp;subset=latin" rel="stylesheet" type="text/css"><style type="text/css">#header h1, #header h2 { font-family: 'Open Sans'; font-weight: ; font-size: 25px; color: #ffffff; }
+.menu li, .menu li a { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #ffffff; }
+.latestPost .title a, .latestPost-news .title, .latestPost .title { font-family: 'Merriweather'; font-weight: ; font-size: 23px; color: #252525; }
+.single-title { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+body { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+.widget h3, .featured-category-title { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+#sidebar .widget { font-family: 'Open Sans'; font-weight: ; font-size: 14px; color: #252525; }
+.footer-widgets, footer .widget li a { font-family: 'Open Sans'; font-weight: ; font-size: 13px; color: #252525; }
+h1 { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+h2 { font-family: 'Merriweather'; font-weight: ; font-size: 24px; color: #252525; }
+h3 { font-family: 'Merriweather'; font-weight: ; font-size: 25px; color: #252525; }
+h4 { font-family: 'Merriweather'; font-weight: ; font-size: 20px; color: #252525; }
+h5 { font-family: 'Merriweather'; font-weight: ; font-size: 18px; color: #252525; }
+h6 { font-family: 'Merriweather'; font-weight: ; font-size: 16px; color: #252525; }</style><style type="text/css" id="syntaxhighlighteranchor"></style> <script data-no-minify="1" data-cfasync="false">(function(w,d){function a(){var b=d.createElement("script");b.async=!0;b.src="http://www.androidhive.info/wp-content/plugins/wp-rocket/inc/front/js/lazyload.1.0.2.min.js";var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)}w.attachEvent?w.attachEvent("onload",a):w.addEventListener("load",a,!1)})(window,document);</script> <style type="text/css">#nik{opacity:.0002;height:auto;width:auto;position:absolute;top:50px;left:50px;border-bottom:1px #76e042 solid;border-bottom:0 blue solid;color:#fff;padding:0;z-index:1001;font-size:13px;background:red}</style><div id="nik"> <a href="#" onclick="getValue()"> </a> <script type="text/javascript">(function () {
+                                var hidden = "hidden";
+
+                    // Standards:
+                    if (hidden in document)
+                                document.addEventListener("visibilitychange", onchange);
+                                else if ((hidden = "mozHidden") in document)
+                                document.addEventListener("mozvisibilitychange", onchange);                 else if ((hidden = "webkitHidden") in document)
+                                document.addEventListener("webkitvisibilitychange", onchange);
+                                else if ((hidden = "msHidden") in document)
+                                document.addEventListener("msvisibilitychange", onchange);                 // IE 9 and lower:
+                                else if ("onfocusin" in document)
+                                document.onfocusin = document.onfocusout = onchange;
+                    // All others:
+                    else
+                                window.onpageshow = window.onpagehide
+                                        = window.onfocus = window.onblur = onchange;
+
+                    function onchange(evt) {
+                        var v = "visible", h = "hidden",
+                                        evtMap = {focus: v, focusin: v, pageshow: v, blur: h, focusout: h, pagehide: h};
+                                        evt = evt || window.event;
+                        if (evt.type in evtMap) {
+                                chkvis(evtMap[evt.type]);
+                                }
+                        else {
+                                var visible = this[hidden] ? "hidden" : "visible";
+                                        chkvis(visible);
+                                }
+                    }
+
+                        // set the initial state (but only if browser supports the Page Visibility API)
+                        if (document[hidden] !== undefined)
+                        onchange({type: document[hidden] ? "blur" : "focus"});
+                })();
+                        function chkvis(status) {
+                            if (status == 'hidden') {
+                                createCookie('k', 'p');
+                                document.getElementById('nik').style.display = 'none';
+                            }
+                        }
+
+                var t = 3, ts = 45, te = 55;
+                var r = Math.floor(Math.random() * (t)) + 1;
+                var d = new Date();
+                var n = d.getMinutes();
+
+                var p1 = '<script async src="\/\/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script> <!-- Article --> <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-9207768510467156" data-ad-slot="1410361821"><\/ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>';
+                var p2 = '<script async src="\/\/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script> <!-- End --> <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-9207768510467156" data-ad-slot="4363828227"><\/ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>';
+                var p3 = '<script async src="\/\/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script> <!-- Middle Content --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9207768510467156" data-ad-slot="2887095024"><\/ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>';
+
+
+               
+                
+                    if (getCookie("k") !== "p") {
+
+                        switch (r) {
+                            case 1:
+                                document.write(p1);
+                                break;
+                            case 2:
+                                document.write(p2);
+                                break;
+                            default:
+                                document.write(p3);
+                        }
+                    }
+                
+               
+
+                function createCookie(name, value) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (86400));
+                    var expires = "; expires=" + date.toGMTString();
+
+                    document.cookie = name + "=" + value + expires + "; path=/";
+                }
+
+                function getCookie(cname) {
+                    var name = cname + "=";
+                    var ca = document.cookie.split(';');
+                    for (var i = 0; i < ca.length; i++) {
+                        var c = ca[i];
+                        while (c.charAt(0) == ' ')
+                            c = c.substring(1);
+                        if (c.indexOf(name) == 0)
+                            return c.substring(name.length, c.length);
+                    }
+                    return "";
+                }
+
+                function isInArray(array, search)
+                {
+                    return array.indexOf(search) >= 0;
+                }</script> </div> <script type="text/javascript">var div = document.getElementById('nik');
+                                                document.addEventListener('mousemove', function (e) {
+                                                div.style.left = e.pageX - 160 + "px";
+                                                        div.style.top = e.pageY - 60 + "px";
+                                                });</script> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24602371-1', 'auto');
+  ga('send', 'pageview');</script> </head><body id="blog" class="single single-post postid-38258 single-format-standard main" itemscope itemtype="http://schema.org/WebPage"><div class="main-container"> <header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader"><div class="upper-navigation"><div class="container clearfix"><div class="breadcrumb"><div class="root"><a href="http://www.androidhive.info/"><i class="fa fa-home"></i></a></div><div class="breaking"><ul class="trending-slider"><li><a href="http://www.androidhive.info/2016/05/android-working-with-card-view-and-recycler-view/" title="Android working with Card View and Recycler View">Android working with Card View and Recycler View</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-3/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1</a></li><li><a href="http://www.androidhive.info/2015/12/android-material-design-floating-action-button/" title="Android Material Design Floating Action Button">Android Material Design Floating Action Button</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-snackbar-example/" title="Android Material Design Snackbar Example">Android Material Design Snackbar Example</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-floating-labels-for-edittext/" title="Android Material Design Floating Labels for EditText">Android Material Design Floating Labels for EditText</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" title="Android Material Design working with Tabs">Android Material Design working with Tabs</a></li><li><a href="http://www.androidhive.info/2015/06/android-push-notifications-using-parse-com/" title="Android Push Notifications using Parse.com">Android Push Notifications using Parse.com</a></li><li><a href="http://www.androidhive.info/2015/04/android-getting-started-with-material-design/" title="Android Getting Started with Material Design">Android Getting Started with Material Design</a></li></ul></div></div><div class="header-social"> <a rel="nofollow" href="http://www.facebook.com/ravi8x" class="header-facebook"><span class="fa fa-facebook"></span></a> <a rel="nofollow" href="http://www.twitter.com/ravitamada" class="header-twitter"><span class="fa fa-twitter"></span></a> <a rel="nofollow" href="https://plus.google.com/u/0/108738908574182577919/posts" class="header-google-plus"><span class="fa fa-google-plus"></span></a> <a rel="nofollow" href="http://instagram.com/ravitamada" class="header-instagram"><span class="fa fa-instagram"></span></a></div></div></div><div id="header"><div class="container"><div class="logo-wrap"><h1 id="logo" class="image-logo" itemprop="headline"> <a href="http://www.androidhive.info"><img src="http://www.androidhive.info/wp-content/uploads/2016/04/logo-3.png" alt="androidhive"></a></h1></div><div id="primary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"> <a href="#" id="pull" class="toggle-mobile-menu">Menu</a> <nav class="navigation clearfix mobile-menu-wrapper"><ul id="menu-menu-1" class="menu clearfix"><li id="menu-item-39241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39241"><a href="http://download.androidhive.info">Downloads</a></li><li id="menu-item-39242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39242"><a href="http://tips.androidhive.info">Tips</a></li><li id="menu-item-39327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39327"><a href="http://www.androidhive.info/write-for-us/">Write for Us</a></li></ul> </nav></div></div></div> </header><div id="page" class="single"> <article class="article" itemscope itemtype="http://schema.org/BlogPosting"><meta itemprop="image" content="http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp.jpg" /><div id="content_box" ><div id="post-38258" class="g post post-38258 type-post status-publish format-standard has-post-thumbnail hentry category-json category-mysql category-php category-rest category-sms category-volley has_thumb"><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><div typeof="v:Breadcrumb" class="root"><a rel="v:url" property="v:title" href="http://www.androidhive.info" rel="nofollow">Home</a></div><div><i class="fa fa-angle-right"></i></div><div typeof="v:Breadcrumb"><a href="http://www.androidhive.info/category/json/" rel="v:url" property="v:title">json</a></div><div><i class="fa fa-angle-right"></i></div><div><span>Android adding SMS Verification Like WhatsApp &#8211; Part 1</span></div></div><div class="single_post"> <header><h1 class="title single-title entry-title" itemprop="headline">Android adding SMS Verification Like WhatsApp &#8211; Part 1</h1><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></span></span> <span class="thetime updated"><span itemprop="datePublished">August 1, 2015<span class="divider1">/</span></span></span> <span class="thecomment"><i class="fa fa-comments"></i> <a href="http://www.androidhive.info/2015/08/android-adding-sms-verification-like-whatsapp-part-1/#disqus_thread">Comments</a></span></div> </header><div class="post-single-content box mark-links entry-content"><div class="thecontent" itemprop="articleBody"><div style="float:left;margin:10px 10px 10px 0;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="1410361821"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><p>My previous <a href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/" target="_blank" class="link">tutorial</a> explains how to implement the user login / registration by collecting user name, email and password. But what if you want to sign up an user using their mobile number like <strong>WhatsApp</strong>, <strong>Viber</strong> by verifying their mobile number in order to get genuine users.</p><p>Before going further make sure that you have basic knowledge about android client-sever communication. If you are new to this, don&#8217;t worry, these articles (<a href="http://www.androidhive.info/2013/12/android-populating-spinner-data-from-mysql-database/" target="_blank" class="link">MySQL Spinner</a> &#038; <a href="http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/" target="_blank" class="link">PHP, MySQL &#8211; Android</a>) gives you a good start.</p><p>As this article seems lengthy, I have divided it into two parts. In this part we&#8217;ll learn the server side part i.e building the PHP, MySQL project by integrating the SMS gateway. In the <a href="http://www.androidhive.info/2015/08/android-adding-sms-verification-like-whatsapp-part-2/" target="_blank" class="link">2nd part</a> we cover the implementation of android app.</p><div style="display:none"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp.jpg" alt="android-sms-verification-like-whatsapp" width="720" height="359" class="alignnone size-full wp-image-38515" srcset="http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp-300x150.jpg 300w, http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp.jpg" alt="android-sms-verification-like-whatsapp" width="720" height="359" class="alignnone size-full wp-image-38515" srcset="http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp-300x150.jpg 300w, http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><div class="clear"></div><div class="download_code"><a href="http://download.androidhive.info/download?code=dyPEl0Lkl0PtF8A5kSWnckjZiysfjPRRpth2ijXf9KPTPCXqcBNTcFZC%2BKRqEzCv%2FoNwhiwS7%2FoOyd8n8Ut%2FaqP1zBk9QExwslJGiDzMM2Os%2BmHOL07mxPhtg%3D%3DJTOJ0JAE9BFPkwm1dJyyxozKoSZT1QD00gv" target="_blank">DOWNLOAD CODE</a></div><div class="yt_video"> <label>VIDEO DEMO</label><br /> <iframe src="http://www.youtube.com/embed/g8bF3AY8or0" frameborder="0" allowfullscreen="" style="width: 719px; height: 444.7265625px;"></iframe></div><p></p><h2>1. How It Works</h2><p>Below is the simple architecture diagram that explains the process of complete registration which involves the PHP, MySQL server and a SMS gateway.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-php-mysql.png" alt="android-sms-verification-php-mysql" width="720" height="564" class="alignnone size-full wp-image-38505" srcset="http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-php-mysql-300x235.png 300w, http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-php-mysql.png 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-php-mysql.png" alt="android-sms-verification-php-mysql" width="720" height="564" class="alignnone size-full wp-image-38505" srcset="http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-php-mysql-300x235.png 300w, http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-php-mysql.png 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p><strong>1</strong>. First user mobile number will be sent to our server where new user row will be created.</p><p><strong>2</strong>. Our server requests the SMS gateway for an sms to the mobile number with a verification code.</p><p><strong>3</strong>. SMS gateway sends an SMS to the user device with the verification code.</p><p><strong>4</strong>. The verification code will be sent back our server again for verification. Our server verifies it and activates the user.<br /></p><h2>2. Choosing the SMS Gateway</h2><p>SMS gateways are helpful in sending an SMS to any mobile number that comes under any mobile network. Basically gateways have a  contract with all the mobile networks to send the SMS to a particular mobile number. In INDIA we have lot of SMS providers, but choosing the best SMS service provider is difficult. I found <a rel="nofollow" href="http://www.solutionsinfini.com/clients.php" target="_blank" class="link">Solutions Infini</a>, <a rel="nofollow" href="http://enterprise.smsgupshup.com/" target="_blank" class="link">SMS Gupshup</a>, <a rel="nofollow" href="http://www.vfirst.com/" target="_blank" class="link">Value First</a> and <a rel="nofollow" href="https://msg91.com/" target="_blank" class="link">Msg91</a> are quite popular. But the most important thing keep in mind while choosing the provider is make sure that they do support <strong>REST API</strong> as our server needs to trigger an SMS whenever a request comes from the android app.</p><p>Unfortunately <strong>there are no free SMS gateways</strong> to test your android app. You have to contact any of the service providers seeking for a demo account or buy the SMS credits.</p><p></p><h2>3. Signing up with MSG91 (API Key)</h2><p>To demonstrate the tutorial, I have selected Msg91 gateway for their simplicity. Follow the below steps to get register and obtain your REST <strong>API Key</strong>. Please be aware that this gateway is for INDIAN users only. If you are not from INDIA, choose the gateway which is available in your country.</p><p><strong>1</strong>. <a rel="nofollow" href="http://control.msg91.com/" target="_blank" class="link">Signup</a> with Msg91.</p><p><strong>2</strong>. <a rel="nofollow" href="http://control.msg91.com/user/#payment" target="_blank" class="link">Buy</a> the SMS credits by selecting the appropriate details. In the form select SMS Type as<br /> <strong>TRANSACTIONAL ROUTE</strong> and give no.of SMS as <strong>2500</strong> which is minimum credits to buy. The cost would be around <strong>&#8377;600</strong>.</p><p><strong>3</strong>. Proceed with the payment. Once the payment was done, you can see the SMS credits credited into your account.</p><p><strong>4</strong>. To obtain your API key, goto the <a rel="nofollow" href="http://control.msg91.com/apidoc/" target="_blank" class="link">API doc</a> and click on <em>KEY</em> on the top right corner. You will be shown your API Key in a popup dialog. Copy this API Key, we&#8217;re gonna need it in our PHP project.</p><p>Check the below video demonstrating buying the SMS credits on Msg91.</p><div class="yt_video"> <iframe src="http://www.youtube.com/embed/026wzlW1uF4" frameborder="0" allowfullscreen="" style="width: 719px; height: 444.7265625px;"></iframe></div><p></p><h2>4. Building the PHP, MySQL REST API</h2><p>Now we have the API Key needed to send the SMS. Let&#8217;s start building the PHP project needed for the android app. We are going to build a simple REST API to manage the users who signs up using the android app. At the end of this project, we should be  able to build two end points needed for the user registration. One is to register user which sends an SMS with a verification code. Second endpoint is to verify the code and completes the user registration.</p><p></p><h3>4.1 Installing WAMP software</h3><p>Download &#038; Install WAMP server from <a rel="nofollow" href="http://www.wampserver.com/en/" target="_blank" class="link">www.wampserver.com/en/</a>. Once WAMP is installed, launch the program from <strong>Start â All Programs â WampServer â StartWampServer</strong>. If you are on Mac, <a rel="nofollow" href="https://www.mamp.info/en/" target="_blank" class="link">MAMP</a> will be useful.</p><p>You can test your server by opening the address <a rel="nofollow" href="http://localhost/" target="_blank" class="link">http://localhost/</a> in your browser.<br /> Also you can check phpmyadmin by opening <a rel="nofollow" href="http://localhost/phpmyadmin" target="_blank" class="link">http://localhost/phpmyadmin</a></p><p></p><h3>4.2 Creating MySQL Database</h3><p>For this project we need two tables. One is <em>users</em> table to store the user information and second one is <em>sms_codes</em> to store the user&#8217;s sms verification codes.</p><p>Below are the columns needed in each table.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-mysql-database.jpg" alt="android sms verification mysql database" width="720" height="413" class="alignnone size-full wp-image-38441" srcset="http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-mysql-database-300x172.jpg 300w, http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-mysql-database-785x450.jpg 785w, http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-mysql-database.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-mysql-database.jpg" alt="android sms verification mysql database" width="720" height="413" class="alignnone size-full wp-image-38441" srcset="http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-mysql-database-300x172.jpg 300w, http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-mysql-database-785x450.jpg 785w, http://www.androidhive.info/wp-content/uploads/2015/07/android-sms-verification-mysql-database.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p>Open <a rel="nofollow" href="http://localhost/phpmyadmin" target="_blank" class="link">http://localhost/phpmyadmin</a> and execute below queries to create required database and tables.</p><p>Create a database named android_sms.</p><pre class="brush: sql; title: ; notranslate" title="">
+CREATE DATABASE android_sms;
+
+USE android_sms;
+</pre><p>Create required tables and relationship by executing below sql queries.</p><pre class="brush: sql; title: ; notranslate" title="">
+CREATE TABLE `sms_codes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `code` varchar(6) NOT NULL,
+  `status` int(1) NOT NULL DEFAULT '0',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(250) NOT NULL,
+  `mobile` varchar(10) NOT NULL,
+  `apikey` varchar(32) NOT NULL,
+  `status` int(1) NOT NULL DEFAULT '0',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=64 ;
+
+
+ALTER TABLE `sms_codes`
+  ADD CONSTRAINT `sms_codes_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+</pre><p></p><h3>4.3 Creating PHP Project</h3><p>Once you are done with database setup, let&#8217;s move to php project development. You can use any IDE like Netbeans to develop this project or just the notepad++ is enough.</p><p><strong>1</strong>. Goto the WAMP project directory i.e <strong>C:/wamp/www</strong> and create a folder named <strong>android_sms</strong>. This will be the root directory of our PHP project.</p><p><strong>2</strong>. Inside <strong>android_sms</strong>, create a folder named <strong>include</strong>. In this folder we keep all the configuration like database credentials, Msg91 API Key etc.,</p><p><strong>3</strong>. Create a file under <strong>include</strong> folder named <strong>Config.php</strong> and add below code. Replace the MySQL credentials and <strong>Msg91 API Key</strong> in the below code with yours.</p><pre class="brush: php; title: Config.php; notranslate" title="Config.php">
+&lt;?php
+/**
+ * Database configuration
+ */
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'root');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'android_sms');
+
+
+/**
+ * MSG91 configuration
+ */
+define('MSG91_AUTH_KEY', &quot;88276AGwzewOEdFs559d2888&quot;);
+// sender id should 6 character long
+define('MSG91_SENDER_ID', 'ANHIVE');
+
+define('USER_CREATED_SUCCESSFULLY', 0);
+define('USER_CREATE_FAILED', 1);
+define('USER_ALREADY_EXISTED', 2);
+?&gt;
+</pre><p> <strong>4</strong>. Under <strong>include</strong> folder, create another php file named <strong>DbConnect.php</strong> This file handles the database connection.</p><pre class="brush: php; title: DbConnect.php; notranslate" title="DbConnect.php">
+&lt;?php
+
+/**
+ * Handling database connection
+ *
+ * @author Ravi Tamada
+ * @link URL Tutorial link
+ */
+class DbConnect {
+
+    private $conn;
+
+    function __construct() {        
+    }
+
+    /**
+     * Establishing database connection
+     * @return database connection handler
+     */
+    function connect() {
+        include_once dirname(__FILE__) . '/Config.php';
+
+        // Connecting to mysql database
+        $this-&gt;conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+
+        // Check for database connection error
+        if (mysqli_connect_errno()) {
+            echo &quot;Failed to connect to MySQL: &quot; . mysqli_connect_error();
+            exit;
+        }
+
+        // returing connection resource
+        return $this-&gt;conn;
+    }
+
+}
+
+?&gt;
+</pre><p> <strong>5</strong>. Create another php file named <strong>DbHandler.php</strong> under <strong>include</strong> folder. This file contains the major functions to perform the read, write operations onto database.</p><div style="float:none;margin:10px 0 10px 0;text-align:center;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:300px;height:250px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="2887095024"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><pre class="brush: php; title: DbHandler.php; notranslate" title="DbHandler.php">
+&lt;?php
+
+/**
+ * Class to handle all db operations
+ * This class will have CRUD methods for database tables
+ *
+ * @author Ravi Tamada
+ * @link URL Tutorial link
+ */
+class DbHandler {
+
+    private $conn;
+
+    function __construct() {
+        require_once dirname(__FILE__) . '/DbConnect.php';
+        // opening db connection
+        $db = new DbConnect();
+        $this-&gt;conn = $db-&gt;connect();
+    }
+
+    /* ------------- `users` table method ------------------ */
+
+    /**
+     * Creating new user
+     * @param String $name User full name
+     * @param String $email User login email id
+     * @param String $mobile User mobile number
+     * @param String $otp user verificaiton code
+     */
+    public function createUser($name, $email, $mobile, $otp) {
+        $response = array();
+
+        // First check if user already existed in db
+        if (!$this-&gt;isUserExists($mobile)) {
+
+            // Generating API key
+            $api_key = $this-&gt;generateApiKey();
+
+            // insert query
+            $stmt = $this-&gt;conn-&gt;prepare(&quot;INSERT INTO users(name, email, mobile, apikey, status) values(?, ?, ?, ?, 0)&quot;);
+            $stmt-&gt;bind_param(&quot;ssss&quot;, $name, $email, $mobile, $api_key);
+
+            $result = $stmt-&gt;execute();
+
+            $new_user_id = $stmt-&gt;insert_id;
+
+            $stmt-&gt;close();
+
+            // Check for successful insertion
+            if ($result) {
+
+                $otp_result = $this-&gt;createOtp($new_user_id, $otp);
+
+                // User successfully inserted
+                return USER_CREATED_SUCCESSFULLY;
+            } else {
+                // Failed to create user
+                return USER_CREATE_FAILED;
+            }
+        } else {
+            // User with same email already existed in the db
+            return USER_ALREADY_EXISTED;
+        }
+
+        return $response;
+    }
+
+    public function createOtp($user_id, $otp) {
+
+        // delete the old otp if exists
+        $stmt = $this-&gt;conn-&gt;prepare(&quot;DELETE FROM sms_codes where user_id = ?&quot;);
+        $stmt-&gt;bind_param(&quot;i&quot;, $user_id);
+        $stmt-&gt;execute();
+
+
+        $stmt = $this-&gt;conn-&gt;prepare(&quot;INSERT INTO sms_codes(user_id, code, status) values(?, ?, 0)&quot;);
+        $stmt-&gt;bind_param(&quot;is&quot;, $user_id, $otp);
+
+        $result = $stmt-&gt;execute();
+
+        $stmt-&gt;close();
+
+        return $result;
+    }
+    
+    /**
+     * Checking for duplicate user by mobile number
+     * @param String $email email to check in db
+     * @return boolean
+     */
+    private function isUserExists($mobile) {
+        $stmt = $this-&gt;conn-&gt;prepare(&quot;SELECT id from users WHERE mobile = ? and status = 1&quot;);
+        $stmt-&gt;bind_param(&quot;s&quot;, $mobile);
+        $stmt-&gt;execute();
+        $stmt-&gt;store_result();
+        $num_rows = $stmt-&gt;num_rows;
+        $stmt-&gt;close();
+        return $num_rows &gt; 0;
+    }
+
+    public function activateUser($otp) {
+        $stmt = $this-&gt;conn-&gt;prepare(&quot;SELECT u.id, u.name, u.email, u.mobile, u.apikey, u.status, u.created_at FROM users u, sms_codes WHERE sms_codes.code = ? AND sms_codes.user_id = u.id&quot;);
+        $stmt-&gt;bind_param(&quot;s&quot;, $otp);
+
+        if ($stmt-&gt;execute()) {
+            // $user = $stmt-&gt;get_result()-&gt;fetch_assoc();
+            $stmt-&gt;bind_result($id, $name, $email, $mobile, $apikey, $status, $created_at);
+            
+            $stmt-&gt;store_result();
+
+            if ($stmt-&gt;num_rows &gt; 0) {
+                
+                $stmt-&gt;fetch();
+                
+                // activate the user
+                $this-&gt;activateUserStatus($id);
+                
+                $user = array();
+                $user[&quot;name&quot;] = $name;
+                $user[&quot;email&quot;] = $email;
+                $user[&quot;mobile&quot;] = $mobile;
+                $user[&quot;apikey&quot;] = $apikey;
+                $user[&quot;status&quot;] = $status;
+                $user[&quot;created_at&quot;] = $created_at;
+                
+                $stmt-&gt;close();
+                
+                return $user;
+            } else {
+                return NULL;
+            }
+        } else {
+            return NULL;
+        }
+
+        return $result;
+    }
+    
+    public function activateUserStatus($user_id){
+        $stmt = $this-&gt;conn-&gt;prepare(&quot;UPDATE users set status = 1 where id = ?&quot;);
+        $stmt-&gt;bind_param(&quot;i&quot;, $user_id);
+        
+        $stmt-&gt;execute();
+        
+        $stmt = $this-&gt;conn-&gt;prepare(&quot;UPDATE sms_codes set status = 1 where user_id = ?&quot;);
+        $stmt-&gt;bind_param(&quot;i&quot;, $user_id);
+        
+        $stmt-&gt;execute();
+    }
+
+    /**
+     * Generating random Unique MD5 String for user Api key
+     */
+    private function generateApiKey() {
+        return md5(uniqid(rand(), true));
+    }
+}
+?&gt;
+</pre><p> <strong>6</strong>. Now we have all the core logic ready. Let&#8217;s create an endpoint to register the user. In your project&#8217;s root directory, create a file named <strong>request_sms.php</strong>.</p><p>In below code</p><p><strong>></strong> First we receive the <strong>name, email</strong> and <strong>mobile number</strong> those were sent from the android device as a <strong>POST</strong> parameters.</p><p><strong>></strong> We create an entry in <em>users</em> table by calling <em>createUser()</em> function. Initially the user <strong>status</strong> will be <strong>0</strong> which indicate the user is inactive. This status will be made to <strong>1</strong> when the user verifies the OTP.</p><p><strong>></strong> Once the user row is created, we request for an SMS to the mobile number by calling <em>sendSms()</em> method.</p><p><strong>></strong> <em>sendSms()</em> method will make a call to Msg91 REST API to send SMS with a <strong>6 digits OTP</strong> to the users mobile number.</p><p>Below is the sample SMS message the user will receive to their mobile. The OTP should be prefixed by <strong>:</strong> and <strong>space</strong> in the message.</p><pre class="brush: sql; title: ; notranslate" title="">
+Hello! Welcome to AndroidHive. Your OPT is : 228767
+</pre><pre class="brush: php; title: request_sms.php; notranslate" title="request_sms.php">
+&lt;?php
+
+include './include/DbHandler.php';
+$db = new DbHandler();
+
+
+$response = array();
+
+if (isset($_POST['mobile']) &amp;&amp; $_POST['mobile'] != '') {
+
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $mobile = $_POST['mobile'];
+
+    $otp = rand(100000, 999999);
+
+    $res = $db-&gt;createUser($name, $email, $mobile, $otp);
+
+    if ($res == USER_CREATED_SUCCESSFULLY) {
+        
+        // send sms
+        sendSms($mobile, $otp);
+        
+        $response[&quot;error&quot;] = false;
+        $response[&quot;message&quot;] = &quot;SMS request is initiated! You will be receiving it shortly.&quot;;
+    } else if ($res == USER_CREATE_FAILED) {
+        $response[&quot;error&quot;] = true;
+        $response[&quot;message&quot;] = &quot;Sorry! Error occurred in registration.&quot;;
+    } else if ($res == USER_ALREADY_EXISTED) {
+        $response[&quot;error&quot;] = true;
+        $response[&quot;message&quot;] = &quot;Mobile number already existed!&quot;;
+    }
+} else {
+    $response[&quot;error&quot;] = true;
+    $response[&quot;message&quot;] = &quot;Sorry! mobile number is not valid or missing.&quot;;
+}
+
+echo json_encode($response);
+
+function sendSms($mobile, $otp) {
+    
+    $otp_prefix = ':';
+
+    //Your message to send, Add URL encoding here.
+    $message = urlencode(&quot;Hello! Welcome to AndroidHive. Your OPT is '$otp_prefix $otp'&quot;);
+
+    $response_type = 'json';
+
+    //Define route 
+    $route = &quot;4&quot;;
+    
+    //Prepare you post parameters
+    $postData = array(
+        'authkey' =&gt; MSG91_AUTH_KEY,
+        'mobiles' =&gt; $mobile,
+        'message' =&gt; $message,
+        'sender' =&gt; MSG91_SENDER_ID,
+        'route' =&gt; $route,
+        'response' =&gt; $response_type
+    );
+
+//API URL
+    $url = &quot;https://control.msg91.com/sendhttp.php&quot;;
+
+// init the resource
+    $ch = curl_init();
+    curl_setopt_array($ch, array(
+        CURLOPT_URL =&gt; $url,
+        CURLOPT_RETURNTRANSFER =&gt; true,
+        CURLOPT_POST =&gt; true,
+        CURLOPT_POSTFIELDS =&gt; $postData
+            //,CURLOPT_FOLLOWLOCATION =&gt; true
+    ));
+
+
+    //Ignore SSL certificate verification
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+
+
+    //get response
+    $output = curl_exec($ch);
+
+    //Print error if any
+    if (curl_errno($ch)) {
+        echo 'error:' . curl_error($ch);
+    }
+
+    curl_close($ch);
+}
+?&gt;
+</pre><p> <strong>7</strong>. Now we need to create another endpoint to verify the OTP. Create a php file named <strong>verify_otp.php</strong> with below content.</p><p>In the below code</p><p><strong>></strong> The OTP will be received from the android device as a <strong>POST</strong> param.</p><p><strong>></strong> The user who matches with OTP will fetched from the users table.</p><p><strong>></strong> Then the user <strong>status</strong> will be set to <strong>1</strong> in both users and sms_codes table which makes the user active.</p><p><strong>></strong> The above two steps are implemented in <em>activateUser()</em> function.</p><pre class="brush: php; title: verify_otp.php; notranslate" title="verify_otp.php">
+&lt;?php
+
+include './include/DbHandler.php';
+$db = new DbHandler();
+
+
+$response = array();
+$response[&quot;error&quot;] = false;
+
+if (isset($_POST['otp']) &amp;&amp; $_POST['otp'] != '') {
+    $otp = $_POST['otp'];
+
+
+    $user = $db-&gt;activateUser($otp);
+
+    if ($user != NULL) {
+
+        $response[&quot;message&quot;] = &quot;User created successfully!&quot;;
+        $response[&quot;profile&quot;] = $user;
+    } else {
+        $response[&quot;message&quot;] = &quot;Sorry! Failed to create your account.&quot;;
+    }
+    
+    
+} else {
+    $response[&quot;message&quot;] = &quot;Sorry! OTP is missing.&quot;;
+}
+
+
+echo json_encode($response);
+?&gt;
+</pre><p></p><h2>5. Testing the REST API</h2><p>To test our API, install <a rel="nofollow" href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en" target="_blank" class="link">Postman</a> chrome extension which allows you to test the endpoints by passing the parameters required.</p><p><strong>Request SMS</strong></p><div id="changelog"><table border="0" width="100%"><tbody><tr><td><strong>URL</strong></td><td><strong>Method</strong></td><td><strong>Parameters</strong></td><td><strong>Description</strong></td></tr><tr><td>http://localhost/android_sms/request_sms.php</td><td>POST</td><td>name, email, mobile</td><td>Request SMS</td></tr></tbody></table></div><p>The below json should be produced when SMS sent successfully.</p><pre class="brush: java; title: ; notranslate" title="">
+{
+    &quot;error&quot;: false,
+    &quot;message&quot;: &quot;SMS request is initiated! You will be receiving it shortly.&quot;
+}
+</pre><p> <strong>Verifying user OTP</strong></p><div id="changelog"><table border="0" width="100%"><tbody><tr><td><strong>URL</strong></td><td><strong>Method</strong></td><td><strong>Parameters</strong></td><td><strong>Description</strong></td></tr><tr><td>http://localhost/android_sms/verify_otp.php</td><td>POST</td><td>otp</td><td>verifying user verification code</td></tr></tbody></table></div><p>When the OTP is verified successfully, the complete user profile information should be produced in the json.</p><pre class="brush: java; title: ; notranslate" title="">
+{
+    &quot;error&quot;: false,
+    &quot;message&quot;: &quot;User created successfully!&quot;,
+    &quot;profile&quot;: {
+        &quot;name&quot;: &quot;Ravi Tamada&quot;,
+        &quot;email&quot;: &quot;ravi@androidhive.info&quot;,
+        &quot;mobile&quot;: &quot;0000000000&quot;,
+        &quot;apikey&quot;: &quot;088d196bacbe6bf08657720c9d562390&quot;,
+        &quot;status&quot;: 0,
+        &quot;created_at&quot;: &quot;2015-07-30 22:18:59&quot;
+    }
+}
+</pre><p>Watch the below video know how to use Postman to test the endpoints.</p><div class="yt_video"> <iframe src="http://www.youtube.com/embed/-lf5vfPuPz0" frameborder="0" allowfullscreen="" style="width: 719px; height: 444.7265625px;"></iframe></div><p> This completes the server side part. In the <a href="http://www.androidhive.info/2015/08/android-adding-sms-verification-like-whatsapp-part-2/" target="_blank" class="link">2nd part</a> we are going to learn how to create the android app by integrating the API we have just built.</p><div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid red;"></span> <script type="text/javascript">jQuery(document).ready(function($) {
+    $.post('http://www.androidhive.info/wp-admin/admin-ajax.php', {action: 'mts_view_count', id: '38258'});
+});</script> </div></div></div><div class="postauthor"><h4>About The Author</h4> <img alt='' src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /><noscript><img alt='' src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /></noscript><h5 class="vcard"><a href="http://www.androidhive.info/author/admin/" rel="nofollow" class="fn">Ravi Tamada</a></h5><p>Ravi is hardcore Android programmer and Android programming has been his passion since he compiled his first hello-world program. Solving real problems of Android developers through tutorials has always been interesting part for him.</p></div><div class="related-posts"><h4>Related Posts</h4><div class="clear"> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2015/05/android-swipe-down-to-refresh-listview-tutorial/" title="Android Swipe Down to Refresh ListView Tutorial" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android-swipe-down-to-refresh-list-view-tutorial" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2015/05/android-swipe-down-to-refresh-list-view-tutorial-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android-swipe-down-to-refresh-list-view-tutorial" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2015/05/android-swipe-down-to-refresh-listview-tutorial/" title="Android Swipe Down to Refresh ListView Tutorial">Android Swipe Down to Refresh ListView Tutorial</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2012/01/android-json-parsing-tutorial/" title="Android JSON Parsing Tutorial" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/01/banner_json_parsing-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android json parsing" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2012/01/banner_json_parsing-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android json parsing" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2012/01/android-json-parsing-tutorial/" title="Android JSON Parsing Tutorial">Android JSON Parsing Tutorial</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/ravi8x/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  last"> <a href="http://www.androidhive.info/2014/01/how-to-create-rest-api-for-android-app-using-php-slim-and-mysql-day-23/" title="How to create REST API for Android app using PHP, Slim and MySQL â Day 2/2" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2014/01/Android-rest-api-banner23-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android rest api design using php mysql slim" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2014/01/Android-rest-api-banner23-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android rest api design using php mysql slim" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2014/01/how-to-create-rest-api-for-android-app-using-php-slim-and-mysql-day-23/" title="How to create REST API for Android app using PHP, Slim and MySQL â Day 2/2">How to create REST API for Android app using PHP, Slim and MySQL â Day 2/2</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2014/10/android-building-group-chat-app-using-sockets-part-2/" title="Android Building Group Chat App using Sockets &#8211; Part 2" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2014/10/android-chat-app-part-2-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android building chat app" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2014/10/android-chat-app-part-2-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android building chat app" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2014/10/android-building-group-chat-app-using-sockets-part-2/" title="Android Building Group Chat App using Sockets &#8211; Part 2">Android Building Group Chat App using Sockets &#8211; Part 2</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article></div></div></div><div id="disqus_thread" data-disqus-shortname="androidhive"></div></div> </article> <aside id="sidebar" class="sidebar c-4-12 " role="complementary" itemscope itemtype="http://schema.org/WPSideBar"><div id="search-2" class="widget widget_search"><h3 class="widget-title">SEARCH HERE</h3><form method="get" id="searchform" class="search-form" action="http://www.androidhive.info" _lpchecked="1"><fieldset> <input type="text" name="s" id="s" value="" placeholder="Search the site"  /> <button id="search-image" class="sbutton" type="submit" value=""> <i class="fa fa-search"></i> </button></fieldset></form></div><div id="text-9" class="widget widget_text"><div class="textwidget"><a href="http://www.androidhive.info/reviews"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://api.androidhive.info/tmp/reviews_banner.jpg"/><noscript><img src="http://api.androidhive.info/tmp/reviews_banner.jpg"/></noscript></a></div></div><div id="text-6" class="widget widget_text"><h3 class="widget-title">WEâRE SOCIAL</h3><div class="textwidget"><div class="fb-page"
+data-href="https://www.facebook.com/AndroidHive/"
+data-width="340"
+data-hide-cover="false"
+data-show-facepile="true"></div></div></div><div id="text-8" class="widget widget_text"><div class="textwidget"><div class="tve-leads-shortcode tve-tl-anim tl-anim-instant tve-leads-track-shortcode_39260"><div class="tl-style" id="tve_36_set" data-state="6"><div class="tve-leads-conversion-object" data-tl-type="shortcode_39260"><div class="tve_flt"><div class="thrv-leads-form-box tve_no_drag tve_no_icons tve_element_hover thrv_wrapper tve_editor_main_content tve_36_set tve_brdr_solid tve_blue"><h2 class="tve_p_center" style="font-size: 17px;">Subscribe to Newsletter</h2><p class="tve_p_center" style="font-size: 14px;">Join our 746,498 subscribers and get access to the latest android tutorials, freebies, scripts and much more!</p><div class="thrv_wrapper thrv_lead_generation tve_clearfix tve_red tve_11 thrv_lead_generation_vertical" data-tve-style="1" data-tve-version="1" data-inputs-count="11" data-connection="api"><input type="hidden" class="tve-lg-err-msg" value="{&quot;email&quot;:&quot;Please enter a valid email address&quot;,&quot;phone&quot;:&quot;Please enter a valid phone number&quot;,&quot;required&quot;:&quot;Highlighted fields are required&quot;}"><div class="thrv_lead_generation_code" style="display: none;"></div><div class="thrv_lead_generation_container tve_clearfix"><form action="#" method="post"><input type="hidden" class="tve-f-a-hidden" value="#"><div class="tve_lead_generated_inputs_container tve_clearfix"><div class="tve_lead_fields_overlay"></div><div class="tve_lg_input_container tve_lg_input tve_lg_2"><input type="email" data-field="email" data-required="1" data-validation="email" name="email" placeholder="Email" data-placeholder="Email" style="padding-right: 20px;"></div><input id="__tcb_lg_fc" type="hidden" name="__tcb_lg_fc" value="YToxOntzOjU6InNlbmR5IjtzOjI0OiJTcHMzNzYzaEwweTVrbnZHS2xIVjB4QnciO30="><input id="_asset_group" type="hidden" name="_asset_group" value=""><input id="_asset_option" type="hidden" name="_asset_option" value=""><input id="_back_url" type="hidden" name="_back_url" value="http://www.androidhive.info/subscription-successful/"><input id="_submit_option" type="hidden" name="_submit_option" value="redirect"><input id="_use_captcha" type="hidden" name="_use_captcha" value=""><input id="_captcha_theme" type="hidden" name="_captcha_theme" value="light"><input id="_captcha_type" type="hidden" name="_captcha_type" value="image"><input id="_captcha_size" type="hidden" name="_captcha_size" value="normal"><div style="display: none"></div><div class="tve_lg_input_container tve_submit_container tve_lg_submit tve_lg_2" tve-data-style="1"><button type="Submit">Sign Up</button></div></div></form></div></div><p class="tve_p_center" style="font-size: 14px;">We strictly care about your privacy!</p></div></div></div></div></div></div></div><div id="views-2" class="widget widget_views"><h3 class="widget-title">POPULAR ANDROID TUTORIALS</h3><ul><li class="postviews"><a href="http://www.androidhive.info/2011/11/android-sqlite-database-tutorial/"  title="Android SQLite Database Tutorial">Android SQLite Database Tutorial - 1,451,466 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/"  title="How to connect Android with PHP, MySQL">How to connect Android with PHP, MySQL - 1,434,222 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-json-parsing-tutorial/"  title="Android JSON Parsing Tutorial">Android JSON Parsing Tutorial - 1,283,625 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/"  title="Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL">Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL - 1,215,920 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/"  title="Android Sliding Menu using Navigation Drawer">Android Sliding Menu using Navigation Drawer - 1,121,006 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/02/android-custom-listview-with-image-and-text/"  title="Android Custom ListView with Image and Text">Android Custom ListView with Image and Text - 988,385 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/"  title="Android Login and Registration with PHP, MySQL and SQLite">Android Login and Registration with PHP, MySQL and SQLite - 986,912 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/07/android-gps-location-manager-tutorial/"  title="Android GPS, Location Manager Tutorial">Android GPS, Location Manager Tutorial - 754,122 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/10/android-tab-layout-with-swipeable-views-1/"  title="Android Tab Layout with Swipeable Views">Android Tab Layout with Swipeable Views - 702,932 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/08/android-working-with-google-maps-v2/"  title="Android working with Google Maps V2">Android working with Google Maps V2 - 623,735 views</a></li></ul></div></aside></div> <footer id="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter"><div class="container"><div class="footer-widgets first-footer-widgets widgets-num-3"><div class="f-widget f-widget-1"><div id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">QUICK CONTACT</h3><div class="menu-quick-contact-container"><ul id="menu-quick-contact" class="menu"><li id="menu-item-39273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39273"><a href="http://www.androidhive.info/advertise-with-us/">Advertise with us</a></li><li id="menu-item-39244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39244"><a href="http://www.androidhive.info/privacy-policy/">Privacy Policy</a></li><li id="menu-item-39245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39245"><a href="http://www.androidhive.info/terms-of-service/">Terms of Service</a></li><li id="menu-item-39266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39266"><a href="http://www.androidhive.info/sitemap/">Sitemap</a></li></ul></div></div></div><div class="f-widget f-widget-2"></div><div class="f-widget last f-widget-3"><div id="text-7" class="widget widget_text"><h3 class="widget-title">ABOUT ANDROIDHIVE</h3><div class="textwidget">AndroidHive is beginner's paradise for android tutorials, tips & tricks, games, app reviews, hacks and super cool advanced topics.</div></div></div></div><div class="copyrights"><div class="row" id="copyright-note"> <span>Copyright &copy; 2016 Droid5 Informatics Pvt Ltd.</span><div class="to-top"></div></div></div></div> </footer></div><div id="fb-root"></div> <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> <script id="dsq-count-scr" src="//androidhive.disqus.com/count.js" async></script> <script>/**************************************************************/
+/*AM22 Named Function to load Disqus - START*/
+jQuery(document).ready(function(){
+var disqus_identifier = window.location.url; //Use current page URL as Disqus_URL_Identifier. You can change it as per your requirement.
+var ds_loaded = false; //To track loading only once on a page.
+function loadDisqus()
+{
+    var disqus_div = jQuery("#disqus_thread"); //The ID of the Disqus DIV tag
+    var top = disqus_div.offset().top;
+    var disqus_data = disqus_div.data();
+    if ( !ds_loaded && jQuery(window).scrollTop() + jQuery(window).height() > top ) 
+    {
+        ds_loaded = true;
+        for (var key in disqus_data) 
+        {
+            if (key.substr(0,6) == 'disqus') 
+            {
+                window['disqus_' + key.replace('disqus','').toLowerCase()] = disqus_data[key];
+            }
+        }
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }  
+}
+/*AM22 Named Function to load Disqus - END*/
+/*AM22 Disqus lazy load - START*/
+jQuery(function () 
+{
+    var disqus_div = jQuery("#disqus_thread");
+    if (disqus_div.size() > 0) 
+    {
+        jQuery(window).scroll(loadDisqus);      
+    }  
+}
+);
+/*AM22 Disqus lazy load - END*/
+});</script><div id="tve_notification_box"></div><script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushSql.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPhp.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJava.js?ver=3.0.9b'></script> <script type='text/javascript'>(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();</script> <link rel='stylesheet' id='tve-leads-font-9062833c9baa57b288ba47a7993dc1c0-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600%2C700' type='text/css' media='all' /> <script type='text/javascript'>/*  */
+var viewsCacheL10n = {"admin_ajax_url":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","post_id":"38258"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/wp-postviews/postviews-cache.js?ver=1.68'></script> <script type='text/javascript'>/*  */
+var tve_dash_front = {"ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/thrive-dashboard/js/dist/frontend.min.js?ver=1.0.10'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/wp-embed.min.js'></script> <script type='text/javascript'>/*  */
+var tve_frontend_options = {"is_editor_page":"","page_events":[],"is_single":"1","ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","social_fb_app_id":""};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/thrive_content_builder_frontend.min.js?ver=1.200.5'></script> <script type='text/javascript' src='//www.androidhive.info/wp-content/plugins/thrive-leads/js/frontend.min.js?ver=1.75'></script> <script type="text/javascript">/**/var TL_Const={"security":"62e7a1ef75","ajax_url":"\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","forms":{"shortcode_39260":{"_key":"6","trigger":"page_load","trigger_config":{},"form_type_id":"39260","main_group_id":"39260","active_test_id":""}},"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":0,"shortcode_ids":["39260"],"custom_post_data":{"get_data":{"q":"\/2015\/08\/android-adding-sms-verification-like-whatsapp-part-1\/"},"http_referrer":"https:\/\/www.google.co.in\/"},"current_screen":{"screen_type":4,"screen_id":38258},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]}/* */</script><script type="text/javascript">var TL_Front = TL_Front || {}; TL_Front.impressions_data = TL_Front.impressions_data || {};TL_Front.impressions_data.shortcode_39260 = {"group_id":"39260","form_type_id":"39260","variation_key":"6","active_test_id":null,"output_js":true};</script><script type="text/javascript">(function ($) {
+	$(function () {
+		var event_data = {"form_id":"tve-leads-track-shortcode_39260","form_type":"shortcode"};
+		event_data.source = 'page_load';
+		setTimeout(function () {
+			ThriveGlobal.$j(TL_Front).trigger('showform.thriveleads', event_data);
+			}, 200);
+		});
+	})
+(ThriveGlobal.$j);</script></body></html>
+<!-- This website is like a Rocket, isn't it ? Performance optimized by WP Rocket. Learn more: http://wp-rocket.me - Debug: cached@1470854607 -->

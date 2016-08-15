@@ -1,0 +1,2661 @@
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr"
+      
+  xmlns:schema="http://schema.org/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"      class="no-js">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="sailthru.date" content="2016-03-01T11:00:00-05:00" />
+<meta name="sailthru.description" content="With eight or more grams of protein and minimal ingredients, these drinks are perfect for a quick boost any time of day." />
+<meta name="sailthru.image.full" content="http://greatist.com/sites/default/files/Strawberry-Banana-Quinoa-Smoothie-full-of-protein.jpg" />
+<meta name="sailthru.tags" content="Eat,Recipe Roundup,High-Protein Snacks,Protein,Healthy Smoothie Recipes,Sports Nutrition" />
+<link rel="shortcut icon" href="http://greatist.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="sailthru.author" content="Stephanie Castillo" />
+<meta name="sailthru.title" content="34 Surprisingly Delicious High-Protein Smoothie Recipes" />
+<link href="http://greatist.com/eat/high-protein-smoothie-recipes" rel="canonical" />
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type":"WebPage",
+    "@id":"http://greatist.com/eat/high-protein-smoothie-recipes"
+  },
+  "headline": "34 Surprisingly Delicious High-Protein Smoothie Recipes",
+  
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://greatist.com/sites/default/files/Strawberry-Banana-Quinoa-Smoothie-full-of-protein.jpg",
+    "height": 1236,
+    "width": 1800
+  },
+  "datePublished": "2016-03-01T11:00:00-05:00",
+  "dateModified": "2016-06-06T07:50:25-04:00",
+  "description": "With eight or more grams of protein and minimal ingredients, these drinks are perfect for a quick boost any time of day.",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Eat",
+      "sameAs": "http://greatist.com/eat"
+    },
+    {
+      "@type": "Thing",
+      "name": "High-Protein Snacks",
+      "sameAs": "http://greatist.com/high-protein-snacks"
+    },
+    {
+      "@type": "Thing",
+      "name": "Protein",
+      "sameAs": "http://greatist.com/protein"
+    },
+    {
+      "@type": "Thing",
+      "name": "Healthy Smoothie Recipes",
+      "sameAs": "http://greatist.com/smoothies"
+    },
+    {
+      "@type": "Thing",
+      "name": "Sports Nutrition",
+      "sameAs": "http://greatist.com/sports-nutrition"
+    }],
+  "articleBody": " &lt;p&gt;Not a bodybuilder? Enjoy a protein smoothie anyway! Our bodies need &lt;a href=&quot;http://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/protein/&quot; rel=&quot;nofollow&quot;&gt;protein&lt;/a&gt; for healthy skin, hair, bones, and heart. Plus a protein-packed breakfast &lt;a href=&quot;http://greatist.com/health/news-study-suggests-protein-rich-breakfast-could-prevent-overeating-later&quot; rel=&quot;nofollow&quot;&gt;can prevent overeating&lt;/a&gt;, and a dose of protein &lt;a href=&quot;http://greatist.com/fitness/news-post-exercise-protein-drinks-could-help-build-stronger-muscles&quot; rel=&quot;nofollow&quot;&gt;after resistance training&lt;/a&gt;&lt;a href=&quot;http://greatist.com/fitness/news-post-exercise-protein-drinks-could-help-build-stronger-muscles&quot; rel=&quot;nofollow&quot;&gt; &lt;/a&gt;helps build and repair muscle tissue (especially when you consume a blend of proteins).&lt;cite data-cite-reference=&quot;&quot; class=&quot;citation-reference&quot;&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24699854&quot; rel=&quot;&quot;&gt;Soy-dairy protein blend and whey protein ingestion after resistance exercise increases amino acid transport and transporter expression in human skeletal muscle.&lt;/a&gt; Reidy PT, Walker DK, Dickinson JM. Journal of applied physiology (Bethesda, Md. : 1985), 2014, Apr.;116(11):1522-1601.&lt;/cite&gt;&lt;/p&gt;  &lt;span data-nid=&quot;6864&quot;       class=&quot;article-suggestion article-suggestion-embed&quot;       ng-controller=&quot;articleSuggestionCtrl&quot;       data-track-name=&quot;article-suggestion-embed&quot;       ng-cloak&gt;   &lt;span class=&quot;top-label&quot;&gt;     &lt;img class=&quot;icon&quot; src=&quot;/sites/all/themes/greatist2x/images/design/HeartIcon.png&quot;&gt;     &lt;span&gt;You might also like&lt;/span&gt;   &lt;/span&gt;    &lt;a data-nid=&quot;6864&quot; href=&quot;{{linkUrl}}&quot; ng-click=&quot;click($event)&quot;&gt;     &lt;img nopin=&quot;nopin&quot; class=&quot;no-pin article-img&quot; ng-src=&quot;{{imgUrl}}&quot;/&gt;     &lt;div class=&quot;description-wrapper&quot;&gt;       &lt;div class=&quot;description&quot;&gt;         &lt;span class=&quot;article-title&quot;&gt;{{displayTitle}}&lt;/span&gt;         &lt;span class=&quot;more&quot;&gt;           &lt;span class=&quot;read-more&quot;&gt;       &lt;span&gt;READ&lt;/span&gt;     &lt;i class=&quot;fa fa-long-arrow-right&quot;&gt;       &lt;/i&gt;   &lt;/span&gt;         &lt;/span&gt;       &lt;/div&gt;     &lt;/div&gt;   &lt;/a&gt; &lt;/span&gt;  &lt;p&gt;The secret to mixing something up you'll look forward to sipping is striking the right balance between protein sources (such as &lt;a href=&quot;http://greatist.com/health/superfood-greek-yogurt&quot; rel=&quot;nofollow&quot;&gt;Greek yogurt&lt;/a&gt;, protein powder, and peanut butter) and sweet and/or savory add-ins&mdash;something all of the recipes below have nailed. These recipes also have eight or more grams of protein, are derived from whole food sources with minimal ingredients, and make us drool a little bit. Bottoms up!&lt;/p&gt;  &lt;section class=&quot;slideshow list-image-full&quot; ng-controller=&quot;SlideshowListCtrl&quot; ng-init=&quot;init()&quot;&gt;
+            &lt;h3&gt;Breakfast&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://pickfreshfoods.com/2013/05/15/chocolate-java-protein-shake/&quot;&gt;1. Coffee Java Protein Shake&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/1-FINAL.jpg?itok=9aqm3hNe&quot;
+              alt=&quot;Chocolate Java Protein Shake&quot;
+              width=&quot;1747&quot;
+              height=&quot;2275&quot;
+                            pin-title=&quot;1. Coffee Java Protein Shake&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Pick Fresh Foods                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; protein powder&lt;br /&gt;
+	Enjoy a breakfast of coffee, chocolate, and protein&mdash;all from the same cup. Caffeine pairs with protein for an exceptional energy boost.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.peanutbutterandpeppers.com/2013/12/30/strawberry-orange-smoothie/&quot;&gt;2. Strawberry Orange Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/2%20FINAL.jpg?itok=dy9oSV7q&quot;
+              alt=&quot;Strawberry Orange Smoothie&quot;
+              width=&quot;736&quot;
+              height=&quot;1105&quot;
+                            pin-title=&quot;2. Strawberry Orange Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Peanutbutter and Peppers                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; Greek yogurt&lt;br /&gt;
+	Take a (sort-of- not-really) vacation when sipping this tropical smoothie. It calls for &lt;a href=&quot;http://greatist.com/health/greek-yogurt-recipes-healthy-delicious&quot;&gt;Greek yogurt&lt;/a&gt; and coconut milk, strawberries, and orange juice.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://deliciouslyella.com/kale-berry-banana-acai-hemp-power-smoothie-vegan/&quot;&gt;3. Kale, Berry, and A&ccedil;ai Power Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/3-FINAL.jpg?itok=Emc79RSY&quot;
+              alt=&quot;Kale, Berry, and A&ccedil;ai Power Smoothie&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;3. Kale, Berry, and A&ccedil;ai Power Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Deliciously Ella                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; flaxseeds, chia seeds, hemp protein powder&lt;br /&gt;
+	Green smoothie ingredients sometimes get a bad rap, but &lt;a href=&quot;http://greatist.com/eat/creative-banana-recipes&quot;&gt;banana&lt;/a&gt; and berries mask the bold taste of kale in this recipe. Bonus: The tablespoon of a&ccedil;ai powder may help boost energy, while cinnamon helps reduce inflammation.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.jolynneshane.com/roasted-strawberry-smoothie-recipe.html&quot;&gt;4. Roasted Strawberry Protein Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/4-FINAL_0.jpg?itok=5hXqMRmO&quot;
+              alt=&quot;Roasted Strawberry Smoothie&quot;
+              width=&quot;1046&quot;
+              height=&quot;1326&quot;
+                            pin-title=&quot;4. Roasted Strawberry Protein Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: JoLynneShane                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;cottage cheese&lt;br /&gt;
+	For a serious flavor boost, roast strawberries before tossing them into this blend. The creamy cottage cheese is a tasty alternative for those not partial to Greek yogurt&rsquo;s tangy flavor profile.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.stephsbitebybite.com/2014/02/11/mexican-frozen-hot-chocolate-protein-smoothie/&quot;&gt;5. Mexican Frozen Hot Chocolate Protein Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/5%20FINAL.jpg?itok=UcAtj2XM&quot;
+              alt=&quot;Mexican Frozen Hot Chocolate Smoothie&quot;
+              width=&quot;680&quot;
+              height=&quot;1024&quot;
+                            pin-title=&quot;5. Mexican Frozen Hot Chocolate Protein Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Steph&amp;#039;s Bite by Bite                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;Greek yogurt, protein powder, &lt;br /&gt;
+	This recipe is served cold, but it'll taste just as good if you heat it up. Plus it makes a (healthy) meal out of classic hot chocolate, working in greek yogurt, oats, protein powder and unsweetened cocoa powder.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://ohsheglows.com/2011/01/13/classic-green-monster/&quot;&gt;6. Classic Green Monster Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/6-FINAL_0.jpg?itok=udwDUOMG&quot;
+              alt=&quot;Classic Green Monster Smoothie&quot;
+              width=&quot;3216&quot;
+              height=&quot;3850&quot;
+                            pin-title=&quot;6. Classic Green Monster Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Oh She Glows                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; peanut butter, chia seeds, protein powder&lt;br /&gt;
+	Holy nutrients, Batman! The spinach alone serves up vitamins A, C, and K, fiber, magnesium, and calcium. Allergic to peanuts? Try one of these &lt;a href=&quot;http://greatist.com/health/healthy-alternatives-peanut-butter&quot;&gt;tasty peanut butter alternatives&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://thegoldlininggirl.com/2016/01/almond-coconut-mocha-protein-smoothie/&quot;&gt;7. Almond Coconut Mocha Protein Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/7%20FINAL.jpg?itok=hXDKncrQ&quot;
+              alt=&quot;Almond Coconut Mocha Protein Smoothie&quot;
+              width=&quot;1024&quot;
+              height=&quot;1536&quot;
+                            pin-title=&quot;7. Almond Coconut Mocha Protein Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: The Gold Lining Girl                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; almonds, protein powder&lt;br /&gt;
+	Switch up a savory breakfast when opting for this sweet, still-healthy smoothie. Almonds and spices deliciously complement the crazy-versatile &lt;a href=&quot;http://greatist.com/health/genius-ways-to-use-coconut-oil&quot;&gt;coconut oil&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://chefsavvy.com/recipes/peanut-butter-oatmeal-smoothie/&quot;&gt;8. Peanut Butter Oatmeal Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/8%20FINAL.jpg?itok=VXehiy7n&quot;
+              alt=&quot;Peanut Butter Oatmeal Smoothie&quot;
+              width=&quot;680&quot;
+              height=&quot;1024&quot;
+                            pin-title=&quot;8. Peanut Butter Oatmeal Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Chef Savvy                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;Peanut butter, soy milk&lt;br /&gt;
+	All the fixings of a healthy breakfast&mdash;&lt;a href=&quot;http://greatist.com/health/healthy-peanut-butter-recipes&quot;&gt;peanut butter,&lt;/a&gt; banana, and oats&mdash;but with a creamy taste of a milkshake. Need we say more?&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://delightfulemade.com/2014/10/15/raspberry-almond-chia-smoothie-cooking-cure/&quot;&gt;9. Raspberry Almond Chia Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/9%20FINAL.png?itok=sN7owpCC&quot;
+              alt=&quot;Raspberry Almond Chia Seed Smoothie&quot;
+              width=&quot;1448&quot;
+              height=&quot;2172&quot;
+                            pin-title=&quot;9. Raspberry Almond Chia Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Delightful E. Made                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;Greek yogurt, almonds, chia seeds&lt;br /&gt;
+	 Raspberries, almonds, and honey make busy mornings nice (and full of antioxidants). The best part: This recipe takes only five minutes to make.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://laurendamarie.com/oatmeal-cookie-protein-shake/&quot;&gt;10. Oatmeal Cookie Protein Shake&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/10-FINAL.jpg?itok=ejVLLfY6&quot;
+              alt=&quot;Oatmeal Cookie Protein Smoothie&quot;
+              width=&quot;2209&quot;
+              height=&quot;2890&quot;
+                            pin-title=&quot;10. Oatmeal Cookie Protein Shake&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Laurenda Marie                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;oats, almonds, almond milk&lt;br /&gt;
+	Don't let the name fool you, this &quot;oatmeal cookie&quot; smoothie still has a great nutritional quality with almonds, almond butter, and whole oats. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://garden-of-vegan.tumblr.com/post/95823304379/strawberry-banana-smoothie-approx-1-cup&quot;&gt;11. Strawberry Banana Smoothie With Chia Seeds&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/11-FINAL_0.jpg?itok=TTFepgNP&quot;
+              alt=&quot;Strawberry Banana Smoothie with Chia Seeds&quot;
+              width=&quot;1280&quot;
+              height=&quot;1707&quot;
+                            pin-title=&quot;11. Strawberry Banana Smoothie With Chia Seeds&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Garden of Vegan                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;chia seeds&lt;br /&gt;
+	Don&rsquo;t fix what isn&rsquo;t broken, right? Bland but nutrient-packed chia seeds sneak protein into the classic strawberry-banana smoothie combo.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.ninacheriephd.com/you-your-body-and-your-health/deliciously-rich-spinach-kiwi-and-chia-seed-smoothie&quot;&gt;12. Spinach, Kiwi, and Chia Seed Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/12%20FINAL.jpg?itok=rsLJTGpr&quot;
+              alt=&quot;Spinach Kiwi Chia Seed Smoothie&quot;
+              width=&quot;918&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;12. Spinach, Kiwi, and Chia Seed Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Nina Cherie                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;chia seeds&lt;br /&gt;
+	A green smoothie that tastes anything but. Bananas sweeten it up, while tart kiwis keep it from feeling too much like dessert.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://pickfreshfoods.com/2014/02/19/blueberry-pineapple-smoothie/&quot;&gt;13. Blueberry Mango Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/13-FINAL.jpg?itok=JBt4WpBz&quot;
+              alt=&quot;Blueberry Pineapple Smoothie&quot;
+              width=&quot;1076&quot;
+              height=&quot;1413&quot;
+                            pin-title=&quot;13. Blueberry Mango Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Pick Fresh Foods                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; Greek yogurt, flax&lt;br /&gt;
+	Really, you can sip this smoothie anytime&mdash;but the fresh taste of antioxidant-rich &lt;a href=&quot;http://greatist.com/health/superfood-blueberries&quot;&gt;blueberries&lt;/a&gt; and mango is a convincing reason to get out of bed in the morning.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Lunch&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.popsugar.com/fitness/Papaya-Mint-Ginger-Smoothie-Recipe-28868187&quot;&gt;14. Papaya Ginger Mint Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/14-FINAL.jpg?itok=TCMyGEsM&quot;
+              alt=&quot;Papaya Mint Ginger Smoothie&quot;
+              width=&quot;1445&quot;
+              height=&quot;2000&quot;
+                            pin-title=&quot;14. Papaya Ginger Mint Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: PopSugar                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;Greek yogurt&lt;br /&gt;
+	Thanks to its high fiber content, papaya has been shown to promote digestion, says nutritionist Michelle Davenport, Ph.D. So if breakfast isn&rsquo;t sitting well with your stomach, stick to this smoothie Rx. Bonus: It also includes &lt;a href=&quot;http://greatist.com/health/superfood-ginger&quot;&gt;ginger&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://thequirkyprincess.com/green-vibrance-protein-smoothie/&quot;&gt;15. Mean Green Hemp Protein Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/15-NEW-FINAL.jpg?itok=r8ElTzlu&quot;
+              alt=&quot;Green Hemp Protein Smoothie&quot;
+              width=&quot;613&quot;
+              height=&quot;682&quot;
+                            pin-title=&quot;15. Mean Green Hemp Protein Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: The Quirky Princess                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; hemp, protein powder, wheatgrass powder&lt;br /&gt;
+	A sugar hack for smoothies? Pitted dates. They&rsquo;re a natural, fiber-filled sweetener that will satisfy a sweet tooth without added sugars (they also break down easier in a blender when soaked beforehand).&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://ohsheglows.com/2014/03/31/green-warrior-protein-smoothie/&quot;&gt;16. Green Warrior Protein Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/16-final.jpg?itok=iqEQt3XO&quot;
+              alt=&quot;Green Warrior Protein Smoothie&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;16. Green Warrior Protein Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Oh She Glows                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; hemp hearts&lt;br /&gt;
+	A quarter cup of hemp hearts&mdash;seeds similar to sunflower seeds and pine nuts&mdash;provides about 15 grams of protein, almost 3 grams of fiber, and may help to prevent hypertension, Davenport says. Mixing them with bananas and &lt;a href=&quot;http://greatist.com/health/surprising-ways-use-leftover-apples&quot;&gt;apples&lt;/a&gt; makes for a sweet, creamy sip.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.oldhousetonewhome.net/2015/08/peanut-butter-and-jelly-protein-smoothie.html&quot;&gt;17. Peanut Butter and Jelly Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/17%20FINAL.jpg?itok=8NbD_QTg&quot;
+              alt=&quot;Peanut Butter and Jelly Protein Smoothie&quot;
+              width=&quot;750&quot;
+              height=&quot;1129&quot;
+                            pin-title=&quot;17. Peanut Butter and Jelly Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Old House To New Home                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; peanut butter, protein powder&lt;br /&gt;
+	It&rsquo;s peanut-butter-jelly time! Berries, peanut butter, oats, and protein powder give the bread (and taste buds) a break.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.choosingraw.com/vanilla-matcha-avocado-smoothie/&quot;&gt;18. Vanilla Matcha Avocado Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/18%20FINAL.jpg?itok=JFNluXAd&quot;
+              alt=&quot;Vanilla Matcha Avocado Smoothie&quot;
+              width=&quot;859&quot;
+              height=&quot;1024&quot;
+                            pin-title=&quot;18. Vanilla Matcha Avocado Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Choosing Raw                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;vegan protein powder&lt;br /&gt;
+	So, those amazing benefits of &lt;a href=&quot;http://greatist.com/health/green-tea-vs-black-coffee-greatist-debate&quot;&gt;green tea&lt;/a&gt;? Get them by sprinkling a half teaspoon of matcha powder&mdash;finely ground green tea&mdash;into this smoothie.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://amyshealthybaking.com/blog/2015/02/25/blueberry-banana-protein-smoothie/&quot;&gt;19. Blueberry Banana Protein Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/19%20FINAL.jpg?itok=T6MFTs_H&quot;
+              alt=&quot;Blueberry Banana Protein Smoothie&quot;
+              width=&quot;900&quot;
+              height=&quot;1350&quot;
+                            pin-title=&quot;19. Blueberry Banana Protein Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Amy&amp;#039;s Healthy Baking                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; Greek yogurt&lt;br /&gt;
+	Here&rsquo;s a sunny twist on a staple breakfast. But feel free to break this recipe&rsquo;s rules by adding whatever fruit or greens you have on hand.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Snacks&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://noblepig.com/2013/06/strawberry-banana-quinoa-smoothie/&quot;&gt;20. Strawberry-Banana Quinoa Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/20-FINAL.jpg?itok=Q9Ocwmiu&quot;
+              alt=&quot;Strawberry Banana Quinoa Smoothie&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;20. Strawberry-Banana Quinoa Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Noble Pig                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;Greek yogurt, quinoa, chia seeds&lt;br /&gt;
+	Not only is it a complete protein, but &lt;a href=&quot;http://greatist.com/eat/creative-ways-to-eat-quinoa&quot;&gt;quinoa&lt;/a&gt; is a prime source of fiber, iron, and magnesium. And its taste is cleverly paired with other smoothie ingredients, including strawberries, bananas, and vanilla almond milk.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://fitfoodiefinds.com/2013/12/dark-chocolate-peppermint-protein-shake/&quot;&gt;21. Dark Chocolate Peppermint Protein Shake&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/21-FINAL_0.jpg?itok=IX47sqfo&quot;
+              alt=&quot;Dark Chocolate Peppermint Protein Shake&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;21. Dark Chocolate Peppermint Protein Shake&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Fit Foodie Finds                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; protein powder&lt;br /&gt;
+	Between the dark chocolate protein powder and the cocoa powder, chocolate lovers are going to want this drink morning, noon, and night. Which is fine, since dark chocolate is high in antioxidants and can help regulate &lt;a href=&quot;http://greatist.com/health/chocolate-actually-healthy&quot;&gt;stress&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.eatliverun.com/cool-n-creamy-cantaloupe-smoothies/&quot;&gt;22. 3-Ingredient High Protein Cantaloupe Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/22-REAL-FINAL.jpg?itok=-LM8OjbR&quot;
+              alt=&quot;High Protein Cantaloupe Smoothie&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;22. 3-Ingredient High Protein Cantaloupe Smoothie&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;cottage cheese, whey protein powder&lt;br /&gt;
+	Fruit salads are a great snack&mdash;almost as great as this creamy mix of cantaloupe chunks, cottage cheese, and whey protein. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.sweatwithbecnyc.com/eat/2015/3/9/pb2-cherry-recovery-smoothie&quot;&gt;23. Cherry Almond Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/23-FINAL_1.jpg?itok=tVzjQXAF&quot;
+              alt=&quot;PB2 and Cherry Recovery Smoothie&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;23. Cherry Almond Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Sweat with Bec                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; PB2, flaxseeds, protein powder&lt;br /&gt;
+	Put a craving for cherry ice cream on, well, ice when sipping this &lt;a href=&quot;http://greatist.com/tips/fight-muscle-soreness-cherries&quot;&gt;cherry&lt;/a&gt; smoothie instead. Cherries are also an anti-inflammatory, so this snack choice is pretty painless. (Get it?)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.proteinworld.com/recipes/honey-banana-smoothie/&quot;&gt;24. Honey Banana Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/24-FINAL.jpg?itok=5tVUlF-s&quot;
+              alt=&quot;Honey Banana Smoothie&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;24. Honey Banana Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Protein World                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;Greek yogurt, almond milk&lt;br /&gt;
+	Want to get back to smoothie basics? This recipe does the trick by using only six ingredients (though there&rsquo;s plenty of room to add cacao nibs).&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://laurendamarie.com/chocolate-espresso-protein-smoothie/&quot;&gt;25. Chocolate Espresso Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/25--FINAL.jpg?itok=1batQYnc&quot;
+              alt=&quot;Chocolate Espresso Smoothie&quot;
+              width=&quot;2102&quot;
+              height=&quot;2578&quot;
+                            pin-title=&quot;25. Chocolate Espresso Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Laurenda Marie                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;protein powder&lt;br /&gt;
+	Order up! This latte-like smoothie skips the &lt;a href=&quot;http://greatist.com/health/30-sugar-substitutes-any-and-every-possible-situation&quot;&gt;sugar&lt;/a&gt; and uses greenish bananas and chocolate protein powder instead.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.peanutbutterandpeppers.com/2013/05/20/razzle-dazzle-pineapple-smoothie/&quot;&gt;26. Razzle Dazzle Pineapple Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/26%20FINAl.jpg?itok=06jWYgC0&quot;
+              alt=&quot;Razzle Dazzle Pineapple Smoothie&quot;
+              width=&quot;1200&quot;
+              height=&quot;1861&quot;
+                            pin-title=&quot;26. Razzle Dazzle Pineapple Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Peanut Butter and Peppers                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; protein powder&lt;br /&gt;&lt;em&gt;If you like pi&ntilde;a coladas... &lt;/em&gt;then spring for this smoothie! Pineapple, coconut milk, and raspberries mimic the signature cocktail&rsquo;s taste, while protein powder ramps up nutrition. Tiny drink umbrellas optional.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.asweetpeachef.com/drinks/chocolate-banana-peanut-butter-protein-shake/&quot;&gt;27. Chocolate Peanut Butter Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/27%20FINAL.jpg?itok=w89IpPhh&quot;
+              alt=&quot;Chocolate Banana Peanut Butter Protein Shake&quot;
+              width=&quot;800&quot;
+              height=&quot;1198&quot;
+                            pin-title=&quot;27. Chocolate Peanut Butter Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: A Sweet Peach Chef                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; peanut butter, whey protein powder&lt;br /&gt;
+	Treat yo&rsquo;self to a creamy, candy-inspired smoothie that fuels both muscles and taste buds (and is way more nutritious than a Reese&rsquo;s).&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Post-Workout&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://warmvanillasugar.com/2015/07/02/carrot-cake-protein-smoothie/&quot;&gt;28. Carrot Cake Protein Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/28%20FINAL.jpg?itok=_aNIdP25&quot;
+              alt=&quot;Carrot Cake Protein Smoothie&quot;
+              width=&quot;900&quot;
+              height=&quot;1350&quot;
+                            pin-title=&quot;28. Carrot Cake Protein Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Wam Vanilla Sugar                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; Greek yogurt, protein powder&lt;br /&gt;
+	For a dessert that won&rsquo;t undo a workout, blend carrot juice, almond milk, two bananas, and sugar&rsquo;s healthy swap, &lt;a href=&quot;http://greatist.com/tips/add-cinnamon-savory-recipes-more-flavor&quot;&gt;cinnamon.&lt;/a&gt; Then sip. &lt;em&gt;Aaaahh&lt;/em&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.shape.com/healthy-eating/healthy-drinks/protein-packed-green-vanilla-almond-shake&quot;&gt;29. Green Vanilla Almond Post-Workout Shake&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/29%20test.jpg?itok=Snjgpvza&quot;
+              alt=&quot;Green Vanilla Almond Smoothie&quot;
+              width=&quot;700&quot;
+              height=&quot;700&quot;
+                            pin-title=&quot;29. Green Vanilla Almond Post-Workout Shake&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Shape                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; almond butter, protein powder&lt;br /&gt;
+	Milkshakes can go green too&mdash;and this one excerpted from &lt;em&gt;&lt;a href=&quot;http://www.amazon.com/Clean-Green-Drinks-Cleansing-Recipes/dp/055339083X&quot;&gt;Clean Green Drinks&lt;/a&gt; &lt;/em&gt;gets rave reviews. The sweetness of the banana, coconut milk, and vanilla protein powder overpowers the spinach flavor while keeping things healthy.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.thenoatbook.com/2014/05/recipe-berry-pomegranate-and-acai.html&quot;&gt;30. Berry, Pomegranate and Acai Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/30%20NEW.jpg?itok=GjVLAPAN&quot;
+              alt=&quot;Berry Pomegranate Acai Smoothie&quot;
+              width=&quot;1004&quot;
+              height=&quot;1425&quot;
+                            pin-title=&quot;30. Berry, Pomegranate and Acai Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: The nOATbook                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;Greek yogurt&lt;br /&gt;
+	Keep recovery simple with apple juice, berries, &lt;a href=&quot;http://greatist.com/health/superfood-pomegranate&quot;&gt;pomegranate&lt;/a&gt; juice and Greek yogurt. Not only are they tasty, but pomegranates have high contents of vitamins C and K, fiber, and antioxidants with anti-inflammatory and anti-aging properties, Davenport says.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://thehealthyfamilyandhome.com/chocolate-strawberry-almond-protein-smoothie/&quot;&gt;31. Chocolate Strawberry Almond Protein Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/31%20FINAL.jpg?itok=swOZtBQ5&quot;
+              alt=&quot;Chocolate Strawberry Almond Protein Smoothie&quot;
+              width=&quot;800&quot;
+              height=&quot;1198&quot;
+                            pin-title=&quot;31. Chocolate Strawberry Almond Protein Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: The Healthy Family and Home                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; almonds, maca powder, hemp, protein powder&lt;br /&gt;
+	This chocolatey smoothie is nutrient-packed. Chocolate sweetens up the action, while almonds bring protein and fiber and strawberries pack the antioxidants.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://myfridgie.com/peach-hemp-protein-smoothie/&quot;&gt;32. Peach Hemp Protein Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; hemp protein powder&lt;br /&gt;
+	Sit back and unwind with this refreshing, fruity smoothie that&rsquo;s basically fro-yo in a glass (but with non-dairy, delicious hemp milk instead of moo juice). You&rsquo;re welcome.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.runningonrealfood.com/orange-mango-recovery-smoothie-vegan/&quot;&gt;33. Orange Mango Recovery Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/33%20FINAL.jpg?itok=Ue0q6lcA&quot;
+              alt=&quot;Orange Mango Recovery Smoothie&quot;
+              width=&quot;700&quot;
+              height=&quot;1009&quot;
+                            pin-title=&quot;33. Orange Mango Recovery Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Running on Real Food                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source: &lt;/strong&gt;protein powder, cashews&lt;br /&gt;
+	After protein, super spice &lt;a href=&quot;http://greatist.com/eat/what-to-know-about-turmeric&quot;&gt;turmeric&lt;/a&gt; is what sets this recovery smoothie apart. The spice is an anti-inflammatory that&rsquo;s also high in antioxidants.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.garnishwithlemon.com/spinach-banana-protein-smoothie/&quot;&gt;34. Spinach Banana Smoothie&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/34%20FINAL.jpg?itok=xppyPsbA&quot;
+              alt=&quot;Spinach Banana Protein Shake&quot;
+              width=&quot;960&quot;
+              height=&quot;1318&quot;
+                            pin-title=&quot;34. Spinach Banana Smoothie&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                Photo: Garnish with Lemon                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;strong&gt;Protein source:&lt;/strong&gt; Greek yogurt, almond butter, protein powder&lt;br /&gt;
+	Handfuls of pur&eacute;ed spinach may not sound appetizing (unless you&rsquo;re Popeye), but a ripe banana sweetens the taste. Cheers to sipping down vitamin A and iron from the spinach without tasting it.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;A Primer on Protein Powders&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                                                &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;If you&rsquo;ve already locked down your favorite smoothie recipe on account of particular tastes and/or food allergies, you can always just scoop in &lt;a href=&quot;http://greatist.com/eat/quiz-best-protein-powder&quot;&gt;protein powder&lt;/a&gt; for an added boost. When choosing a powder, the brand and nutritional profile are the two most important things to consider, Davenport says. Protein supplements are not regulated by the FDA, so research safe brands before purchasing. (Start with our easy-to-follow &lt;a href=&quot;http://greatist.com/fitness/protein-supplement-nutrition-guide&quot;&gt;supplement guide&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;It&rsquo;s also key to note how you&rsquo;re using the protein powder&mdash;whether it&rsquo;s to replace a meal or recover from a workout. &ldquo;Whey, milk, casein, and egg protein all absorb differently, and you want to get the maximum absorption with each meal,&rdquo; says Jeff Thomas, director of nutrition at &lt;a href=&quot;http://www.cenergynutrition.com/&quot;&gt;Creative Edge Nutrition&lt;/a&gt;. Don&rsquo;t worry non-animal-protein eaters: There are plenty of plant-based options for you, including rice, pea, hemp, and soy protein.&lt;/p&gt;
+
+&lt;p&gt;Research can also help you navigate the options on the supplement shelves. Our bodies may be better able to utilize whey and egg proteins better than soy protein, Davenport says, while whey and rice proteins &lt;a href=&quot;http://www.nutritionj.com/content/pdf/1475-2891-12-86.pdf&quot;&gt;may perform equally&lt;/a&gt; in terms of increasing power and strength. The bottom line? Choose the most unprocessed form of the source that best suits your needs.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+  &lt;/section&gt;
+  &lt;p&gt;&lt;em&gt;Originally published June 2014. Updated February 2016.&lt;/em&gt;&lt;/p&gt; ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Greatist",
+    "sameAs": "http://www.greatist.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://greatist.com/sites/all/themes/greatist2x/images/design/greatist_jsonld_logo.png",
+      "height": 60,
+      "width": 206
+    }
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephanie Castillo",
+      "sameAs": "http://greatist.com/p/stephanie-castillo"
+    }
+  ]
+}</script>
+<meta name="sailthru.image" content="http://greatist.com/sites/default/files/styles/newsletter-feature-652x338/public/Strawberry-Banana-Quinoa-Smoothie-full-of-protein.jpg?itok=49Je3V_x" />
+<link href="http://greatist.com/eat/high-protein-smoothie-recipes/amp" rel="amphtml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="With eight or more grams of protein and minimal ingredients, these drinks are perfect for a quick boost any time of day." />
+
+<meta property="fb:admins" content="1101180055" />
+<meta property="fb:app_id" content="338405982951793" />
+<meta property="og:site_name" content="Greatist" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="34 Surprisingly Delicious High-Protein Smoothie Recipes" />
+<meta property="og:url" content="http://greatist.com/eat/high-protein-smoothie-recipes" />
+<meta property="og:description" content="With eight or more grams of protein and minimal ingredients, these drinks are perfect for a quick boost any time of day." />
+<meta property="og:image" content="http://greatist.com/sites/default/files/styles/big_share/public/Strawberry-Banana-Quinoa-Smoothie-full-of-protein.jpg?itok=FLnMHR6o" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@greatist" />
+<meta name="twitter:url" content="http://greatist.com/eat/high-protein-smoothie-recipes" />
+<meta name="twitter:title" content="34 Surprisingly Delicious High-Protein Smoothie Recipes" />
+<meta name="twitter:description" content="With eight or more grams of protein and minimal ingredients, these drinks are perfect for a quick boost any time of day." />
+<meta name="twitter:image:src" content="http://greatist.com/sites/default/files/styles/article_main/public/Strawberry-Banana-Quinoa-Smoothie-full-of-protein.jpg?itok=0GopbhAO" />
+<meta property="article:author" content="http://twitter.com/stephcastillo" />
+<meta property="article:publisher" content="https://www.facebook.com/greatist" />
+<meta property="article:section" content="Eat" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQAFVldUGwsJU1BWAQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+  <meta name="google-site-verification" content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE" />
+  <link href="https://plus.google.com/+Greatist" rel="publisher" />
+  <!-- <link rel="apple-touch-icon" href="/sites/default/files/Mobile-Icon-V3.jpg"/> -->
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-128.png" sizes="128x128" />
+  <meta name="msapplication-TileImage" content="/sites/all/themes/greatist2x/images/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x310.png" />
+  <meta name="google-site-verification"
+        content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE"/>
+  <link href="https://plus.google.com/+Greatist" rel="publisher"/>
+
+  <title>High-Protein Smoothie Recipes: 34 Surprisingly Delicious Shakes You Can Make | Greatist</title>
+  <link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_qKsSCcrOVT4pKULgi4iAVuPQPU3lfSzuSXMJCARUKic.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_apECqqs4IfYxrJBKMsMh0b_85X5CyllXLp6hODNanx4.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_yYuTvjdq5_epDRBZUITk8EG5FPEk00zL4y1ftmiAgXY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css__kLaRzNXRI_NisJDTD0u5qnEU3iVMT3xBsvltojOvYg.css" media="all" />
+  <script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_jAem-GbtffJErQNlP33_rowrrkscx9kVa0aYdo8r3pQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};googletag.cmd = googletag.cmd || [];var gads = document.createElement("script");gads.async = true;gads.type = "text/javascript";var useSSL = "https:" == document.location.protocol;gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";var node =document.getElementsByTagName("script")[0];node.parentNode.insertBefore(gads, node);
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_I8yX6RYPZb7AtMcDUA3QKDZqVkvEn35ED11_1i7vVpc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-20914064-2", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("require", "displayfeatures");ga("set", "dimension1", "March 1, 2016");ga("set", "dimension2", "Stephanie Castillo");ga("set", "dimension3", "high-protein snacks,protein,healthy smoothie recipes,sports nutrition");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.pubads().setTargeting('post_id', '5079');googletag.pubads().setTargeting('is_testing', 'no');});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.defineSlot('/38507188/Teads_1x1',[1,1],'page').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.enableServices();});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var greatist_globals = {"env":"live","build_id":1470906778,"themepath":"\/sites\/all\/themes\/greatist2x","jsfolder":"\/sites\/all\/themes\/greatist2x\/js\/c","height_analytics_frequency":100,"yieldbot":true,"yb_pub_id":"1ce9","yb_pub_id_mobile":"7a53","horizon":true,"thinglink":false,"require":{"baseUrl":"\/sites\/all\/themes\/greatist2x\/js\/c\/greatist-build","urlArgs":"v=1470906778"},"amazon_tag":"greatist-20","uid":0,"nodepage":true,"prod_url":"http:\/\/greatist.com\/eat\/high-protein-smoothie-recipes","article_nid":"5079","article_uid":"456943","article_created":"1456848000","article_title":"34 Surprisingly Delicious High-Protein Smoothie Recipes","article_type":"article","article_subtype":"Recipe Roundup","tags":["High-Protein Snacks","Protein","Healthy Smoothie Recipes","Sports Nutrition"],"tags_dfp":["high-protein snacks","protein","healthy smoothie recipes","sports nutrition"],"categories":"Eat","categories_dfp":"eat","pinterest_hashtags":"#protein #smoothies #recipes","author":"Stephanie Castillo","shares":{"gplus":123,"twitter":0,"fb":0,"stumble":109852,"pinterest":97596,"total":224533},"kargo_ad_line_items":["189420108"]};
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_35WjR-K-c1eoIjZOUUMFSuAkyRxZn3QW5GWmChFKAXU.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_dynamic.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_static.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_su0LbO_kIcrk2xwJfPUqU2MlKQEFTfzu-XRzjcV6gwI.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_Fpfp_QVPEaF7N8wcBw0ZYabifSNdisHqFagZ7VgQqTY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greatist2x","theme_token":"RGEOg7oGNESWLBmTNMU3-J5RM1vlg2G46s4R4sl-PNo","js":{"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/main.js":1,"0":1,"sites\/all\/modules\/custom\/gr8ist_social\/includes\/js\/gr8ist_instagram_embed.js":1,"\/\/wms-na.amazon-adsystem.com\/20070822\/US\/js\/auto-tagger.js?tag=greatist-20\u0026locale=US\u0026overwrite=1":1,"1":1,"2":1,"\/\/dc8xl0ndzn2cb.cloudfront.net\/js\/greatist\/v0\/keywee.min.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1,"5":1,"6":1,"7":1,"sites\/all\/themes\/greatist2x\/js\/c\/require_m.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_dynamic.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_static.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/require-config.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/lib\/modernizr.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/print.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/magnific-popup.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/jquery.qtip.min.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/style.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+  <!--[if lte IE 9 ]>
+  <link type="text/css" rel="stylesheet"
+        href="/sites/all/themes/greatist2x/css/old-ie.css" media="all"/>
+  <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-5079 node-type-article env-live" >
+<div id="skip-link">
+  <a href="#main-content"
+     class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div id="page">
+  <div class="leaderboard"><div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-leaderboard"
+  data-ad-dfp="/38507188/ROS_728x90"
+  data-ad-slot="div-gpt-ad-1408633905912-0"
+  data-ad-size="728x90"
+  class="dfp-tag-wrapper dfp-ad-article-ad-leaderboard"></div>
+
+<div
+  data-restrict-context-to="x-small,small,medium"
+  data-dfp-g-id="article-ad-mobile-top"
+  data-ad-dfp="/38507188/ROS_320x50_Mobile"
+  data-ad-slot="div-gpt-ad-1412623396310-0"
+  data-ad-size="300x50,320x50"
+  class="dfp-tag-wrapper dfp-ad-article-ad-mobile-top"></div>
+
+</div>
+  <header role="banner" data-header class="clearfix">
+  <nav role="navigation">
+    <div id="nav-touch-wrapper" ng-controller="menuCtrl">
+      <div id="main-menu">
+  <div class="menu-mobile" ng-controller="hamburgerCtrl">
+    <a href="#" class="icon-wrapper" ng-click="toggle()">
+      <i class="fa fa-bars" ng-hide="open=='open'"></i>
+      <img class="close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" ng-show="open" ng-cloak />
+    </a>
+    <div class="hamburger-menu" ng-class="open">
+  <ul class="categories">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-eat', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/eat">EAT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-move', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/move">MOVE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-live', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/live">LIVE</a>        </h3>
+      </li>
+      </ul>
+
+  <ul class="more">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/newsletter">SUBSCRIBE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/about">ABOUT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-careers', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/careers">CAREERS</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-advertise', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/advertise">ADVERTISE</a>        </h3>
+      </li>
+      </ul>
+</div>
+  </div>
+
+  <div class="menu group-left">
+    <div itemscope itemtype="http://schema.org/Organization" class="menu-item logo">
+      <a itemprop="url" href="/" title="Home" rel="home" id="logo">
+        <img itemprop="logo" src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_White.svg" alt="Home" />
+        <span class="element-hidden" itemprop="name">Greatist</span>
+      </a>
+    </div>
+    <div class="menu-items categories">
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-eat"  href="/eat" >
+            <h4>EAT</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-move"  href="/move" >
+            <h4>MOVE</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-live"  href="/live" >
+            <h4>LIVE</h4>
+          </a>
+        </div>
+          </div>
+  </div>
+
+  <div class="menu group-right">
+    <div class="menu-item more-medium">
+  <h4>MORE <i class="fa fa-angle-down"></i> </h4>
+  <ul class="sub-menu-list">
+        <li class="subscribe">
+      <a ng-click="click()" track="cat-subscribe"  href="/newsletter" >
+        <h5>SUBSCRIBE</h5>
+      </a>
+    </li>
+        <li class="about">
+      <a ng-click="click()" track="cat-about"  href="/about" >
+        <h5>ABOUT</h5>
+      </a>
+    </li>
+      </ul>
+</div>
+
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+    <a href="/newsletter">
+      <h4>
+        <i class="fa fa-envelope-o"></i>        SUBSCRIBE      </h4>
+    </a>
+  </div>
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+    <a href="/about">
+      <h4>
+                ABOUT      </h4>
+    </a>
+  </div>
+    <div class="menu-item search">
+      <a href="/search" class="search-button discover-cta">
+        <h4>EXPLORE</h4>
+      </a>
+    </div>
+  </div>
+</div>
+    </div>
+  </nav>
+</header>
+  
+  
+  
+  
+  <div class="article-container  "
+    ng-controller="ArticleCtrl"
+    ng-init="init()">
+  <div class="article-main">
+    <article
+      class="article-main-column main-column"
+      itemscope
+      itemtype="http://schema.org/Article"
+    >
+      <div class="article-top">
+                  <div itemprop="description" class="element-hidden">With eight or more grams of protein and minimal ingredients, these drinks are perfect for a quick boost any time of day.</div>
+                <header class="article-header">
+          <div class="group-article-meta">
+            <div
+  class="field field-name-post-date"
+  itemprop="datePublished"
+  content="2016-03-01"
+>
+  March 1, 2016  <span class="separator">|</span> </div>
+            <div class="field article-author-top" itemscope itemprop="author" itemtype="http://schema.org/Person">
+  <span class="label">By </span>
+    <a
+    href="http://greatist.com/p/stephanie-castillo"
+    title="User profile of "
+    class="username"
+    about="http://greatist.com/p/stephanie-castillo"
+    typeof="sioc:UserAccount"
+    itemprop="url"
+  >
+    <span itemprop="name">Stephanie Castillo</span>
+  </a>
+   </div>
+          </div>
+          <h1 class="title" id="page-title" itemprop="name headline alternativeHeadline">34 Surprisingly Delicious High-Protein Smoothie Recipes</h1>
+        </header>
+        <div class="top-share">
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="top">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/eat/high-protein-smoothie-recipes"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2FProtein_V4_0_0.png%3Fitok%3DDMfTrFRB"
+  data-mediatitle="34 Surprisingly Delicious High-Protein Smoothie Recipes"
+  data-title="34 Surprisingly Delicious High-Protein Smoothie Recipes"
+  data-promotitle="34 Surprisingly Delicious High-Protein Smoothie Recipes"
+  data-pintitle="With eight or more grams of protein and minimal ingredients, these drinks are perfect for a..."
+  data-twitter="http://twitter.com/stephcastillo"
+  data-twitter-url="http://grt.st/1mNqK05"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  <a class="print-button" title="Print this article" href="/print/5079" rel="nofollow" ng-click="print()">
+  <i class="fa fa-print"></i>
+  </a>
+
+      <div class="fb-like-wrapper ng-cloak">
+      <span class="label">LIKE US ON FACEBOOK</span>
+    </div>
+  </div>
+  </div>
+</div>
+        </div>
+      </div>
+
+      <div class="side-share">
+        <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/eat/high-protein-smoothie-recipes"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2FGreatist_Banner_HighProtein_Smoothie_recipes.jpg%3Fitok%3DAjeZ3PKp"
+  data-mediatitle="34 Surprisingly Delicious High-Protein Smoothie Recipes"
+  data-title="34 Surprisingly Delicious High-Protein Smoothie Recipes"
+  data-promotitle="34 Surprisingly Delicious High-Protein Smoothie Recipes"
+  data-pintitle="With eight or more grams of protein and minimal ingredients, these drinks are perfect for a..."
+  data-twitter="http://twitter.com/stephcastillo"
+  data-twitter-url="http://grt.st/1mNqK05"
+  class="share-buttons"
+  data-origin="side"
+>
+      <a class="share-pinterest" ng-click="share_pin()">
+      <i class="fa fa-pinterest-p"></i>
+    </a>
+        <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a class="share-twitter" ng-click="share_tw()">
+    <i class="fa fa-twitter"></i>
+  </a>
+  <a class="share-email" ng-click="share_email()">
+    <i class="fa fa-envelope-o"></i>
+  </a>
+</div>
+      </div>
+
+      <div class="article-body block" data-scroll-reach-tracking="article-content-beginning">
+                <div class="article-body-content" data-target-blank itemprop="articleBody">
+   <p>Not a bodybuilder? Enjoy a protein smoothie anyway! Our bodies need <a href="http://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/protein/" rel="nofollow">protein</a> for healthy skin, hair, bones, and heart. Plus a protein-packed breakfast <a href="http://greatist.com/health/news-study-suggests-protein-rich-breakfast-could-prevent-overeating-later" rel="nofollow">can prevent overeating</a>, and a dose of protein <a href="http://greatist.com/fitness/news-post-exercise-protein-drinks-could-help-build-stronger-muscles" rel="nofollow">after resistance training</a><a href="http://greatist.com/fitness/news-post-exercise-protein-drinks-could-help-build-stronger-muscles" rel="nofollow"> </a>helps build and repair muscle tissue (especially when you consume a blend of proteins).<cite data-cite-reference="" class="citation-reference"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24699854" rel="">Soy-dairy protein blend and whey protein ingestion after resistance exercise increases amino acid transport and transporter expression in human skeletal muscle.</a> Reidy PT, Walker DK, Dickinson JM. Journal of applied physiology (Bethesda, Md. : 1985), 2014, Apr.;116(11):1522-1601.</cite></p>  <span data-nid="6864"       class="article-suggestion article-suggestion-embed"       ng-controller="articleSuggestionCtrl"       data-track-name="article-suggestion-embed"       ng-cloak>   <span class="top-label">     <img class="icon" src="/sites/all/themes/greatist2x/images/design/HeartIcon.png">     <span>You might also like</span>   </span>    <a data-nid="6864" href="{{linkUrl}}" ng-click="click($event)">     <img nopin="nopin" class="no-pin article-img" ng-src="{{imgUrl}}"/>     <div class="description-wrapper">       <div class="description">         <span class="article-title">{{displayTitle}}</span>         <span class="more">           <span class="read-more">       <span>READ</span>     <i class="fa fa-long-arrow-right">       </i>   </span>         </span>       </div>     </div>   </a> </span>  <p>The secret to mixing something up you'll look forward to sipping is striking the right balance between protein sources (such as <a href="http://greatist.com/health/superfood-greek-yogurt" rel="nofollow">Greek yogurt</a>, protein powder, and peanut butter) and sweet and/or savory add-ins—something all of the recipes below have nailed. These recipes also have eight or more grams of protein, are derived from whole food sources with minimal ingredients, and make us drool a little bit. Bottoms up!</p>  <section class="slideshow list-image-full" ng-controller="SlideshowListCtrl" ng-init="init()">
+            <h3>Breakfast</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://pickfreshfoods.com/2013/05/15/chocolate-java-protein-shake/">1. Coffee Java Protein Shake</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/1-FINAL.jpg?itok=9aqm3hNe"
+              alt="Chocolate Java Protein Shake"
+              width="1747"
+              height="2275"
+                            pin-title="1. Coffee Java Protein Shake"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Pick Fresh Foods                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> protein powder<br />
+	Enjoy a breakfast of coffee, chocolate, and protein—all from the same cup. Caffeine pairs with protein for an exceptional energy boost.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.peanutbutterandpeppers.com/2013/12/30/strawberry-orange-smoothie/">2. Strawberry Orange Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/2%20FINAL.jpg?itok=dy9oSV7q"
+              alt="Strawberry Orange Smoothie"
+              width="736"
+              height="1105"
+                            pin-title="2. Strawberry Orange Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Peanutbutter and Peppers                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> Greek yogurt<br />
+	Take a (sort-of- not-really) vacation when sipping this tropical smoothie. It calls for <a href="http://greatist.com/health/greek-yogurt-recipes-healthy-delicious">Greek yogurt</a> and coconut milk, strawberries, and orange juice.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://deliciouslyella.com/kale-berry-banana-acai-hemp-power-smoothie-vegan/">3. Kale, Berry, and Açai Power Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/3-FINAL.jpg?itok=Emc79RSY"
+              alt="Kale, Berry, and Açai Power Smoothie"
+              width="752"
+              height="940"
+                            pin-title="3. Kale, Berry, and Açai Power Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Deliciously Ella                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> flaxseeds, chia seeds, hemp protein powder<br />
+	Green smoothie ingredients sometimes get a bad rap, but <a href="http://greatist.com/eat/creative-banana-recipes">banana</a> and berries mask the bold taste of kale in this recipe. Bonus: The tablespoon of açai powder may help boost energy, while cinnamon helps reduce inflammation.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.jolynneshane.com/roasted-strawberry-smoothie-recipe.html">4. Roasted Strawberry Protein Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/4-FINAL_0.jpg?itok=5hXqMRmO"
+              alt="Roasted Strawberry Smoothie"
+              width="1046"
+              height="1326"
+                            pin-title="4. Roasted Strawberry Protein Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: JoLynneShane                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>cottage cheese<br />
+	For a serious flavor boost, roast strawberries before tossing them into this blend. The creamy cottage cheese is a tasty alternative for those not partial to Greek yogurt’s tangy flavor profile.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.stephsbitebybite.com/2014/02/11/mexican-frozen-hot-chocolate-protein-smoothie/">5. Mexican Frozen Hot Chocolate Protein Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/5%20FINAL.jpg?itok=UcAtj2XM"
+              alt="Mexican Frozen Hot Chocolate Smoothie"
+              width="680"
+              height="1024"
+                            pin-title="5. Mexican Frozen Hot Chocolate Protein Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Steph&#039;s Bite by Bite                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>Greek yogurt, protein powder, <br />
+	This recipe is served cold, but it'll taste just as good if you heat it up. Plus it makes a (healthy) meal out of classic hot chocolate, working in greek yogurt, oats, protein powder and unsweetened cocoa powder.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://ohsheglows.com/2011/01/13/classic-green-monster/">6. Classic Green Monster Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/6-FINAL_0.jpg?itok=udwDUOMG"
+              alt="Classic Green Monster Smoothie"
+              width="3216"
+              height="3850"
+                            pin-title="6. Classic Green Monster Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Oh She Glows                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> peanut butter, chia seeds, protein powder<br />
+	Holy nutrients, Batman! The spinach alone serves up vitamins A, C, and K, fiber, magnesium, and calcium. Allergic to peanuts? Try one of these <a href="http://greatist.com/health/healthy-alternatives-peanut-butter">tasty peanut butter alternatives</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://thegoldlininggirl.com/2016/01/almond-coconut-mocha-protein-smoothie/">7. Almond Coconut Mocha Protein Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/7%20FINAL.jpg?itok=hXDKncrQ"
+              alt="Almond Coconut Mocha Protein Smoothie"
+              width="1024"
+              height="1536"
+                            pin-title="7. Almond Coconut Mocha Protein Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: The Gold Lining Girl                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> almonds, protein powder<br />
+	Switch up a savory breakfast when opting for this sweet, still-healthy smoothie. Almonds and spices deliciously complement the crazy-versatile <a href="http://greatist.com/health/genius-ways-to-use-coconut-oil">coconut oil</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://chefsavvy.com/recipes/peanut-butter-oatmeal-smoothie/">8. Peanut Butter Oatmeal Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/8%20FINAL.jpg?itok=VXehiy7n"
+              alt="Peanut Butter Oatmeal Smoothie"
+              width="680"
+              height="1024"
+                            pin-title="8. Peanut Butter Oatmeal Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Chef Savvy                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>Peanut butter, soy milk<br />
+	All the fixings of a healthy breakfast—<a href="http://greatist.com/health/healthy-peanut-butter-recipes">peanut butter,</a> banana, and oats—but with a creamy taste of a milkshake. Need we say more?</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://delightfulemade.com/2014/10/15/raspberry-almond-chia-smoothie-cooking-cure/">9. Raspberry Almond Chia Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/9%20FINAL.png?itok=sN7owpCC"
+              alt="Raspberry Almond Chia Seed Smoothie"
+              width="1448"
+              height="2172"
+                            pin-title="9. Raspberry Almond Chia Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Delightful E. Made                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>Greek yogurt, almonds, chia seeds<br />
+	 Raspberries, almonds, and honey make busy mornings nice (and full of antioxidants). The best part: This recipe takes only five minutes to make.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://laurendamarie.com/oatmeal-cookie-protein-shake/">10. Oatmeal Cookie Protein Shake</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/10-FINAL.jpg?itok=ejVLLfY6"
+              alt="Oatmeal Cookie Protein Smoothie"
+              width="2209"
+              height="2890"
+                            pin-title="10. Oatmeal Cookie Protein Shake"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Laurenda Marie                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>oats, almonds, almond milk<br />
+	Don't let the name fool you, this "oatmeal cookie" smoothie still has a great nutritional quality with almonds, almond butter, and whole oats. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://garden-of-vegan.tumblr.com/post/95823304379/strawberry-banana-smoothie-approx-1-cup">11. Strawberry Banana Smoothie With Chia Seeds</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/11-FINAL_0.jpg?itok=TTFepgNP"
+              alt="Strawberry Banana Smoothie with Chia Seeds"
+              width="1280"
+              height="1707"
+                            pin-title="11. Strawberry Banana Smoothie With Chia Seeds"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Garden of Vegan                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>chia seeds<br />
+	Don’t fix what isn’t broken, right? Bland but nutrient-packed chia seeds sneak protein into the classic strawberry-banana smoothie combo.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.ninacheriephd.com/you-your-body-and-your-health/deliciously-rich-spinach-kiwi-and-chia-seed-smoothie">12. Spinach, Kiwi, and Chia Seed Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/12%20FINAL.jpg?itok=rsLJTGpr"
+              alt="Spinach Kiwi Chia Seed Smoothie"
+              width="918"
+              height="1236"
+                            pin-title="12. Spinach, Kiwi, and Chia Seed Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Nina Cherie                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>chia seeds<br />
+	A green smoothie that tastes anything but. Bananas sweeten it up, while tart kiwis keep it from feeling too much like dessert.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://pickfreshfoods.com/2014/02/19/blueberry-pineapple-smoothie/">13. Blueberry Mango Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/13-FINAL.jpg?itok=JBt4WpBz"
+              alt="Blueberry Pineapple Smoothie"
+              width="1076"
+              height="1413"
+                            pin-title="13. Blueberry Mango Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Pick Fresh Foods                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> Greek yogurt, flax<br />
+	Really, you can sip this smoothie anytime—but the fresh taste of antioxidant-rich <a href="http://greatist.com/health/superfood-blueberries">blueberries</a> and mango is a convincing reason to get out of bed in the morning.</p>
+        </div>
+      </div>
+                <h3>Lunch</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.popsugar.com/fitness/Papaya-Mint-Ginger-Smoothie-Recipe-28868187">14. Papaya Ginger Mint Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/14-FINAL.jpg?itok=TCMyGEsM"
+              alt="Papaya Mint Ginger Smoothie"
+              width="1445"
+              height="2000"
+                            pin-title="14. Papaya Ginger Mint Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: PopSugar                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>Greek yogurt<br />
+	Thanks to its high fiber content, papaya has been shown to promote digestion, says nutritionist Michelle Davenport, Ph.D. So if breakfast isn’t sitting well with your stomach, stick to this smoothie Rx. Bonus: It also includes <a href="http://greatist.com/health/superfood-ginger">ginger</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://thequirkyprincess.com/green-vibrance-protein-smoothie/">15. Mean Green Hemp Protein Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/15-NEW-FINAL.jpg?itok=r8ElTzlu"
+              alt="Green Hemp Protein Smoothie"
+              width="613"
+              height="682"
+                            pin-title="15. Mean Green Hemp Protein Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: The Quirky Princess                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> hemp, protein powder, wheatgrass powder<br />
+	A sugar hack for smoothies? Pitted dates. They’re a natural, fiber-filled sweetener that will satisfy a sweet tooth without added sugars (they also break down easier in a blender when soaked beforehand).</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://ohsheglows.com/2014/03/31/green-warrior-protein-smoothie/">16. Green Warrior Protein Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/16-final.jpg?itok=iqEQt3XO"
+              alt="Green Warrior Protein Smoothie"
+              width="752"
+              height="940"
+                            pin-title="16. Green Warrior Protein Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Oh She Glows                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> hemp hearts<br />
+	A quarter cup of hemp hearts—seeds similar to sunflower seeds and pine nuts—provides about 15 grams of protein, almost 3 grams of fiber, and may help to prevent hypertension, Davenport says. Mixing them with bananas and <a href="http://greatist.com/health/surprising-ways-use-leftover-apples">apples</a> makes for a sweet, creamy sip.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.oldhousetonewhome.net/2015/08/peanut-butter-and-jelly-protein-smoothie.html">17. Peanut Butter and Jelly Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/17%20FINAL.jpg?itok=8NbD_QTg"
+              alt="Peanut Butter and Jelly Protein Smoothie"
+              width="750"
+              height="1129"
+                            pin-title="17. Peanut Butter and Jelly Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Old House To New Home                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> peanut butter, protein powder<br />
+	It’s peanut-butter-jelly time! Berries, peanut butter, oats, and protein powder give the bread (and taste buds) a break.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.choosingraw.com/vanilla-matcha-avocado-smoothie/">18. Vanilla Matcha Avocado Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/18%20FINAL.jpg?itok=JFNluXAd"
+              alt="Vanilla Matcha Avocado Smoothie"
+              width="859"
+              height="1024"
+                            pin-title="18. Vanilla Matcha Avocado Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Choosing Raw                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>vegan protein powder<br />
+	So, those amazing benefits of <a href="http://greatist.com/health/green-tea-vs-black-coffee-greatist-debate">green tea</a>? Get them by sprinkling a half teaspoon of matcha powder—finely ground green tea—into this smoothie.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://amyshealthybaking.com/blog/2015/02/25/blueberry-banana-protein-smoothie/">19. Blueberry Banana Protein Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/19%20FINAL.jpg?itok=T6MFTs_H"
+              alt="Blueberry Banana Protein Smoothie"
+              width="900"
+              height="1350"
+                            pin-title="19. Blueberry Banana Protein Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Amy&#039;s Healthy Baking                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> Greek yogurt<br />
+	Here’s a sunny twist on a staple breakfast. But feel free to break this recipe’s rules by adding whatever fruit or greens you have on hand.</p>
+        </div>
+      </div>
+                <h3>Snacks</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://noblepig.com/2013/06/strawberry-banana-quinoa-smoothie/">20. Strawberry-Banana Quinoa Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/20-FINAL.jpg?itok=Q9Ocwmiu"
+              alt="Strawberry Banana Quinoa Smoothie"
+              width="752"
+              height="940"
+                            pin-title="20. Strawberry-Banana Quinoa Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Noble Pig                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>Greek yogurt, quinoa, chia seeds<br />
+	Not only is it a complete protein, but <a href="http://greatist.com/eat/creative-ways-to-eat-quinoa">quinoa</a> is a prime source of fiber, iron, and magnesium. And its taste is cleverly paired with other smoothie ingredients, including strawberries, bananas, and vanilla almond milk.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://fitfoodiefinds.com/2013/12/dark-chocolate-peppermint-protein-shake/">21. Dark Chocolate Peppermint Protein Shake</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/21-FINAL_0.jpg?itok=IX47sqfo"
+              alt="Dark Chocolate Peppermint Protein Shake"
+              width="752"
+              height="940"
+                            pin-title="21. Dark Chocolate Peppermint Protein Shake"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Fit Foodie Finds                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> protein powder<br />
+	Between the dark chocolate protein powder and the cocoa powder, chocolate lovers are going to want this drink morning, noon, and night. Which is fine, since dark chocolate is high in antioxidants and can help regulate <a href="http://greatist.com/health/chocolate-actually-healthy">stress</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.eatliverun.com/cool-n-creamy-cantaloupe-smoothies/">22. 3-Ingredient High Protein Cantaloupe Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/22-REAL-FINAL.jpg?itok=-LM8OjbR"
+              alt="High Protein Cantaloupe Smoothie"
+              width="752"
+              height="940"
+                            pin-title="22. 3-Ingredient High Protein Cantaloupe Smoothie"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>cottage cheese, whey protein powder<br />
+	Fruit salads are a great snack—almost as great as this creamy mix of cantaloupe chunks, cottage cheese, and whey protein. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.sweatwithbecnyc.com/eat/2015/3/9/pb2-cherry-recovery-smoothie">23. Cherry Almond Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/23-FINAL_1.jpg?itok=tVzjQXAF"
+              alt="PB2 and Cherry Recovery Smoothie"
+              width="752"
+              height="940"
+                            pin-title="23. Cherry Almond Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Sweat with Bec                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> PB2, flaxseeds, protein powder<br />
+	Put a craving for cherry ice cream on, well, ice when sipping this <a href="http://greatist.com/tips/fight-muscle-soreness-cherries">cherry</a> smoothie instead. Cherries are also an anti-inflammatory, so this snack choice is pretty painless. (Get it?)</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.proteinworld.com/recipes/honey-banana-smoothie/">24. Honey Banana Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/24-FINAL.jpg?itok=5tVUlF-s"
+              alt="Honey Banana Smoothie"
+              width="752"
+              height="940"
+                            pin-title="24. Honey Banana Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Protein World                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>Greek yogurt, almond milk<br />
+	Want to get back to smoothie basics? This recipe does the trick by using only six ingredients (though there’s plenty of room to add cacao nibs).</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://laurendamarie.com/chocolate-espresso-protein-smoothie/">25. Chocolate Espresso Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/25--FINAL.jpg?itok=1batQYnc"
+              alt="Chocolate Espresso Smoothie"
+              width="2102"
+              height="2578"
+                            pin-title="25. Chocolate Espresso Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Laurenda Marie                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>protein powder<br />
+	Order up! This latte-like smoothie skips the <a href="http://greatist.com/health/30-sugar-substitutes-any-and-every-possible-situation">sugar</a> and uses greenish bananas and chocolate protein powder instead.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.peanutbutterandpeppers.com/2013/05/20/razzle-dazzle-pineapple-smoothie/">26. Razzle Dazzle Pineapple Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/26%20FINAl.jpg?itok=06jWYgC0"
+              alt="Razzle Dazzle Pineapple Smoothie"
+              width="1200"
+              height="1861"
+                            pin-title="26. Razzle Dazzle Pineapple Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Peanut Butter and Peppers                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> protein powder<br /><em>If you like piña coladas... </em>then spring for this smoothie! Pineapple, coconut milk, and raspberries mimic the signature cocktail’s taste, while protein powder ramps up nutrition. Tiny drink umbrellas optional.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.asweetpeachef.com/drinks/chocolate-banana-peanut-butter-protein-shake/">27. Chocolate Peanut Butter Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/27%20FINAL.jpg?itok=w89IpPhh"
+              alt="Chocolate Banana Peanut Butter Protein Shake"
+              width="800"
+              height="1198"
+                            pin-title="27. Chocolate Peanut Butter Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: A Sweet Peach Chef                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> peanut butter, whey protein powder<br />
+	Treat yo’self to a creamy, candy-inspired smoothie that fuels both muscles and taste buds (and is way more nutritious than a Reese’s).</p>
+        </div>
+      </div>
+                <h3>Post-Workout</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://warmvanillasugar.com/2015/07/02/carrot-cake-protein-smoothie/">28. Carrot Cake Protein Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/28%20FINAL.jpg?itok=_aNIdP25"
+              alt="Carrot Cake Protein Smoothie"
+              width="900"
+              height="1350"
+                            pin-title="28. Carrot Cake Protein Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Wam Vanilla Sugar                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> Greek yogurt, protein powder<br />
+	For a dessert that won’t undo a workout, blend carrot juice, almond milk, two bananas, and sugar’s healthy swap, <a href="http://greatist.com/tips/add-cinnamon-savory-recipes-more-flavor">cinnamon.</a> Then sip. <em>Aaaahh</em>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.shape.com/healthy-eating/healthy-drinks/protein-packed-green-vanilla-almond-shake">29. Green Vanilla Almond Post-Workout Shake</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/29%20test.jpg?itok=Snjgpvza"
+              alt="Green Vanilla Almond Smoothie"
+              width="700"
+              height="700"
+                            pin-title="29. Green Vanilla Almond Post-Workout Shake"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Shape                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> almond butter, protein powder<br />
+	Milkshakes can go green too—and this one excerpted from <em><a href="http://www.amazon.com/Clean-Green-Drinks-Cleansing-Recipes/dp/055339083X">Clean Green Drinks</a> </em>gets rave reviews. The sweetness of the banana, coconut milk, and vanilla protein powder overpowers the spinach flavor while keeping things healthy.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.thenoatbook.com/2014/05/recipe-berry-pomegranate-and-acai.html">30. Berry, Pomegranate and Acai Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/30%20NEW.jpg?itok=GjVLAPAN"
+              alt="Berry Pomegranate Acai Smoothie"
+              width="1004"
+              height="1425"
+                            pin-title="30. Berry, Pomegranate and Acai Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: The nOATbook                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>Greek yogurt<br />
+	Keep recovery simple with apple juice, berries, <a href="http://greatist.com/health/superfood-pomegranate">pomegranate</a> juice and Greek yogurt. Not only are they tasty, but pomegranates have high contents of vitamins C and K, fiber, and antioxidants with anti-inflammatory and anti-aging properties, Davenport says.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://thehealthyfamilyandhome.com/chocolate-strawberry-almond-protein-smoothie/">31. Chocolate Strawberry Almond Protein Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/31%20FINAL.jpg?itok=swOZtBQ5"
+              alt="Chocolate Strawberry Almond Protein Smoothie"
+              width="800"
+              height="1198"
+                            pin-title="31. Chocolate Strawberry Almond Protein Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: The Healthy Family and Home                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> almonds, maca powder, hemp, protein powder<br />
+	This chocolatey smoothie is nutrient-packed. Chocolate sweetens up the action, while almonds bring protein and fiber and strawberries pack the antioxidants.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://myfridgie.com/peach-hemp-protein-smoothie/">32. Peach Hemp Protein Smoothie</a>
+                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> hemp protein powder<br />
+	Sit back and unwind with this refreshing, fruity smoothie that’s basically fro-yo in a glass (but with non-dairy, delicious hemp milk instead of moo juice). You’re welcome.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.runningonrealfood.com/orange-mango-recovery-smoothie-vegan/">33. Orange Mango Recovery Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/33%20FINAL.jpg?itok=Ue0q6lcA"
+              alt="Orange Mango Recovery Smoothie"
+              width="700"
+              height="1009"
+                            pin-title="33. Orange Mango Recovery Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Running on Real Food                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source: </strong>protein powder, cashews<br />
+	After protein, super spice <a href="http://greatist.com/eat/what-to-know-about-turmeric">turmeric</a> is what sets this recovery smoothie apart. The spice is an anti-inflammatory that’s also high in antioxidants.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.garnishwithlemon.com/spinach-banana-protein-smoothie/">34. Spinach Banana Smoothie</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/34%20FINAL.jpg?itok=xppyPsbA"
+              alt="Spinach Banana Protein Shake"
+              width="960"
+              height="1318"
+                            pin-title="34. Spinach Banana Smoothie"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                Photo: Garnish with Lemon                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p><strong>Protein source:</strong> Greek yogurt, almond butter, protein powder<br />
+	Handfuls of puréed spinach may not sound appetizing (unless you’re Popeye), but a ripe banana sweetens the taste. Cheers to sipping down vitamin A and iron from the spinach without tasting it.</p>
+        </div>
+      </div>
+                <h3>A Primer on Protein Powders</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                                                </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>If you’ve already locked down your favorite smoothie recipe on account of particular tastes and/or food allergies, you can always just scoop in <a href="http://greatist.com/eat/quiz-best-protein-powder">protein powder</a> for an added boost. When choosing a powder, the brand and nutritional profile are the two most important things to consider, Davenport says. Protein supplements are not regulated by the FDA, so research safe brands before purchasing. (Start with our easy-to-follow <a href="http://greatist.com/fitness/protein-supplement-nutrition-guide">supplement guide</a>.)</p>
+
+<p>It’s also key to note how you’re using the protein powder—whether it’s to replace a meal or recover from a workout. “Whey, milk, casein, and egg protein all absorb differently, and you want to get the maximum absorption with each meal,” says Jeff Thomas, director of nutrition at <a href="http://www.cenergynutrition.com/">Creative Edge Nutrition</a>. Don’t worry non-animal-protein eaters: There are plenty of plant-based options for you, including rice, pea, hemp, and soy protein.</p>
+
+<p>Research can also help you navigate the options on the supplement shelves. Our bodies may be better able to utilize whey and egg proteins better than soy protein, Davenport says, while whey and rice proteins <a href="http://www.nutritionj.com/content/pdf/1475-2891-12-86.pdf">may perform equally</a> in terms of increasing power and strength. The bottom line? Choose the most unprocessed form of the source that best suits your needs.</p>
+        </div>
+      </div>
+      
+  </section>
+  <p><em>Originally published June 2014. Updated February 2016.</em></p>         </div>
+
+                <span class="article-suggestion-readnext-embed" data-recirc-section ng-controller="basicTracking" ng-init="initAnalytics('read-next-bottom', {implicitClick: true})" >
+  <span class="label"><i class="fa fa-chevron-circle-right"></i> READ THIS NEXT:</span>
+  <a href="http://greatist.com/health/high-protein-snacks-portable"  data-nid="1392"  ng-click="click($event)" >
+    <span class="article-title">27 Portable Snacks That Have More Protein Than a Hard-Boiled Egg</span>
+  </a>
+</span>
+        <a href="http://greatist.com/live/how-to-eat-better-according-to-an-olympic-dietitian"
+   class="promotion-embed" data-recirc-section ng-controller="basicTracking"
+   ng-init="initAnalytics('promotion-krave---bottom-article---fuel-your-body-article-bottom', {implicitClick: true})">
+  <img src="http://greatist.com/sites/default/files/styles/promotion-article-558/public/greatist_promotion/KRAVE_Promo2_Final.jpg?itok=bK7olpd1"
+       alt="Krave - Bottom Article - Fuel Your Body"/>
+</a>
+
+        <div
+          class="bottom-share"
+          data-scroll-reach-tracking="article-content-end"
+          data-scroll-reach-tracking-near="article-content-near-end"
+        >
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="bottom">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/eat/high-protein-smoothie-recipes"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2FGreatist_Banner_HighProtein_Smoothie_recipes.jpg%3Fitok%3DAjeZ3PKp"
+  data-mediatitle="34 Surprisingly Delicious High-Protein Smoothie Recipes"
+  data-title="34 Surprisingly Delicious High-Protein Smoothie Recipes"
+  data-promotitle="34 Surprisingly Delicious High-Protein Smoothie Recipes"
+  data-pintitle="With eight or more grams of protein and minimal ingredients, these drinks are perfect for a..."
+  data-twitter="http://twitter.com/stephcastillo"
+  data-twitter-url="http://grt.st/1mNqK05"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  
+  </div>
+  </div>
+</div>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="article-sidebar-column sidebar-column" data-sidebar-height="x-tall" ng-controller="articleSidebarCtrl">
+      <div class="sidebar-top">
+                                                <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-1"
+  data-ad-dfp="/38507188/ROS_Flex_300x250_300x600"
+  data-ad-slot="div-gpt-ad-1409786991744-0"
+  data-ad-size="300x250,300x600"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-1"></div>
+
+          <div class="article-sidebar-newsletter no-small no-medium" ng-controller="NewsletterCtrl" data-origin="homepage_sidebar">
+  <div class="intro">
+    <i class="fa fa-inbox"></i> <span>Your Inbox Deserves Better</span>
+  </div>
+  <form name="newsletterForm" ng-submit="subscribeEmail('article-sidebar-newsletter')">
+    <div class="line">
+      <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+      <input type="submit" value="GO" ng-hide="submitted">
+      <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+    </div>
+    <div class="newsletter-messages">
+      <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+    </div>
+  </form>
+</div>
+        
+        <div class="sticky-block">
+          <div class="popular-list-block"
+  ng-init='initAnalytics("article-sidebar-must-read", {implicitClick: true, countHiddenAsImpression: false})'
+  ng-controller="basicTracking"
+  data-recirc-section
+>
+  <h2 class="section-title">MUST READS</h2>
+  <ol class="sidebar-list sidebar-list-thumbnail" >
+          <li  data-nid="7252"
+            data-source="cb">
+        <a
+          data-nid="7252"
+          ng-click="click($event)"
+          href="http://greatist.com/move/got-good-workout"
+          title="How to Know If You Actually Got a Good Workout"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/Man-Workout-Pulse-1236.jpg?itok=hiFVWNU_" />
+          <span>How to Know If You Actually Got a Good Workout</span>
+        </a>
+      </li>
+          <li  data-nid="2900"
+            data-source="cb">
+        <a
+          data-nid="2900"
+          ng-click="click($event)"
+          href="http://greatist.com/health/healthy-fast-breakfast-recipes"
+          title="34 Healthy Breakfasts for Busy Mornings"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/7-Ingredient-DARK-CHOCOLATE-Quinoa-Breakfast-Bowl-Full-of-antioxidants-fiber-and-protein-vegan-glutenfree-quinoa-breakfast.jpg?itok=BNuLNJNx" />
+          <span>34 Healthy Breakfasts for Busy Mornings</span>
+        </a>
+      </li>
+          <li  data-nid="6959"
+            data-source="cb">
+        <a
+          data-nid="6959"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/healthy-freezer-meals"
+          title="21 Freezer Meals for People With Zero Time During the Week"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/baked-potato.jpg?itok=an-0vMvV" />
+          <span>21 Freezer Meals for People With Zero Time During the Week</span>
+        </a>
+      </li>
+          <li  data-nid="4043"
+            data-source="cb">
+        <a
+          data-nid="4043"
+          ng-click="click($event)"
+          href="http://greatist.com/health/surprising-high-fiber-foods"
+          title="The 16 Most Surprising High-Fiber Foods"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/482095967.jpg?itok=wuctKn6I" />
+          <span>The 16 Most Surprising High-Fiber Foods</span>
+        </a>
+      </li>
+          <li  data-nid="3105"
+            data-source="cb">
+        <a
+          data-nid="3105"
+          ng-click="click($event)"
+          href="http://greatist.com/fitness/best-health-fitness-apps"
+          title="The 39 Best Health and Fitness Apps of 2016"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/health-fitness-apps-2016.jpg?itok=7D4bYrDu" />
+          <span>The 39 Best Health and Fitness Apps of 2016</span>
+        </a>
+      </li>
+          <li  data-nid="7041"
+            data-source="cb">
+        <a
+          data-nid="7041"
+          ng-click="click($event)"
+          href="http://greatist.com/move/sliders-workout"
+          title="31 Ways You Can Use Sliders to Get a Full-Body Workout"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/SLIDERS_FEATURE.jpg?itok=gEEUqmVn" />
+          <span>31 Ways You Can Use Sliders to Get a Full-Body Workout</span>
+        </a>
+      </li>
+          <li  data-nid="8301"
+            data-source="ga">
+        <a
+          data-nid="8301"
+          ng-click="click($event)"
+          href="http://greatist.com/live/womens-clothing-sizes-are-complete-bs"
+          title="Think of Women’s Clothing Sizes as Random Numbers—Because They Are "
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/jeans.jpg?itok=cGs7fn0V" />
+          <span>Think of Women’s Clothing Sizes as Random Numbers—Because They Are </span>
+        </a>
+      </li>
+          <li  data-nid="1392"
+            data-source="ga">
+        <a
+          data-nid="1392"
+          ng-click="click($event)"
+          href="http://greatist.com/health/high-protein-snacks-portable"
+          title="27 Healthy and Portable High-Protein Snacks"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/PORTABLE-SNACKS_FEATURE.jpg?itok=Grq8reUv" />
+          <span>27 Healthy and Portable High-Protein Snacks</span>
+        </a>
+      </li>
+      </ol>
+</div>
+                      <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-2"
+  data-ad-dfp="/38507188/ROS_300x250_BTM"
+  data-ad-slot="div-gpt-ad-1411421640459-0"
+  data-ad-size="300x250"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-2"></div>
+
+                  </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <div class="article-middle">
+    <div id="ym_966589724821756968" data-yieldmo="ym_966589724821756968" data-yieldmo-tablet="ym_976629314492243103" class="ym"></div>
+
+    <div id="fb-article-mobile-bottom-page-box" data-fb-page="article-mobile-bottom-page-box" data-restrict-context-to=">medium" class="hide-for-ready">
+      <h2 class="section-title">Like Us On Facebook</h2>
+    </div>
+
+    <div id="tags">
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/high-protein-snacks"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      High-Protein Snacks    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/protein"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Protein    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/smoothies"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Healthy Smoothie Recipes    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/sports-nutrition"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Sports Nutrition    </span>
+  </a>
+</span>
+  
+            <span
+  rel="dc:subject"
+  itemscope
+            itemtype="http://data-vocabulary.org/Breadcrumb"
+  >
+  <a
+    href="http://greatist.com/eat"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+          itemprop="url"
+      >
+    <span
+              itemprop="title"
+          >
+      Eat    </span>
+  </a>
+</span>
+      </div>
+  </div>
+</div>
+
+<div class="recirc" data-recirc-section>
+  <div class="esi-placeholder"data-esi="article/recirculation" data-token="_CdgJY31rMdXosD1zLPmd_yMDNC9JX2vfM8j0ihL48A" data-params="{&quot;nid&quot;:&quot;5079&quot;,&quot;show_must_reads&quot;:0}" data-bodyevent="reach-article-content-near-end"><img src="/sites/all/themes/greatist2x/images/design/SiteLoader.gif">Loading...</div></div>
+
+
+  <!-- Extras -->
+  <div ng-controller="BottomStickyCtrl">
+      <div class="article-sticky-bottom share hide-for-load" data-origin="sticky-bottom">
+      <div ng-controller="socialCtrl" data-href="http://greatist.com/eat/high-protein-smoothie-recipes">
+        <a class="share-button share-button-facebook" ng-click="share_fb($event)" data-share-fb>
+          <span class="share-alt"><i class="fa fa-facebook"></i> Share on Facebook</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="article-sticky-bottom like hide-for-load" data-origin="sticky-bottom">
+      <img class="close-button" ng-click="clickClose()" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+      <span>Like Greatist on Facebook</span>
+      <div
+        class="fb-like"
+        data-href="https://www.facebook.com/greatist"
+        data-layout="button"
+        data-fb-tracking-id="bottom-sticky-mobile"
+        data-fb-click-tracking-id="bottom-sticky-mobile">
+      </div>
+    </div>
+  </div>
+  <div class="bottom-slider fb-slider" ng-controller="BottomSliderCtrl" ng-class="status">
+  <a href="#" ng-click="clickClose()" title="Close" type="button" class="close-button">
+    <img src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+  </a>
+
+  <h3>Like us on Facebook to get more stories like this!</h3>
+
+  <div
+    class="fb-like"
+    data-href="https://www.facebook.com/greatist"
+    data-layout="button"
+    data-fb-tracking-id="popup-like"
+    data-fb-click-tracking-id="popup-like">
+  </div>
+</div>
+  <div class="overlay-wrapper">
+  <div id="search-page-wrapper">
+    <div id="search-page-overlay" ng-controller="SearchCtrl" ng-init="init()" ng-keydown="keydown($event)">
+
+      <img class="search-close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+
+      <h2>{{discoverSettings.title}}</h2>
+
+      <!-- SEARCH FORM -->
+      <form name="searchForm" ng-submit="search()" class="search-form">
+        <input type="text" ng-model="searchQuery" placeholder="Enter Search Term" id="search-input">
+        <div data-search-autocomplete class="search-autocomplete">
+          <ul>
+            <div class="header" >
+              Categories
+            </div>
+            <li ng-repeat="suggestion in suggestedTaxonomies track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+
+            <div class="header">
+              Profiles
+            </div>
+            <li ng-repeat="suggestion in suggestedUsers track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </form>
+
+      <!-- DISCOVER -->
+      <div class="discover deck-3" ng-cloak ng-hide="hideDiscover">
+        <div class="main-column">
+          <div class="card" ng-repeat="discover in discoverList">
+            <a href="{{discover.url}}" ng-click="trackDiscoverLink(discover)">
+              <img ng-src="{{discover.imgUrl}}" class="img-large">
+              <img ng-src="{{discover.imgUrlSmall}}" class="img-small">
+              <div class="title-wrapper">
+                <div class="title">{{discover.title}}</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-status">
+        <div ng-show="isLoading">
+            <img alt="Search Loading" class="loader-image"/>
+        </div>
+        <div class="search-message">{{searchMessage}}</div>
+      </div>
+
+      <!-- SEARCH RESULTS -->
+      <div class="search-result article-feed">
+        <div class="article" ng-repeat="article in articles">
+          <div class="article-image">
+            <a href='{{article.articlePath}}'>
+              <img ng-src='{{article.imagePath}}' />
+            </a>
+          </div>
+          <div class="article-title"><a href='{{article.articlePath}}'>{{article.title}}</a></div>
+          <div class="article-author" ng-if="article.byline === ''">{{article.author}}</div>
+          <div class="article-author" ng-if="article.byline !== ''">{{article.byline}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="popup-wrapper">
+  <div ng-controller="popupCtrl" class="newsletter-template mfp-with-anim mfp-hide">
+    <div newsletter
+      model="popup"
+      subscribe="subscribeEmail"
+      init="initPopup"
+      close="closeBottomBar()"
+      cta1="applyCTA('cta1')"
+      cta2="applyCTA('cta2')"
+    >
+    </div>
+  </div>
+</div>
+    <div>
+  <div data-fb-popup class="fb-popup popup-post-share mfp-with-anim mfp-hide">
+    <h1>
+      Nice share!<br>
+      Like us on <a class="like-us" href="http://facebook.com/greatist">Facebook</a> while you're at it.
+    </h1>
+    <div class="fb-like-body">
+      <div class="fb-like" data-href="https://facebook.com/greatist" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false">
+      </div>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-post-share-fb"/>
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+
+  <div data-pin-popup class="pin-popup popup-post-share mfp-with-anim mfp-hide">
+    <button title="Close (Esc)" type="button" class="mfp-close cta-x" ng-click="eventHandler()"></button>
+    <h1>Nice pin! Follow us for more.</h1>
+    <div class="follow-pin">
+      <a data-pin-do="buttonFollow" href="http://www.pinterest.com/greatist/">Follow Greatist on Pinterest</a>
+    </div>
+    <div class="pins">
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/229754018468166392/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+       <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124149397557/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124150404836/">Greatist on Pinterest.</a>
+      </span>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-pin-board" />
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+</div>
+  <div class="footer-bottom-wrapper">
+    <footer id="footer-wrapper">
+  <div id="footer">
+    <div class="footer-logo-menu">
+  <div class="greatist-logo">
+    <a href="/">
+      <img src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_G_White.svg" class="footer-logo" />
+    </a>
+  </div>
+  <ul class="menu"><li class="first leaf"><a href="/about" title="">About</a></li>
+<li class="leaf"><a href="/advertise" title="">Advertise</a></li>
+<li class="leaf"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf"><a href="/drop-us-line" title="">Contact</a></li>
+</ul></div>
+    <div class="footer-newsletter">
+  <div class="newsletter-block" ng-controller="NewsletterCtrl" data-origin="footer">
+    <div class="description">
+      <i class="fa fa-envelope-o"></i> AWESOME WORKOUTS, EASY RECIPES, WELLNESS TIPS!
+    </div>
+    <form name="newsletterForm" ng-submit="subscribeEmail('footer-newsletter')">
+      <div class="line">
+        <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+        <input type="submit" value="GO" ng-hide="submitted">
+        <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+      </div>
+      <div class="newsletter-messages">
+        <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+      </div>
+    </form>
+  </div>
+
+  <div class="social-links">
+    <a target="_blank" href="http://facebook.com/greatist" class="facebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a target="_blank" href="http://pinterest.com/greatist" class="pinterest" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+    <a target="_blank" href="http://twitter.com/greatist" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" href="http://instagram.com/greatist" class="instagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+  </div>
+</div>
+  </div>
+</footer>
+    <div id="bottom-wrapper">
+  <div id="bottom">
+    <div id="bottom-menu" class="bottom-block">
+  <ul class="menu"><li class="first leaf"><a href="/greatist-terms-use" title="Terms">Terms</a></li>
+<li class="leaf"><a href="/greatist-privacy-policy" title="Privacy">Privacy</a></li>
+<li class="leaf"><a href="/drop-us-line" title="">Contact</a></li>
+<li class="last leaf"><a href="/topics" title="">Sitemap</a></li>
+</ul></div>
+    <div id="copyright">&copy; 2016 Greatist</div>
+  </div>
+</div>
+  </div>
+</div>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_g5vRHAmImocIkh-4r-c10EIPRPCA0a21I08Y0d3s1mo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '1001l6TF']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/all/modules/custom/gr8ist_social/includes/js/gr8ist_instagram_embed.js?obn86g"></script>
+<script type="text/javascript" src="//wms-na.amazon-adsystem.com/20070822/US/js/auto-tagger.js?tag=greatist-20&amp;locale=US&amp;overwrite=1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {try{var a={l1:document.location.host.replace(/^www\./,""),l2:document.title||"Untitled",l3:"__page__",l4:"-",sa:"",sn:""},b=[],c;for(c in a)b.push(c+"="+encodeURIComponent(a[c]));b=b.join("&");(new Image).src="//d1cge8z5zrep3s.cloudfront.net?a=9d8720426e304e8ca738bd1ab1062e1f";var d=document.createElement("script");d.type="text/javascript";d.async=!0;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(d,e);d.src="https://z.moatads.com/greatistcontent247UepN76/moatcontent.js#"+b}catch(f){try{var g="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&ac=1&k="+encodeURIComponent(f)+"&j="+encodeURIComponent(document.referrer)+"&cs="+(new Date).getTime();(new Image).src=g}catch(h){}};})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.display('page');});
+//--><!]]>
+</script>
+<script type="text/javascript" src="//dc8xl0ndzn2cb.cloudfront.net/js/greatist/v0/keywee.min.js"></script>
+
+<div id="fb-root"></div>
+<noscript><img
+    src="http://b.scorecardresearch.com/p?c1=2&amp;c2=14988881&amp;cv=2.0&amp;cj=1"
+    alt=""/></noscript>
+<noscript><img style="position:absolute"
+               src="http://b.scorecardresearch.com/b?c1=2&c2=0000000&c3=0000000&c4=www.w3i.com/who-weare.aspx&c5=&c6=&c15=C67BD3C1&cv=1.3&cj=1"
+               style="display:none" width="0" height="0" alt=""/></noscript>
+<noscript>
+  <div style="display:none;"><img
+      src="//pixel.quantserve.com/pixel/p-46ydJU4yMQT2-.gif" border="0"
+      height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ad634f8ed0","applicationID":"897146","transactionName":"NVMHZRNYCkUFUkNeVwwZJFIVUAtYS1ZFUlkWXxZFPloLWxReWVJWFmkIVA9M","queueTime":0,"applicationTime":1174,"atts":"GRQEE1tCGUs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

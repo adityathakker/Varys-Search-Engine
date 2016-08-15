@@ -1,0 +1,742 @@
+<!DOCTYPE html><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"><head itemscope itemtype="http://schema.org/WebSite"><!--[if IE]><![endif]--><link rel="dns-prefetch" href="//fonts.googleapis.com" /><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/911656fa177846aec61d653c98674a7b.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/eb9f2973d1f94378cd51f247183dd68f.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/ed23373be97de98fd59b5c1ee55222f2.css" data-minify="1"/><meta charset="UTF-8"> <!--[if IE ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]--><link rel="profile" href="http://gmpg.org/xfn/11" /><link rel="icon" href="http://test.androidhive.info/wp-content/uploads/2016/04/favicon.png" type="image/x-icon" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta itemprop="name" content="androidhive" /><meta itemprop="url" content="http://www.androidhive.info" /><meta itemprop="creator accountablePerson" content=" " /><link rel="pingback" href="http://www.androidhive.info/xmlrpc.php" /><title>Android Material Design working with Tabs</title><style type="text/css">.thrive-adminbar-icon {
+				background: url('http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/css/images/tcb-close-icon.png') no-repeat 0px 0px;
+				padding-left: 25px !important;
+				width: 20px !important;
+				height: 20px !important;
+			}</style> <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace( /\bno-js\b/,'js' );</script> <meta name="description" content="Android tutorial about implementing material design tabs in your app. Explained how to add fixed tabs, scrollable tabs, tabs with icon and text using material design support library."/><meta name="robots" content="noodp"/><link rel="canonical" href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Android Material Design working with Tabs" /><meta property="og:description" content="Android tutorial about implementing material design tabs in your app. Explained how to add fixed tabs, scrollable tabs, tabs with icon and text using material design support library." /><meta property="og:url" content="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" /><meta property="og:site_name" content="androidhive" /><meta property="article:section" content="Material Design" /><meta property="article:published_time" content="2015-09-13T11:37:03+00:00" /><meta property="article:modified_time" content="2015-09-21T04:51:49+00:00" /><meta property="og:updated_time" content="2015-09-21T04:51:49+00:00" /><meta property="og:image" content="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library.png" /><meta property="og:image:width" content="720" /><meta property="og:image:height" content="359" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Android tutorial about implementing material design tabs in your app. Explained how to add fixed tabs, scrollable tabs, tabs with icon and text using material design support library." /><meta name="twitter:title" content="Android Material Design working with Tabs" /><meta name="twitter:image" content="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library.png" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Feed" href="http://www.androidhive.info/feed/" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Comments Feed" href="http://www.androidhive.info/comments/feed/" /> <script type="text/javascript">window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.androidhive.info\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);</script> <style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style><style id='stylesheet-inline-css' type='text/css'>body {background-color:#ffffff; }
+		body {background-image: url( http://www.androidhive.info/wp-content/themes/androidhive-theme/images/nobg.png );}
+
+        .header-social a:hover, header .breadcrumb > div i:hover, header .breadcrumb > div a:hover, .breadcrumb > div a:hover, .post-info a, .latestPost .title a:hover, #site-footer .toggle-menu .toggle-caret .fa:hover, #primary-navigation .sub-menu a:hover, .latestPost .title a:hover, ul.ajax-search-results li a:hover, .sidebar .ajax-search-meta a, .breadcrumb > div i, .single .tags a, .postauthor h5 a:hover, .sidebar a, .comment-meta a, .trending-stories .latestPost .title:hover, .postauthor h5, .copyrights a, .single_post a, .textwidget a, .pnavigation2 a, #sidebar a:hover, .copyrights a:hover, #site-footer .widget li a:hover, .related-posts a:hover, .reply a, .title a:hover, .post-info a:hover, .comm, #tabber .inside li a:hover, .readMore a:hover, .fn a, a, a:hover { color: #000000; }
+
+        .latestPost-categories ul li:hover a, .footer-widgets h3, .reply a:hover, #primary-navigation .sub-menu a:hover, #primary-navigation .sub-menu li.current-menu-item a { color: #000000 !important; }
+
+        .latestPost-news .latestPost { border-top: 2px solid #000000; }
+
+        
+        .navigation.mobile-menu-wrapper { background: #000000 !important; }
+
+        #header, .pace .pace-progress, #mobile-menu-wrapper ul li a:hover, .widget h3:before, .featured-category-title:before, .widget .wpt_widget_content .tab_title.selected a, #move-to-top, #load-posts, .featured-videos h4:after, .related-posts h4:after, .postauthor h4:after, #comments h4:after, #commentsAdd h4:after, .contact-form input[type='submit'], #commentform input#submit:hover, .contact-form input[type='submit']:hover, #primary-navigation li a:hover, .pagination a:hover, .pagination ul, .latestPost-review-wrapper, a#pull, #commentform input#submit, .contactform #submit, #move-to-top:hover, .navigation ul .current-menu-item > a, .navigation ul li:hover, .pagination a, #tabber ul.tabs li a.selected, .tagcloud a:hover, .latestPost .review-type-circle.review-total-only, .latestPost .review-type-circle.wp-review-show-total, .single .pagination > .current, .bypostauthor .comment-author .fn:after { background-color:#000000; color: #fff!important; }
+
+		.owl-prev, .owl-next { background-color:#000000!important; }
+
+        #site-footer { background: #EAEAEA; }
+		
+		.shareit { top: 282px; left: 0; margin: 0; width: 90px; position: fixed; padding: 5px; border:none; border-right: 0;}
+		.share-item {margin: 2px;}
+		
+		.bypostauthor { background: none; }
+        .bypostauthor > div .comment-author .fn:after { content: "Author"; position: relative; padding: 2px 10px; margin: 0 10px; color: #FFF; font-size: 13px; line-height: 1; font-weight: normal; border-radius: 3px; }</style> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/compat.min.js?ver=1.200.5'></script> <script type='text/javascript'>/*  */
+var mts_customscript = {"responsive":"1","nav_menu":"primary"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/customscript.js'></script> <script type='text/javascript'>/*  */
+var tickeropts = {"rtl_support":"0"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/jquery.webticker.js'></script> <link rel='https://api.w.org/' href='http://www.androidhive.info/wp-json/' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.androidhive.info/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.androidhive.info/wp-includes/wlwmanifest.xml" /><link rel='shortlink' href='http://www.androidhive.info/?p=38618' /><link rel="alternate" type="application/json+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2015%2F09%2Fandroid-material-design-working-with-tabs%2F" /><link rel="alternate" type="text/xml+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2015%2F09%2Fandroid-material-design-working-with-tabs%2F&#038;format=xml" /> <script type="text/javascript">window._wp_rp_static_base_url = 'https://wprp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.androidhive.info/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.6';
+	window._wp_rp_post_id = '38618';
+	window._wp_rp_num_rel_posts = '4';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Android+Material+Design+working+with+Tabs';
+	window._wp_rp_post_tags = ['tab+view', 'ui', 'material+design', 'height', 'tab', 'anim', 'theme', 'librari', 'android', 'a', 'studio', 'drawer', 'prompt', 'project', 'design', 'doc', 'app', 'articl'];
+	window._wp_rp_promoted_content = true;</script> <script type="text/javascript" src="https://wprp.zemanta.com/static/js/loader.js?version=3.6" async></script> <style type="text/css">.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style><link href="//fonts.googleapis.com/css?family=Open+Sans|Merriweather&amp;subset=latin" rel="stylesheet" type="text/css"><style type="text/css">#header h1, #header h2 { font-family: 'Open Sans'; font-weight: ; font-size: 25px; color: #ffffff; }
+.menu li, .menu li a { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #ffffff; }
+.latestPost .title a, .latestPost-news .title, .latestPost .title { font-family: 'Merriweather'; font-weight: ; font-size: 23px; color: #252525; }
+.single-title { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+body { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+.widget h3, .featured-category-title { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+#sidebar .widget { font-family: 'Open Sans'; font-weight: ; font-size: 14px; color: #252525; }
+.footer-widgets, footer .widget li a { font-family: 'Open Sans'; font-weight: ; font-size: 13px; color: #252525; }
+h1 { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+h2 { font-family: 'Merriweather'; font-weight: ; font-size: 24px; color: #252525; }
+h3 { font-family: 'Merriweather'; font-weight: ; font-size: 25px; color: #252525; }
+h4 { font-family: 'Merriweather'; font-weight: ; font-size: 20px; color: #252525; }
+h5 { font-family: 'Merriweather'; font-weight: ; font-size: 18px; color: #252525; }
+h6 { font-family: 'Merriweather'; font-weight: ; font-size: 16px; color: #252525; }</style><style type="text/css" id="syntaxhighlighteranchor"></style> <script data-no-minify="1" data-cfasync="false">(function(w,d){function a(){var b=d.createElement("script");b.async=!0;b.src="http://www.androidhive.info/wp-content/plugins/wp-rocket/inc/front/js/lazyload.1.0.2.min.js";var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)}w.attachEvent?w.attachEvent("onload",a):w.addEventListener("load",a,!1)})(window,document);</script> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24602371-1', 'auto');
+  ga('send', 'pageview');</script> </head><body id="blog" class="single single-post postid-38618 single-format-standard main" itemscope itemtype="http://schema.org/WebPage"><div class="main-container"> <header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader"><div class="upper-navigation"><div class="container clearfix"><div class="breadcrumb"><div class="root"><a href="http://www.androidhive.info/"><i class="fa fa-home"></i></a></div><div class="breaking"><ul class="trending-slider"><li><a href="http://www.androidhive.info/2016/05/android-working-with-card-view-and-recycler-view/" title="Android working with Card View and Recycler View">Android working with Card View and Recycler View</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-3/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1</a></li><li><a href="http://www.androidhive.info/2015/12/android-material-design-floating-action-button/" title="Android Material Design Floating Action Button">Android Material Design Floating Action Button</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-snackbar-example/" title="Android Material Design Snackbar Example">Android Material Design Snackbar Example</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-floating-labels-for-edittext/" title="Android Material Design Floating Labels for EditText">Android Material Design Floating Labels for EditText</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" title="Android Material Design working with Tabs">Android Material Design working with Tabs</a></li><li><a href="http://www.androidhive.info/2015/06/android-push-notifications-using-parse-com/" title="Android Push Notifications using Parse.com">Android Push Notifications using Parse.com</a></li><li><a href="http://www.androidhive.info/2015/04/android-getting-started-with-material-design/" title="Android Getting Started with Material Design">Android Getting Started with Material Design</a></li></ul></div></div><div class="header-social"> <a rel="nofollow" href="http://www.facebook.com/ravi8x" class="header-facebook"><span class="fa fa-facebook"></span></a> <a rel="nofollow" href="http://www.twitter.com/ravitamada" class="header-twitter"><span class="fa fa-twitter"></span></a> <a rel="nofollow" href="https://plus.google.com/u/0/108738908574182577919/posts" class="header-google-plus"><span class="fa fa-google-plus"></span></a> <a rel="nofollow" href="http://instagram.com/ravitamada" class="header-instagram"><span class="fa fa-instagram"></span></a></div></div></div><div id="header"><div class="container"><div class="logo-wrap"><h1 id="logo" class="image-logo" itemprop="headline"> <a href="http://www.androidhive.info"><img src="http://www.androidhive.info/wp-content/uploads/2016/04/logo-3.png" alt="androidhive"></a></h1></div><div id="primary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"> <a href="#" id="pull" class="toggle-mobile-menu">Menu</a> <nav class="navigation clearfix mobile-menu-wrapper"><ul id="menu-menu-1" class="menu clearfix"><li id="menu-item-39241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39241"><a href="http://download.androidhive.info">Downloads</a></li><li id="menu-item-39242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39242"><a href="http://tips.androidhive.info">Tips</a></li><li id="menu-item-39327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39327"><a href="http://www.androidhive.info/write-for-us/">Write for Us</a></li></ul> </nav></div></div></div> </header><div id="page" class="single"> <article class="article" itemscope itemtype="http://schema.org/BlogPosting"><meta itemprop="image" content="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library.png" /><div id="content_box" ><div id="post-38618" class="g post post-38618 type-post status-publish format-standard has-post-thumbnail hentry category-material-design category-tab-view category-ui has_thumb"><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><div typeof="v:Breadcrumb" class="root"><a rel="v:url" property="v:title" href="http://www.androidhive.info" rel="nofollow">Home</a></div><div><i class="fa fa-angle-right"></i></div><div typeof="v:Breadcrumb"><a href="http://www.androidhive.info/category/material-design/" rel="v:url" property="v:title">Material Design</a></div><div><i class="fa fa-angle-right"></i></div><div><span>Android Material Design working with Tabs</span></div></div><div class="single_post"> <header><h1 class="title single-title entry-title" itemprop="headline">Android Material Design working with Tabs</h1><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></span></span> <span class="thetime updated"><span itemprop="datePublished">September 13, 2015<span class="divider1">/</span></span></span> <span class="thecomment"><i class="fa fa-comments"></i> <a href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/#disqus_thread">Comments</a></span></div> </header><div class="post-single-content box mark-links entry-content"><div class="thecontent" itemprop="articleBody"><div style="float:left;margin:10px 10px 10px 0;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="1410361821"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><p><a rel="nofollow" href="http://android-developers.blogspot.in/2015/05/android-design-support-library.html" target="_blank" class="link">Android Design Support Library</a> made our day easier by providing backward compatibility to number of material design components all the way back to Android 2.1. In Design support Library the components like navigation drawer, floating action button, snackbar, tabs, floating labels and animation frameworks were introduced. In this article we are going to learn how to implement material tabs in your apps.</p><p>Before going further, I suggest have a look at this <a rel="nofollow" href="https://www.google.co.in/design/spec/components/tabs.html#" target="_blank" class="link">tabs</a> docs that defines do&#8217;s and don&#8217;ts while implementing tabs.</p><div style="display:none"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library.png" alt="android design support library tab layout" width="720" height="359" class="alignnone size-full wp-image-38690" srcset="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library-300x150.png 300w, http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library.png 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library.png" alt="android design support library tab layout" width="720" height="359" class="alignnone size-full wp-image-38690" srcset="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library-300x150.png 300w, http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout-design-support-library.png 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><div class="clear"></div><div class="download_code"><a href="http://download.androidhive.info/download?code=gNSwxXZ3wZI4nUd26JMzCB0EI5StzLrlZ5sVx6%2B9f8fEZgk3k29McrSZEmeYoCFEM4fkQ8M%2BJiat3n5J1KgeI1nnhURaKZy6zJ9VIOR843qhdzHtfdKPXis7Q%3D%3DMNImDODav02e3X5YtCsCiAbsuKxHbJnHpk2" target="_blank">DOWNLOAD CODE</a></div><div class="yt_video"> <label>VIDEO DEMO</label><br /> <iframe src="http://www.youtube.com/embed/6sGhDYYUoBM" frameborder="0" allowfullscreen="" style="width: 719px; height: 444.7265625px;"></iframe></div><p></p><h2>1. Making the App Material</h2><p>We&#8217;ll start this by creating a new project and applying the material theme. If you are not aware of android material design, my previous article <a href="http://www.androidhive.info/2015/04/android-getting-started-with-material-design/" target="_blank" class="link">Android Getting Started with Material Design</a> gives you a good start.</p><p><strong>1</strong>. In Android Studio, go to <strong>File â New Project</strong> and fill all the details required to create a new project. When it prompts to select a default activity, select <strong>Blank Activity</strong> and proceed.</p><p><strong>2</strong>. Open <strong>build.gradle</strong> and add android design support library <strong>com.android.support:design:23.0.1</strong></p><pre class="brush: sql; title: build.gradle; notranslate" title="build.gradle">
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:design:23.0.1'
+}
+</pre><p><strong>3</strong>. Open <strong>colors.xml</strong> located under <strong>res â values</strong> and add the below color values.</p><pre class="brush: xml; title: colors.xml; notranslate" title="colors.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;resources&gt;
+    &lt;color name=&quot;colorPrimary&quot;&gt;#125688&lt;/color&gt;
+    &lt;color name=&quot;colorPrimaryDark&quot;&gt;#125688&lt;/color&gt;
+    &lt;color name=&quot;textColorPrimary&quot;&gt;#FFFFFF&lt;/color&gt;
+    &lt;color name=&quot;windowBackground&quot;&gt;#FFFFFF&lt;/color&gt;
+    &lt;color name=&quot;navigationBarColor&quot;&gt;#000000&lt;/color&gt;
+    &lt;color name=&quot;colorAccent&quot;&gt;#c8e8ff&lt;/color&gt;
+&lt;/resources&gt;
+</pre><p> <strong>4</strong>. Add the below dimensions to <strong>dimens.xml</strong> located under <strong>res â values</strong>.</p><pre class="brush: xml; title: dimens.xml; notranslate" title="dimens.xml">
+&lt;resources&gt;
+    &lt;!-- Default screen margins, per the Android Design guidelines. --&gt;
+    &lt;dimen name=&quot;activity_horizontal_margin&quot;&gt;16dp&lt;/dimen&gt;
+    &lt;dimen name=&quot;activity_vertical_margin&quot;&gt;16dp&lt;/dimen&gt;
+    &lt;dimen name=&quot;tab_max_width&quot;&gt;264dp&lt;/dimen&gt;
+    &lt;dimen name=&quot;tab_padding_bottom&quot;&gt;16dp&lt;/dimen&gt;
+    &lt;dimen name=&quot;tab_label&quot;&gt;14sp&lt;/dimen&gt;
+    &lt;dimen name=&quot;custom_tab_layout_height&quot;&gt;72dp&lt;/dimen&gt;
+&lt;/resources&gt;
+</pre><p> <strong>5</strong>. Open <strong>styles.xml</strong> located under <strong>res â values</strong> and add below styles. The styles defined in this styles.xml are common to all the android versions.</p><pre class="brush: xml; title: styles.xml; notranslate" title="styles.xml">
+&lt;resources&gt;
+
+    &lt;style name=&quot;MyMaterialTheme&quot; parent=&quot;MyMaterialTheme.Base&quot;&gt;
+
+    &lt;/style&gt;
+
+    &lt;style name=&quot;MyMaterialTheme.Base&quot; parent=&quot;Theme.AppCompat.Light.DarkActionBar&quot;&gt;
+        &lt;item name=&quot;windowNoTitle&quot;&gt;true&lt;/item&gt;
+        &lt;item name=&quot;windowActionBar&quot;&gt;false&lt;/item&gt;
+        &lt;item name=&quot;colorPrimary&quot;&gt;@color/colorPrimary&lt;/item&gt;
+        &lt;item name=&quot;colorPrimaryDark&quot;&gt;@color/colorPrimaryDark&lt;/item&gt;
+        &lt;item name=&quot;colorAccent&quot;&gt;@color/colorAccent&lt;/item&gt;
+    &lt;/style&gt;
+
+&lt;/resources&gt;
+</pre><p> <strong>6</strong>. Now under <strong>res</strong>, create a folder named <strong>values-v21</strong>. Inside values-v21, create another <strong>styles.xml</strong> with the below styles. These styles are specific to <strong>Android 5.0</strong></p><pre class="brush: xml; title: styles.xml; notranslate" title="styles.xml">
+&lt;resources&gt;
+
+    &lt;style name=&quot;MyMaterialTheme&quot; parent=&quot;MyMaterialTheme.Base&quot;&gt;
+        &lt;item name=&quot;android:windowContentTransitions&quot;&gt;true&lt;/item&gt;
+        &lt;item name=&quot;android:windowAllowEnterTransitionOverlap&quot;&gt;true&lt;/item&gt;
+        &lt;item name=&quot;android:windowAllowReturnTransitionOverlap&quot;&gt;true&lt;/item&gt;
+        &lt;item name=&quot;android:windowSharedElementEnterTransition&quot;&gt;@android:transition/move&lt;/item&gt;
+        &lt;item name=&quot;android:windowSharedElementExitTransition&quot;&gt;@android:transition/move&lt;/item&gt;
+    &lt;/style&gt;
+
+&lt;/resources&gt;
+</pre><p> <strong>7</strong>. Finally open <strong>AndroidManifest.xml</strong> and modify the theme to our customized theme by changing the <em>android:theme</em> attribute value.</p><pre class="brush: xml; title: ; notranslate" title="">
+android:theme=&quot;@style/MyMaterialTheme&quot;
+</pre><pre class="brush: xml; title: AndroidManifest.xml; notranslate" title="AndroidManifest.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    package=&quot;info.androidhive.materialtabs&quot; &gt;
+
+    &lt;application
+        android:allowBackup=&quot;true&quot;
+        android:icon=&quot;@mipmap/ic_launcher&quot;
+        android:label=&quot;@string/app_name&quot;
+        android:theme=&quot;@style/MyMaterialTheme&quot; &gt;
+        &lt;activity
+            android:name=&quot;.activity.MainActivity&quot;
+            android:label=&quot;@string/app_name&quot; &gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;
+
+                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+    &lt;/application&gt;
+&lt;/manifest&gt;
+</pre><p> Run the app and verify the material theme by observing the notification bar color. If you see the notification bar color changed, it means that the material design theme is applied successfully.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design.png" alt="android-material-design" width="720" height="325" class="alignnone size-full wp-image-38664" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design.png" alt="android-material-design" width="720" height="325" class="alignnone size-full wp-image-38664" /></noscript></div><p>Now we have our app material ready. So let&#8217;s start adding the tabs. But before that we&#8217;ll create few fragment activities for testing purpose. All these fragment activities contains very simple UI with only one TextView.</p><p><strong>8</strong>. Under your main package create a fragment named <strong>OneFragment.java</strong> and add the below code.</p><pre class="brush: java; title: OneFragment.java; notranslate" title="OneFragment.java">
+package info.androidhive.materialtabs.fragments;
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import info.androidhive.materialtabs.R;
+
+
+public class OneFragment extends Fragment{
+
+    public OneFragment() {
+        // Required empty public constructor
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_one, container, false);
+    }
+
+}
+</pre><p> <strong>9</strong>. Open <strong>fragment_one.xml</strong> located under <strong>res â layout</strong> and do the below changes.</p><pre class="brush: xml; title: fragment_one.xml; notranslate" title="fragment_one.xml">
+&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;
+    tools:context=&quot;info.androidhive.materialtabs.fragments.OneFragment&quot;&gt;
+
+    &lt;TextView
+        android:layout_width=&quot;wrap_content&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:text=&quot;@string/one&quot;
+        android:textSize=&quot;40dp&quot;
+        android:textStyle=&quot;bold&quot;
+        android:layout_centerInParent=&quot;true&quot;/&gt;
+
+&lt;/RelativeLayout&gt;
+</pre><p></p><p><strong>10</strong>. Likewise create few more fragment activities with same code we used for OneFragment.java. I have created <strong>TwoFragment.java</strong>, <strong>ThreeFragment.java</strong>, <strong>FourFragemnt.java</strong> <strong>&#8230;..</strong> upto <strong>TenFragment.java</strong></p><p></p><h2>2. Fixed Tabs</h2><p>Fixed tabs should be used when you have limited number of tabs. These tabs are fixed in position. In android design support library lot of new elements like CoordinatorLayout, AppBarLayout, TabLayout and lot more were introduced. I won&#8217;t cover all of these as it&#8217;s not the agenda of this article.</p><p><strong>11</strong>. Open the layout file of main activity (<strong>activity_main.xml</strong>) and add below layout code.</p><p><em>app:tabMode</em> &#8211; Defines the mode of the tab layout. In our case the value should be &#8220;<strong>fixed</strong>&#8221;</p><pre class="brush: xml; title: activity_main.xml; notranslate" title="activity_main.xml">
+&lt;android.support.design.widget.CoordinatorLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;&gt;
+
+    &lt;android.support.design.widget.AppBarLayout
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:theme=&quot;@style/ThemeOverlay.AppCompat.Dark.ActionBar&quot;&gt;
+
+        &lt;android.support.v7.widget.Toolbar
+            android:id=&quot;@+id/toolbar&quot;
+            android:layout_width=&quot;match_parent&quot;
+            android:layout_height=&quot;?attr/actionBarSize&quot;
+            android:background=&quot;?attr/colorPrimary&quot;
+            app:layout_scrollFlags=&quot;scroll|enterAlways&quot;
+            app:popupTheme=&quot;@style/ThemeOverlay.AppCompat.Light&quot; /&gt;
+
+        &lt;android.support.design.widget.TabLayout
+            android:id=&quot;@+id/tabs&quot;
+            android:layout_width=&quot;match_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            app:tabMode=&quot;fixed&quot;
+            app:tabGravity=&quot;fill&quot;/&gt;
+    &lt;/android.support.design.widget.AppBarLayout&gt;
+
+    &lt;android.support.v4.view.ViewPager
+        android:id=&quot;@+id/viewpager&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;match_parent&quot;
+        app:layout_behavior=&quot;@string/appbar_scrolling_view_behavior&quot;  /&gt;
+&lt;/android.support.design.widget.CoordinatorLayout&gt;
+</pre><p></p><p><strong>12</strong>. Open <strong>MainActivity.java</strong> and do the below changes.</p><p><em>tabLayout.setupWithViewPager()</em> &#8211; Assigns the ViewPager to TabLayout.</p><p><em>setupViewPager()</em> &#8211; Defines the number of tabs by setting appropriate fragment and tab name.</p><p><em>ViewPagerAdapter</em> &#8211; Custom adapter class provides fragments required for the view pager.</p><pre class="brush: java; title: MainActivity.java; notranslate" title="MainActivity.java">
+package info.androidhive.materialtabs.activity;
+
+import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import info.androidhive.materialtabs.R;
+import info.androidhive.materialtabs.fragments.OneFragment;
+import info.androidhive.materialtabs.fragments.ThreeFragment;
+import info.androidhive.materialtabs.fragments.TwoFragment;
+
+public class MainActivity extends AppCompatActivity {
+
+    private Toolbar toolbar;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        setupViewPager(viewPager);
+
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+    }
+
+    private void setupViewPager(ViewPager viewPager) {
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFragment(new OneFragment(), &quot;ONE&quot;);
+        adapter.addFragment(new TwoFragment(), &quot;TWO&quot;);
+        adapter.addFragment(new ThreeFragment(), &quot;THREE&quot;);
+        viewPager.setAdapter(adapter);
+    }
+
+    class ViewPagerAdapter extends FragmentPagerAdapter {
+        private final List&lt;Fragment&gt; mFragmentList = new ArrayList&lt;&gt;();
+        private final List&lt;String&gt; mFragmentTitleList = new ArrayList&lt;&gt;();
+
+        public ViewPagerAdapter(FragmentManager manager) {
+            super(manager);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return mFragmentList.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return mFragmentList.size();
+        }
+
+        public void addFragment(Fragment fragment, String title) {
+            mFragmentList.add(fragment);
+            mFragmentTitleList.add(title);
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mFragmentTitleList.get(position);
+        }
+    }
+}
+</pre><p></p><p>Now run the app. You should able to see the tabs displayed with swipe functionality between the tabs.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout.png" alt="android-material-design-tab-layout" width="720" height="480" class="alignnone size-full wp-image-38663" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-material-design-tab-layout.png" alt="android-material-design-tab-layout" width="720" height="480" class="alignnone size-full wp-image-38663" /></noscript></div><p></p><h3>2.1 Full Width Tabs</h3><p>If you want the tabs to be occupied the fullwidth of the screen, you need to assign <em>app:tabGravity=&#8221;fill&#8221;</em> to our TabLayout.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-landscape-view.png" alt="android-tab-layout-landscape-view" width="720" height="480" class="alignnone size-full wp-image-38671" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-landscape-view.png" alt="android-tab-layout-landscape-view" width="720" height="480" class="alignnone size-full wp-image-38671" /></noscript></div><p></p><h3>2.2 Center Aligned Tabs</h3><p>If you want to keep your tabs horizontally centered, assign <em>app:tabGravity=&#8221;center&#8221;</em> to TabLayout.</p><div style="float:none;margin:10px 0 10px 0;text-align:center;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:300px;height:250px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="2887095024"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-gravity-center.png" alt="android-tab-layout-gravity-center" width="720" height="480" class="alignnone size-full wp-image-38667" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-gravity-center.png" alt="android-tab-layout-gravity-center" width="720" height="480" class="alignnone size-full wp-image-38667" /></noscript></div><p></p><h2>3. Scrollable Tabs</h2><p>The scrollable tabs should be used when you have many number of tabs where there is insufficient space on the screen to fit all of them. To make the tabs scrollable, set <em>app:tabMode=&#8221;scrollable&#8221;</em> to TabLayout.</p><p><strong>13</strong>. Open <strong>activity_main.xml</strong> and change the <em>app:tabMode</em> to <strong>scrollable</strong>.</p><pre class="brush: xml; title: ; notranslate" title="">
+&lt;android.support.design.widget.TabLayout
+            android:id=&quot;@+id/tabs&quot;
+            android:layout_width=&quot;match_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            app:tabMode=&quot;scrollable&quot;/&gt;
+</pre><p></p><p><strong>14</strong>. Edit <strong>MainActivity.java</strong> and add few fragments to ViewPager in <strong>setupViewPager()</strong> method. I have added total of 10 fragments to ViewPager. After the changes, your main activity should look like below.</p><pre class="brush: java; title: MainActivity.java; notranslate" title="MainActivity.java">
+package info.androidhive.materialtabs.activity;
+
+import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity {
+
+    private Toolbar toolbar;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        setupViewPager(viewPager);
+
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+    }
+
+    private void setupViewPager(ViewPager viewPager) {
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFrag(new OneFragment(), &quot;ONE&quot;);
+        adapter.addFrag(new TwoFragment(), &quot;TWO&quot;);
+        adapter.addFrag(new ThreeFragment(), &quot;THREE&quot;);
+        adapter.addFrag(new FourFragment(), &quot;FOUR&quot;);
+        adapter.addFrag(new FiveFragment(), &quot;FIVE&quot;);
+        adapter.addFrag(new SixFragment(), &quot;SIX&quot;);
+        adapter.addFrag(new SevenFragment(), &quot;SEVEN&quot;);
+        adapter.addFrag(new EightFragment(), &quot;EIGHT&quot;);
+        adapter.addFrag(new NineFragment(), &quot;NINE&quot;);
+        adapter.addFrag(new TenFragment(), &quot;TEN&quot;);
+        viewPager.setAdapter(adapter);
+    }
+
+    class ViewPagerAdapter extends FragmentPagerAdapter {
+        private final List&lt;Fragment&gt; mFragmentList = new ArrayList&lt;&gt;();
+        private final List&lt;String&gt; mFragmentTitleList = new ArrayList&lt;&gt;();
+
+        public ViewPagerAdapter(FragmentManager manager) {
+            super(manager);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return mFragmentList.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return mFragmentList.size();
+        }
+
+        public void addFrag(Fragment fragment, String title) {
+            mFragmentList.add(fragment);
+            mFragmentTitleList.add(title);
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mFragmentTitleList.get(position);
+        }
+    }
+}
+</pre><p> Now if you run the app, you can see the more number of tabs with scrollable functionality.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-scrollable-tab-layout.png" alt="android-scrollable-tab-layout" width="720" height="480" class="alignnone size-full wp-image-38666" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-scrollable-tab-layout.png" alt="android-scrollable-tab-layout" width="720" height="480" class="alignnone size-full wp-image-38666" /></noscript></div><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-scrollable-tab-layout-horizontal.png" alt="android-scrollable-tab-layout-horizontal" width="720" height="480" class="alignnone size-full wp-image-38665" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-scrollable-tab-layout-horizontal.png" alt="android-scrollable-tab-layout-horizontal" width="720" height="480" class="alignnone size-full wp-image-38665" /></noscript></div><p></p><h2>4. Tabs with Icon &#038; Text</h2><p>Sometimes you might wanted to add an icon to Tab. Earlier adding an icon to tab is tedious process. But with the design support library it is very easy. All you have to do is call <em>setIcon()</em> method by passing appropriate icon. The icon will be placed in front of tab label.</p><pre class="brush: java; title: ; notranslate" title="">
+tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+</pre><p><strong>15</strong>. Open your <strong>MainActivity.java</strong> and modify the code as below. Here I have added a new method called <strong>setupTabIcons()</strong> in which I have set all the tab icons.</p><pre class="brush: java; title: MainActivity.java; notranslate" title="MainActivity.java">
+
+
+import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity {
+
+    private Toolbar toolbar;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+    private int[] tabIcons = {
+            R.drawable.ic_tab_favourite,
+            R.drawable.ic_tab_call,
+            R.drawable.ic_tab_contacts
+    };
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        setupViewPager(viewPager);
+
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+        setupTabIcons();
+    }
+
+    private void setupTabIcons() {
+        tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+        tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+    }
+
+    private void setupViewPager(ViewPager viewPager) {
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFrag(new OneFragment(), &quot;ONE&quot;);
+        adapter.addFrag(new TwoFragment(), &quot;TWO&quot;);
+        adapter.addFrag(new ThreeFragment(), &quot;THREE&quot;);
+        viewPager.setAdapter(adapter);
+    }
+
+    class ViewPagerAdapter extends FragmentPagerAdapter {
+        private final List&lt;Fragment&gt; mFragmentList = new ArrayList&lt;&gt;();
+        private final List&lt;String&gt; mFragmentTitleList = new ArrayList&lt;&gt;();
+
+        public ViewPagerAdapter(FragmentManager manager) {
+            super(manager);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return mFragmentList.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return mFragmentList.size();
+        }
+
+        public void addFrag(Fragment fragment, String title) {
+            mFragmentList.add(fragment);
+            mFragmentTitleList.add(title);
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mFragmentTitleList.get(position);
+        }
+    }
+}
+</pre><p></p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-with-icon-and-text.png" alt="android-tab-layout-with-icon-and-text" width="720" height="480" class="alignnone size-full wp-image-38669" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-with-icon-and-text.png" alt="android-tab-layout-with-icon-and-text" width="720" height="480" class="alignnone size-full wp-image-38669" /></noscript></div><p></p><h2>5. Tabs with only Icons</h2><p>Setting only icon to tab is same as setting text and icon except the method <em>getPageTitle()</em> in ViewPagerAdapter class returns <strong>null</strong> instead of tab label.</p><p><strong>16</strong>. Open <strong>MainActivity.java</strong> and modify the <strong>getPageTitle()</strong> method as below and run the project.</p><pre class="brush: java; title: ; notranslate" title="">
+        @Override
+        public CharSequence getPageTitle(int position) {
+
+            // return null to display only the icon
+            return null;
+        }
+</pre><p></p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-with-only-icons.png" alt="android-tab-layout-with-only-icons" width="720" height="480" class="alignnone size-full wp-image-38670" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-with-only-icons.png" alt="android-tab-layout-with-only-icons" width="720" height="480" class="alignnone size-full wp-image-38670" /></noscript></div><p></p><h2>6. Custom Tab View with Icon &#038; Text</h2><p>Setting a custom view to the tab is very useful when you are not able to achieve desired output by following the methods provided by tab layout. While setting a custom view to tab, make sure that you follow the <a rel="nofollow" href="https://www.google.co.in/design/spec/components/tabs.html#tabs-specs" target="_blank" class="link">specs</a> suggested by android for tabs.</p><p>When we set the tab an icon and text, you can see the icon is horizontally aligned with tab text. But if you want to place the icon above the tab label, you have to use a custom view to achive it.</p><p><strong>17</strong>. Under <strong>res â values</strong>, create an xml file named <strong>fonts.xml</strong> and add below string value. This xml file defines the font family for the tab label.</p><pre class="brush: xml; title: fonts.xml; notranslate" title="fonts.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;resources&gt;
+    &lt;string name=&quot;font_fontFamily_medium&quot;&gt;sans-serif&lt;/string&gt;
+&lt;/resources&gt;
+</pre><p><strong>18</strong>. Under <strong>res â values-v21</strong>, create another xml named <strong>fonts.xml</strong>.</p><pre class="brush: xml; title: fonts.xml; notranslate" title="fonts.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;resources&gt;
+    &lt;string name=&quot;font_fontFamily_medium&quot;&gt;sans-serif-medium&lt;/string&gt;
+&lt;/resources&gt;
+</pre><p> <strong>19</strong>. Open <strong>activity_main.xml</strong> and set the custom height to TabLayout. Setting this height is important as placing icon above the tab label takes more space than normal.</p><pre class="brush: xml; title: ; notranslate" title="">
+ &lt;android.support.design.widget.TabLayout
+            android:id=&quot;@+id/tabs&quot;
+            android:layout_width=&quot;match_parent&quot;
+            android:layout_height=&quot;@dimen/custom_tab_layout_height&quot;
+            app:tabMode=&quot;fixed&quot;
+            app:tabGravity=&quot;fill&quot;/&gt;
+</pre><p></p><p><strong>20</strong>. Create an xml layout named <strong>custom_tab.xml</strong> under <strong>res â layout</strong>. In this layout we have defined the custom view for the tab.</p><pre class="brush: xml; title: custom_tab.xml; notranslate" title="custom_tab.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;TextView xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:id=&quot;@+id/tab&quot;
+    android:textColor=&quot;@color/colorAccent&quot;
+    android:textSize=&quot;@dimen/tab_label&quot;
+    android:fontFamily=&quot;@string/font_fontFamily_medium&quot;/&gt;
+</pre><p></p><p><strong>21</strong>. Open <strong>MainActivity.java</strong> and modify the code as below. Here if you observe <em>setupTabIcons()</em> method, I have rendered <strong>custom_tab.xml</strong> layout in each tab using below lines of code.</p><pre class="brush: java; title: ; notranslate" title="">
+        TextView tabOne = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+        tabOne.setText(&quot;ONE&quot;);
+        tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_tab_favourite, 0, 0);
+        tabLayout.getTabAt(0).setCustomView(tabOne);
+</pre><pre class="brush: java; title: MainActivity.java; notranslate" title="MainActivity.java">
+
+import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import info.androidhive.materialtabs.R;
+import info.androidhive.materialtabs.fragments.OneFragment;
+import info.androidhive.materialtabs.fragments.ThreeFragment;
+import info.androidhive.materialtabs.fragments.TwoFragment;
+
+public class MainActivity extends AppCompatActivity {
+
+    private Toolbar toolbar;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+    private int[] tabIcons = {
+            R.drawable.ic_tab_favourite,
+            R.drawable.ic_tab_call,
+            R.drawable.ic_tab_contacts
+    };
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        setupViewPager(viewPager);
+
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+        setupTabIcons();
+    }
+
+    private void setupTabIcons() {
+
+        TextView tabOne = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+        tabOne.setText(&quot;ONE&quot;);
+        tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_tab_favourite, 0, 0);
+        tabLayout.getTabAt(0).setCustomView(tabOne);
+
+        TextView tabTwo = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+        tabTwo.setText(&quot;TWO&quot;);
+        tabTwo.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_tab_call, 0, 0);
+        tabLayout.getTabAt(1).setCustomView(tabTwo);
+
+        TextView tabThree = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+        tabThree.setText(&quot;THREE&quot;);
+        tabThree.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_tab_contacts, 0, 0);
+        tabLayout.getTabAt(2).setCustomView(tabThree);
+    }
+
+    private void setupViewPager(ViewPager viewPager) {
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFrag(new OneFragment(), &quot;ONE&quot;);
+        adapter.addFrag(new TwoFragment(), &quot;TWO&quot;);
+        adapter.addFrag(new ThreeFragment(), &quot;THREE&quot;);
+        viewPager.setAdapter(adapter);
+    }
+
+    class ViewPagerAdapter extends FragmentPagerAdapter {
+        private final List&lt;Fragment&gt; mFragmentList = new ArrayList&lt;&gt;();
+        private final List&lt;String&gt; mFragmentTitleList = new ArrayList&lt;&gt;();
+
+        public ViewPagerAdapter(FragmentManager manager) {
+            super(manager);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return mFragmentList.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return mFragmentList.size();
+        }
+
+        public void addFrag(Fragment fragment, String title) {
+            mFragmentList.add(fragment);
+            mFragmentTitleList.add(title);
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mFragmentTitleList.get(position);
+        }
+    }
+}
+
+</pre><p> Now if you run the app, you can see the icon placed above the tab label.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-with-custom-view-icon-and-text.png" alt="android-tab-layout-with-custom-view-icon-and-text" width="720" height="480" class="alignnone size-full wp-image-38668" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2015/09/android-tab-layout-with-custom-view-icon-and-text.png" alt="android-tab-layout-with-custom-view-icon-and-text" width="720" height="480" class="alignnone size-full wp-image-38668" /></noscript></div><p>I hope this article provided useful information about the tab layout using design support library. If you have any queries please do comment below.</p><div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid red;"></span> <script type="text/javascript">jQuery(document).ready(function($) {
+    $.post('http://www.androidhive.info/wp-admin/admin-ajax.php', {action: 'mts_view_count', id: '38618'});
+});</script> </div></div></div><div class="postauthor"><h4>About The Author</h4> <img alt='' src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /><noscript><img alt='' src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /></noscript><h5 class="vcard"><a href="http://www.androidhive.info/author/admin/" rel="nofollow" class="fn">Ravi Tamada</a></h5><p>Ravi is hardcore Android programmer and Android programming has been his passion since he compiled his first hello-world program. Solving real problems of Android developers through tutorials has always been interesting part for him.</p></div><div class="related-posts"><h4>Related Posts</h4><div class="clear"> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2013/11/android-working-with-action-bar/" title="Android Working with Action Bar" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2013/11/android-action-bar-banner-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android action bar tutorial" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2013/11/android-action-bar-banner-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android action bar tutorial" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2013/11/android-working-with-action-bar/" title="Android Working with Action Bar">Android Working with Action Bar</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2012/02/android-gridview-layout-tutorial/" title="Android GridView Layout Tutorial" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_gridview-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android grid view" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_gridview-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android grid view" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2012/02/android-gridview-layout-tutorial/" title="Android GridView Layout Tutorial">Android GridView Layout Tutorial</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  last"> <a href="http://www.androidhive.info/2013/10/android-tab-layout-with-swipeable-views-1/" title="Android Tab Layout with Swipeable Views" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2013/10/tabs-with-swipe-views-banner-270x165.png" class="attachment-featured size-featured wp-post-image" alt="Android Tab Layout with Swipeable Views" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2013/10/tabs-with-swipe-views-banner-270x165.png" class="attachment-featured size-featured wp-post-image" alt="Android Tab Layout with Swipeable Views" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2013/10/android-tab-layout-with-swipeable-views-1/" title="Android Tab Layout with Swipeable Views">Android Tab Layout with Swipeable Views</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2012/05/android-combining-tab-layout-and-list-view/" title="Android Combining Tab Layout and List View" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_tablayout_listview-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android combining tab layout and list view" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_tablayout_listview-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android combining tab layout and list view" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2012/05/android-combining-tab-layout-and-list-view/" title="Android Combining Tab Layout and List View">Android Combining Tab Layout and List View</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article></div></div></div><div id="disqus_thread" data-disqus-shortname="androidhive"></div></div> </article> <aside id="sidebar" class="sidebar c-4-12 " role="complementary" itemscope itemtype="http://schema.org/WPSideBar"><div id="search-2" class="widget widget_search"><h3 class="widget-title">SEARCH HERE</h3><form method="get" id="searchform" class="search-form" action="http://www.androidhive.info" _lpchecked="1"><fieldset> <input type="text" name="s" id="s" value="" placeholder="Search the site"  /> <button id="search-image" class="sbutton" type="submit" value=""> <i class="fa fa-search"></i> </button></fieldset></form></div><div id="text-9" class="widget widget_text"><div class="textwidget"><a href="http://www.androidhive.info/reviews"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://api.androidhive.info/tmp/reviews_banner.jpg"/><noscript><img src="http://api.androidhive.info/tmp/reviews_banner.jpg"/></noscript></a></div></div><div id="text-6" class="widget widget_text"><h3 class="widget-title">WEâRE SOCIAL</h3><div class="textwidget"><div class="fb-page"
+data-href="https://www.facebook.com/AndroidHive/"
+data-width="340"
+data-hide-cover="false"
+data-show-facepile="true"></div></div></div><div id="text-8" class="widget widget_text"><div class="textwidget"><div class="tve-leads-shortcode tve-tl-anim tl-anim-instant tve-leads-track-shortcode_39260"><div class="tl-style" id="tve_36_set" data-state="6"><div class="tve-leads-conversion-object" data-tl-type="shortcode_39260"><div class="tve_flt"><div class="thrv-leads-form-box tve_no_drag tve_no_icons tve_element_hover thrv_wrapper tve_editor_main_content tve_36_set tve_brdr_solid tve_blue"><h2 class="tve_p_center" style="font-size: 17px;">Subscribe to Newsletter</h2><p class="tve_p_center" style="font-size: 14px;">Join our 746,498 subscribers and get access to the latest android tutorials, freebies, scripts and much more!</p><div class="thrv_wrapper thrv_lead_generation tve_clearfix tve_red tve_11 thrv_lead_generation_vertical" data-tve-style="1" data-tve-version="1" data-inputs-count="11" data-connection="api"><input type="hidden" class="tve-lg-err-msg" value="{&quot;email&quot;:&quot;Please enter a valid email address&quot;,&quot;phone&quot;:&quot;Please enter a valid phone number&quot;,&quot;required&quot;:&quot;Highlighted fields are required&quot;}"><div class="thrv_lead_generation_code" style="display: none;"></div><div class="thrv_lead_generation_container tve_clearfix"><form action="#" method="post"><input type="hidden" class="tve-f-a-hidden" value="#"><div class="tve_lead_generated_inputs_container tve_clearfix"><div class="tve_lead_fields_overlay"></div><div class="tve_lg_input_container tve_lg_input tve_lg_2"><input type="email" data-field="email" data-required="1" data-validation="email" name="email" placeholder="Email" data-placeholder="Email" style="padding-right: 20px;"></div><input id="__tcb_lg_fc" type="hidden" name="__tcb_lg_fc" value="YToxOntzOjU6InNlbmR5IjtzOjI0OiJTcHMzNzYzaEwweTVrbnZHS2xIVjB4QnciO30="><input id="_asset_group" type="hidden" name="_asset_group" value=""><input id="_asset_option" type="hidden" name="_asset_option" value=""><input id="_back_url" type="hidden" name="_back_url" value="http://www.androidhive.info/subscription-successful/"><input id="_submit_option" type="hidden" name="_submit_option" value="redirect"><input id="_use_captcha" type="hidden" name="_use_captcha" value=""><input id="_captcha_theme" type="hidden" name="_captcha_theme" value="light"><input id="_captcha_type" type="hidden" name="_captcha_type" value="image"><input id="_captcha_size" type="hidden" name="_captcha_size" value="normal"><div style="display: none"></div><div class="tve_lg_input_container tve_submit_container tve_lg_submit tve_lg_2" tve-data-style="1"><button type="Submit">Sign Up</button></div></div></form></div></div><p class="tve_p_center" style="font-size: 14px;">We strictly care about your privacy!</p></div></div></div></div></div></div></div><div id="views-2" class="widget widget_views"><h3 class="widget-title">POPULAR ANDROID TUTORIALS</h3><ul><li class="postviews"><a href="http://www.androidhive.info/2011/11/android-sqlite-database-tutorial/"  title="Android SQLite Database Tutorial">Android SQLite Database Tutorial - 1,451,465 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/"  title="How to connect Android with PHP, MySQL">How to connect Android with PHP, MySQL - 1,434,222 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-json-parsing-tutorial/"  title="Android JSON Parsing Tutorial">Android JSON Parsing Tutorial - 1,283,624 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/"  title="Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL">Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL - 1,215,919 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/"  title="Android Sliding Menu using Navigation Drawer">Android Sliding Menu using Navigation Drawer - 1,121,005 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/02/android-custom-listview-with-image-and-text/"  title="Android Custom ListView with Image and Text">Android Custom ListView with Image and Text - 988,385 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/"  title="Android Login and Registration with PHP, MySQL and SQLite">Android Login and Registration with PHP, MySQL and SQLite - 986,909 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/07/android-gps-location-manager-tutorial/"  title="Android GPS, Location Manager Tutorial">Android GPS, Location Manager Tutorial - 754,119 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/10/android-tab-layout-with-swipeable-views-1/"  title="Android Tab Layout with Swipeable Views">Android Tab Layout with Swipeable Views - 702,932 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/08/android-working-with-google-maps-v2/"  title="Android working with Google Maps V2">Android working with Google Maps V2 - 623,735 views</a></li></ul></div></aside></div> <footer id="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter"><div class="container"><div class="footer-widgets first-footer-widgets widgets-num-3"><div class="f-widget f-widget-1"><div id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">QUICK CONTACT</h3><div class="menu-quick-contact-container"><ul id="menu-quick-contact" class="menu"><li id="menu-item-39273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39273"><a href="http://www.androidhive.info/advertise-with-us/">Advertise with us</a></li><li id="menu-item-39244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39244"><a href="http://www.androidhive.info/privacy-policy/">Privacy Policy</a></li><li id="menu-item-39245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39245"><a href="http://www.androidhive.info/terms-of-service/">Terms of Service</a></li><li id="menu-item-39266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39266"><a href="http://www.androidhive.info/sitemap/">Sitemap</a></li></ul></div></div></div><div class="f-widget f-widget-2"></div><div class="f-widget last f-widget-3"><div id="text-7" class="widget widget_text"><h3 class="widget-title">ABOUT ANDROIDHIVE</h3><div class="textwidget">AndroidHive is beginner's paradise for android tutorials, tips & tricks, games, app reviews, hacks and super cool advanced topics.</div></div></div></div><div class="copyrights"><div class="row" id="copyright-note"> <span>Copyright &copy; 2016 Droid5 Informatics Pvt Ltd.</span><div class="to-top"></div></div></div></div> </footer></div><div id="fb-root"></div> <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> <script id="dsq-count-scr" src="//androidhive.disqus.com/count.js" async></script> <script>/**************************************************************/
+/*AM22 Named Function to load Disqus - START*/
+jQuery(document).ready(function(){
+var disqus_identifier = window.location.url; //Use current page URL as Disqus_URL_Identifier. You can change it as per your requirement.
+var ds_loaded = false; //To track loading only once on a page.
+function loadDisqus()
+{
+    var disqus_div = jQuery("#disqus_thread"); //The ID of the Disqus DIV tag
+    var top = disqus_div.offset().top;
+    var disqus_data = disqus_div.data();
+    if ( !ds_loaded && jQuery(window).scrollTop() + jQuery(window).height() > top ) 
+    {
+        ds_loaded = true;
+        for (var key in disqus_data) 
+        {
+            if (key.substr(0,6) == 'disqus') 
+            {
+                window['disqus_' + key.replace('disqus','').toLowerCase()] = disqus_data[key];
+            }
+        }
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }  
+}
+/*AM22 Named Function to load Disqus - END*/
+/*AM22 Disqus lazy load - START*/
+jQuery(function () 
+{
+    var disqus_div = jQuery("#disqus_thread");
+    if (disqus_div.size() > 0) 
+    {
+        jQuery(window).scroll(loadDisqus);      
+    }  
+}
+);
+/*AM22 Disqus lazy load - END*/
+});</script><div id="tve_notification_box"></div><script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushSql.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJava.js?ver=3.0.9b'></script> <script type='text/javascript'>(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();</script> <link rel='stylesheet' id='tve-leads-font-9062833c9baa57b288ba47a7993dc1c0-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600%2C700' type='text/css' media='all' /> <script type='text/javascript'>/*  */
+var viewsCacheL10n = {"admin_ajax_url":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","post_id":"38618"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/wp-postviews/postviews-cache.js?ver=1.68'></script> <script type='text/javascript'>/*  */
+var tve_dash_front = {"ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/thrive-dashboard/js/dist/frontend.min.js?ver=1.0.10'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/wp-embed.min.js'></script> <script type='text/javascript'>/*  */
+var tve_frontend_options = {"is_editor_page":"","page_events":[],"is_single":"1","ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","social_fb_app_id":""};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/thrive_content_builder_frontend.min.js?ver=1.200.5'></script> <script type='text/javascript' src='//www.androidhive.info/wp-content/plugins/thrive-leads/js/frontend.min.js?ver=1.75'></script> <script type="text/javascript">/**/var TL_Const={"security":"62e7a1ef75","ajax_url":"\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","forms":{"shortcode_39260":{"_key":"6","trigger":"page_load","trigger_config":{},"form_type_id":"39260","main_group_id":"39260","active_test_id":""}},"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":0,"shortcode_ids":["39260"],"custom_post_data":{"get_data":{"q":"\/2015\/09\/android-material-design-working-with-tabs\/"},"http_referrer":"https:\/\/www.google.com.tr\/"},"current_screen":{"screen_type":4,"screen_id":38618},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]}/* */</script><script type="text/javascript">var TL_Front = TL_Front || {}; TL_Front.impressions_data = TL_Front.impressions_data || {};TL_Front.impressions_data.shortcode_39260 = {"group_id":"39260","form_type_id":"39260","variation_key":"6","active_test_id":null,"output_js":true};</script><script type="text/javascript">(function ($) {
+	$(function () {
+		var event_data = {"form_id":"tve-leads-track-shortcode_39260","form_type":"shortcode"};
+		event_data.source = 'page_load';
+		setTimeout(function () {
+			ThriveGlobal.$j(TL_Front).trigger('showform.thriveleads', event_data);
+			}, 200);
+		});
+	})
+(ThriveGlobal.$j);</script></body></html>
+<!-- This website is like a Rocket, isn't it ? Performance optimized by WP Rocket. Learn more: http://wp-rocket.me - Debug: cached@1470854454 -->

@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr"
+      
+  xmlns:schema="http://schema.org/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"      class="no-js">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="sailthru.date" content="2016-01-26T21:57:19-05:00" />
+<meta name="sailthru.description" content="Ranging from bacon and egg to spicy Sriracha, these delicious recipes outdo any packaged variety—and are almost as easy to make." />
+<meta name="sailthru.image.full" content="http://greatist.com/sites/default/files/SlowCooker-Pork-Ramen_0.jpg" />
+<meta name="sailthru.tags" content="Eat,Tofu Recipes,Recipe Roundup,Healthy Recipes,Pasta,Soups and Stews" />
+<link rel="shortcut icon" href="http://greatist.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="sailthru.author" content="Tara Fuller" />
+<meta name="sailthru.title" content="17 DIY Ramen Recipes That&#039;ll Make You Forget About Instant Noodles" />
+<link href="http://greatist.com/eat/healthier-ramen-recipes" rel="canonical" />
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type":"WebPage",
+    "@id":"http://greatist.com/eat/healthier-ramen-recipes"
+  },
+  "headline": "17 DIY Ramen Recipes That'll Make You Forget About Instant Noodles",
+  
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://greatist.com/sites/default/files/SlowCooker-Pork-Ramen_0.jpg",
+    "height": 752,
+    "width": 1128
+  },
+  "datePublished": "2016-01-26T21:57:19-05:00",
+  "dateModified": "2016-04-05T16:07:40-04:00",
+  "description": "Ranging from bacon and egg to spicy Sriracha, these delicious recipes outdo any packaged variety—and are almost as easy to make.",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Eat",
+      "sameAs": "http://greatist.com/eat"
+    },
+    {
+      "@type": "Thing",
+      "name": "Tofu Recipes",
+      "sameAs": "http://greatist.com/tofu-recipes"
+    },
+    {
+      "@type": "Thing",
+      "name": "Healthy Recipes",
+      "sameAs": "http://greatist.com/healthy-recipes"
+    },
+    {
+      "@type": "Thing",
+      "name": "Pasta",
+      "sameAs": "http://greatist.com/pasta"
+    },
+    {
+      "@type": "Thing",
+      "name": "Soups and Stews",
+      "sameAs": "http://greatist.com/soups-and-stews"
+    }],
+  "articleBody": "&lt;p class=&quot;p1&quot;&gt;If thinking about ramen summons images of styrofoam cups and seasoning packets with enough salt to make you dry up like a prune, you haven&rsquo;t &lt;em&gt;lived&lt;/em&gt;&mdash;when it comes to &lt;a href=&quot;http://greatist.com/eat/recipes/hearty-chicken-and-vegetable-soup&quot;&gt;noodle soup&lt;/a&gt; consumption, anyway.&lt;/p&gt;  &lt;span data-nid=&quot;6910&quot;       class=&quot;article-suggestion article-suggestion-embed&quot;       ng-controller=&quot;articleSuggestionCtrl&quot;       data-track-name=&quot;article-suggestion-embed&quot;       ng-cloak&gt;   &lt;span class=&quot;top-label&quot;&gt;     &lt;img class=&quot;icon&quot; src=&quot;/sites/all/themes/greatist2x/images/design/HeartIcon.png&quot;&gt;     &lt;span&gt;You might also like&lt;/span&gt;   &lt;/span&gt;    &lt;a data-nid=&quot;6910&quot; href=&quot;{{linkUrl}}&quot; ng-click=&quot;click($event)&quot;&gt;     &lt;img nopin=&quot;nopin&quot; class=&quot;no-pin article-img&quot; ng-src=&quot;{{imgUrl}}&quot;/&gt;     &lt;div class=&quot;description-wrapper&quot;&gt;       &lt;div class=&quot;description&quot;&gt;         &lt;span class=&quot;article-title&quot;&gt;{{displayTitle}}&lt;/span&gt;         &lt;span class=&quot;more&quot;&gt;           &lt;span class=&quot;read-more&quot;&gt;       &lt;span&gt;READ&lt;/span&gt;     &lt;i class=&quot;fa fa-long-arrow-right&quot;&gt;       &lt;/i&gt;   &lt;/span&gt;         &lt;/span&gt;       &lt;/div&gt;     &lt;/div&gt;   &lt;/a&gt; &lt;/span&gt;  &lt;p class=&quot;p1&quot;&gt;Ranging in flavors from bacon and egg to spicy Sriracha to vegetarian miso, these ramen recipes outdo any packaged variety and are almost as easy to make. Bonus: It&rsquo;s a heck of a lot cheaper to &lt;a href=&quot;http://greatist.com/health/45-healthy-foods-make-and-never-buy-again&quot;&gt;go DIY&lt;/a&gt; than splurge on $10 noodle bowls. It&rsquo;s time to start noodling around.&lt;/p&gt;  &lt;section class=&quot;slideshow list-image-full&quot; ng-controller=&quot;SlideshowListCtrl&quot; ng-init=&quot;init()&quot;&gt;
+            &lt;h3&gt;Chicken&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;https://www.blueapron.com/recipes/winter-chicken-ramen-with-choy-sum-soft-boiled-eggs-miso-dashi-broth&quot;&gt;1. Winter Chicken Ramen&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Test.jpg?itok=cy9de0xs&quot;
+              alt=&quot;Winter Chicken Ramen&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;1. Winter Chicken Ramen&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;https://www.blueapron.com/recipes/winter-chicken-ramen-with-choy-sum-soft-boiled-eggs-miso-dashi-broth&quot;&gt;
+                                Photo: Blue Apron                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;This seasonal recipe is broken down into 6 simple steps, with everything cooking in the broth for maximum flavor. Add in a healthy dose of cabbage, spring onions, and hard-boiled egg, and you've got yourself a protein-packed, feel-good weeknight meal. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.strictlydelicious.com/mason-jar-instant-ramen-zoodles/&quot;&gt;2. Mason Jar &ldquo;Instant&rdquo; Ramen Zoodles&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/zoodle%20ramen.jpg?itok=Kj1u_ku8&quot;
+              alt=&quot;Mason Jar &amp;quot;Instant&amp;quot; Ramen Zoodles&quot;
+              width=&quot;2622&quot;
+              height=&quot;4097&quot;
+                            pin-title=&quot;2. Mason Jar &ldquo;Instant&rdquo; Ramen Zoodles&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://www.strictlydelicious.com/mason-jar-instant-ramen-zoodles/&quot;&gt;
+                                Photo: Strictly Delicious                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Taking a cue from the OG Cup Noodles, these elevate the form to whole new heights. And with fan favorites zoodles, coconut oil, and all of the vegetables, these guys are a make-ahead meal you'll feel better after. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://farmette.ie/2012/12/05/a-farmers-ramen/&quot;&gt;3. A Farmer&amp;#039;s Ramen&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/farmers%20noodle.jpg?itok=HgE7TpGA&quot;
+              alt=&quot;Farmer&amp;#039;s Ramen&quot;
+              width=&quot;748&quot;
+              height=&quot;1024&quot;
+                            pin-title=&quot;3. A Farmer's Ramen&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://farmette.ie/2012/12/05/a-farmers-ramen/&quot;&gt;
+                                Photo: Farmette                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;We're definitely not farmers, yet our love for this farmer's ramen is no less. Loaded up with bitter greens (hello bok choy, hello kale), carrots, ginger, and leeks, this is the perfect dinner to balance out those office days when we're lucky to see a nutrient. There's a recipe for noodles from scratch, and if you're feeling ambitious, obviously go for it&mdash;but no pressure, store-bought is also acceptable.  &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.condospalillos.com/blog/2013/01/10/yakisoba-con-pollo&quot;&gt;4. Chicken Yakisoba&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Chicken-y-final.jpg?itok=RpkaYERN&quot;
+              alt=&quot;Chicken Yakisoba&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;4. Chicken Yakisoba&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://www.condospalillos.com/blog/2013/01/10/yakisoba-con-pollo&quot;&gt;
+                                Photo: Condos Palillos                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Ketchup isn't just for fries. Here the condiment plays surprisingly well with Worcestershire, soy sauce, and sriracha for a sweet, spicy, umami sauce. No shortage of flavor here. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://thedisasterchef.com/survival-thai-peanut-chicken-and-ramen-noodle-soup/&quot;&gt;5. Thai Peanut Chicken and Ramen Noodle Soup&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Thai-Chicken-Ramen-Final.jpg?itok=b3tpWaY-&quot;
+              alt=&quot;Thai Chicken Ramen&quot;
+              width=&quot;752&quot;
+              height=&quot;940&quot;
+                            pin-title=&quot;5. Thai Peanut Chicken and Ramen Noodle Soup&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://thedisasterchef.com/survival-thai-peanut-chicken-and-ramen-noodle-soup/&quot;&gt;
+                                Photo: The Disaster Chef                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p class=&quot;p1&quot;&gt;You no longer have to make the difficult choice between ordering Japanese or Thai food, thanks to this amazing Asian fusion dish. Made with plenty of veggies (like sweet potato, cremini mushrooms, and red peppers) and doused with just the right amount of &lt;a href=&quot;http://greatist.com/health/healthy-alternatives-peanut-butter&quot;&gt;peanut butter&lt;/a&gt;, your taste buds won&rsquo;t know what hit 'em&mdash;but they will know that they like it, a lot.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.threebeansonastring.com/smoky-grilled-chicken-with-zucchini-ramen-noodles/&quot;&gt;6. Smoky Grilled Chicken With Zucchini Ramen Noodles&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Smoky%20chicken%20big.jpg?itok=GYFeX9wL&quot;
+              alt=&quot;Smoky Chicken Ramen&quot;
+              width=&quot;2117&quot;
+              height=&quot;3175&quot;
+                            pin-title=&quot;6. Smoky Grilled Chicken With Zucchini Ramen Noodles&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://www.threebeansonastring.com/smoky-grilled-chicken-with-zucchini-ramen-noodles/&quot;&gt;
+                                Photo: Three Beans on a String                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p class=&quot;p1&quot;&gt;We&rsquo;re in love, we&rsquo;re in love, and we don&rsquo;t care who knows it! (With &lt;a href=&quot;http://greatist.com/eat/healthy-zucchini-noodle-recipes&quot;&gt;zoodles&lt;/a&gt;, that is.) A delicious gluten-free and &lt;a href=&quot;http://greatist.com/health/lower-carb-alternatives&quot;&gt;low-carb alternative&lt;/a&gt; to regular ramen noodles, zucchini helps totally load this recipe with veggies. This one&rsquo;s super easy to make vegetarian too: Simply sub tofu for chicken and use veggie stock in place of the chicken. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.forkknifeswoon.com/food-drink/2014/10/simple-homemade-chicken-ramen/&quot;&gt;7. Miso Ramen With Shiitake and Chicken&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/miso-ramen-3.jpg?itok=6sPudEfT&quot;
+              alt=&quot;Miso Chicken Ramen&quot;
+              width=&quot;653&quot;
+              height=&quot;980&quot;
+                            pin-title=&quot;7. Miso Ramen With Shiitake and Chicken&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://www.forkknifeswoon.com/food-drink/2014/10/simple-homemade-chicken-ramen/&quot;&gt;
+                                Photo: Fork Knife Swoon                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;The optional jalape&ntilde;o slices give this one an unexpected twist, but don&rsquo;t worry, it also has key staples like bok choy, scallions, shiitake mushrooms, and plenty of miso paste. Tip: Experiment with meats like pork and beef or &lt;a href=&quot;http://greatist.com/health/complete-vegetarian-proteins&quot;&gt;vegetarian proteins&lt;/a&gt; like tofu to keep things interesting.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Vegetarian&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.chowhound.com/recipes/miso-ramen-roasted-vegetables-31488&quot;&gt;8. Vegetarian Miso Ramen With Roasted Sweet Potatoes &lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Roasted-Vegge-SP.jpg?itok=ZgbluRAB&quot;
+              alt=&quot;Veggie Ramen with Ramen Sweet Potatos&quot;
+              width=&quot;800&quot;
+              height=&quot;1280&quot;
+                            pin-title=&quot;8. Vegetarian Miso Ramen With Roasted Sweet Potatoes &quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://www.chowhound.com/recipes/miso-ramen-roasted-vegetables-31488&quot;&gt;
+                                Photo: Chow Hound                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Another dish that brings out the best of both (noodle) worlds, this recipe is gluten-free and chock-full of healthy ingredients like shiitake mushrooms, and sweet potato. Bonus: Miso makes an awesome &lt;a href=&quot;http://greatist.com/health/best-foods-hangover&quot;&gt;hangover cure&lt;/a&gt;, so drink away on those painful days.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://divinehealthyfood.com/healthy-homemade-kimchi-ramen/&quot;&gt;9. Healthy Homemade Kimchi Ramen&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Healthy_Homemade_Kimchi_Ramen_Recipe_002.jpg?itok=85GuB27B&quot;
+              alt=&quot;Healthy Homemade Kimichi Ramen&quot;
+              width=&quot;1000&quot;
+              height=&quot;1500&quot;
+                            pin-title=&quot;9. Healthy Homemade Kimchi Ramen&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://divinehealthyfood.com/healthy-homemade-kimchi-ramen/&quot;&gt;
+                                Photo: Divine Healthy Food                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Kimchi tastes great on its own, but tastes even better mixed in a bowl of piping hot noodles. Made with DIY kimchi (we love &lt;a href=&quot;http://greatist.com/tips/make-your-own-kimchi&quot;&gt;this recipe&lt;/a&gt;) or a store-bought variety, this meal is as easy to pull together as blending a &lt;a href=&quot;http://greatist.com/health/healthy-smoothie-recipes&quot;&gt;smoothie&lt;/a&gt;. The toughest part is finding the ingredients, but most Asian speciality stores should have them&mdash;and we promise you&rsquo;ll find plenty of reasons to use them again.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://bakerbynature.com/20-minute-spicy-sriracha-ramen-noodle-soup/&quot;&gt;10. 20-Minute Spicy Sriracha Ramen Noodle Soup&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/siracha.jpg?itok=ClYchgqQ&quot;
+              alt=&quot;20 Min. Spicy Ramen&quot;
+              width=&quot;3168&quot;
+              height=&quot;4752&quot;
+                            pin-title=&quot;10. 20-Minute Spicy Sriracha Ramen Noodle Soup&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://divinehealthyfood.com/healthy-homemade-kimchi-ramen/&quot;&gt;
+                                Photo: Baker by Nature                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;This recipe can be ready in half the time it takes to decide on dinner, order delivery, and wait for its arrival&mdash;ideal for those hangry nights when spending your life savings on delivery feels worthwhile. To bulk up the veggies contents, add ingredients like mushrooms, broccoli, and kale.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://minimalistbaker.com/easy-vegan-ramen/&quot;&gt;11. Easy Vegan Ramen&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/AMAZING-Vegan-Ramen-with-just-10-ingredients-Simple-methods-plant-based-SO-delicious-vegan-recipe-ramen-soup-healthy-dinner.jpg?itok=YaxOlnLo&quot;
+              alt=&quot;Simple Vegan Ramen&quot;
+              width=&quot;1456&quot;
+              height=&quot;2208&quot;
+                            pin-title=&quot;11. Easy Vegan Ramen&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://minimalistbaker.com/easy-vegan-ramen/&quot;&gt;
+                                Photo: Minimalist Baker                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Basic isn't always bad, and this ramen is proof positive. Spinach, carrots, and mushrooms play nice (how could they ever not) in this quickie recipe, while freshly grated ginger and garlic get your sinuses flowing. Just what we look for in a soup, really.  &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://glutenfreeonashoestring.com/gluten-free-instant-noodle-cups/&quot;&gt;12. Gluten-Free Instant Noodle Cups&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/gluten%20free.jpg?itok=dnLD_AsW&quot;
+              alt=&quot;Gluten Free Ramen Cup&quot;
+              width=&quot;1200&quot;
+              height=&quot;1972&quot;
+                            pin-title=&quot;12. Gluten-Free Instant Noodle Cups&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://glutenfreeonashoestring.com/gluten-free-instant-noodle-cups/&quot;&gt;
+                                Photo: Gluten Free on a Shoe String                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Even though instant noodles are often overloaded with sodium and lacking in nutrients, there&rsquo;s something comforting about having a hot meal ready in less than five minutes. This recipe solves the insta-cup woes with DIY seasoning and plenty of healthy additions (baby spinach, carrots, and chicken or tofu). And best of all: You can pre-make these bad boys and store them in &lt;a href=&quot;http://greatist.com/eat/mason-jar-recipes&quot;&gt;heat-safe jars&lt;/a&gt;. Is it just us, or did lunch just get way better?&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.feastingathome.com/mexican-chicken-noodle-soup/&quot;&gt;13. Mexican Chickpea Noodle Soup&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Mexican%20Noodle%20Soup%20Final.jpg?itok=Mh6pj3rN&quot;
+              alt=&quot;Mexican Chickpea Noodle Soup&quot;
+              width=&quot;1100&quot;
+              height=&quot;1650&quot;
+                            pin-title=&quot;13. Mexican Chickpea Noodle Soup&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://www.feastingathome.com/mexican-chicken-noodle-soup/&quot;&gt;
+                                Photo: Feasting at Home                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p class=&quot;p3&quot;&gt;How's this for a twist on chicken noodle soup? Sub chickpeas for the chicken, and ramen for the linguini, and you have a perfect vegetarian-ramen for cold winter nights. We love how the Mexican flavors (Mexican oregano, cilantro, green chilies, lime, and avocado) give this recipe a fun kick. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;14. Beef and Pork &lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://yestoyolks.com/2014/08/27/homemade-ramen-with-bacon-soft-boiled-eggs/&quot;&gt;14. Homemade Ramen With Bacon and Soft-Boiled Eggs&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/bacon-final.jpg?itok=qMsAiHnc&quot;
+              alt=&quot;Homemade Ramen with Bacon and Soft-Boiled Eggs&quot;
+              width=&quot;3365&quot;
+              height=&quot;5047&quot;
+                            pin-title=&quot;14. Homemade Ramen With Bacon and Soft-Boiled Eggs&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://yestoyolks.com/2014/08/27/homemade-ramen-with-bacon-soft-boiled-eggs/&quot;&gt;
+                                Photo: Yes to Yolks                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p class=&quot;p1&quot;&gt;Bacon and eggs shouldn&rsquo;t be limited to &lt;a href=&quot;http://greatist.com/health/healthy-fast-breakfast-recipes&quot;&gt;breakfast&lt;/a&gt;&mdash;though you can definitely replace your go-to morning meal with this recipe! Here, the crispy breakfast favorite tops a hot bowl of miso broth and ramen noodles, which is accompanied by a soft-boiled egg to create the ultimate combo of carbs, protein, and warmth. Tip: For the perfect soft-boiled egg, check out our &lt;a href=&quot;http://greatist.com/eat/perfect-boiled-eggs-tips&quot;&gt;handy egg hacks&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://www.chowhound.com/recipes/slow-cooker-pork-ramen-31178&quot;&gt;15. Slow Cooker Pork Ramen&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/SlowCooker-Pork-Ramen.jpg?itok=tsq8DQZm&quot;
+              alt=&quot;Slow Cooker Pork Ramen&quot;
+              width=&quot;1067&quot;
+              height=&quot;1600&quot;
+                            pin-title=&quot;15. Slow Cooker Pork Ramen&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://www.chowhound.com/recipes/slow-cooker-pork-ramen-31178&quot;&gt;
+                                Photo: Chow Hound                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;If your mouth wasn't watering by this far down on the list: Ready, set, go. This recipe includes easy-to-follow directions (only 30 minutes in the cooker) and it's packed with succulent braised pork, so it's both simple and delicious. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://thewanderlustkitchen.com/crockpot-beef-curry-with-noodles/&quot;&gt;16. Crock-Pot Beef Curry With Ramen Noodles&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Crockpot-Beef-Curry-15.jpg?itok=-xX3lnb2&quot;
+              alt=&quot;Crockpot Beef Curry with Ramen Noodles&quot;
+              width=&quot;800&quot;
+              height=&quot;1200&quot;
+                            pin-title=&quot;16. Crock-Pot Beef Curry With Ramen Noodles&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://thewanderlustkitchen.com/crockpot-beef-curry-with-noodles/&quot;&gt;
+                                Photo: The Wanderlust Kitchen                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;With a prep time of 10 minutes and a pretty short ingredient list, this dish looks way more complicated than it is. Just throw this one the Crock-Pot in the morning, Instagram like you slaved over it, and watch the likes come in.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          &lt;a target=&quot;_blank&quot; href=&quot;http://alialamode.blogspot.com/2014/11/beef-ramen-noodle-soup.html&quot;&gt;17. Beef Ramen Noodle Soup&lt;/a&gt;
+                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Beef-Ramen-Noodle-Soup.jpg?itok=NNj_gB9q&quot;
+              alt=&quot;Beef Ramen Noodle Soup&quot;
+              width=&quot;1071&quot;
+              height=&quot;1600&quot;
+                            pin-title=&quot;17. Beef Ramen Noodle Soup&quot;                          /&gt;
+                          &lt;div class=&quot;field-name-field-file-image-title-text&quot;&gt;
+                                  &lt;a href=&quot;http://alialamode.blogspot.com/2014/11/beef-ramen-noodle-soup.html&quot;&gt;
+                                Photo: Ali a la mode                                  &lt;/a&gt;
+                              &lt;/div&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;This one is packed with veggies (carrots, celery, green onions) and sliced steak. But if you think of it like turning on the stove and waiting, things get less intimidating. Hidden bonus: There's also some Sriracha tucked inside this brothy goodness. &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+  &lt;/section&gt;
+  &lt;p&gt;&lt;em&gt;Originally published February 2015. Updated January 2016.&lt;/em&gt;&lt;/p&gt; ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Greatist",
+    "sameAs": "http://www.greatist.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://greatist.com/sites/all/themes/greatist2x/images/design/greatist_jsonld_logo.png",
+      "height": 60,
+      "width": 206
+    }
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Tara Fuller",
+      "sameAs": "http://greatist.com/p/tara-fuller"
+    }
+  ]
+}</script>
+<meta name="sailthru.image" content="http://greatist.com/sites/default/files/styles/newsletter-feature-652x338/public/SlowCooker-Pork-Ramen_0.jpg?itok=djKozsCu" />
+<link href="http://greatist.com/eat/healthier-ramen-recipes/amp" rel="amphtml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Ranging from bacon and egg to spicy Sriracha, these delicious recipes outdo any packaged variety—and are almost as easy to make." />
+
+<meta property="fb:admins" content="1101180055" />
+<meta property="fb:app_id" content="338405982951793" />
+<meta property="og:site_name" content="Greatist" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="17 DIY Ramen Recipes That&#039;ll Make You Forget About Instant Noodles" />
+<meta property="og:url" content="http://greatist.com/eat/healthier-ramen-recipes" />
+<meta property="og:description" content="Ranging from bacon and egg to spicy Sriracha, these delicious recipes outdo any packaged variety—and are almost as easy to make." />
+<meta property="og:image" content="http://greatist.com/sites/default/files/styles/big_share/public/SlowCooker-Pork-Ramen_0.jpg?itok=kvBKeje7" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@greatist" />
+<meta name="twitter:url" content="http://greatist.com/eat/healthier-ramen-recipes" />
+<meta name="twitter:title" content="17 DIY Ramen Recipes That&#039;ll Make You Forget About Instant Noodles" />
+<meta name="twitter:description" content="Ranging from bacon and egg to spicy Sriracha, these delicious recipes outdo any packaged variety—and are almost as easy to make." />
+<meta name="twitter:image:src" content="http://greatist.com/sites/default/files/styles/article_main/public/SlowCooker-Pork-Ramen_0.jpg?itok=5TlMC9K6" />
+<meta property="article:author" content="https://twitter.com/tarasoph" />
+<meta property="article:publisher" content="https://www.facebook.com/greatist" />
+<meta property="article:section" content="Eat" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="google-site-verification" content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE" />
+  <link href="https://plus.google.com/+Greatist" rel="publisher" />
+  <!-- <link rel="apple-touch-icon" href="/sites/default/files/Mobile-Icon-V3.jpg"/> -->
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-128.png" sizes="128x128" />
+  <meta name="msapplication-TileImage" content="/sites/all/themes/greatist2x/images/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x310.png" />
+  <meta name="google-site-verification"
+        content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE"/>
+  <link href="https://plus.google.com/+Greatist" rel="publisher"/>
+
+  <title>Ramen Recipes: 17 DIY Meals That Will Make You Forget Instant Noodles | Greatist</title>
+  <link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_qKsSCcrOVT4pKULgi4iAVuPQPU3lfSzuSXMJCARUKic.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_apECqqs4IfYxrJBKMsMh0b_85X5CyllXLp6hODNanx4.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_yYuTvjdq5_epDRBZUITk8EG5FPEk00zL4y1ftmiAgXY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css__kLaRzNXRI_NisJDTD0u5qnEU3iVMT3xBsvltojOvYg.css" media="all" />
+  <script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_jAem-GbtffJErQNlP33_rowrrkscx9kVa0aYdo8r3pQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};googletag.cmd = googletag.cmd || [];var gads = document.createElement("script");gads.async = true;gads.type = "text/javascript";var useSSL = "https:" == document.location.protocol;gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";var node =document.getElementsByTagName("script")[0];node.parentNode.insertBefore(gads, node);
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_I8yX6RYPZb7AtMcDUA3QKDZqVkvEn35ED11_1i7vVpc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-20914064-2", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("require", "displayfeatures");ga("set", "dimension1", "January 26, 2016");ga("set", "dimension2", "Tara Fuller");ga("set", "dimension3", "tofu recipes,healthy recipes,pasta,soups and stews");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.pubads().setTargeting('post_id', '5984');googletag.pubads().setTargeting('is_testing', 'no');});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.defineSlot('/38507188/Teads_1x1',[1,1],'page').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.enableServices();});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var greatist_globals = {"env":"live","build_id":1470903983,"themepath":"\/sites\/all\/themes\/greatist2x","jsfolder":"\/sites\/all\/themes\/greatist2x\/js\/c","height_analytics_frequency":100,"yieldbot":true,"yb_pub_id":"1ce9","yb_pub_id_mobile":"7a53","horizon":true,"thinglink":false,"require":{"baseUrl":"\/sites\/all\/themes\/greatist2x\/js\/c\/greatist-build","urlArgs":"v=1470903983"},"amazon_tag":"greatist-20","uid":0,"nodepage":true,"prod_url":"http:\/\/greatist.com\/eat\/healthier-ramen-recipes","article_nid":"5984","article_uid":"520","article_created":"1453863439","article_title":"17 DIY Ramen Recipes That'll Make You Forget About Instant Noodles","article_type":"article","article_subtype":"Recipe Roundup","tags":["Tofu Recipes","Healthy Recipes","Pasta","Soups and Stews"],"tags_dfp":["tofu recipes","healthy recipes","pasta","soups and stews"],"categories":"Eat","categories_dfp":"eat","pinterest_hashtags":"#healthy #ramen #recipes","author":"Tara Fuller","shares":{"gplus":191,"twitter":0,"fb":4451,"stumble":67,"pinterest":125968,"total":155372},"kargo_ad_line_items":["189420108"]};
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_35WjR-K-c1eoIjZOUUMFSuAkyRxZn3QW5GWmChFKAXU.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_dynamic.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_static.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_su0LbO_kIcrk2xwJfPUqU2MlKQEFTfzu-XRzjcV6gwI.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_Fpfp_QVPEaF7N8wcBw0ZYabifSNdisHqFagZ7VgQqTY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greatist2x","theme_token":"GlSru7iI_uuekgNc6h9VnmyPjPChZHqPOiCObACOXY8","js":{"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/main.js":1,"0":1,"sites\/all\/modules\/custom\/gr8ist_social\/includes\/js\/gr8ist_instagram_embed.js":1,"\/\/wms-na.amazon-adsystem.com\/20070822\/US\/js\/auto-tagger.js?tag=greatist-20\u0026locale=US\u0026overwrite=1":1,"1":1,"2":1,"\/\/dc8xl0ndzn2cb.cloudfront.net\/js\/greatist\/v0\/keywee.min.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1,"5":1,"6":1,"7":1,"sites\/all\/themes\/greatist2x\/js\/c\/require_m.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_dynamic.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_static.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/require-config.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/lib\/modernizr.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/print.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/magnific-popup.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/jquery.qtip.min.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/style.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+  <!--[if lte IE 9 ]>
+  <link type="text/css" rel="stylesheet"
+        href="/sites/all/themes/greatist2x/css/old-ie.css" media="all"/>
+  <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-5984 node-type-article env-live" >
+<div id="skip-link">
+  <a href="#main-content"
+     class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div id="page">
+  <div class="leaderboard"><div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-leaderboard"
+  data-ad-dfp="/38507188/ROS_728x90"
+  data-ad-slot="div-gpt-ad-1408633905912-0"
+  data-ad-size="728x90"
+  class="dfp-tag-wrapper dfp-ad-article-ad-leaderboard"></div>
+
+<div
+  data-restrict-context-to="x-small,small,medium"
+  data-dfp-g-id="article-ad-mobile-top"
+  data-ad-dfp="/38507188/ROS_320x50_Mobile"
+  data-ad-slot="div-gpt-ad-1412623396310-0"
+  data-ad-size="300x50,320x50"
+  class="dfp-tag-wrapper dfp-ad-article-ad-mobile-top"></div>
+
+</div>
+  <header role="banner" data-header class="clearfix">
+  <nav role="navigation">
+    <div id="nav-touch-wrapper" ng-controller="menuCtrl">
+      <div id="main-menu">
+  <div class="menu-mobile" ng-controller="hamburgerCtrl">
+    <a href="#" class="icon-wrapper" ng-click="toggle()">
+      <i class="fa fa-bars" ng-hide="open=='open'"></i>
+      <img class="close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" ng-show="open" ng-cloak />
+    </a>
+    <div class="hamburger-menu" ng-class="open">
+  <ul class="categories">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-eat', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/eat">EAT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-move', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/move">MOVE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-live', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/live">LIVE</a>        </h3>
+      </li>
+      </ul>
+
+  <ul class="more">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/newsletter">SUBSCRIBE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/about">ABOUT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-careers', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/careers">CAREERS</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-advertise', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/advertise">ADVERTISE</a>        </h3>
+      </li>
+      </ul>
+</div>
+  </div>
+
+  <div class="menu group-left">
+    <div itemscope itemtype="http://schema.org/Organization" class="menu-item logo">
+      <a itemprop="url" href="/" title="Home" rel="home" id="logo">
+        <img itemprop="logo" src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_White.svg" alt="Home" />
+        <span class="element-hidden" itemprop="name">Greatist</span>
+      </a>
+    </div>
+    <div class="menu-items categories">
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-eat"  href="/eat" >
+            <h4>EAT</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-move"  href="/move" >
+            <h4>MOVE</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-live"  href="/live" >
+            <h4>LIVE</h4>
+          </a>
+        </div>
+          </div>
+  </div>
+
+  <div class="menu group-right">
+    <div class="menu-item more-medium">
+  <h4>MORE <i class="fa fa-angle-down"></i> </h4>
+  <ul class="sub-menu-list">
+        <li class="subscribe">
+      <a ng-click="click()" track="cat-subscribe"  href="/newsletter" >
+        <h5>SUBSCRIBE</h5>
+      </a>
+    </li>
+        <li class="about">
+      <a ng-click="click()" track="cat-about"  href="/about" >
+        <h5>ABOUT</h5>
+      </a>
+    </li>
+      </ul>
+</div>
+
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+    <a href="/newsletter">
+      <h4>
+        <i class="fa fa-envelope-o"></i>        SUBSCRIBE      </h4>
+    </a>
+  </div>
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+    <a href="/about">
+      <h4>
+                ABOUT      </h4>
+    </a>
+  </div>
+    <div class="menu-item search">
+      <a href="/search" class="search-button discover-cta">
+        <h4>EXPLORE</h4>
+      </a>
+    </div>
+  </div>
+</div>
+    </div>
+  </nav>
+</header>
+  
+  
+  
+  
+  <div class="article-container  "
+    ng-controller="ArticleCtrl"
+    ng-init="init()">
+  <div class="article-main">
+    <article
+      class="article-main-column main-column"
+      itemscope
+      itemtype="http://schema.org/Article"
+    >
+      <div class="article-top">
+                  <div itemprop="description" class="element-hidden">Ranging from bacon and egg to spicy Sriracha, these delicious recipes outdo any packaged variety—and are almost as easy to make.</div>
+                <header class="article-header">
+          <div class="group-article-meta">
+            <div
+  class="field field-name-post-date"
+  itemprop="datePublished"
+  content="2016-01-26"
+>
+  January 26, 2016  <span class="separator">|</span> </div>
+            <div class="field article-author-top" itemscope itemprop="author" itemtype="http://schema.org/Person">
+  <span class="label">By </span>
+    <a
+    href="http://greatist.com/p/tara-fuller"
+    title="User profile of "
+    class="username"
+    about="http://greatist.com/p/tara-fuller"
+    typeof="sioc:UserAccount"
+    itemprop="url"
+  >
+    <span itemprop="name">Tara Fuller</span>
+  </a>
+   </div>
+          </div>
+          <h1 class="title" id="page-title" itemprop="name headline alternativeHeadline">17 DIY Ramen Recipes That&#039;ll Make You Forget About Instant Noodles</h1>
+        </header>
+        <div class="top-share">
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="top">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/eat/healthier-ramen-recipes"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2FGreatist_Banner_Ramen_recipes3.jpg%3Fitok%3DSGB86DN7"
+  data-mediatitle="17 DIY Ramen Recipes That'll Make You Forget About Instant Noodles"
+  data-title="17 DIY Ramen Recipes That\'ll Make You Forget About Instant Noodles"
+  data-promotitle="17 DIY Ramen Recipes That\'ll Make You Forget About Instant Noodles"
+  data-pintitle="Ranging from bacon and egg to spicy Sriracha, these delicious recipes outdo any packaged..."
+  data-twitter="https://twitter.com/tarasoph"
+  data-twitter-url="http://grt.st/1CvECb1"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  <a class="print-button" title="Print this article" href="/print/5984" rel="nofollow" ng-click="print()">
+  <i class="fa fa-print"></i>
+  </a>
+
+      <div class="fb-like-wrapper ng-cloak">
+      <span class="label">LIKE US ON FACEBOOK</span>
+    </div>
+  </div>
+  </div>
+</div>
+        </div>
+      </div>
+
+      <div class="side-share">
+        <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/eat/healthier-ramen-recipes"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2FGreatist_Banner_Ramen_recipes3.jpg%3Fitok%3DSGB86DN7"
+  data-mediatitle="17 DIY Ramen Recipes That'll Make You Forget About Instant Noodles"
+  data-title="17 DIY Ramen Recipes That\'ll Make You Forget About Instant Noodles"
+  data-promotitle="17 DIY Ramen Recipes That\'ll Make You Forget About Instant Noodles"
+  data-pintitle="Ranging from bacon and egg to spicy Sriracha, these delicious recipes outdo any packaged..."
+  data-twitter="https://twitter.com/tarasoph"
+  data-twitter-url="http://grt.st/1CvECb1"
+  class="share-buttons"
+  data-origin="side"
+>
+      <a class="share-pinterest" ng-click="share_pin()">
+      <i class="fa fa-pinterest-p"></i>
+    </a>
+        <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a class="share-twitter" ng-click="share_tw()">
+    <i class="fa fa-twitter"></i>
+  </a>
+  <a class="share-email" ng-click="share_email()">
+    <i class="fa fa-envelope-o"></i>
+  </a>
+</div>
+      </div>
+
+      <div class="article-body block" data-scroll-reach-tracking="article-content-beginning">
+                <div class="article-body-content" data-target-blank itemprop="articleBody">
+  <p class="p1">If thinking about ramen summons images of styrofoam cups and seasoning packets with enough salt to make you dry up like a prune, you haven’t <em>lived</em>—when it comes to <a href="http://greatist.com/eat/recipes/hearty-chicken-and-vegetable-soup">noodle soup</a> consumption, anyway.</p>  <span data-nid="6910"       class="article-suggestion article-suggestion-embed"       ng-controller="articleSuggestionCtrl"       data-track-name="article-suggestion-embed"       ng-cloak>   <span class="top-label">     <img class="icon" src="/sites/all/themes/greatist2x/images/design/HeartIcon.png">     <span>You might also like</span>   </span>    <a data-nid="6910" href="{{linkUrl}}" ng-click="click($event)">     <img nopin="nopin" class="no-pin article-img" ng-src="{{imgUrl}}"/>     <div class="description-wrapper">       <div class="description">         <span class="article-title">{{displayTitle}}</span>         <span class="more">           <span class="read-more">       <span>READ</span>     <i class="fa fa-long-arrow-right">       </i>   </span>         </span>       </div>     </div>   </a> </span>  <p class="p1">Ranging in flavors from bacon and egg to spicy Sriracha to vegetarian miso, these ramen recipes outdo any packaged variety and are almost as easy to make. Bonus: It’s a heck of a lot cheaper to <a href="http://greatist.com/health/45-healthy-foods-make-and-never-buy-again">go DIY</a> than splurge on $10 noodle bowls. It’s time to start noodling around.</p>  <section class="slideshow list-image-full" ng-controller="SlideshowListCtrl" ng-init="init()">
+            <h3>Chicken</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="https://www.blueapron.com/recipes/winter-chicken-ramen-with-choy-sum-soft-boiled-eggs-miso-dashi-broth">1. Winter Chicken Ramen</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Test.jpg?itok=cy9de0xs"
+              alt="Winter Chicken Ramen"
+              width="752"
+              height="940"
+                            pin-title="1. Winter Chicken Ramen"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="https://www.blueapron.com/recipes/winter-chicken-ramen-with-choy-sum-soft-boiled-eggs-miso-dashi-broth">
+                                Photo: Blue Apron                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>This seasonal recipe is broken down into 6 simple steps, with everything cooking in the broth for maximum flavor. Add in a healthy dose of cabbage, spring onions, and hard-boiled egg, and you've got yourself a protein-packed, feel-good weeknight meal. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.strictlydelicious.com/mason-jar-instant-ramen-zoodles/">2. Mason Jar “Instant” Ramen Zoodles</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/zoodle%20ramen.jpg?itok=Kj1u_ku8"
+              alt="Mason Jar &quot;Instant&quot; Ramen Zoodles"
+              width="2622"
+              height="4097"
+                            pin-title="2. Mason Jar “Instant” Ramen Zoodles"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://www.strictlydelicious.com/mason-jar-instant-ramen-zoodles/">
+                                Photo: Strictly Delicious                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Taking a cue from the OG Cup Noodles, these elevate the form to whole new heights. And with fan favorites zoodles, coconut oil, and all of the vegetables, these guys are a make-ahead meal you'll feel better after. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://farmette.ie/2012/12/05/a-farmers-ramen/">3. A Farmer&#039;s Ramen</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/farmers%20noodle.jpg?itok=HgE7TpGA"
+              alt="Farmer&#039;s Ramen"
+              width="748"
+              height="1024"
+                            pin-title="3. A Farmer's Ramen"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://farmette.ie/2012/12/05/a-farmers-ramen/">
+                                Photo: Farmette                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>We're definitely not farmers, yet our love for this farmer's ramen is no less. Loaded up with bitter greens (hello bok choy, hello kale), carrots, ginger, and leeks, this is the perfect dinner to balance out those office days when we're lucky to see a nutrient. There's a recipe for noodles from scratch, and if you're feeling ambitious, obviously go for it—but no pressure, store-bought is also acceptable.  </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.condospalillos.com/blog/2013/01/10/yakisoba-con-pollo">4. Chicken Yakisoba</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Chicken-y-final.jpg?itok=RpkaYERN"
+              alt="Chicken Yakisoba"
+              width="752"
+              height="940"
+                            pin-title="4. Chicken Yakisoba"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://www.condospalillos.com/blog/2013/01/10/yakisoba-con-pollo">
+                                Photo: Condos Palillos                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Ketchup isn't just for fries. Here the condiment plays surprisingly well with Worcestershire, soy sauce, and sriracha for a sweet, spicy, umami sauce. No shortage of flavor here. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://thedisasterchef.com/survival-thai-peanut-chicken-and-ramen-noodle-soup/">5. Thai Peanut Chicken and Ramen Noodle Soup</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Thai-Chicken-Ramen-Final.jpg?itok=b3tpWaY-"
+              alt="Thai Chicken Ramen"
+              width="752"
+              height="940"
+                            pin-title="5. Thai Peanut Chicken and Ramen Noodle Soup"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://thedisasterchef.com/survival-thai-peanut-chicken-and-ramen-noodle-soup/">
+                                Photo: The Disaster Chef                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p class="p1">You no longer have to make the difficult choice between ordering Japanese or Thai food, thanks to this amazing Asian fusion dish. Made with plenty of veggies (like sweet potato, cremini mushrooms, and red peppers) and doused with just the right amount of <a href="http://greatist.com/health/healthy-alternatives-peanut-butter">peanut butter</a>, your taste buds won’t know what hit 'em—but they will know that they like it, a lot.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.threebeansonastring.com/smoky-grilled-chicken-with-zucchini-ramen-noodles/">6. Smoky Grilled Chicken With Zucchini Ramen Noodles</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Smoky%20chicken%20big.jpg?itok=GYFeX9wL"
+              alt="Smoky Chicken Ramen"
+              width="2117"
+              height="3175"
+                            pin-title="6. Smoky Grilled Chicken With Zucchini Ramen Noodles"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://www.threebeansonastring.com/smoky-grilled-chicken-with-zucchini-ramen-noodles/">
+                                Photo: Three Beans on a String                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p class="p1">We’re in love, we’re in love, and we don’t care who knows it! (With <a href="http://greatist.com/eat/healthy-zucchini-noodle-recipes">zoodles</a>, that is.) A delicious gluten-free and <a href="http://greatist.com/health/lower-carb-alternatives">low-carb alternative</a> to regular ramen noodles, zucchini helps totally load this recipe with veggies. This one’s super easy to make vegetarian too: Simply sub tofu for chicken and use veggie stock in place of the chicken. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.forkknifeswoon.com/food-drink/2014/10/simple-homemade-chicken-ramen/">7. Miso Ramen With Shiitake and Chicken</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/miso-ramen-3.jpg?itok=6sPudEfT"
+              alt="Miso Chicken Ramen"
+              width="653"
+              height="980"
+                            pin-title="7. Miso Ramen With Shiitake and Chicken"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://www.forkknifeswoon.com/food-drink/2014/10/simple-homemade-chicken-ramen/">
+                                Photo: Fork Knife Swoon                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p class="p3"><span class="s1">The optional jalapeño slices give this one an unexpected twist, but don’t worry, it also has key staples like bok choy, scallions, shiitake mushrooms, and plenty of miso paste. Tip: Experiment with meats like pork and beef or <a href="http://greatist.com/health/complete-vegetarian-proteins">vegetarian proteins</a> like tofu to keep things interesting.</span></p>
+        </div>
+      </div>
+                <h3>Vegetarian</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.chowhound.com/recipes/miso-ramen-roasted-vegetables-31488">8. Vegetarian Miso Ramen With Roasted Sweet Potatoes </a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Roasted-Vegge-SP.jpg?itok=ZgbluRAB"
+              alt="Veggie Ramen with Ramen Sweet Potatos"
+              width="800"
+              height="1280"
+                            pin-title="8. Vegetarian Miso Ramen With Roasted Sweet Potatoes "                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://www.chowhound.com/recipes/miso-ramen-roasted-vegetables-31488">
+                                Photo: Chow Hound                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p class="p3"><span class="s1">Another dish that brings out the best of both (noodle) worlds, this recipe is gluten-free and chock-full of healthy ingredients like shiitake mushrooms, and sweet potato. Bonus: Miso makes an awesome <a href="http://greatist.com/health/best-foods-hangover">hangover cure</a>, so drink away on those painful days.</span></p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://divinehealthyfood.com/healthy-homemade-kimchi-ramen/">9. Healthy Homemade Kimchi Ramen</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Healthy_Homemade_Kimchi_Ramen_Recipe_002.jpg?itok=85GuB27B"
+              alt="Healthy Homemade Kimichi Ramen"
+              width="1000"
+              height="1500"
+                            pin-title="9. Healthy Homemade Kimchi Ramen"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://divinehealthyfood.com/healthy-homemade-kimchi-ramen/">
+                                Photo: Divine Healthy Food                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p class="p3"><span class="s1">Kimchi tastes great on its own, but tastes even better mixed in a bowl of piping hot noodles. Made with DIY kimchi (we love <a href="http://greatist.com/tips/make-your-own-kimchi">this recipe</a>) or a store-bought variety, this meal is as easy to pull together as blending a <a href="http://greatist.com/health/healthy-smoothie-recipes">smoothie</a>. The toughest part is finding the ingredients, but most Asian speciality stores should have them—and we promise you’ll find plenty of reasons to use them again.</span></p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://bakerbynature.com/20-minute-spicy-sriracha-ramen-noodle-soup/">10. 20-Minute Spicy Sriracha Ramen Noodle Soup</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/siracha.jpg?itok=ClYchgqQ"
+              alt="20 Min. Spicy Ramen"
+              width="3168"
+              height="4752"
+                            pin-title="10. 20-Minute Spicy Sriracha Ramen Noodle Soup"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://divinehealthyfood.com/healthy-homemade-kimchi-ramen/">
+                                Photo: Baker by Nature                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p class="p3"><span class="s1">This recipe can be ready in half the time it takes to decide on dinner, order delivery, and wait for its arrival—ideal for those hangry nights when spending your life savings on delivery feels worthwhile. To bulk up the veggies contents, add ingredients like mushrooms, broccoli, and kale.</span></p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://minimalistbaker.com/easy-vegan-ramen/">11. Easy Vegan Ramen</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/AMAZING-Vegan-Ramen-with-just-10-ingredients-Simple-methods-plant-based-SO-delicious-vegan-recipe-ramen-soup-healthy-dinner.jpg?itok=YaxOlnLo"
+              alt="Simple Vegan Ramen"
+              width="1456"
+              height="2208"
+                            pin-title="11. Easy Vegan Ramen"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://minimalistbaker.com/easy-vegan-ramen/">
+                                Photo: Minimalist Baker                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>Basic isn't always bad, and this ramen is proof positive. Spinach, carrots, and mushrooms play nice (how could they ever not) in this quickie recipe, while freshly grated ginger and garlic get your sinuses flowing. Just what we look for in a soup, really.  </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://glutenfreeonashoestring.com/gluten-free-instant-noodle-cups/">12. Gluten-Free Instant Noodle Cups</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/gluten%20free.jpg?itok=dnLD_AsW"
+              alt="Gluten Free Ramen Cup"
+              width="1200"
+              height="1972"
+                            pin-title="12. Gluten-Free Instant Noodle Cups"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://glutenfreeonashoestring.com/gluten-free-instant-noodle-cups/">
+                                Photo: Gluten Free on a Shoe String                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p class="p3"><span class="s1">Even though instant noodles are often overloaded with sodium and lacking in nutrients, there’s something comforting about having a hot meal ready in less than five minutes. This recipe solves the insta-cup woes with DIY seasoning and plenty of healthy additions (baby spinach, carrots, and chicken or tofu). And best of all: You can pre-make these bad boys and store them in <a href="http://greatist.com/eat/mason-jar-recipes">heat-safe jars</a>. Is it just us, or did lunch just get way better?</span></p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.feastingathome.com/mexican-chicken-noodle-soup/">13. Mexican Chickpea Noodle Soup</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Mexican%20Noodle%20Soup%20Final.jpg?itok=Mh6pj3rN"
+              alt="Mexican Chickpea Noodle Soup"
+              width="1100"
+              height="1650"
+                            pin-title="13. Mexican Chickpea Noodle Soup"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://www.feastingathome.com/mexican-chicken-noodle-soup/">
+                                Photo: Feasting at Home                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p class="p3">How's this for a twist on chicken noodle soup? Sub chickpeas for the chicken, and ramen for the linguini, and you have a perfect vegetarian-ramen for cold winter nights. We love how the Mexican flavors (Mexican oregano, cilantro, green chilies, lime, and avocado) give this recipe a fun kick. </p>
+        </div>
+      </div>
+                <h3>14. Beef and Pork </h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://yestoyolks.com/2014/08/27/homemade-ramen-with-bacon-soft-boiled-eggs/">14. Homemade Ramen With Bacon and Soft-Boiled Eggs</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/bacon-final.jpg?itok=qMsAiHnc"
+              alt="Homemade Ramen with Bacon and Soft-Boiled Eggs"
+              width="3365"
+              height="5047"
+                            pin-title="14. Homemade Ramen With Bacon and Soft-Boiled Eggs"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://yestoyolks.com/2014/08/27/homemade-ramen-with-bacon-soft-boiled-eggs/">
+                                Photo: Yes to Yolks                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p class="p1">Bacon and eggs shouldn’t be limited to <a href="http://greatist.com/health/healthy-fast-breakfast-recipes">breakfast</a>—though you can definitely replace your go-to morning meal with this recipe! Here, the crispy breakfast favorite tops a hot bowl of miso broth and ramen noodles, which is accompanied by a soft-boiled egg to create the ultimate combo of carbs, protein, and warmth. Tip: For the perfect soft-boiled egg, check out our <a href="http://greatist.com/eat/perfect-boiled-eggs-tips">handy egg hacks</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://www.chowhound.com/recipes/slow-cooker-pork-ramen-31178">15. Slow Cooker Pork Ramen</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/SlowCooker-Pork-Ramen.jpg?itok=tsq8DQZm"
+              alt="Slow Cooker Pork Ramen"
+              width="1067"
+              height="1600"
+                            pin-title="15. Slow Cooker Pork Ramen"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://www.chowhound.com/recipes/slow-cooker-pork-ramen-31178">
+                                Photo: Chow Hound                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>If your mouth wasn't watering by this far down on the list: Ready, set, go. This recipe includes easy-to-follow directions (only 30 minutes in the cooker) and it's packed with succulent braised pork, so it's both simple and delicious. </p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://thewanderlustkitchen.com/crockpot-beef-curry-with-noodles/">16. Crock-Pot Beef Curry With Ramen Noodles</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Crockpot-Beef-Curry-15.jpg?itok=-xX3lnb2"
+              alt="Crockpot Beef Curry with Ramen Noodles"
+              width="800"
+              height="1200"
+                            pin-title="16. Crock-Pot Beef Curry With Ramen Noodles"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://thewanderlustkitchen.com/crockpot-beef-curry-with-noodles/">
+                                Photo: The Wanderlust Kitchen                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>With a prep time of 10 minutes and a pretty short ingredient list, this dish looks way more complicated than it is. Just throw this one the Crock-Pot in the morning, Instagram like you slaved over it, and watch the likes come in.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          <a target="_blank" href="http://alialamode.blogspot.com/2014/11/beef-ramen-noodle-soup.html">17. Beef Ramen Noodle Soup</a>
+                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Beef-Ramen-Noodle-Soup.jpg?itok=NNj_gB9q"
+              alt="Beef Ramen Noodle Soup"
+              width="1071"
+              height="1600"
+                            pin-title="17. Beef Ramen Noodle Soup"                          />
+                          <div class="field-name-field-file-image-title-text">
+                                  <a href="http://alialamode.blogspot.com/2014/11/beef-ramen-noodle-soup.html">
+                                Photo: Ali a la mode                                  </a>
+                              </div>
+                      </div>
+        
+        <div class="slide-body">
+          <p>This one is packed with veggies (carrots, celery, green onions) and sliced steak. But if you think of it like turning on the stove and waiting, things get less intimidating. Hidden bonus: There's also some Sriracha tucked inside this brothy goodness. </p>
+        </div>
+      </div>
+      
+  </section>
+  <p><em>Originally published February 2015. Updated January 2016.</em></p>         </div>
+
+                <span class="article-suggestion-readnext-embed" data-recirc-section ng-controller="basicTracking" ng-init="initAnalytics('read-next-bottom', {implicitClick: true})" >
+  <span class="label"><i class="fa fa-chevron-circle-right"></i> READ THIS NEXT:</span>
+  <a href="http://greatist.com/eat/alternative-noodle-recipes"  data-nid="5973"  ng-click="click($event)" >
+    <span class="article-title">31 Alternative Noodle Recipes That Pasta Fanatics Will Love</span>
+  </a>
+</span>
+        <a href="http://greatist.com/live/how-to-eat-better-according-to-an-olympic-dietitian"
+   class="promotion-embed" data-recirc-section ng-controller="basicTracking"
+   ng-init="initAnalytics('promotion-krave---bottom-article---fuel-your-body-article-bottom', {implicitClick: true})">
+  <img src="http://greatist.com/sites/default/files/styles/promotion-article-558/public/greatist_promotion/KRAVE_Promo2_Final.jpg?itok=bK7olpd1"
+       alt="Krave - Bottom Article - Fuel Your Body"/>
+</a>
+
+        <div
+          class="bottom-share"
+          data-scroll-reach-tracking="article-content-end"
+          data-scroll-reach-tracking-near="article-content-near-end"
+        >
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="bottom">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/eat/healthier-ramen-recipes"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2FGreatist_Banner_Ramen_recipes3.jpg%3Fitok%3DSGB86DN7"
+  data-mediatitle="17 DIY Ramen Recipes That'll Make You Forget About Instant Noodles"
+  data-title="17 DIY Ramen Recipes That\'ll Make You Forget About Instant Noodles"
+  data-promotitle="17 DIY Ramen Recipes That\'ll Make You Forget About Instant Noodles"
+  data-pintitle="Ranging from bacon and egg to spicy Sriracha, these delicious recipes outdo any packaged..."
+  data-twitter="https://twitter.com/tarasoph"
+  data-twitter-url="http://grt.st/1CvECb1"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  
+  </div>
+  </div>
+</div>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="article-sidebar-column sidebar-column" data-sidebar-height="x-tall" ng-controller="articleSidebarCtrl">
+      <div class="sidebar-top">
+                                                <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-1"
+  data-ad-dfp="/38507188/ROS_Flex_300x250_300x600"
+  data-ad-slot="div-gpt-ad-1409786991744-0"
+  data-ad-size="300x250,300x600"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-1"></div>
+
+          <div class="article-sidebar-newsletter no-small no-medium" ng-controller="NewsletterCtrl" data-origin="homepage_sidebar">
+  <div class="intro">
+    <i class="fa fa-inbox"></i> <span>Your Inbox Deserves Better</span>
+  </div>
+  <form name="newsletterForm" ng-submit="subscribeEmail('article-sidebar-newsletter')">
+    <div class="line">
+      <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+      <input type="submit" value="GO" ng-hide="submitted">
+      <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+    </div>
+    <div class="newsletter-messages">
+      <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+    </div>
+  </form>
+</div>
+        
+        <div class="sticky-block">
+          <div class="popular-list-block"
+  ng-init='initAnalytics("article-sidebar-must-read", {implicitClick: true, countHiddenAsImpression: false})'
+  ng-controller="basicTracking"
+  data-recirc-section
+>
+  <h2 class="section-title">MUST READS</h2>
+  <ol class="sidebar-list sidebar-list-thumbnail" >
+          <li  data-nid="7252"
+            data-source="cb">
+        <a
+          data-nid="7252"
+          ng-click="click($event)"
+          href="http://greatist.com/move/got-good-workout"
+          title="How to Know If You Actually Got a Good Workout"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/Man-Workout-Pulse-1236.jpg?itok=hiFVWNU_" />
+          <span>How to Know If You Actually Got a Good Workout</span>
+        </a>
+      </li>
+          <li  data-nid="2900"
+            data-source="cb">
+        <a
+          data-nid="2900"
+          ng-click="click($event)"
+          href="http://greatist.com/health/healthy-fast-breakfast-recipes"
+          title="34 Healthy Breakfasts for Busy Mornings"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/7-Ingredient-DARK-CHOCOLATE-Quinoa-Breakfast-Bowl-Full-of-antioxidants-fiber-and-protein-vegan-glutenfree-quinoa-breakfast.jpg?itok=BNuLNJNx" />
+          <span>34 Healthy Breakfasts for Busy Mornings</span>
+        </a>
+      </li>
+          <li  data-nid="6959"
+            data-source="cb">
+        <a
+          data-nid="6959"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/healthy-freezer-meals"
+          title="21 Freezer Meals for People With Zero Time During the Week"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/baked-potato.jpg?itok=an-0vMvV" />
+          <span>21 Freezer Meals for People With Zero Time During the Week</span>
+        </a>
+      </li>
+          <li  data-nid="7036"
+            data-source="cb">
+        <a
+          data-nid="7036"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/foods-to-fight-fatigue"
+          title="The Best Foods to Fight Fatigue "
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/food-fatigue-feat.jpg?itok=9ZSbLJZv" />
+          <span>The Best Foods to Fight Fatigue </span>
+        </a>
+      </li>
+          <li  data-nid="4347"
+            data-source="cb">
+        <a
+          data-nid="4347"
+          ng-click="click($event)"
+          href="http://greatist.com/health/complete-vegetarian-proteins"
+          title="10 Complete Proteins Vegetarians Need to Know About"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/Peanut%20Butter%20Toast-Original.jpg?itok=1xLRxYgs" />
+          <span>10 Complete Proteins Vegetarians Need to Know About</span>
+        </a>
+      </li>
+          <li  data-nid="7326"
+            data-source="cb">
+        <a
+          data-nid="7326"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/best-food-blogs-2016"
+          title="32 Must-Follow Food and Nutrition Blogs"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/BestBlogs_Food_2016_Feat.jpg?itok=zwjW5UVc" />
+          <span>32 Must-Follow Food and Nutrition Blogs</span>
+        </a>
+      </li>
+          <li  data-nid="8301"
+            data-source="ga">
+        <a
+          data-nid="8301"
+          ng-click="click($event)"
+          href="http://greatist.com/live/womens-clothing-sizes-are-complete-bs"
+          title="Think of Women’s Clothing Sizes as Random Numbers—Because They Are "
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/jeans.jpg?itok=cGs7fn0V" />
+          <span>Think of Women’s Clothing Sizes as Random Numbers—Because They Are </span>
+        </a>
+      </li>
+          <li  data-nid="1392"
+            data-source="ga">
+        <a
+          data-nid="1392"
+          ng-click="click($event)"
+          href="http://greatist.com/health/high-protein-snacks-portable"
+          title="27 Healthy and Portable High-Protein Snacks"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/PORTABLE-SNACKS_FEATURE.jpg?itok=Grq8reUv" />
+          <span>27 Healthy and Portable High-Protein Snacks</span>
+        </a>
+      </li>
+      </ol>
+</div>
+                      <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-2"
+  data-ad-dfp="/38507188/ROS_300x250_BTM"
+  data-ad-slot="div-gpt-ad-1411421640459-0"
+  data-ad-size="300x250"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-2"></div>
+
+                  </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <div class="article-middle">
+    <div id="ym_966589724821756968" data-yieldmo="ym_966589724821756968" data-yieldmo-tablet="ym_976629314492243103" class="ym"></div>
+
+    <div id="fb-article-mobile-bottom-page-box" data-fb-page="article-mobile-bottom-page-box" data-restrict-context-to=">medium" class="hide-for-ready">
+      <h2 class="section-title">Like Us On Facebook</h2>
+    </div>
+
+    <div id="tags">
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/tofu-recipes"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Tofu Recipes    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/healthy-recipes"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Healthy Recipes    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/pasta"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Pasta    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/soups-and-stews"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Soups and Stews    </span>
+  </a>
+</span>
+  
+            <span
+  rel="dc:subject"
+  itemscope
+            itemtype="http://data-vocabulary.org/Breadcrumb"
+  >
+  <a
+    href="http://greatist.com/eat"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+          itemprop="url"
+      >
+    <span
+              itemprop="title"
+          >
+      Eat    </span>
+  </a>
+</span>
+      </div>
+  </div>
+</div>
+
+<div class="recirc" data-recirc-section>
+  <div class="esi-placeholder"data-esi="article/recirculation" data-token="0SKGBp39xuRMlP-mbhIjTPkSnoaxSyAx56SY_v2yXJo" data-params="{&quot;nid&quot;:&quot;5984&quot;,&quot;show_must_reads&quot;:0}" data-bodyevent="reach-article-content-near-end"><img src="/sites/all/themes/greatist2x/images/design/SiteLoader.gif">Loading...</div></div>
+
+
+  <!-- Extras -->
+  <div ng-controller="BottomStickyCtrl">
+      <div class="article-sticky-bottom share hide-for-load" data-origin="sticky-bottom">
+      <div ng-controller="socialCtrl" data-href="http://greatist.com/eat/healthier-ramen-recipes">
+        <a class="share-button share-button-facebook" ng-click="share_fb($event)" data-share-fb>
+          <span class="share-alt"><i class="fa fa-facebook"></i> Share on Facebook</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="article-sticky-bottom like hide-for-load" data-origin="sticky-bottom">
+      <img class="close-button" ng-click="clickClose()" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+      <span>Like Greatist on Facebook</span>
+      <div
+        class="fb-like"
+        data-href="https://www.facebook.com/greatist"
+        data-layout="button"
+        data-fb-tracking-id="bottom-sticky-mobile"
+        data-fb-click-tracking-id="bottom-sticky-mobile">
+      </div>
+    </div>
+  </div>
+  <div class="bottom-slider fb-slider" ng-controller="BottomSliderCtrl" ng-class="status">
+  <a href="#" ng-click="clickClose()" title="Close" type="button" class="close-button">
+    <img src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+  </a>
+
+  <h3>Like us on Facebook to get more stories like this!</h3>
+
+  <div
+    class="fb-like"
+    data-href="https://www.facebook.com/greatist"
+    data-layout="button"
+    data-fb-tracking-id="popup-like"
+    data-fb-click-tracking-id="popup-like">
+  </div>
+</div>
+  <div class="overlay-wrapper">
+  <div id="search-page-wrapper">
+    <div id="search-page-overlay" ng-controller="SearchCtrl" ng-init="init()" ng-keydown="keydown($event)">
+
+      <img class="search-close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+
+      <h2>{{discoverSettings.title}}</h2>
+
+      <!-- SEARCH FORM -->
+      <form name="searchForm" ng-submit="search()" class="search-form">
+        <input type="text" ng-model="searchQuery" placeholder="Enter Search Term" id="search-input">
+        <div data-search-autocomplete class="search-autocomplete">
+          <ul>
+            <div class="header" >
+              Categories
+            </div>
+            <li ng-repeat="suggestion in suggestedTaxonomies track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+
+            <div class="header">
+              Profiles
+            </div>
+            <li ng-repeat="suggestion in suggestedUsers track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </form>
+
+      <!-- DISCOVER -->
+      <div class="discover deck-3" ng-cloak ng-hide="hideDiscover">
+        <div class="main-column">
+          <div class="card" ng-repeat="discover in discoverList">
+            <a href="{{discover.url}}" ng-click="trackDiscoverLink(discover)">
+              <img ng-src="{{discover.imgUrl}}" class="img-large">
+              <img ng-src="{{discover.imgUrlSmall}}" class="img-small">
+              <div class="title-wrapper">
+                <div class="title">{{discover.title}}</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-status">
+        <div ng-show="isLoading">
+            <img alt="Search Loading" class="loader-image"/>
+        </div>
+        <div class="search-message">{{searchMessage}}</div>
+      </div>
+
+      <!-- SEARCH RESULTS -->
+      <div class="search-result article-feed">
+        <div class="article" ng-repeat="article in articles">
+          <div class="article-image">
+            <a href='{{article.articlePath}}'>
+              <img ng-src='{{article.imagePath}}' />
+            </a>
+          </div>
+          <div class="article-title"><a href='{{article.articlePath}}'>{{article.title}}</a></div>
+          <div class="article-author" ng-if="article.byline === ''">{{article.author}}</div>
+          <div class="article-author" ng-if="article.byline !== ''">{{article.byline}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="popup-wrapper">
+  <div ng-controller="popupCtrl" class="newsletter-template mfp-with-anim mfp-hide">
+    <div newsletter
+      model="popup"
+      subscribe="subscribeEmail"
+      init="initPopup"
+      close="closeBottomBar()"
+      cta1="applyCTA('cta1')"
+      cta2="applyCTA('cta2')"
+    >
+    </div>
+  </div>
+</div>
+    <div>
+  <div data-fb-popup class="fb-popup popup-post-share mfp-with-anim mfp-hide">
+    <h1>
+      Nice share!<br>
+      Like us on <a class="like-us" href="http://facebook.com/greatist">Facebook</a> while you're at it.
+    </h1>
+    <div class="fb-like-body">
+      <div class="fb-like" data-href="https://facebook.com/greatist" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false">
+      </div>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-post-share-fb"/>
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+
+  <div data-pin-popup class="pin-popup popup-post-share mfp-with-anim mfp-hide">
+    <button title="Close (Esc)" type="button" class="mfp-close cta-x" ng-click="eventHandler()"></button>
+    <h1>Nice pin! Follow us for more.</h1>
+    <div class="follow-pin">
+      <a data-pin-do="buttonFollow" href="http://www.pinterest.com/greatist/">Follow Greatist on Pinterest</a>
+    </div>
+    <div class="pins">
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/229754018468166392/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+       <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124149397557/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124150404836/">Greatist on Pinterest.</a>
+      </span>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-pin-board" />
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+</div>
+  <div class="footer-bottom-wrapper">
+    <footer id="footer-wrapper">
+  <div id="footer">
+    <div class="footer-logo-menu">
+  <div class="greatist-logo">
+    <a href="/">
+      <img src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_G_White.svg" class="footer-logo" />
+    </a>
+  </div>
+  <ul class="menu"><li class="first leaf"><a href="/about" title="">About</a></li>
+<li class="leaf"><a href="/advertise" title="">Advertise</a></li>
+<li class="leaf"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf"><a href="/drop-us-line" title="">Contact</a></li>
+</ul></div>
+    <div class="footer-newsletter">
+  <div class="newsletter-block" ng-controller="NewsletterCtrl" data-origin="footer">
+    <div class="description">
+      <i class="fa fa-envelope-o"></i> AWESOME WORKOUTS, EASY RECIPES, WELLNESS TIPS!
+    </div>
+    <form name="newsletterForm" ng-submit="subscribeEmail('footer-newsletter')">
+      <div class="line">
+        <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+        <input type="submit" value="GO" ng-hide="submitted">
+        <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+      </div>
+      <div class="newsletter-messages">
+        <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+      </div>
+    </form>
+  </div>
+
+  <div class="social-links">
+    <a target="_blank" href="http://facebook.com/greatist" class="facebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a target="_blank" href="http://pinterest.com/greatist" class="pinterest" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+    <a target="_blank" href="http://twitter.com/greatist" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" href="http://instagram.com/greatist" class="instagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+  </div>
+</div>
+  </div>
+</footer>
+    <div id="bottom-wrapper">
+  <div id="bottom">
+    <div id="bottom-menu" class="bottom-block">
+  <ul class="menu"><li class="first leaf"><a href="/greatist-terms-use" title="Terms">Terms</a></li>
+<li class="leaf"><a href="/greatist-privacy-policy" title="Privacy">Privacy</a></li>
+<li class="leaf"><a href="/drop-us-line" title="">Contact</a></li>
+<li class="last leaf"><a href="/topics" title="">Sitemap</a></li>
+</ul></div>
+    <div id="copyright">&copy; 2016 Greatist</div>
+  </div>
+</div>
+  </div>
+</div>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_g5vRHAmImocIkh-4r-c10EIPRPCA0a21I08Y0d3s1mo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '1001l6TF']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/all/modules/custom/gr8ist_social/includes/js/gr8ist_instagram_embed.js?obn86g"></script>
+<script type="text/javascript" src="//wms-na.amazon-adsystem.com/20070822/US/js/auto-tagger.js?tag=greatist-20&amp;locale=US&amp;overwrite=1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {try{var a={l1:document.location.host.replace(/^www\./,""),l2:document.title||"Untitled",l3:"__page__",l4:"-",sa:"",sn:""},b=[],c;for(c in a)b.push(c+"="+encodeURIComponent(a[c]));b=b.join("&");(new Image).src="//d1cge8z5zrep3s.cloudfront.net?a=9d8720426e304e8ca738bd1ab1062e1f";var d=document.createElement("script");d.type="text/javascript";d.async=!0;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(d,e);d.src="https://z.moatads.com/greatistcontent247UepN76/moatcontent.js#"+b}catch(f){try{var g="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&ac=1&k="+encodeURIComponent(f)+"&j="+encodeURIComponent(document.referrer)+"&cs="+(new Date).getTime();(new Image).src=g}catch(h){}};})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.display('page');});
+//--><!]]>
+</script>
+<script type="text/javascript" src="//dc8xl0ndzn2cb.cloudfront.net/js/greatist/v0/keywee.min.js"></script>
+
+<div id="fb-root"></div>
+<noscript><img
+    src="http://b.scorecardresearch.com/p?c1=2&amp;c2=14988881&amp;cv=2.0&amp;cj=1"
+    alt=""/></noscript>
+<noscript><img style="position:absolute"
+               src="http://b.scorecardresearch.com/b?c1=2&c2=0000000&c3=0000000&c4=www.w3i.com/who-weare.aspx&c5=&c6=&c15=C67BD3C1&cv=1.3&cj=1"
+               style="display:none" width="0" height="0" alt=""/></noscript>
+<noscript>
+  <div style="display:none;"><img
+      src="//pixel.quantserve.com/pixel/p-46ydJU4yMQT2-.gif" border="0"
+      height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+
+</body>
+</html>

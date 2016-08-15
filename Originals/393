@@ -1,0 +1,1586 @@
+<!DOCTYPE html><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"><head itemscope itemtype="http://schema.org/WebSite"><!--[if IE]><![endif]--><link rel="dns-prefetch" href="//fonts.googleapis.com" /><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/911656fa177846aec61d653c98674a7b.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/eb9f2973d1f94378cd51f247183dd68f.css" data-minify="1"/><link rel="stylesheet" href="http://www.androidhive.info/wp-content/cache/min/1/ed23373be97de98fd59b5c1ee55222f2.css" data-minify="1"/><meta charset="UTF-8"> <!--[if IE ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]--><link rel="profile" href="http://gmpg.org/xfn/11" /><link rel="icon" href="http://test.androidhive.info/wp-content/uploads/2016/04/favicon.png" type="image/x-icon" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta itemprop="name" content="androidhive" /><meta itemprop="url" content="http://www.androidhive.info" /><meta itemprop="creator accountablePerson" content=" " /><link rel="pingback" href="http://www.androidhive.info/xmlrpc.php" /><title>Android Login and Registration with PHP, MySQL and SQLite</title><style type="text/css">.thrive-adminbar-icon {
+				background: url('http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/css/images/tcb-close-icon.png') no-repeat 0px 0px;
+				padding-left: 25px !important;
+				width: 20px !important;
+				height: 20px !important;
+			}</style> <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace( /\bno-js\b/,'js' );</script> <meta name="description" content="Tutorial about android login and registration process using PHP,MySql and Sqlite. Also explained how to build simple API using PHP and MySQL"/><meta name="robots" content="noodp"/><link rel="canonical" href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Android Login and Registration with PHP, MySQL and SQLite" /><meta property="og:description" content="Tutorial about android login and registration process using PHP,MySql and Sqlite. Also explained how to build simple API using PHP and MySQL" /><meta property="og:url" content="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/" /><meta property="og:site_name" content="androidhive" /><meta property="article:section" content="HTTP" /><meta property="article:published_time" content="2012-01-31T08:37:13+00:00" /><meta property="article:modified_time" content="2016-02-28T07:33:35+00:00" /><meta property="og:updated_time" content="2016-02-28T07:33:35+00:00" /><meta property="og:image" content="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-screen-design.jpg" /><meta property="og:image:width" content="720" /><meta property="og:image:height" content="359" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Tutorial about android login and registration process using PHP,MySql and Sqlite. Also explained how to build simple API using PHP and MySQL" /><meta name="twitter:title" content="Android Login and Registration with PHP, MySQL and SQLite" /><meta name="twitter:image" content="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-screen-design.jpg" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Feed" href="http://www.androidhive.info/feed/" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Comments Feed" href="http://www.androidhive.info/comments/feed/" /><link rel="alternate" type="application/rss+xml" title="androidhive &raquo; Android Login and Registration with PHP, MySQL and SQLite Comments Feed" href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/feed/" /> <script type="text/javascript">window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.androidhive.info\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);</script> <style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style><style id='stylesheet-inline-css' type='text/css'>body {background-color:#ffffff; }
+		body {background-image: url( http://www.androidhive.info/wp-content/themes/androidhive-theme/images/nobg.png );}
+
+        .header-social a:hover, header .breadcrumb > div i:hover, header .breadcrumb > div a:hover, .breadcrumb > div a:hover, .post-info a, .latestPost .title a:hover, #site-footer .toggle-menu .toggle-caret .fa:hover, #primary-navigation .sub-menu a:hover, .latestPost .title a:hover, ul.ajax-search-results li a:hover, .sidebar .ajax-search-meta a, .breadcrumb > div i, .single .tags a, .postauthor h5 a:hover, .sidebar a, .comment-meta a, .trending-stories .latestPost .title:hover, .postauthor h5, .copyrights a, .single_post a, .textwidget a, .pnavigation2 a, #sidebar a:hover, .copyrights a:hover, #site-footer .widget li a:hover, .related-posts a:hover, .reply a, .title a:hover, .post-info a:hover, .comm, #tabber .inside li a:hover, .readMore a:hover, .fn a, a, a:hover { color: #000000; }
+
+        .latestPost-categories ul li:hover a, .footer-widgets h3, .reply a:hover, #primary-navigation .sub-menu a:hover, #primary-navigation .sub-menu li.current-menu-item a { color: #000000 !important; }
+
+        .latestPost-news .latestPost { border-top: 2px solid #000000; }
+
+        
+        .navigation.mobile-menu-wrapper { background: #000000 !important; }
+
+        #header, .pace .pace-progress, #mobile-menu-wrapper ul li a:hover, .widget h3:before, .featured-category-title:before, .widget .wpt_widget_content .tab_title.selected a, #move-to-top, #load-posts, .featured-videos h4:after, .related-posts h4:after, .postauthor h4:after, #comments h4:after, #commentsAdd h4:after, .contact-form input[type='submit'], #commentform input#submit:hover, .contact-form input[type='submit']:hover, #primary-navigation li a:hover, .pagination a:hover, .pagination ul, .latestPost-review-wrapper, a#pull, #commentform input#submit, .contactform #submit, #move-to-top:hover, .navigation ul .current-menu-item > a, .navigation ul li:hover, .pagination a, #tabber ul.tabs li a.selected, .tagcloud a:hover, .latestPost .review-type-circle.review-total-only, .latestPost .review-type-circle.wp-review-show-total, .single .pagination > .current, .bypostauthor .comment-author .fn:after { background-color:#000000; color: #fff!important; }
+
+		.owl-prev, .owl-next { background-color:#000000!important; }
+
+        #site-footer { background: #EAEAEA; }
+		
+		.shareit { top: 282px; left: 0; margin: 0; width: 90px; position: fixed; padding: 5px; border:none; border-right: 0;}
+		.share-item {margin: 2px;}
+		
+		.bypostauthor { background: none; }
+        .bypostauthor > div .comment-author .fn:after { content: "Author"; position: relative; padding: 2px 10px; margin: 0 10px; color: #FFF; font-size: 13px; line-height: 1; font-weight: normal; border-radius: 3px; }</style> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/compat.min.js?ver=1.200.5'></script> <script type='text/javascript'>/*  */
+var mts_customscript = {"responsive":"1","nav_menu":"primary"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/customscript.js'></script> <script type='text/javascript'>/*  */
+var tickeropts = {"rtl_support":"0"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/themes/androidhive-theme/js/jquery.webticker.js'></script> <link rel='https://api.w.org/' href='http://www.androidhive.info/wp-json/' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.androidhive.info/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.androidhive.info/wp-includes/wlwmanifest.xml" /><link rel='shortlink' href='http://www.androidhive.info/?p=1154' /><link rel="alternate" type="application/json+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2012%2F01%2Fandroid-login-and-registration-with-php-mysql-and-sqlite%2F" /><link rel="alternate" type="text/xml+oembed" href="http://www.androidhive.info/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.androidhive.info%2F2012%2F01%2Fandroid-login-and-registration-with-php-mysql-and-sqlite%2F&#038;format=xml" /> <script type="text/javascript">window._wp_rp_static_base_url = 'https://wprp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.androidhive.info/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.6';
+	window._wp_rp_post_id = '1154';
+	window._wp_rp_num_rel_posts = '4';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Android+Login+and+Registration+with+PHP%2C+MySQL+and+SQLite';
+	window._wp_rp_post_tags = ['intermediate', 'json', 'mysql', 'php', 'sqlite', 'volley', 'http', 'php', 'system', 'api', 'mysql', 'build', 'articl', 'android', 'screen', 'tutori', 'real', 'design', 'job', 'height', 'registr', 'brin'];
+	window._wp_rp_promoted_content = true;</script> <script type="text/javascript" src="https://wprp.zemanta.com/static/js/loader.js?version=3.6" async></script> <style type="text/css">.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style><link href="//fonts.googleapis.com/css?family=Open+Sans|Merriweather&amp;subset=latin" rel="stylesheet" type="text/css"><style type="text/css">#header h1, #header h2 { font-family: 'Open Sans'; font-weight: ; font-size: 25px; color: #ffffff; }
+.menu li, .menu li a { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #ffffff; }
+.latestPost .title a, .latestPost-news .title, .latestPost .title { font-family: 'Merriweather'; font-weight: ; font-size: 23px; color: #252525; }
+.single-title { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+body { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+.widget h3, .featured-category-title { font-family: 'Open Sans'; font-weight: ; font-size: 15px; color: #252525; }
+#sidebar .widget { font-family: 'Open Sans'; font-weight: ; font-size: 14px; color: #252525; }
+.footer-widgets, footer .widget li a { font-family: 'Open Sans'; font-weight: ; font-size: 13px; color: #252525; }
+h1 { font-family: 'Merriweather'; font-weight: ; font-size: 35px; color: #252525; }
+h2 { font-family: 'Merriweather'; font-weight: ; font-size: 24px; color: #252525; }
+h3 { font-family: 'Merriweather'; font-weight: ; font-size: 25px; color: #252525; }
+h4 { font-family: 'Merriweather'; font-weight: ; font-size: 20px; color: #252525; }
+h5 { font-family: 'Merriweather'; font-weight: ; font-size: 18px; color: #252525; }
+h6 { font-family: 'Merriweather'; font-weight: ; font-size: 16px; color: #252525; }</style><style type="text/css" id="syntaxhighlighteranchor"></style> <script data-no-minify="1" data-cfasync="false">(function(w,d){function a(){var b=d.createElement("script");b.async=!0;b.src="http://www.androidhive.info/wp-content/plugins/wp-rocket/inc/front/js/lazyload.1.0.2.min.js";var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)}w.attachEvent?w.attachEvent("onload",a):w.addEventListener("load",a,!1)})(window,document);</script> <style type="text/css">#nik{opacity:.0002;height:auto;width:auto;position:absolute;top:50px;left:50px;border-bottom:1px #76e042 solid;border-bottom:0 blue solid;color:#fff;padding:0;z-index:1001;font-size:13px;background:red}</style><div id="nik"> <a href="#" onclick="getValue()"> </a> <script type="text/javascript">(function () {
+                                var hidden = "hidden";
+
+                    // Standards:
+                    if (hidden in document)
+                                document.addEventListener("visibilitychange", onchange);
+                                else if ((hidden = "mozHidden") in document)
+                                document.addEventListener("mozvisibilitychange", onchange);                 else if ((hidden = "webkitHidden") in document)
+                                document.addEventListener("webkitvisibilitychange", onchange);
+                                else if ((hidden = "msHidden") in document)
+                                document.addEventListener("msvisibilitychange", onchange);                 // IE 9 and lower:
+                                else if ("onfocusin" in document)
+                                document.onfocusin = document.onfocusout = onchange;
+                    // All others:
+                    else
+                                window.onpageshow = window.onpagehide
+                                        = window.onfocus = window.onblur = onchange;
+
+                    function onchange(evt) {
+                        var v = "visible", h = "hidden",
+                                        evtMap = {focus: v, focusin: v, pageshow: v, blur: h, focusout: h, pagehide: h};
+                                        evt = evt || window.event;
+                        if (evt.type in evtMap) {
+                                chkvis(evtMap[evt.type]);
+                                }
+                        else {
+                                var visible = this[hidden] ? "hidden" : "visible";
+                                        chkvis(visible);
+                                }
+                    }
+
+                        // set the initial state (but only if browser supports the Page Visibility API)
+                        if (document[hidden] !== undefined)
+                        onchange({type: document[hidden] ? "blur" : "focus"});
+                })();
+                        function chkvis(status) {
+                            if (status == 'hidden') {
+                                createCookie('k', 'p');
+                                document.getElementById('nik').style.display = 'none';
+                            }
+                        }
+
+                var t = 3, ts = 45, te = 55;
+                var r = Math.floor(Math.random() * (t)) + 1;
+                var d = new Date();
+                var n = d.getMinutes();
+
+                var p1 = '<script async src="\/\/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script> <!-- Article --> <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-9207768510467156" data-ad-slot="1410361821"><\/ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>';
+                var p2 = '<script async src="\/\/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script> <!-- End --> <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-9207768510467156" data-ad-slot="4363828227"><\/ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>';
+                var p3 = '<script async src="\/\/pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script> <!-- Middle Content --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9207768510467156" data-ad-slot="2887095024"><\/ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>';
+
+
+               
+                
+                    if (getCookie("k") !== "p") {
+
+                        switch (r) {
+                            case 1:
+                                document.write(p1);
+                                break;
+                            case 2:
+                                document.write(p2);
+                                break;
+                            default:
+                                document.write(p3);
+                        }
+                    }
+                
+               
+
+                function createCookie(name, value) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (86400));
+                    var expires = "; expires=" + date.toGMTString();
+
+                    document.cookie = name + "=" + value + expires + "; path=/";
+                }
+
+                function getCookie(cname) {
+                    var name = cname + "=";
+                    var ca = document.cookie.split(';');
+                    for (var i = 0; i < ca.length; i++) {
+                        var c = ca[i];
+                        while (c.charAt(0) == ' ')
+                            c = c.substring(1);
+                        if (c.indexOf(name) == 0)
+                            return c.substring(name.length, c.length);
+                    }
+                    return "";
+                }
+
+                function isInArray(array, search)
+                {
+                    return array.indexOf(search) >= 0;
+                }</script> </div> <script type="text/javascript">var div = document.getElementById('nik');
+                                                document.addEventListener('mousemove', function (e) {
+                                                div.style.left = e.pageX - 160 + "px";
+                                                        div.style.top = e.pageY - 60 + "px";
+                                                });</script> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24602371-1', 'auto');
+  ga('send', 'pageview');</script> </head><body id="blog" class="single single-post postid-1154 single-format-standard main" itemscope itemtype="http://schema.org/WebPage"><div class="main-container"> <header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader"><div class="upper-navigation"><div class="container clearfix"><div class="breadcrumb"><div class="root"><a href="http://www.androidhive.info/"><i class="fa fa-home"></i></a></div><div class="breaking"><ul class="trending-slider"><li><a href="http://www.androidhive.info/2016/05/android-working-with-card-view-and-recycler-view/" title="Android working with Card View and Recycler View">Android working with Card View and Recycler View</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-3/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 3</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 2</a></li><li><a href="http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/" title="Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1">Android Building Realtime Chat App using GCM, PHP &#038; MySQL &#8211; Part 1</a></li><li><a href="http://www.androidhive.info/2015/12/android-material-design-floating-action-button/" title="Android Material Design Floating Action Button">Android Material Design Floating Action Button</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-snackbar-example/" title="Android Material Design Snackbar Example">Android Material Design Snackbar Example</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-floating-labels-for-edittext/" title="Android Material Design Floating Labels for EditText">Android Material Design Floating Labels for EditText</a></li><li><a href="http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/" title="Android Material Design working with Tabs">Android Material Design working with Tabs</a></li><li><a href="http://www.androidhive.info/2015/06/android-push-notifications-using-parse-com/" title="Android Push Notifications using Parse.com">Android Push Notifications using Parse.com</a></li><li><a href="http://www.androidhive.info/2015/04/android-getting-started-with-material-design/" title="Android Getting Started with Material Design">Android Getting Started with Material Design</a></li></ul></div></div><div class="header-social"> <a rel="nofollow" href="http://www.facebook.com/ravi8x" class="header-facebook"><span class="fa fa-facebook"></span></a> <a rel="nofollow" href="http://www.twitter.com/ravitamada" class="header-twitter"><span class="fa fa-twitter"></span></a> <a rel="nofollow" href="https://plus.google.com/u/0/108738908574182577919/posts" class="header-google-plus"><span class="fa fa-google-plus"></span></a> <a rel="nofollow" href="http://instagram.com/ravitamada" class="header-instagram"><span class="fa fa-instagram"></span></a></div></div></div><div id="header"><div class="container"><div class="logo-wrap"><h1 id="logo" class="image-logo" itemprop="headline"> <a href="http://www.androidhive.info"><img src="http://www.androidhive.info/wp-content/uploads/2016/04/logo-3.png" alt="androidhive"></a></h1></div><div id="primary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"> <a href="#" id="pull" class="toggle-mobile-menu">Menu</a> <nav class="navigation clearfix mobile-menu-wrapper"><ul id="menu-menu-1" class="menu clearfix"><li id="menu-item-39241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39241"><a href="http://download.androidhive.info">Downloads</a></li><li id="menu-item-39242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39242"><a href="http://tips.androidhive.info">Tips</a></li><li id="menu-item-39327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39327"><a href="http://www.androidhive.info/write-for-us/">Write for Us</a></li></ul> </nav></div></div></div> </header><div id="page" class="single"> <article class="article" itemscope itemtype="http://schema.org/BlogPosting"><meta itemprop="image" content="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-screen-design.jpg" /><div id="content_box" ><div id="post-1154" class="g post post-1154 type-post status-publish format-standard has-post-thumbnail hentry category-http category-intermediate category-json category-mysql category-php category-sqlite category-volley has_thumb"><div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#"><div typeof="v:Breadcrumb" class="root"><a rel="v:url" property="v:title" href="http://www.androidhive.info" rel="nofollow">Home</a></div><div><i class="fa fa-angle-right"></i></div><div typeof="v:Breadcrumb"><a href="http://www.androidhive.info/category/http/" rel="v:url" property="v:title">HTTP</a></div><div><i class="fa fa-angle-right"></i></div><div><span>Android Login and Registration with PHP, MySQL and SQLite</span></div></div><div class="single_post"> <header><h1 class="title single-title entry-title" itemprop="headline">Android Login and Registration with PHP, MySQL and SQLite</h1><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/ravi8x/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></span></span> <span class="thetime updated"><span itemprop="datePublished">January 31, 2012<span class="divider1">/</span></span></span> <span class="thecomment"><i class="fa fa-comments"></i> <a href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/#disqus_thread">Comments</a></span></div> </header><div class="post-single-content box mark-links entry-content"><div class="thecontent" itemprop="articleBody"><div style="float:left;margin:10px 10px 10px 0;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="1410361821"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><p>In my previous article <a class="ref-link" href="http://www.androidhive.info/2011/10/android-login-and-registration-screen-design/" target="_blank">Android Login and Registration Screen Design</a> I explained designing the login and registration interfaces. But it has no real time functionality. In this tutorial I am going to explain how to build complete login and registration system in android using PHP, MySQL and SQLite. Also this tutorial covers how to build simple API using PHP and MySQL.</p><div style="display:none"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-screen-design.jpg" alt="android login and registration screen design" width="720" height="359" class="alignnone size-full wp-image-33764" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-screen-design-300x150.jpg 300w, http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-screen-design.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-screen-design.jpg" alt="android login and registration screen design" width="720" height="359" class="alignnone size-full wp-image-33764" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-screen-design-300x150.jpg 300w, http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-screen-design.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><div class="clear"></div><div class="download_code"><a href="http://download.androidhive.info/download?code=DQ5LE0wMo2ao6g84ZhIpzt8BcolDdJzdqcDAxhnakDSShAWrYuVJVKmjB%2Fv%2B0XBw4N3Vj644b0va1K3qNFx5YSxYWQGcZhQKskpqMZjxvQXp5IzfdfYIUHM8w%3D%3DtXJxYCQ2GFrDsezVxjMCySoNmGRds1glL3s" target="_blank">DOWNLOAD CODE</a></div><div class="yt_video"> <label>VIDEO DEMO</label><br /> <iframe src="http://www.youtube.com/embed/0ETKWM3N8UU" frameborder="0" allowfullscreen="" style="width: 719px; height: 444.7265625px;"></iframe><a id="download_paypal_android_sdk"></a></div><p> Below are the final outputs of this project.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-php-mysql.jpg" alt="android login and registration with mysql php" width="720" height="574" class="alignnone size-full wp-image-33771" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-php-mysql-300x239.jpg 300w, http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-php-mysql.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-php-mysql.jpg" alt="android login and registration with mysql php" width="720" height="574" class="alignnone size-full wp-image-33771" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-php-mysql-300x239.jpg 300w, http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-php-mysql.jpg 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p></p><h2>Prerequisites</h2><p>This tutorial is combination of few of my previous articles. Make sure you went through the below articles if you are very beginner.</p><p>1. <a class="ref-link" href="http://www.androidhive.info/2014/05/android-working-with-volley-library-1/" target="_blank">Android working with Volley Library</a> &#8211; Used to make HTTP calls.</p><p>2. <a class="ref-link" href="http://www.androidhive.info/2011/10/android-login-and-registration-screen-design/" target="_blank">Android Login and Registration Screen Design</a> &#8211; Explained the designing of Login and Registration screens.<br /></p><h2>API (Application Programming Interface)</h2><p>To interact with MySQL database we need to build a <strong>REST API</strong> first. REST Api job is to get the request from client, interact with database and finally give the response back to client. So we&#8217;ll create a simple <strong>PHP</strong>, <strong>MySQL</strong> API first. Our API do&#8217;s below jobs.</p><p><strong>â</strong> Accepts requests in GET/POST methods<br /> <strong>â</strong> Interact with database by inserting / fetching data.<br /> <strong>â</strong> Finally will give response back in JSON format</p><div class="article-post-image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/01/android_mysql_php_api.png" alt="Android Mysql PHP connect" title="Android Mysql PHP connect" width="580" height="456" class="alignnone size-full wp-image-1237" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android_mysql_php_api-300x236.png 300w, http://www.androidhive.info/wp-content/uploads/2012/01/android_mysql_php_api.png 580w" sizes="(max-width: 580px) 100vw, 580px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2012/01/android_mysql_php_api.png" alt="Android Mysql PHP connect" title="Android Mysql PHP connect" width="580" height="456" class="alignnone size-full wp-image-1237" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android_mysql_php_api-300x236.png 300w, http://www.androidhive.info/wp-content/uploads/2012/01/android_mysql_php_api.png 580w" sizes="(max-width: 580px) 100vw, 580px" /></noscript></div><p></p><h2>1. Downloading &#038; Installing WAMP</h2><p>Download &#038; Install WAMP server from <a href="www.wampserver.com/en/" title="download wamp server" target="_blank" class="link">www.wampserver.com/en/</a>. Once installed, launch the program from <strong>Start â All Programs â WampServer â StartWampServer</strong>. If you are on Mac, alternatively you can use <a rel="nofollow" href="https://www.mamp.info/en/downloads/" target="_blank">MAMP</a> for the same.</p><p>You can test your server by opening the address <a class="link" rel="nofollow" href="http://localhost" title="http://localhost" target="_blank">http://localhost/</a> in your browser. Also you can check phpmyadmin by opening <a rel="nofollow" href="http://localhost/phpmyadmin" title="wamp phpmyadmin" target="_blank" class="link">http://localhost/phpmyadmin</a></p><p>Following is a screencast of Downloading and Installing WAMP Server.</p><div class="yt_video"> <iframe src="http://www.youtube.com/embed/a-dcmT-xGHc" frameborder="0" allowfullscreen="" style="width: 719px; height: 444.7265625px;"></iframe><a id="download_paypal_android_sdk"></a></div><p></p><h2>2. Creating MySQL Database and Tables</h2><p>Open <a class="link" rel="nofollow" href="http://localhost/phpmyadmin" title="phpmyadmin" target="_blank">phpmyadmin</a> and execute below queries to create necessary database and table. Here we are creating only one table <strong>users</strong> to store users login information.</p><pre class="brush: sql; title: ; notranslate" title="">
+create database android_api /** Creating Database **/
+
+use android_api /** Selecting Database **/
+
+create table users(
+   id int(11) primary key auto_increment,
+   unique_id varchar(23) not null unique,
+   name varchar(50) not null,
+   email varchar(100) not null unique,
+   encrypted_password varchar(80) not null,
+   salt varchar(10) not null,
+   created_at datetime,
+   updated_at datetime null
+); /** Creating Users Table **/
+</pre><p></p><h2>3. Creating PHP Project</h2><p>Goto the location where wamp installed and open <strong>www</strong> folder. The default installation location of wamp would be <strong>C:/wamp</strong>. Below is the final PHP project structure we are going to create in this article.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-project-structure.png" alt="android-login-and-registration-project-structure" width="720" height="350" class="alignnone size-full wp-image-38738" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-project-structure-300x146.png 300w, http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-project-structure.png 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-project-structure.png" alt="android-login-and-registration-project-structure" width="720" height="350" class="alignnone size-full wp-image-38738" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-project-structure-300x146.png 300w, http://www.androidhive.info/wp-content/uploads/2012/01/android-login-and-registration-project-structure.png 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p> <strong>1</strong>. Go into <strong>www</strong> folder and create a folder named <strong>android_login_api</strong>. This will be the root directory of our project.</p><p><strong>2</strong>. In <strong>android_login_api</strong>, create another directory named <strong>include</strong>. In this folder, we keep all the helper classes.</p><p><strong>3</strong>. Now inside <strong>include</strong>, create a php file named <strong>Config.php</strong> and add below content. Replace the <strong>DB_USER</strong> and <strong>DB_PASSWORD</strong> values with your&#8217;s.</p><pre class="brush: php; title: Config.php; notranslate" title="Config.php">
+&lt;?php
+
+/**
+ * Database config variables
+ */
+define(&quot;DB_HOST&quot;, &quot;localhost&quot;);
+define(&quot;DB_USER&quot;, &quot;root&quot;);
+define(&quot;DB_PASSWORD&quot;, &quot;root&quot;);
+define(&quot;DB_DATABASE&quot;, &quot;android_api&quot;);
+?&gt;
+
+</pre><p> <strong>4</strong>. Create a class named <strong>DB_Connect.php</strong> in <strong>include</strong> and paste below code. In this class we handle opening and closing of database connection.</p><pre class="brush: php; title: DB_Connect.php; notranslate" title="DB_Connect.php">
+&lt;?php
+class DB_Connect {
+    private $conn;
+
+    // Connecting to database
+    public function connect() {
+        require_once 'include/Config.php';
+        
+        // Connecting to mysql database
+        $this-&gt;conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE);
+        
+        // return database handler
+        return $this-&gt;conn;
+    }
+}
+
+?&gt;
+</pre><p> <strong>5</strong>. Create <strong>DB_Functons.php</strong> inside <strong>include</strong> with below content. This file contains functions to store user in database, get user from database. You can also add methods like update user, delete user.<br /> <strong>unique id</strong> &#8211; I am generating unique user id in php using <strong>uniqid(&#8221;, true)</strong> function. Sample user id will be like <strong>4f074eca601fb8.88015924</strong><br /> <strong>Encrypted Password</strong> &#8211; The passwords are stored using <strong>base64_encode</strong> method. Each password needs two columns to store it in database. One is to store <strong>encrypted password</strong> and other is to store <strong>salt</strong> used to encrypt the password.</p><pre class="brush: php; title: ; notranslate" title="">
+&lt;?php
+
+/**
+ * @author Ravi Tamada
+ * @link http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/ Complete tutorial
+ */
+
+class DB_Functions {
+
+    private $conn;
+
+    // constructor
+    function __construct() {
+        require_once 'DB_Connect.php';
+        // connecting to database
+        $db = new Db_Connect();
+        $this-&gt;conn = $db-&gt;connect();
+    }
+
+    // destructor
+    function __destruct() {
+        
+    }
+
+    /**
+     * Storing new user
+     * returns user details
+     */
+    public function storeUser($name, $email, $password) {
+        $uuid = uniqid('', true);
+        $hash = $this-&gt;hashSSHA($password);
+        $encrypted_password = $hash[&quot;encrypted&quot;]; // encrypted password
+        $salt = $hash[&quot;salt&quot;]; // salt
+
+        $stmt = $this-&gt;conn-&gt;prepare(&quot;INSERT INTO users(unique_id, name, email, encrypted_password, salt, created_at) VALUES(?, ?, ?, ?, ?, NOW())&quot;);
+        $stmt-&gt;bind_param(&quot;sssss&quot;, $uuid, $name, $email, $encrypted_password, $salt);
+        $result = $stmt-&gt;execute();
+        $stmt-&gt;close();
+
+        // check for successful store
+        if ($result) {
+            $stmt = $this-&gt;conn-&gt;prepare(&quot;SELECT * FROM users WHERE email = ?&quot;);
+            $stmt-&gt;bind_param(&quot;s&quot;, $email);
+            $stmt-&gt;execute();
+            $user = $stmt-&gt;get_result()-&gt;fetch_assoc();
+            $stmt-&gt;close();
+
+            return $user;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * Get user by email and password
+     */
+    public function getUserByEmailAndPassword($email, $password) {
+
+        $stmt = $this-&gt;conn-&gt;prepare(&quot;SELECT * FROM users WHERE email = ?&quot;);
+
+        $stmt-&gt;bind_param(&quot;s&quot;, $email);
+
+        if ($stmt-&gt;execute()) {
+            $user = $stmt-&gt;get_result()-&gt;fetch_assoc();
+            $stmt-&gt;close();
+
+            // verifying user password
+            $salt = $user['salt'];
+            $encrypted_password = $user['encrypted_password'];
+            $hash = $this-&gt;checkhashSSHA($salt, $password);
+            // check for password equality
+            if ($encrypted_password == $hash) {
+                // user authentication details are correct
+                return $user;
+            }
+        } else {
+            return NULL;
+        }
+    }
+
+    /**
+     * Check user is existed or not
+     */
+    public function isUserExisted($email) {
+        $stmt = $this-&gt;conn-&gt;prepare(&quot;SELECT email from users WHERE email = ?&quot;);
+
+        $stmt-&gt;bind_param(&quot;s&quot;, $email);
+
+        $stmt-&gt;execute();
+
+        $stmt-&gt;store_result();
+
+        if ($stmt-&gt;num_rows &gt; 0) {
+            // user existed 
+            $stmt-&gt;close();
+            return true;
+        } else {
+            // user not existed
+            $stmt-&gt;close();
+            return false;
+        }
+    }
+
+    /**
+     * Encrypting password
+     * @param password
+     * returns salt and encrypted password
+     */
+    public function hashSSHA($password) {
+
+        $salt = sha1(rand());
+        $salt = substr($salt, 0, 10);
+        $encrypted = base64_encode(sha1($password . $salt, true) . $salt);
+        $hash = array(&quot;salt&quot; =&gt; $salt, &quot;encrypted&quot; =&gt; $encrypted);
+        return $hash;
+    }
+
+    /**
+     * Decrypting password
+     * @param salt, password
+     * returns hash string
+     */
+    public function checkhashSSHA($salt, $password) {
+
+        $hash = base64_encode(sha1($password . $salt, true) . $salt);
+
+        return $hash;
+    }
+
+}
+
+?&gt;
+
+</pre><h3>3.1 Registration Endpoint</h3><p>Now we have all the required classes ready. Let&#8217;s start creating the endpoint for user registration. This endpoint accepts <strong>name</strong>, <strong>email</strong> and <strong>password</strong> as <em>POST</em> parameters and store the user in MySQL database.</p><p><strong>6</strong>. In <strong>android_login_api</strong> root directory, create <strong>register.php</strong> and below code.</p><pre class="brush: php; title: register.php; notranslate" title="register.php">
+&lt;?php
+
+require_once 'include/DB_Functions.php';
+$db = new DB_Functions();
+
+// json response array
+$response = array(&quot;error&quot; =&gt; FALSE);
+
+if (isset($_POST['name']) &amp;&amp; isset($_POST['email']) &amp;&amp; isset($_POST['password'])) {
+
+    // receiving the post params
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    // check if user is already existed with the same email
+    if ($db-&gt;isUserExisted($email)) {
+        // user already existed
+        $response[&quot;error&quot;] = TRUE;
+        $response[&quot;error_msg&quot;] = &quot;User already existed with &quot; . $email;
+        echo json_encode($response);
+    } else {
+        // create a new user
+        $user = $db-&gt;storeUser($name, $email, $password);
+        if ($user) {
+            // user stored successfully
+            $response[&quot;error&quot;] = FALSE;
+            $response[&quot;uid&quot;] = $user[&quot;unique_id&quot;];
+            $response[&quot;user&quot;][&quot;name&quot;] = $user[&quot;name&quot;];
+            $response[&quot;user&quot;][&quot;email&quot;] = $user[&quot;email&quot;];
+            $response[&quot;user&quot;][&quot;created_at&quot;] = $user[&quot;created_at&quot;];
+            $response[&quot;user&quot;][&quot;updated_at&quot;] = $user[&quot;updated_at&quot;];
+            echo json_encode($response);
+        } else {
+            // user failed to store
+            $response[&quot;error&quot;] = TRUE;
+            $response[&quot;error_msg&quot;] = &quot;Unknown error occurred in registration!&quot;;
+            echo json_encode($response);
+        }
+    }
+} else {
+    $response[&quot;error&quot;] = TRUE;
+    $response[&quot;error_msg&quot;] = &quot;Required parameters (name, email or password) is missing!&quot;;
+    echo json_encode($response);
+}
+?&gt;
+</pre><p></p><h3>3.2 Login Endpoint</h3><p>Just like registration, we need to create another endpoint for login. This endpoint accepts email and password as POST parameters. After receiving the email and password, it checks in database for matched user. If the user is matched, it echoes the success the json response.</p><p><strong>7</strong>. Create a php file named <strong>login.php</strong> inside <strong>android_login_api</strong> with the below content.</p><pre class="brush: php; title: login.php; notranslate" title="login.php">
+&lt;?php
+require_once 'include/DB_Functions.php';
+$db = new DB_Functions();
+
+// json response array
+$response = array(&quot;error&quot; =&gt; FALSE);
+
+if (isset($_POST['email']) &amp;&amp; isset($_POST['password'])) {
+
+    // receiving the post params
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    // get the user by email and password
+    $user = $db-&gt;getUserByEmailAndPassword($email, $password);
+
+    if ($user != false) {
+        // use is found
+        $response[&quot;error&quot;] = FALSE;
+        $response[&quot;uid&quot;] = $user[&quot;unique_id&quot;];
+        $response[&quot;user&quot;][&quot;name&quot;] = $user[&quot;name&quot;];
+        $response[&quot;user&quot;][&quot;email&quot;] = $user[&quot;email&quot;];
+        $response[&quot;user&quot;][&quot;created_at&quot;] = $user[&quot;created_at&quot;];
+        $response[&quot;user&quot;][&quot;updated_at&quot;] = $user[&quot;updated_at&quot;];
+        echo json_encode($response);
+    } else {
+        // user is not found with the credentials
+        $response[&quot;error&quot;] = TRUE;
+        $response[&quot;error_msg&quot;] = &quot;Login credentials are wrong. Please try again!&quot;;
+        echo json_encode($response);
+    }
+} else {
+    // required post params is missing
+    $response[&quot;error&quot;] = TRUE;
+    $response[&quot;error_msg&quot;] = &quot;Required parameters email or password is missing!&quot;;
+    echo json_encode($response);
+}
+?&gt;
+</pre><p></p><h3>3.3 Types of JSON Responses</h3><p>The following are the different types of JSON responses for registration and login endpoints.</p><p><strong>3.3.1 Registration</strong></p><p><strong>URL</strong>: http://localhost/android_login_api/register.php</p><p><strong>PARAMS</strong>: name, email, password</p><p><strong>Registration success response</strong></p><pre class="brush: php; title: ; notranslate" title="">
+{
+    &quot;error&quot;: false,
+    &quot;uid&quot;: &quot;55fa7220a2c187.50984590&quot;,
+    &quot;user&quot;: {
+        &quot;name&quot;: &quot;Ravi Tamada&quot;,
+        &quot;email&quot;: &quot;ravi@androidhive.info&quot;,
+        &quot;created_at&quot;: &quot;2015-09-17 13:26:16&quot;,
+        &quot;updated_at&quot;: null
+    }
+}</pre><p> <strong>Registration error in storing</strong></p><pre class="brush: php; title: ; notranslate" title="">
+{
+    &quot;error&quot;: 1,
+    &quot;error_msg&quot;: &quot;Unknown error occurred in registration!&quot;
+}
+</pre><p> <strong>Registration error &#8211; User Already Existed</strong></p><pre class="brush: php; title: ; notranslate" title="">
+{
+    &quot;success&quot;: 0,
+    &quot;error&quot;: 2,
+    &quot;error_msg&quot;: &quot;User already existed with ravi8x@androidhive.info&quot;
+}
+</pre><p></p><p><strong>3.3.2 Login</strong></p><p><strong>URL</strong>: http://localhost/android_login_api/login.php</p><p><strong>PARAMS</strong>: email, password</p><p><strong>Login Success</strong></p><pre class="brush: php; title: ; notranslate" title="">
+{
+    &quot;error&quot;: false,
+    &quot;uid&quot;: &quot;55fa7220a2c187.50984590&quot;,
+    &quot;user&quot;: {
+        &quot;name&quot;: &quot;Ravi Tamada&quot;,
+        &quot;email&quot;: &quot;ravi@androidhive.info&quot;,
+        &quot;created_at&quot;: &quot;2015-09-17 13:26:16&quot;,
+        &quot;updated_at&quot;: null
+    }
+}
+</pre><p> <strong>Login error &#8211; Incorrect username / password </strong></p><pre class="brush: php; title: ; notranslate" title="">
+{
+    &quot;tag&quot;: &quot;login&quot;,
+    &quot;success&quot;: 0,
+    &quot;error&quot;: 1,
+    &quot;error_msg&quot;: &quot;Login credentials are incorrect. Please try again!&quot;
+}
+</pre><p>Now we have completed the PHP part. Let&#8217;s start the android part.<br /></p><h2>4. Creating the Android Project</h2><p>The app we&#8217;re gonna build will have three simple screens <strong>Login Screen</strong>,<strong> Registration Screen</strong> and a welcome <strong>Dashboard Screen</strong>.</p><p><strong>1</strong>. In Android Studio, create a new project from <strong>File â New Project</strong> and fill all the required details</em>.</p><p><strong>2</strong>. Create three packages named <strong>app</strong>, <strong>activity</strong> and <strong>helper</strong> under <strong>src</strong> folder.</p><p><strong>3</strong>. Open <strong>build.gradle</strong> and add volley library support by adding<br /> <em>compile &#8216;com.mcxiaoke.volley:library-aar:1.0.0&#8217;</em> under dependencies.</p><pre class="brush: sql; title: build.gradle; notranslate" title="build.gradle">
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+}
+</pre><p> <strong>4</strong>. Open <strong>strings.xml</strong> located under <strong>res â values</strong> and add below string values.</p><pre class="brush: xml; title: strings.xml; notranslate" title="strings.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;resources&gt;
+
+    &lt;string name=&quot;app_name&quot;&gt;Android Login and Registration&lt;/string&gt;
+    &lt;string name=&quot;hint_email&quot;&gt;Email&lt;/string&gt;
+    &lt;string name=&quot;hint_password&quot;&gt;Password&lt;/string&gt;
+    &lt;string name=&quot;hint_name&quot;&gt;Fullname&lt;/string&gt;
+    &lt;string name=&quot;btn_login&quot;&gt;LOGIN&lt;/string&gt;
+    &lt;string name=&quot;btn_register&quot;&gt;REGISTER&lt;/string&gt;
+    &lt;string name=&quot;btn_link_to_register&quot;&gt;Not a member? Sign up now.&lt;/string&gt;
+    &lt;string name=&quot;btn_link_to_login&quot;&gt;Already registred! Login Me.&lt;/string&gt;
+    &lt;string name=&quot;welcome&quot;&gt;Welcome&lt;/string&gt;
+    &lt;string name=&quot;btn_logout&quot;&gt;LOGOUT&lt;/string&gt;
+    &lt;string name=&quot;name&quot;&gt;Fullname&lt;/string&gt;
+
+&lt;/resources&gt;
+</pre><p> <strong>5</strong>. Open <strong>colors.xml</strong> located under <strong>res â values</strong> and add the color values. If you don&#8217;t find colors.xml, create a new file with the name.</p><pre class="brush: xml; title: colors.xml; notranslate" title="colors.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;resources&gt;
+
+    &lt;color name=&quot;bg_login&quot;&gt;#26ae90&lt;/color&gt;
+    &lt;color name=&quot;bg_register&quot;&gt;#2e3237&lt;/color&gt;
+    &lt;color name=&quot;bg_main&quot;&gt;#428bca&lt;/color&gt;
+    &lt;color name=&quot;white&quot;&gt;#ffffff&lt;/color&gt;
+    &lt;color name=&quot;input_login&quot;&gt;#222222&lt;/color&gt;
+    &lt;color name=&quot;input_login_hint&quot;&gt;#999999&lt;/color&gt;
+    &lt;color name=&quot;input_register&quot;&gt;#888888&lt;/color&gt;
+    &lt;color name=&quot;input_register_bg&quot;&gt;#3b4148&lt;/color&gt;
+    &lt;color name=&quot;input_register_hint&quot;&gt;#5e6266&lt;/color&gt;
+    &lt;color name=&quot;btn_login&quot;&gt;#26ae90&lt;/color&gt;
+    &lt;color name=&quot;btn_login_bg&quot;&gt;#eceef1&lt;/color&gt;
+    &lt;color name=&quot;lbl_name&quot;&gt;#333333&lt;/color&gt;
+    &lt;color name=&quot;btn_logut_bg&quot;&gt;#ff6861&lt;/color&gt;
+
+&lt;/resources&gt;
+</pre><p></p><p><strong>6</strong>. Under <strong>app</strong> package create a class named <strong>AppConfig.java</strong> and add below code. In this class we declare the login and registration urls. While testing you need to replace the ip address with your localhost pc ip.</p><pre class="brush: java; title: AppConfig.java; notranslate" title="AppConfig.java">
+package info.androidhive.loginandregistration.app;
+
+public class AppConfig {
+	// Server user login url
+	public static String URL_LOGIN = &quot;http://192.168.0.102/android_login_api/login.php&quot;;
+
+	// Server user register url
+	public static String URL_REGISTER = &quot;http://192.168.0.102/android_login_api/register.php&quot;;
+}
+</pre><p> <strong>7</strong>. Under <strong>app</strong> package, create a class named <strong>AppController.java</strong>. This class extends from <em>Application</em> which should be executed on app launch. In this class we initiate all the volley core objects.</p><pre class="brush: java; title: AppController.java; notranslate" title="AppController.java">
+package info.androidhive.loginandregistration.app;
+
+import android.app.Application;
+import android.text.TextUtils;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
+
+public class AppController extends Application {
+
+	public static final String TAG = AppController.class.getSimpleName();
+
+	private RequestQueue mRequestQueue;
+
+	private static AppController mInstance;
+
+	@Override
+	public void onCreate() {
+		super.onCreate();
+		mInstance = this;
+	}
+
+	public static synchronized AppController getInstance() {
+		return mInstance;
+	}
+
+	public RequestQueue getRequestQueue() {
+		if (mRequestQueue == null) {
+			mRequestQueue = Volley.newRequestQueue(getApplicationContext());
+		}
+
+		return mRequestQueue;
+	}
+
+	public &lt;T&gt; void addToRequestQueue(Request&lt;T&gt; req, String tag) {
+		req.setTag(TextUtils.isEmpty(tag) ? TAG : tag);
+		getRequestQueue().add(req);
+	}
+
+	public &lt;T&gt; void addToRequestQueue(Request&lt;T&gt; req) {
+		req.setTag(TAG);
+		getRequestQueue().add(req);
+	}
+
+	public void cancelPendingRequests(Object tag) {
+		if (mRequestQueue != null) {
+			mRequestQueue.cancelAll(tag);
+		}
+	}
+}
+</pre><p> <strong>8</strong>. Now open <strong>AndroidManifest.xml</strong> and add <em>INTERNET</em> permission. Add the <strong>AppController</strong> class to <strong>&lt;application&gt;</strong> tag. Also add other activities (<strong>LoginActivity</strong>, <strong>RegisterActivity</strong> and <strong>MainActivity</strong>) which we are going to create shortly. I am keeping LoginActivity as launcher activity as it should be seen on app launch.</p><pre class="brush: xml; title: AndroidManifest.xml; notranslate" title="AndroidManifest.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    package=&quot;info.androidhive.loginandregistration&quot;
+    android:versionCode=&quot;1&quot;
+    android:versionName=&quot;1.0&quot; &gt;
+
+    &lt;uses-sdk
+        android:minSdkVersion=&quot;9&quot;
+        android:targetSdkVersion=&quot;21&quot; /&gt;
+
+    &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt;
+
+    &lt;application
+        android:name=&quot;info.androidhive.loginandregistration.app.AppController&quot;
+        android:allowBackup=&quot;true&quot;
+        android:icon=&quot;@drawable/ic_launcher&quot;
+        android:label=&quot;@string/app_name&quot;
+        android:theme=&quot;@style/AppTheme&quot; &gt;
+        &lt;activity
+            android:name=&quot;.LoginActivity&quot;
+            android:label=&quot;@string/app_name&quot;
+            android:launchMode=&quot;singleTop&quot;
+            android:windowSoftInputMode=&quot;adjustPan&quot; &gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;
+
+                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+        &lt;activity
+            android:name=&quot;.RegisterActivity&quot;
+            android:label=&quot;@string/app_name&quot;
+            android:launchMode=&quot;singleTop&quot;
+            android:windowSoftInputMode=&quot;adjustPan&quot; /&gt;
+        &lt;activity
+            android:name=&quot;.MainActivity&quot;
+            android:label=&quot;@string/app_name&quot;
+            android:launchMode=&quot;singleTop&quot; /&gt;
+    &lt;/application&gt;
+
+&lt;/manifest&gt;
+</pre><p> <strong>9</strong>. Under <strong>helper</strong> package, create a class named <strong>SessionManager.java</strong> and add below code. This class maintains session data across the app using the SharedPreferences. We store a boolean flag <em>isLoggedIn</em> in shared preferences to check the login status.</p><p>My previous article <a href="http://www.androidhive.info/2012/08/android-session-management-using-shared-preferences/" title="Android User Session Management using Shared Preferences" target="_blank" class="link">Android User Session Management using Shared Preferences</a> gives you a good overview of managing the session data using <a rel="nofollow" href="http://developer.android.com/reference/android/content/SharedPreferences.html" title="Android Shared Preferences" target="_blank" class="link">SharedPreferences</a>.</p><pre class="brush: java; title: SessionManager.java; notranslate" title="SessionManager.java">
+package info.androidhive.loginandregistration.helper;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.util.Log;
+
+public class SessionManager {
+	// LogCat tag
+	private static String TAG = SessionManager.class.getSimpleName();
+
+	// Shared Preferences
+	SharedPreferences pref;
+
+	Editor editor;
+	Context _context;
+
+	// Shared pref mode
+	int PRIVATE_MODE = 0;
+
+	// Shared preferences file name
+	private static final String PREF_NAME = &quot;AndroidHiveLogin&quot;;
+	
+	private static final String KEY_IS_LOGGEDIN = &quot;isLoggedIn&quot;;
+
+	public SessionManager(Context context) {
+		this._context = context;
+		pref = _context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
+		editor = pref.edit();
+	}
+
+	public void setLogin(boolean isLoggedIn) {
+
+		editor.putBoolean(KEY_IS_LOGGEDIN, isLoggedIn);
+
+		// commit changes
+		editor.commit();
+
+		Log.d(TAG, &quot;User login session modified!&quot;);
+	}
+	
+	public boolean isLoggedIn(){
+		return pref.getBoolean(KEY_IS_LOGGEDIN, false);
+	}
+}
+
+</pre><p> <strong>10</strong>. Under <strong>helper</strong> package, create a class named <strong>SQLiteHandler.java</strong> and paste the below code. This class takes care of storing the user data in <strong>SQLite</strong> database. Whenever we needs to get the logged in user information, we fetch from SQLite instead of making request to server.</p><pre class="brush: java; title: SQLiteHandler.java; notranslate" title="SQLiteHandler.java">
+/**
+ * Author: Ravi Tamada
+ * URL: www.androidhive.info
+ * twitter: http://twitter.com/ravitamada
+ * */
+package info.androidhive.loginandregistration.helper;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
+
+import java.util.HashMap;
+
+public class SQLiteHandler extends SQLiteOpenHelper {
+
+	private static final String TAG = SQLiteHandler.class.getSimpleName();
+
+	// All Static variables
+	// Database Version
+	private static final int DATABASE_VERSION = 1;
+
+	// Database Name
+	private static final String DATABASE_NAME = &quot;android_api&quot;;
+
+	// Login table name
+	private static final String TABLE_USER = &quot;user&quot;;
+
+	// Login Table Columns names
+	private static final String KEY_ID = &quot;id&quot;;
+	private static final String KEY_NAME = &quot;name&quot;;
+	private static final String KEY_EMAIL = &quot;email&quot;;
+	private static final String KEY_UID = &quot;uid&quot;;
+	private static final String KEY_CREATED_AT = &quot;created_at&quot;;
+
+	public SQLiteHandler(Context context) {
+		super(context, DATABASE_NAME, null, DATABASE_VERSION);
+	}
+
+	// Creating Tables
+	@Override
+	public void onCreate(SQLiteDatabase db) {
+		String CREATE_LOGIN_TABLE = &quot;CREATE TABLE &quot; + TABLE_USER + &quot;(&quot;
+				+ KEY_ID + &quot; INTEGER PRIMARY KEY,&quot; + KEY_NAME + &quot; TEXT,&quot;
+				+ KEY_EMAIL + &quot; TEXT UNIQUE,&quot; + KEY_UID + &quot; TEXT,&quot;
+				+ KEY_CREATED_AT + &quot; TEXT&quot; + &quot;)&quot;;
+		db.execSQL(CREATE_LOGIN_TABLE);
+
+		Log.d(TAG, &quot;Database tables created&quot;);
+	}
+
+	// Upgrading database
+	@Override
+	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+		// Drop older table if existed
+		db.execSQL(&quot;DROP TABLE IF EXISTS &quot; + TABLE_USER);
+
+		// Create tables again
+		onCreate(db);
+	}
+
+	/**
+	 * Storing user details in database
+	 * */
+	public void addUser(String name, String email, String uid, String created_at) {
+		SQLiteDatabase db = this.getWritableDatabase();
+
+		ContentValues values = new ContentValues();
+		values.put(KEY_NAME, name); // Name
+		values.put(KEY_EMAIL, email); // Email
+		values.put(KEY_UID, uid); // Email
+		values.put(KEY_CREATED_AT, created_at); // Created At
+
+		// Inserting Row
+		long id = db.insert(TABLE_USER, null, values);
+		db.close(); // Closing database connection
+
+		Log.d(TAG, &quot;New user inserted into sqlite: &quot; + id);
+	}
+
+	/**
+	 * Getting user data from database
+	 * */
+	public HashMap&lt;String, String&gt; getUserDetails() {
+		HashMap&lt;String, String&gt; user = new HashMap&lt;String, String&gt;();
+		String selectQuery = &quot;SELECT  * FROM &quot; + TABLE_USER;
+
+		SQLiteDatabase db = this.getReadableDatabase();
+		Cursor cursor = db.rawQuery(selectQuery, null);
+		// Move to first row
+		cursor.moveToFirst();
+		if (cursor.getCount() &gt; 0) {
+			user.put(&quot;name&quot;, cursor.getString(1));
+			user.put(&quot;email&quot;, cursor.getString(2));
+			user.put(&quot;uid&quot;, cursor.getString(3));
+			user.put(&quot;created_at&quot;, cursor.getString(4));
+		}
+		cursor.close();
+		db.close();
+		// return user
+		Log.d(TAG, &quot;Fetching user from Sqlite: &quot; + user.toString());
+
+		return user;
+	}
+
+	/**
+	 * Re crate database Delete all tables and create them again
+	 * */
+	public void deleteUsers() {
+		SQLiteDatabase db = this.getWritableDatabase();
+		// Delete All Rows
+		db.delete(TABLE_USER, null, null);
+		db.close();
+
+		Log.d(TAG, &quot;Deleted all user info from sqlite&quot;);
+	}
+
+}
+</pre><p></p><h2>4.1 Adding the Login Screen</h2><p>Now we&#8217;ll implement the login module by creating the screen and adding the code to make login request to php, mysql server.</p><div style="float:none;margin:10px 0 10px 0;text-align:center;"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:300px;height:250px"
+data-ad-client="ca-pub-9207768510467156"
+data-ad-slot="2887095024"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><p><strong>11</strong>. Create an xml file named <strong>activity_login.xml</strong> under <strong>res â layout</strong>.</p><pre class="brush: xml; title: activity_login.xml; notranslate" title="activity_login.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:layout_width=&quot;fill_parent&quot;
+    android:layout_height=&quot;fill_parent&quot;
+    android:background=&quot;@color/bg_login&quot;
+    android:gravity=&quot;center&quot;
+    android:orientation=&quot;vertical&quot;
+    android:padding=&quot;10dp&quot; &gt;
+
+    &lt;LinearLayout
+        android:layout_width=&quot;fill_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:layout_gravity=&quot;center&quot;
+        android:orientation=&quot;vertical&quot;
+        android:paddingLeft=&quot;20dp&quot;
+        android:paddingRight=&quot;20dp&quot; &gt;
+
+        &lt;EditText
+            android:id=&quot;@+id/email&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginBottom=&quot;10dp&quot;
+            android:background=&quot;@color/white&quot;
+            android:hint=&quot;@string/hint_email&quot;
+            android:inputType=&quot;textEmailAddress&quot;
+            android:padding=&quot;10dp&quot;
+            android:singleLine=&quot;true&quot;
+            android:textColor=&quot;@color/input_login&quot;
+            android:textColorHint=&quot;@color/input_login_hint&quot; /&gt;
+
+        &lt;EditText
+            android:id=&quot;@+id/password&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginBottom=&quot;10dp&quot;
+            android:background=&quot;@color/white&quot;
+            android:hint=&quot;@string/hint_password&quot;
+            android:inputType=&quot;textPassword&quot;
+            android:padding=&quot;10dp&quot;
+            android:singleLine=&quot;true&quot;
+            android:textColor=&quot;@color/input_login&quot;
+            android:textColorHint=&quot;@color/input_login_hint&quot; /&gt;
+
+        &lt;!-- Login Button --&gt;
+
+        &lt;Button
+            android:id=&quot;@+id/btnLogin&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginTop=&quot;20dip&quot;
+            android:background=&quot;@color/btn_login_bg&quot;
+            android:text=&quot;@string/btn_login&quot;
+            android:textColor=&quot;@color/btn_login&quot; /&gt;
+
+        &lt;!-- Link to Login Screen --&gt;
+
+        &lt;Button
+            android:id=&quot;@+id/btnLinkToRegisterScreen&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginTop=&quot;40dip&quot;
+            android:background=&quot;@null&quot;
+            android:text=&quot;@string/btn_link_to_register&quot;
+            android:textAllCaps=&quot;false&quot;
+            android:textColor=&quot;@color/white&quot;
+            android:textSize=&quot;15dp&quot; /&gt;
+    &lt;/LinearLayout&gt;
+
+&lt;/LinearLayout&gt;
+</pre><p> <strong>12</strong>. Create an activity class named <strong>LoginActivity.java</strong> under <strong>activity</strong> package. In this class</p><p><em>checkLogin()</em> &#8211; Method verifies the login details on the server by making the volley http request.</p><pre class="brush: java; title: LoginActivity.java; notranslate" title="LoginActivity.java">
+/**
+ * Author: Ravi Tamada
+ * URL: www.androidhive.info
+ * twitter: http://twitter.com/ravitamada
+ */
+package info.androidhive.loginandregistration.activity;
+
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.android.volley.Request.Method;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.app.AppConfig;
+import info.androidhive.loginandregistration.app.AppController;
+import info.androidhive.loginandregistration.helper.SQLiteHandler;
+import info.androidhive.loginandregistration.helper.SessionManager;
+
+public class LoginActivity extends Activity {
+    private static final String TAG = RegisterActivity.class.getSimpleName();
+    private Button btnLogin;
+    private Button btnLinkToRegister;
+    private EditText inputEmail;
+    private EditText inputPassword;
+    private ProgressDialog pDialog;
+    private SessionManager session;
+    private SQLiteHandler db;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+
+        inputEmail = (EditText) findViewById(R.id.email);
+        inputPassword = (EditText) findViewById(R.id.password);
+        btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnLinkToRegister = (Button) findViewById(R.id.btnLinkToRegisterScreen);
+
+        // Progress dialog
+        pDialog = new ProgressDialog(this);
+        pDialog.setCancelable(false);
+
+        // SQLite database handler
+        db = new SQLiteHandler(getApplicationContext());
+
+        // Session manager
+        session = new SessionManager(getApplicationContext());
+
+        // Check if user is already logged in or not
+        if (session.isLoggedIn()) {
+            // User is already logged in. Take him to main activity
+            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
+
+        // Login button Click Event
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                String email = inputEmail.getText().toString().trim();
+                String password = inputPassword.getText().toString().trim();
+
+                // Check for empty data in the form
+                if (!email.isEmpty() &amp;&amp; !password.isEmpty()) {
+                    // login user
+                    checkLogin(email, password);
+                } else {
+                    // Prompt user to enter credentials
+                    Toast.makeText(getApplicationContext(),
+                            &quot;Please enter the credentials!&quot;, Toast.LENGTH_LONG)
+                            .show();
+                }
+            }
+
+        });
+
+        // Link to Register Screen
+        btnLinkToRegister.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),
+                        RegisterActivity.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+    }
+
+    /**
+     * function to verify login details in mysql db
+     * */
+    private void checkLogin(final String email, final String password) {
+        // Tag used to cancel the request
+        String tag_string_req = &quot;req_login&quot;;
+
+        pDialog.setMessage(&quot;Logging in ...&quot;);
+        showDialog();
+
+        StringRequest strReq = new StringRequest(Method.POST,
+                AppConfig.URL_LOGIN, new Response.Listener&lt;String&gt;() {
+
+            @Override
+            public void onResponse(String response) {
+                Log.d(TAG, &quot;Login Response: &quot; + response.toString());
+                hideDialog();
+
+                try {
+                    JSONObject jObj = new JSONObject(response);
+                    boolean error = jObj.getBoolean(&quot;error&quot;);
+
+                    // Check for error node in json
+                    if (!error) {
+                        // user successfully logged in
+                        // Create login session
+                        session.setLogin(true);
+
+                        // Now store the user in SQLite
+                        String uid = jObj.getString(&quot;uid&quot;);
+
+                        JSONObject user = jObj.getJSONObject(&quot;user&quot;);
+                        String name = user.getString(&quot;name&quot;);
+                        String email = user.getString(&quot;email&quot;);
+                        String created_at = user
+                                .getString(&quot;created_at&quot;);
+
+                        // Inserting row in users table
+                        db.addUser(name, email, uid, created_at);
+
+                        // Launch main activity
+                        Intent intent = new Intent(LoginActivity.this,
+                                MainActivity.class);
+                        startActivity(intent);
+                        finish();
+                    } else {
+                        // Error in login. Get the error message
+                        String errorMsg = jObj.getString(&quot;error_msg&quot;);
+                        Toast.makeText(getApplicationContext(),
+                                errorMsg, Toast.LENGTH_LONG).show();
+                    }
+                } catch (JSONException e) {
+                    // JSON error
+                    e.printStackTrace();
+                    Toast.makeText(getApplicationContext(), &quot;Json error: &quot; + e.getMessage(), Toast.LENGTH_LONG).show();
+                }
+
+            }
+        }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e(TAG, &quot;Login Error: &quot; + error.getMessage());
+                Toast.makeText(getApplicationContext(),
+                        error.getMessage(), Toast.LENGTH_LONG).show();
+                hideDialog();
+            }
+        }) {
+
+            @Override
+            protected Map&lt;String, String&gt; getParams() {
+                // Posting parameters to login url
+                Map&lt;String, String&gt; params = new HashMap&lt;String, String&gt;();
+                params.put(&quot;email&quot;, email);
+                params.put(&quot;password&quot;, password);
+
+                return params;
+            }
+
+        };
+
+        // Adding request to request queue
+        AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
+    }
+
+    private void showDialog() {
+        if (!pDialog.isShowing())
+            pDialog.show();
+    }
+
+    private void hideDialog() {
+        if (pDialog.isShowing())
+            pDialog.dismiss();
+    }
+}
+</pre><p> Now if you run the app, you should see the login screen. But login might not work as we don&#8217;t have any user information in mysql database. That can be done by adding the registration screen.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-screen.png" alt="android login screen design" width="720" height="800" class="alignnone size-full wp-image-33749" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-screen-270x300.png 270w, http://www.androidhive.info/wp-content/uploads/2012/01/android-login-screen.png 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-screen.png" alt="android login screen design" width="720" height="800" class="alignnone size-full wp-image-33749" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-login-screen-270x300.png 270w, http://www.androidhive.info/wp-content/uploads/2012/01/android-login-screen.png 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p></p><h2>4.1 Adding the Registration Screen</h2><p><strong>13</strong>. Create an xml layout named <strong>activity_register.xml</strong> under <strong>res â layout</strong>.</p><pre class="brush: xml; title: activity_register.xml; notranslate" title="activity_register.xml">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:layout_width=&quot;fill_parent&quot;
+    android:layout_height=&quot;fill_parent&quot;
+    android:background=&quot;@color/bg_register&quot;
+    android:gravity=&quot;center&quot;
+    android:orientation=&quot;vertical&quot;
+    android:padding=&quot;10dp&quot; &gt;
+
+    &lt;LinearLayout
+        android:layout_width=&quot;fill_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:layout_gravity=&quot;center&quot;
+        android:orientation=&quot;vertical&quot;
+        android:paddingLeft=&quot;20dp&quot;
+        android:paddingRight=&quot;20dp&quot; &gt;
+
+        &lt;EditText
+            android:id=&quot;@+id/name&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginBottom=&quot;10dp&quot;
+            android:background=&quot;@color/input_register_bg&quot;
+            android:hint=&quot;@string/hint_name&quot;
+            android:padding=&quot;10dp&quot;
+            android:singleLine=&quot;true&quot;
+            android:inputType=&quot;textCapWords&quot;
+            android:textColor=&quot;@color/input_register&quot;
+            android:textColorHint=&quot;@color/input_register_hint&quot; /&gt;
+
+        &lt;EditText
+            android:id=&quot;@+id/email&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginBottom=&quot;10dp&quot;
+            android:background=&quot;@color/input_register_bg&quot;
+            android:hint=&quot;@string/hint_email&quot;
+            android:inputType=&quot;textEmailAddress&quot;
+            android:padding=&quot;10dp&quot;
+            android:singleLine=&quot;true&quot;
+            android:textColor=&quot;@color/input_register&quot;
+            android:textColorHint=&quot;@color/input_register_hint&quot; /&gt;
+
+        &lt;EditText
+            android:id=&quot;@+id/password&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginBottom=&quot;10dp&quot;
+            android:background=&quot;@color/input_register_bg&quot;
+            android:hint=&quot;@string/hint_password&quot;
+            android:inputType=&quot;textPassword&quot;
+            android:padding=&quot;10dp&quot;
+            android:singleLine=&quot;true&quot;
+            android:textColor=&quot;@color/input_register&quot;
+            android:textColorHint=&quot;@color/input_register_hint&quot; /&gt;
+
+        &lt;!-- Login Button --&gt;
+
+        &lt;Button
+            android:id=&quot;@+id/btnRegister&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginTop=&quot;20dip&quot;
+            android:background=&quot;#ea4c88&quot;
+            android:text=&quot;@string/btn_register&quot;
+            android:textColor=&quot;@color/white&quot; /&gt;
+
+        &lt;!-- Link to Login Screen --&gt;
+
+        &lt;Button
+            android:id=&quot;@+id/btnLinkToLoginScreen&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginTop=&quot;40dip&quot;
+            android:background=&quot;@null&quot;
+            android:text=&quot;@string/btn_link_to_login&quot;
+            android:textAllCaps=&quot;false&quot;
+            android:textColor=&quot;@color/white&quot;
+            android:textSize=&quot;15dp&quot; /&gt;
+    &lt;/LinearLayout&gt;
+
+&lt;/LinearLayout&gt;
+</pre><p> <strong>14</strong>. Create an activity class named <strong>RegisterActivity.java</strong> under <strong>activity</strong> package.</p><p><em>registerUser()</em> &#8211; Will store the user by passing name, email and password to php,mysql server.</p><p><em>db.addUser()</em> &#8211; Will insert the user in SQLite database once he is successfully registered.</p><pre class="brush: java; title: RegisterActivity.java; notranslate" title="RegisterActivity.java">
+/**
+ * Author: Ravi Tamada
+ * URL: www.androidhive.info
+ * twitter: http://twitter.com/ravitamada
+ */
+package info.androidhive.loginandregistration.activity;
+
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.android.volley.Request.Method;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.app.AppConfig;
+import info.androidhive.loginandregistration.app.AppController;
+import info.androidhive.loginandregistration.helper.SQLiteHandler;
+import info.androidhive.loginandregistration.helper.SessionManager;
+
+public class RegisterActivity extends Activity {
+    private static final String TAG = RegisterActivity.class.getSimpleName();
+    private Button btnRegister;
+    private Button btnLinkToLogin;
+    private EditText inputFullName;
+    private EditText inputEmail;
+    private EditText inputPassword;
+    private ProgressDialog pDialog;
+    private SessionManager session;
+    private SQLiteHandler db;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_register);
+
+        inputFullName = (EditText) findViewById(R.id.name);
+        inputEmail = (EditText) findViewById(R.id.email);
+        inputPassword = (EditText) findViewById(R.id.password);
+        btnRegister = (Button) findViewById(R.id.btnRegister);
+        btnLinkToLogin = (Button) findViewById(R.id.btnLinkToLoginScreen);
+
+        // Progress dialog
+        pDialog = new ProgressDialog(this);
+        pDialog.setCancelable(false);
+
+        // Session manager
+        session = new SessionManager(getApplicationContext());
+
+        // SQLite database handler
+        db = new SQLiteHandler(getApplicationContext());
+
+        // Check if user is already logged in or not
+        if (session.isLoggedIn()) {
+            // User is already logged in. Take him to main activity
+            Intent intent = new Intent(RegisterActivity.this,
+                    MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
+
+        // Register Button Click event
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                String name = inputFullName.getText().toString().trim();
+                String email = inputEmail.getText().toString().trim();
+                String password = inputPassword.getText().toString().trim();
+
+                if (!name.isEmpty() &amp;&amp; !email.isEmpty() &amp;&amp; !password.isEmpty()) {
+                    registerUser(name, email, password);
+                } else {
+                    Toast.makeText(getApplicationContext(),
+                            &quot;Please enter your details!&quot;, Toast.LENGTH_LONG)
+                            .show();
+                }
+            }
+        });
+
+        // Link to Login Screen
+        btnLinkToLogin.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),
+                        LoginActivity.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+    }
+
+    /**
+     * Function to store user in MySQL database will post params(tag, name,
+     * email, password) to register url
+     * */
+    private void registerUser(final String name, final String email,
+                              final String password) {
+        // Tag used to cancel the request
+        String tag_string_req = &quot;req_register&quot;;
+
+        pDialog.setMessage(&quot;Registering ...&quot;);
+        showDialog();
+
+        StringRequest strReq = new StringRequest(Method.POST,
+                AppConfig.URL_REGISTER, new Response.Listener&lt;String&gt;() {
+
+            @Override
+            public void onResponse(String response) {
+                Log.d(TAG, &quot;Register Response: &quot; + response.toString());
+                hideDialog();
+
+                try {
+                    JSONObject jObj = new JSONObject(response);
+                    boolean error = jObj.getBoolean(&quot;error&quot;);
+                    if (!error) {
+                        // User successfully stored in MySQL
+                        // Now store the user in sqlite
+                        String uid = jObj.getString(&quot;uid&quot;);
+
+                        JSONObject user = jObj.getJSONObject(&quot;user&quot;);
+                        String name = user.getString(&quot;name&quot;);
+                        String email = user.getString(&quot;email&quot;);
+                        String created_at = user
+                                .getString(&quot;created_at&quot;);
+
+                        // Inserting row in users table
+                        db.addUser(name, email, uid, created_at);
+
+                        Toast.makeText(getApplicationContext(), &quot;User successfully registered. Try login now!&quot;, Toast.LENGTH_LONG).show();
+
+                        // Launch login activity
+                        Intent intent = new Intent(
+                                RegisterActivity.this,
+                                LoginActivity.class);
+                        startActivity(intent);
+                        finish();
+                    } else {
+
+                        // Error occurred in registration. Get the error
+                        // message
+                        String errorMsg = jObj.getString(&quot;error_msg&quot;);
+                        Toast.makeText(getApplicationContext(),
+                                errorMsg, Toast.LENGTH_LONG).show();
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e(TAG, &quot;Registration Error: &quot; + error.getMessage());
+                Toast.makeText(getApplicationContext(),
+                        error.getMessage(), Toast.LENGTH_LONG).show();
+                hideDialog();
+            }
+        }) {
+
+            @Override
+            protected Map&lt;String, String&gt; getParams() {
+                // Posting params to register url
+                Map&lt;String, String&gt; params = new HashMap&lt;String, String&gt;();
+                params.put(&quot;name&quot;, name);
+                params.put(&quot;email&quot;, email);
+                params.put(&quot;password&quot;, password);
+
+                return params;
+            }
+
+        };
+
+        // Adding request to request queue
+        AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
+    }
+
+    private void showDialog() {
+        if (!pDialog.isShowing())
+            pDialog.show();
+    }
+
+    private void hideDialog() {
+        if (pDialog.isShowing())
+            pDialog.dismiss();
+    }
+}
+</pre><p> Run the app and navigate to register screen by tapping on the link below login button.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/01/android-registration-screen.png" alt="android registration screen design" width="720" height="800" class="alignnone size-full wp-image-33750" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-registration-screen-270x300.png 270w, http://www.androidhive.info/wp-content/uploads/2012/01/android-registration-screen.png 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2012/01/android-registration-screen.png" alt="android registration screen design" width="720" height="800" class="alignnone size-full wp-image-33750" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-registration-screen-270x300.png 270w, http://www.androidhive.info/wp-content/uploads/2012/01/android-registration-screen.png 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p></p><h2>4.3 Adding the Home Screen</h2><p>Until now we are done with both login and registration screen. Now we&#8217;ll add the final screen to show the logged in user information. This information will be fetched from SQLite database once user is logged in.</p><p><strong>15</strong>. Create an xml file named <strong>activity_main.xml</strong> under <strong>res â layout</strong> and add below code.</p><pre class="brush: xml; title: activity_main.xml; notranslate" title="activity_main.xml">
+&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;
+    tools:context=&quot;${relativePackage}.${activityClass}&quot; &gt;
+
+    &lt;LinearLayout
+        android:layout_width=&quot;fill_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:layout_centerInParent=&quot;true&quot;
+        android:layout_marginLeft=&quot;20dp&quot;
+        android:layout_marginRight=&quot;20dp&quot;
+        android:gravity=&quot;center&quot;
+        android:orientation=&quot;vertical&quot; &gt;
+
+        &lt;TextView
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;@string/welcome&quot;
+            android:textSize=&quot;20dp&quot; /&gt;
+
+        &lt;TextView
+            android:id=&quot;@+id/name&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:padding=&quot;10dp&quot;
+            android:textColor=&quot;@color/lbl_name&quot;
+            android:textSize=&quot;24dp&quot; /&gt;
+
+        &lt;TextView
+            android:id=&quot;@+id/email&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:textSize=&quot;13dp&quot; /&gt;
+
+        &lt;Button
+            android:id=&quot;@+id/btnLogout&quot;
+            android:layout_width=&quot;fill_parent&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginTop=&quot;40dip&quot;
+            android:background=&quot;@color/btn_logut_bg&quot;
+            android:text=&quot;@string/btn_logout&quot;
+            android:textAllCaps=&quot;false&quot;
+            android:textColor=&quot;@color/white&quot;
+            android:textSize=&quot;15dp&quot; /&gt;
+    &lt;/LinearLayout&gt;
+
+&lt;/RelativeLayout&gt;
+</pre><p> <strong>16</strong>. Open the <strong>MainActivity.java</strong> and do below changes. Here we are just fetching the logged user information from SQLite and displaying it on the screen. The logout button will logout the user by clearing the session and deleting the user from SQLite table.</p><pre class="brush: java; title: MainActivity.java; notranslate" title="MainActivity.java">
+package info.androidhive.loginandregistration;
+
+import info.androidhive.loginandregistration.helper.SQLiteHandler;
+import info.androidhive.loginandregistration.helper.SessionManager;
+
+import java.util.HashMap;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+
+	private TextView txtName;
+	private TextView txtEmail;
+	private Button btnLogout;
+
+	private SQLiteHandler db;
+	private SessionManager session;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+
+		txtName = (TextView) findViewById(R.id.name);
+		txtEmail = (TextView) findViewById(R.id.email);
+		btnLogout = (Button) findViewById(R.id.btnLogout);
+
+		// SqLite database handler
+		db = new SQLiteHandler(getApplicationContext());
+
+		// session manager
+		session = new SessionManager(getApplicationContext());
+
+		if (!session.isLoggedIn()) {
+			logoutUser();
+		}
+
+		// Fetching user details from sqlite
+		HashMap&lt;String, String&gt; user = db.getUserDetails();
+
+		String name = user.get(&quot;name&quot;);
+		String email = user.get(&quot;email&quot;);
+
+		// Displaying the user details on the screen
+		txtName.setText(name);
+		txtEmail.setText(email);
+
+		// Logout button click event
+		btnLogout.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				logoutUser();
+			}
+		});
+	}
+
+	/**
+	 * Logging out the user. Will set isLoggedIn flag to false in shared
+	 * preferences Clears the user data from sqlite users table
+	 * */
+	private void logoutUser() {
+		session.setLogin(false);
+
+		db.deleteUsers();
+
+		// Launching the login activity
+		Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+		startActivity(intent);
+		finish();
+	}
+}
+</pre><p> Now if you run the app, you should see the below screen after successful login.</p><div class="image"> <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/01/android-dashboard-screen-after-login.png" alt="android welcome dashboard screen after login" width="720" height="800" class="alignnone size-full wp-image-33747" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-dashboard-screen-after-login-270x300.png 270w, http://www.androidhive.info/wp-content/uploads/2012/01/android-dashboard-screen-after-login.png 720w" sizes="(max-width: 720px) 100vw, 720px" /><noscript><img src="http://www.androidhive.info/wp-content/uploads/2012/01/android-dashboard-screen-after-login.png" alt="android welcome dashboard screen after login" width="720" height="800" class="alignnone size-full wp-image-33747" srcset="http://www.androidhive.info/wp-content/uploads/2012/01/android-dashboard-screen-after-login-270x300.png 270w, http://www.androidhive.info/wp-content/uploads/2012/01/android-dashboard-screen-after-login.png 720w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></div><p></p><h2>5. Testing the App</h2><p>For a beginner it will be always difficult to run this project for the first time. But don&#8217;t worry, the following steps will helps you testing this app. (The ip address looks like <strong>192.168.0.100</strong>)</p><p><strong>â</strong> Make sure that both devices (the device running the PHP project and the android device) are on the same wifi network.</p><p><strong>â</strong> Give correct <strong>username</strong> , <strong>password</strong> and <strong>database</strong> name of MySQL in <strong>Config.php</strong></p><p><strong>â</strong> Replace the URL <strong>ip address</strong> of <em>URL_LOGIN</em> and <em>URL_REGISTER</em> in <strong>AppConfig.java</strong> with your machine ip address. You can get the ip address by running <strong>ipconfig</strong> in <strong>cmd</strong></p><p></p><h2>What&#8217;s Next?</h2><p>If you understand this article very clearly, its time to improvise your knowledge by following the below articles.</p><p><strong>></strong> Read <a href="http://www.androidhive.info/2014/01/how-to-create-rest-api-for-android-app-using-php-slim-and-mysql-day-12-2/" target="_blank">How to create REST API for Android app using PHP, Slim and MySQL</a> to learn how to develop a proper REST API for your android app.</p><p><strong>></strong> <a href="http://www.androidhive.info/2015/03/android-hosting-php-mysql-restful-services-to-digitalocean/" target="_blank">Android Hosting PHP, MySQL RESTful services to DigitalOcean</a> explains how to deploy your REST services online. So that the urls will be accessible globally.</p><p></p><div id="changelog"> <strong>Change Log</strong></p><table border="0" width="100%"><tbody><tr><td>Updated On</td><td>28th Feb 2016 (Android Studio IDE)</td></tr></tbody></table></div><div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid red;"></span> <script type="text/javascript">jQuery(document).ready(function($) {
+    $.post('http://www.androidhive.info/wp-admin/admin-ajax.php', {action: 'mts_view_count', id: '1154'});
+});</script> </div></div></div><div class="postauthor"><h4>About The Author</h4> <img alt='' src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /><noscript><img alt='' src='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=100&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9578184c8f454a148b0b59dd1d21dfaf?s=200&amp;d=mm&amp;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' /></noscript><h5 class="vcard"><a href="http://www.androidhive.info/author/ravi8x/" rel="nofollow" class="fn">ravi8x</a></h5><p>Ravi is hardcore Android programmer and Android programming has been his passion since he compiled his first hello-world program. Solving real problems of Android developers through tutorials has always been interesting part for him.</p></div><div class="related-posts"><h4>Related Posts</h4><div class="clear"> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2012/10/android-multilevel-listview-tutorial/" title="Android Multilevel ListView Tutorial" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/10/bann-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android multilevel listview tutorial" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2012/10/bann-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android multilevel listview tutorial" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2012/10/android-multilevel-listview-tutorial/" title="Android Multilevel ListView Tutorial">Android Multilevel ListView Tutorial</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2012/05/android-rss-reader-application-using-sqlite-part-2/" title="Android RSS Reader Application using SQLite Part 2" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_rss_parser12-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android rss reader application" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2012/05/banner_rss_parser12-270x165.png" class="attachment-featured size-featured wp-post-image" alt="android rss reader application" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2012/05/android-rss-reader-application-using-sqlite-part-2/" title="Android RSS Reader Application using SQLite Part 2">Android RSS Reader Application using SQLite Part 2</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  last"> <a href="http://www.androidhive.info/2015/08/android-adding-sms-verification-like-whatsapp-part-1/" title="Android adding SMS Verification Like WhatsApp &#8211; Part 1" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android-sms-verification-like-whatsapp" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2015/08/android-sms-verification-like-whatsapp-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android-sms-verification-like-whatsapp" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2015/08/android-adding-sms-verification-like-whatsapp-part-1/" title="Android adding SMS Verification Like WhatsApp &#8211; Part 1">Android adding SMS Verification Like WhatsApp &#8211; Part 1</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article> <article class="latestPost excerpt  "> <a href="http://www.androidhive.info/2014/12/android-uploading-camera-image-video-to-server-with-progress-bar/" title="Android Uploading Camera Image, Video to Server with Progress Bar" rel="nofollow" id="featured-thumbnail"><div class="featured-thumbnail"><img width="270" height="165" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://www.androidhive.info/wp-content/uploads/2014/12/android-file-upload-with-progress-bar-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android file upload with progress bar" title="" /><noscript><img width="270" height="165" src="http://www.androidhive.info/wp-content/uploads/2014/12/android-file-upload-with-progress-bar-270x165.jpg" class="attachment-featured size-featured wp-post-image" alt="android file upload with progress bar" title="" /></noscript></div> </a> <header><h2 class="title front-view-title"><a href="http://www.androidhive.info/2014/12/android-uploading-camera-image-video-to-server-with-progress-bar/" title="Android Uploading Camera Image, Video to Server with Progress Bar">Android Uploading Camera Image, Video to Server with Progress Bar</a></h2><div class="post-info"> <span class="theauthor">by <span itemprop="author"><a rel="nofollow" href="http://www.androidhive.info/author/admin/" title="Posts by Ravi Tamada" rel="author">Ravi Tamada</a><span class="divider1">/</span></div> </header> </article></div></div></div><div id="disqus_thread" data-disqus-shortname="androidhive"></div></div> </article> <aside id="sidebar" class="sidebar c-4-12 " role="complementary" itemscope itemtype="http://schema.org/WPSideBar"><div id="search-2" class="widget widget_search"><h3 class="widget-title">SEARCH HERE</h3><form method="get" id="searchform" class="search-form" action="http://www.androidhive.info" _lpchecked="1"><fieldset> <input type="text" name="s" id="s" value="" placeholder="Search the site"  /> <button id="search-image" class="sbutton" type="submit" value=""> <i class="fa fa-search"></i> </button></fieldset></form></div><div id="text-9" class="widget widget_text"><div class="textwidget"><a href="http://www.androidhive.info/reviews"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="http://api.androidhive.info/tmp/reviews_banner.jpg"/><noscript><img src="http://api.androidhive.info/tmp/reviews_banner.jpg"/></noscript></a></div></div><div id="text-6" class="widget widget_text"><h3 class="widget-title">WEâRE SOCIAL</h3><div class="textwidget"><div class="fb-page"
+data-href="https://www.facebook.com/AndroidHive/"
+data-width="340"
+data-hide-cover="false"
+data-show-facepile="true"></div></div></div><div id="text-8" class="widget widget_text"><div class="textwidget"><div class="tve-leads-shortcode tve-tl-anim tl-anim-instant tve-leads-track-shortcode_39260"><div class="tl-style" id="tve_36_set" data-state="6"><div class="tve-leads-conversion-object" data-tl-type="shortcode_39260"><div class="tve_flt"><div class="thrv-leads-form-box tve_no_drag tve_no_icons tve_element_hover thrv_wrapper tve_editor_main_content tve_36_set tve_brdr_solid tve_blue"><h2 class="tve_p_center" style="font-size: 17px;">Subscribe to Newsletter</h2><p class="tve_p_center" style="font-size: 14px;">Join our 746,498 subscribers and get access to the latest android tutorials, freebies, scripts and much more!</p><div class="thrv_wrapper thrv_lead_generation tve_clearfix tve_red tve_11 thrv_lead_generation_vertical" data-tve-style="1" data-tve-version="1" data-inputs-count="11" data-connection="api"><input type="hidden" class="tve-lg-err-msg" value="{&quot;email&quot;:&quot;Please enter a valid email address&quot;,&quot;phone&quot;:&quot;Please enter a valid phone number&quot;,&quot;required&quot;:&quot;Highlighted fields are required&quot;}"><div class="thrv_lead_generation_code" style="display: none;"></div><div class="thrv_lead_generation_container tve_clearfix"><form action="#" method="post"><input type="hidden" class="tve-f-a-hidden" value="#"><div class="tve_lead_generated_inputs_container tve_clearfix"><div class="tve_lead_fields_overlay"></div><div class="tve_lg_input_container tve_lg_input tve_lg_2"><input type="email" data-field="email" data-required="1" data-validation="email" name="email" placeholder="Email" data-placeholder="Email" style="padding-right: 20px;"></div><input id="__tcb_lg_fc" type="hidden" name="__tcb_lg_fc" value="YToxOntzOjU6InNlbmR5IjtzOjI0OiJTcHMzNzYzaEwweTVrbnZHS2xIVjB4QnciO30="><input id="_asset_group" type="hidden" name="_asset_group" value=""><input id="_asset_option" type="hidden" name="_asset_option" value=""><input id="_back_url" type="hidden" name="_back_url" value="http://www.androidhive.info/subscription-successful/"><input id="_submit_option" type="hidden" name="_submit_option" value="redirect"><input id="_use_captcha" type="hidden" name="_use_captcha" value=""><input id="_captcha_theme" type="hidden" name="_captcha_theme" value="light"><input id="_captcha_type" type="hidden" name="_captcha_type" value="image"><input id="_captcha_size" type="hidden" name="_captcha_size" value="normal"><div style="display: none"></div><div class="tve_lg_input_container tve_submit_container tve_lg_submit tve_lg_2" tve-data-style="1"><button type="Submit">Sign Up</button></div></div></form></div></div><p class="tve_p_center" style="font-size: 14px;">We strictly care about your privacy!</p></div></div></div></div></div></div></div><div id="views-2" class="widget widget_views"><h3 class="widget-title">POPULAR ANDROID TUTORIALS</h3><ul><li class="postviews"><a href="http://www.androidhive.info/2011/11/android-sqlite-database-tutorial/"  title="Android SQLite Database Tutorial">Android SQLite Database Tutorial - 1,451,465 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/"  title="How to connect Android with PHP, MySQL">How to connect Android with PHP, MySQL - 1,434,222 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-json-parsing-tutorial/"  title="Android JSON Parsing Tutorial">Android JSON Parsing Tutorial - 1,283,625 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/"  title="Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL">Android Push Notifications using Google Cloud Messaging (GCM), PHP and MySQL - 1,215,919 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/"  title="Android Sliding Menu using Navigation Drawer">Android Sliding Menu using Navigation Drawer - 1,121,005 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/02/android-custom-listview-with-image-and-text/"  title="Android Custom ListView with Image and Text">Android Custom ListView with Image and Text - 988,385 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/"  title="Android Login and Registration with PHP, MySQL and SQLite">Android Login and Registration with PHP, MySQL and SQLite - 986,909 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2012/07/android-gps-location-manager-tutorial/"  title="Android GPS, Location Manager Tutorial">Android GPS, Location Manager Tutorial - 754,119 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/10/android-tab-layout-with-swipeable-views-1/"  title="Android Tab Layout with Swipeable Views">Android Tab Layout with Swipeable Views - 702,932 views</a></li><li class="postviews"><a href="http://www.androidhive.info/2013/08/android-working-with-google-maps-v2/"  title="Android working with Google Maps V2">Android working with Google Maps V2 - 623,735 views</a></li></ul></div></aside></div> <footer id="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter"><div class="container"><div class="footer-widgets first-footer-widgets widgets-num-3"><div class="f-widget f-widget-1"><div id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">QUICK CONTACT</h3><div class="menu-quick-contact-container"><ul id="menu-quick-contact" class="menu"><li id="menu-item-39273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39273"><a href="http://www.androidhive.info/advertise-with-us/">Advertise with us</a></li><li id="menu-item-39244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39244"><a href="http://www.androidhive.info/privacy-policy/">Privacy Policy</a></li><li id="menu-item-39245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39245"><a href="http://www.androidhive.info/terms-of-service/">Terms of Service</a></li><li id="menu-item-39266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39266"><a href="http://www.androidhive.info/sitemap/">Sitemap</a></li></ul></div></div></div><div class="f-widget f-widget-2"></div><div class="f-widget last f-widget-3"><div id="text-7" class="widget widget_text"><h3 class="widget-title">ABOUT ANDROIDHIVE</h3><div class="textwidget">AndroidHive is beginner's paradise for android tutorials, tips & tricks, games, app reviews, hacks and super cool advanced topics.</div></div></div></div><div class="copyrights"><div class="row" id="copyright-note"> <span>Copyright &copy; 2016 Droid5 Informatics Pvt Ltd.</span><div class="to-top"></div></div></div></div> </footer></div><div id="fb-root"></div> <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> <script id="dsq-count-scr" src="//androidhive.disqus.com/count.js" async></script> <script>/**************************************************************/
+/*AM22 Named Function to load Disqus - START*/
+jQuery(document).ready(function(){
+var disqus_identifier = window.location.url; //Use current page URL as Disqus_URL_Identifier. You can change it as per your requirement.
+var ds_loaded = false; //To track loading only once on a page.
+function loadDisqus()
+{
+    var disqus_div = jQuery("#disqus_thread"); //The ID of the Disqus DIV tag
+    var top = disqus_div.offset().top;
+    var disqus_data = disqus_div.data();
+    if ( !ds_loaded && jQuery(window).scrollTop() + jQuery(window).height() > top ) 
+    {
+        ds_loaded = true;
+        for (var key in disqus_data) 
+        {
+            if (key.substr(0,6) == 'disqus') 
+            {
+                window['disqus_' + key.replace('disqus','').toLowerCase()] = disqus_data[key];
+            }
+        }
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }  
+}
+/*AM22 Named Function to load Disqus - END*/
+/*AM22 Disqus lazy load - START*/
+jQuery(function () 
+{
+    var disqus_div = jQuery("#disqus_thread");
+    if (disqus_div.size() > 0) 
+    {
+        jQuery(window).scroll(loadDisqus);      
+    }  
+}
+);
+/*AM22 Disqus lazy load - END*/
+});</script><div id="tve_notification_box"></div><script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushSql.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPhp.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.9b'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJava.js?ver=3.0.9b'></script> <script type='text/javascript'>(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.androidhive.info/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['gutter'] = false;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();</script> <link rel='stylesheet' id='tve-leads-font-9062833c9baa57b288ba47a7993dc1c0-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600%2C700' type='text/css' media='all' /> <script type='text/javascript'>/*  */
+var viewsCacheL10n = {"admin_ajax_url":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","post_id":"1154"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/wp-postviews/postviews-cache.js?ver=1.68'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/comment-reply.min.js'></script> <script type='text/javascript'>/*  */
+var tve_dash_front = {"ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php"};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/thrive-dashboard/js/dist/frontend.min.js?ver=1.0.10'></script> <script type='text/javascript' src='http://www.androidhive.info/wp-includes/js/wp-embed.min.js'></script> <script type='text/javascript'>/*  */
+var tve_frontend_options = {"is_editor_page":"","page_events":[],"is_single":"1","ajaxurl":"http:\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","social_fb_app_id":""};
+/*  */</script> <script type='text/javascript' src='http://www.androidhive.info/wp-content/plugins/thrive-leads/tcb/editor/js/thrive_content_builder_frontend.min.js?ver=1.200.5'></script> <script type='text/javascript' src='//www.androidhive.info/wp-content/plugins/thrive-leads/js/frontend.min.js?ver=1.75'></script> <script type="text/javascript">/**/var TL_Const={"security":"62e7a1ef75","ajax_url":"\/\/www.androidhive.info\/wp-admin\/admin-ajax.php","forms":{"shortcode_39260":{"_key":"6","trigger":"page_load","trigger_config":{},"form_type_id":"39260","main_group_id":"39260","active_test_id":""}},"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":0,"shortcode_ids":["39260"],"custom_post_data":{"get_data":{"q":"\/2012\/01\/android-login-and-registration-with-php-mysql-and-sqlite\/"}},"current_screen":{"screen_type":4,"screen_id":1154},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]}/* */</script><script type="text/javascript">var TL_Front = TL_Front || {}; TL_Front.impressions_data = TL_Front.impressions_data || {};TL_Front.impressions_data.shortcode_39260 = {"group_id":"39260","form_type_id":"39260","variation_key":"6","active_test_id":null,"output_js":true};</script><script type="text/javascript">(function ($) {
+	$(function () {
+		var event_data = {"form_id":"tve-leads-track-shortcode_39260","form_type":"shortcode"};
+		event_data.source = 'page_load';
+		setTimeout(function () {
+			ThriveGlobal.$j(TL_Front).trigger('showform.thriveleads', event_data);
+			}, 200);
+		});
+	})
+(ThriveGlobal.$j);</script></body></html>
+<!-- This website is like a Rocket, isn't it ? Performance optimized by WP Rocket. Learn more: http://wp-rocket.me - Debug: cached@1470854489 -->

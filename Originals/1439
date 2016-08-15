@@ -1,0 +1,3392 @@
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr"
+      
+  xmlns:schema="http://schema.org/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"      class="no-js">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="sailthru.date" content="2015-12-16T12:10:11-05:00" />
+<meta name="sailthru.description" content="You&amp;#039;ve heard it before, but it&amp;#039;s worth repeating: Little changes really can add up to major results!" />
+<meta name="sailthru.image.full" content="http://greatist.com/sites/default/files/SimpleSwap_Feature.png" />
+<meta name="sailthru.tags" content="Grow,List With Images,Exercises,Food Swaps,Nutrition Facts,Stress Relief" />
+<link rel="shortcut icon" href="http://greatist.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="sailthru.author" content="Laura" />
+<meta name="sailthru.title" content="89 Incredibly Simple Swaps That Could Change Your Life" />
+<link href="http://greatist.com/health/89-simple-swaps-could-change-your-life" rel="canonical" />
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type":"WebPage",
+    "@id":"http://greatist.com/health/89-simple-swaps-could-change-your-life"
+  },
+  "headline": "89 Incredibly Simple Swaps That Could Change Your Life",
+  
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://greatist.com/sites/default/files/SimpleSwap_Feature.png",
+    "height": 334,
+    "width": 644
+  },
+  "datePublished": "2015-12-16T12:10:11-05:00",
+  "dateModified": "2015-12-18T13:48:56-05:00",
+  "description": "You've heard it before, but it's worth repeating: Little changes really can add up to major results!",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Grow",
+      "sameAs": "http://greatist.com/grow"
+    },
+    {
+      "@type": "Thing",
+      "name": "Exercises",
+      "sameAs": "http://greatist.com/exercises"
+    },
+    {
+      "@type": "Thing",
+      "name": "Food Swaps",
+      "sameAs": "http://greatist.com/food-swaps"
+    },
+    {
+      "@type": "Thing",
+      "name": "Nutrition Facts",
+      "sameAs": "http://greatist.com/nutrition-facts"
+    },
+    {
+      "@type": "Thing",
+      "name": "Stress Relief",
+      "sameAs": "http://greatist.com/stress-relief"
+    }],
+  "articleBody": "&lt;p&gt;Whole grains for white, quality for quantity, Wii Fit for Mario Kart&mdash;just one smart swap can pave the way to a healthier and happier life. We decided to go all out and provide 89 &ldquo;this for that&rsquo;s,&rdquo; so there are no excuses when it comes to making healthier choices!&lt;/p&gt;  &lt;section class=&quot;slideshow list-image-full&quot; ng-controller=&quot;SlideshowListCtrl&quot; ng-init=&quot;init()&quot;&gt;
+            &lt;h3&gt;Fitness&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          1. Dynamic for Static Stretching                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/352.jpg?itok=7wKtThKb&quot;
+              alt=&quot;1. Dynamic for Static Stretching&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;1. Dynamic for Static Stretching&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Stretching out cold muscles could &lt;a href=&quot;http://greatist.com/fitness/12-biggest-myths-about-stretching&quot; rel=&quot;nofollow&quot;&gt;lead to injury&lt;/a&gt;. So incorporate some active movement into a stretching routine&mdash;try &lt;a href=&quot;http://www.acefitness.org/exerciselibrary/94/&quot; rel=&quot;&quot;&gt;lunges&lt;/a&gt; and &lt;a href=&quot;http://www.youtube.com/watch?v=EaGw37FbU0Y&amp;amp;feature=related&quot; rel=&quot;nofollow&quot;&gt;arm swings&lt;/a&gt; before working out.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          2. Interval Workout for Relaxed Run                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Congrats on that 26.2-mile marathon. Now try a 20-minute &lt;a href=&quot;http://greatist.com/team/my-minute-minute-interval-workout&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;interval run&lt;/a&gt; that involves lots of sprinting with some walking recovery. It may kick up the heat even more.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          3. Incline for Flat Treadmill                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;In a perfect, outdoor world, flat roads rarely exist. (Sorry, midwestern readers!) Add some hills to that treadmill run by cranking up &lt;a href=&quot;http://www.greatist.com/fitness/incline-on-the-treadmill/&quot; rel=&quot;nofollow&quot;&gt;the incline&lt;/a&gt;, and feel the muscle-building burn!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          4. Zumba for Elliptical                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Trash that Cosmo-reading elliptical routine and surprise the body with a fun, calorie-burning &lt;a href=&quot;http://greatist.com/fitness/we-did-it-zumba&quot; rel=&quot;nofollow&quot;&gt;cardio session&lt;/a&gt;. Sure beats staying stuck to a machine. &lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          5. Planks for Crunches                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;OK have we said this enough? &lt;a href=&quot;http://greatist.com/fitness/are-crunches-best-workout-abs&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Crunches&lt;/a&gt; may not be the secret to six-pack abs. &lt;a href=&quot;http://greatist.com/fitness/perfect-plank&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Give planks a try&lt;/a&gt; instead to work that wholecore. Extra points for holding it for a minute straight!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          6. Warming up for Rushing Right To It                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;We know that barbell looks tempting. But before hitting the weight rack, do an active &lt;a href=&quot;http://www.mayoclinic.com/health/exercise/SM00067&quot; rel=&quot;&quot;&gt;warm-up&lt;/a&gt; to loosen up limbs and get the most out of the workout.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          7. Standing for Sitting at a Desk                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/1110.jpg?itok=UE46K33T&quot;
+              alt=&quot;7. Standing for Sitting at a Desk&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;7. Standing for Sitting at a Desk&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;How often does someone complain about having to sit in a cubicle all day? We have a simple solution (no college degree required)&hellip; stand. Use a pile of books to prop up the computer, or purchase &lt;a href=&quot;http://www.nytimes.com/2010/04/22/technology/personaltech/22basics.html&quot; rel=&quot;&quot;&gt;one of these&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          8. Exercise Ball for Office Chair                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Okay, we get it. Some people really don&rsquo;t want to stand at their cubicle. So stay seated, but on &lt;a href=&quot;http://www.greatist.com/health/swiss-ball-vs-office-chair/&quot; rel=&quot;nofollow&quot;&gt;a Swiss ball&lt;/a&gt;! It can help with balance &lt;em&gt;and &lt;/em&gt;that six-pack. Fitness at the fingertips!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          9. Gym for Napping                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Falling asleep at the wheel? Pull over. Tired in front of the TV? &lt;a href=&quot;http://www.greatist.com/fitness/feel-like-napping-hit-the-gym/&quot; rel=&quot;nofollow&quot;&gt;Hit the gym&lt;/a&gt;. It provides a big boost of energy and burns calories.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          10. Free Weights for Machines                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Skip the big machines (&lt;a href=&quot;http://www.greatist.com/fitness/are-germs-at-the-gym-making-you-sick/&quot; rel=&quot;nofollow&quot;&gt;they&rsquo;re sweaty&lt;/a&gt; anyway) and go for the little guys&mdash;&lt;a href=&quot;http://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/health-tip/art-20049099&quot;&gt;free weights&lt;/a&gt; are more versatile and allow for a full range of motion in the joints.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          11. Pull-Ups for Biceps Curls                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Isolating muscles is &lt;em&gt;so&lt;/em&gt; 2012. Pull-ups are not only impressive (I can do two, &lt;em&gt;thankyouverymuch) &lt;/em&gt;but they work &lt;a href=&quot;http://www.acefitness.org/exerciselibrary/191/pull-ups&quot; rel=&quot;&quot;&gt;way more&lt;/a&gt; than one muscle. Talk about multitasking.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          12. Squats for Leg Press                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Forget staying seated to work out the legs. Amp up the training sesh and do some squats to strengthen &lt;em&gt;all the&lt;/em&gt;&lt;a href=&quot;http://healthyliving.azcentral.com/muscles-squats-work-out-8331.html&quot; rel=&quot;nofollow&quot;&gt;&lt;em&gt; &lt;/em&gt;leg muscles&lt;/a&gt;, with some gluteus maximus work in there too!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          13. Personal trainer for Guessing Games                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Just when we think we&rsquo;ve had enough, trainers may help &lt;a href=&quot;http://www.greatist.com/fitness/should-i-be-working-out-with-a-personal-trainer/&quot; rel=&quot;nofollow&quot;&gt;push us through&lt;/a&gt; that second set of &lt;a href=&quot;http://www.youtube.com/watch?v=c_Dq_NCzj8M&quot; rel=&quot;nofollow&quot;&gt;burpees&lt;/a&gt;. Look for a &lt;a href=&quot;http://www.yipit.com&quot; rel=&quot;nofollow&quot;&gt;deal online&lt;/a&gt; to cut the cost in half!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          14. Foam Rolling for Static Stretching                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Need to get the knots out? Try &lt;a href=&quot;http://greatist.com/fitness/how-foam-roll-pro&quot; rel=&quot;nofollow&quot;&gt;using a foam roller&lt;/a&gt; instead of sitting and stretching to the toes. It&rsquo;s almost like a personal massage.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          15. Exergames for Mario Kart                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Mario may be booking it through the race course, but holding the remote control does next to nothing for our own heart rate. Try out Wii Fit or Just Dance&mdash;they&rsquo;re designed to provide light to moderate &lt;a href=&quot;http://www.greatist.com/fitness/can-video-games-count-as-exercise/&quot; rel=&quot;nofollow&quot;&gt;exercise&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          16. Rowing for Biking                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;How often can we row, row, row a boat indoors? Take advantage of the rowing machine instead of the good &rsquo;ol bike; it&rsquo;s a super &lt;a href=&quot;http://www.learn-to-row.com.au/&quot; rel=&quot;nofollow&quot;&gt;upper and lower&lt;/a&gt; body exercise.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          17. Stairs for Escalator                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/stairs-man-person-walking.jpg?itok=A1umYW4Y&quot;
+              alt=&quot;17. Stairs for Escalator&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;17. Stairs for Escalator&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;We&rsquo;ve heard the tip a million times, so here it is for the millionth plus one. If the option&rsquo;s available, go the old-fashion route and &lt;a href=&quot;http://greatist.com/fitness/ultimate-staircase-workout&quot;&gt;climb the stairs&lt;/a&gt; to burn some extra calories.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          18. Fun Workout for Dreaded Workout                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Loathe the elliptical? Try the stair-master. Hate the bench press? &lt;a href=&quot;http://www.greatist.com/fitness/push-ups-or-bench-press-for-a-better-chest/&quot; rel=&quot;nofollow&quot;&gt;Do push-ups&lt;/a&gt; instead. We can still challenge ourselves without doing exercises we hate.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          19. Active Date for Dinner and a Movie                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Save a night at that French restaurant for retirement and go on a fun, active winter date with a special someone. &lt;a href=&quot;http://www.greatist.com/fitness/15-active-winter-date-ideas/&quot; rel=&quot;nofollow&quot;&gt;Sledding&lt;/a&gt; can be just as intimate as duck confit, and it sneaks in a hill-climbing workout, too.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          20. Parking Farther Away for Getting A Spot Up Close                       &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;There&rsquo;s no need to circle the parking lot five times looking for the perfect spot. Just park further away and walk the extra 100 feet to Target. (Doesn&rsquo;t count as a trip to the gym, though!)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          21. Walking Farther for Running Shorter                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;New to running? It&rsquo;s okay. Even if a mile is all that&rsquo;s possible, keep walking for a good cardio workout. Hold some &lt;a href=&quot;http://www.greatist.com/fitness/is-walking-as-good-a-workout-as-running/&quot; rel=&quot;nofollow&quot;&gt;light weights&lt;/a&gt; to up the intensity even more!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          22. Working Out With a Pal for Exercising Alone                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Grab that special someone or just a friend and hit the gym; working out with others may &lt;a href=&quot;http://www.greatist.com/fitness/tip-workout-power-couple/&quot; rel=&quot;nofollow&quot;&gt;strengthen trust&lt;/a&gt;. Plus he or she could help motivate us through that final set of push-ups!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          23. Hands-Free Running for Holding Handles                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/woman-jogger-jogging-sport.jpg?itok=bVthaomC&quot;
+              alt=&quot;23. Hands-Free Running for Holding Handles&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;23. Hands-Free Running for Holding Handles&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Hands off! On the treadmill, don&rsquo;t rely on the handlebars. They take some of the stress off the body and make that workout less challenging.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          24. Cherry Juice for Muscle Medicine                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Feeling sore? Rather than &lt;a href=&quot;http://www.msnbc.msn.com/id/9074128/ns/health-heart_health/t/are-painkillers-risks-worth-benefits/#.TxcKoWOXTcY&quot; rel=&quot;nofollow&quot;&gt;popping some pills&lt;/a&gt;, try drinking a glass of &lt;a href=&quot;http://www.greatist.com/health/tip-drink-cherry-juice/&quot; rel=&quot;nofollow&quot;&gt;cherry juice&lt;/a&gt;. The antioxidants could help keep muscle swelling down. (Take &lt;em&gt;that, &lt;/em&gt;Aspirin!)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          25. Homemade Post-Workout Snack for a Protein Bar                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Bring a PB&amp;amp;J or another post-workout snack to the gym rather than buying a &lt;a href=&quot;http://www.greatist.com/health/the-protein-bar/&quot; rel=&quot;nofollow&quot;&gt;protein bar&lt;/a&gt;. We need some &lt;a href=&quot;http://www.greatist.com/fitness/protein-drinks-post-exercise-help-build-stronger-muscles/&quot; rel=&quot;nofollow&quot;&gt;after-exercise fuel&lt;/a&gt;, but don&rsquo;t get it in the form of excess sugar!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Health&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          26. Cooking at Home for Eating Out                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Even if we try to eat healthy at a restaurant, that pesky bread bowl or &lt;a href=&quot;http://www.greatist.com/health/dangerfood-caesar-salad/&quot; rel=&quot;nofollow&quot;&gt;sneaky salad&lt;/a&gt; may pack more calories than we planned for. Trust those top-chef skills and turn on the (skillet) heat. Cooking at home will more likely result in a &lt;a href=&quot;http://www.usatoday.com/life/lifestyle/2004-05-05-home-cooking_x.htm&quot; rel=&quot;nofollow&quot;&gt;healthier meal&lt;/a&gt;, not to mention a happier wallet.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          27. Whole Fruit for Fruit Juice                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/pexels-photo-1.jpg?itok=vODcYWXF&quot;
+              alt=&quot;27. Whole Fruit for Fruit Juice&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;27. Whole Fruit for Fruit Juice&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;a href=&quot;http://healthland.time.com/2009/08/07/calorie-counter-fruit-vs-fruit-juice/&quot; rel=&quot;nofollow&quot;&gt;A glass of O.J.&rsquo;s missing&lt;/a&gt; the pulp, skin, and full fiber content of an orange. Skip the glass and go with the whole piece of fruit to reap the benefits of this sweet, healthy snack.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          28. Pan-Fried for Deep-Fried                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Obvious news flash: &lt;a href=&quot;http://today.msnbc.msn.com/id/32665106/ns/today-food/t/move-over-twinkies-deep-fried-butter-here/&quot; rel=&quot;nofollow&quot;&gt;Deep-fried food&lt;/a&gt; is unhealthy. Keep things crispy by pan-frying lean protein or veggies in the skillet with some &lt;a href=&quot;http://www.greatist.com/health/best-cooking-oil/&quot; rel=&quot;nofollow&quot;&gt;cooking oil&lt;/a&gt;. We promise it&rsquo;ll be just as tasty!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          29. Local Produce for Supermarket Veggies                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Take a trip to the farmer&rsquo;s market instead of Walmart&rsquo;s produce aisle. &lt;a href=&quot;http://www.ers.usda.gov/Publications/ERR97/ERR97.pdf&quot; rel=&quot;nofollow&quot;&gt;According to the USDA&lt;/a&gt;, local, seasonal fruits and veggies may be more nutritious. It helps out local economies, too!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          30. Oil and Balsamic for Other Dressings                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Ever flip that dressing bottle around and see a million ingredients listed? Think &ldquo;less is more&rdquo; and lightly dress a salad with some olive oil and balsamic vinegar&mdash;no additives included!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          31. Raw Spinach for Iceberg Lettuce                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/food-salad-healthy-lunch.jpg?itok=8T3PSVOR&quot;
+              alt=&quot;31. Raw Spinach for Iceberg Lettuce&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;31. Raw Spinach for Iceberg Lettuce&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Let&rsquo;s be real, iceberg lettuce is boring. Besides, &lt;a href=&quot;http://www.greatist.com/health/salad-greens/&quot; rel=&quot;nofollow&quot;&gt;spinach&lt;/a&gt; is full of vitamin K, vitamin A, calcium, and iron. Plus, &lt;a href=&quot;http://www.thekitchn.com/why-did-popeye-eat-so-much-spinach-the-surprising-answer-191802&quot; rel=&quot;nofollow&quot;&gt;Popeye loves it&lt;/a&gt;. Can&rsquo;t go wrong!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          32. Greek Yogurt for Sour Cream                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Sour cream can taste pretty good in a burrito. To get that same creamy coolness, add a dollop of plain &lt;a href=&quot;http://greatist.com/health/greek-yogurt-recipes-healthy-delicious&quot;&gt;Greek yogurt&lt;/a&gt; to amp up the protein and slash the fat.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          33. Cinnamon for Sugar                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Here&rsquo;s a spicy suggestion: Using cinnamon, rather than sugar packets, &lt;a href=&quot;http://www.greatist.com/health/cinnamon-in-coffee/&quot; rel=&quot;nofollow&quot;&gt;in coffee&lt;/a&gt; can heighten the flavor without adding extra calories. Try it in oatmeal too!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          34. Salsa for Cream Cheese Dips                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;You say tomato, I say &lt;a href=&quot;http://healthyeating.sfgate.com/health-benefits-fresh-tomato-salsa-4157.html&quot; rel=&quot;nofollow&quot;&gt;salsa&lt;/a&gt;. Dip the chip into this healthy alternative to cheesy spreads. Plus, salsa packs a fiery, flavorful punch!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          35. Frozen Grapes for Popsicles                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;It may sound a little weird, but hear us out. Stick a bunch of &lt;a href=&quot;http://www.eatingoutloud.com/2008/09/frozen-grapes-a-refreshing-snack.html&quot; rel=&quot;nofollow&quot;&gt;grapes in the freezer&lt;/a&gt; and snack on them a few hours later&mdash;it&rsquo;s like eating bite-sized Popsicles with no added sugar!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          36. Sparkling Water for Soda                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/water-drink-glass-drinking.jpg?itok=ZzRed1GD&quot;
+              alt=&quot;36. Sparkling Water for Soda&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;36. Sparkling Water for Soda&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Need a carbonation kick? Say sayonara to &lt;a href=&quot;http://www.mayoclinic.com/health/high-fructose-corn-syrup/AN01588&quot; rel=&quot;&quot;&gt;fructose-filled sodas&lt;/a&gt; and fill up with sparking water. Try a fun flavor like lemon-lime, or even &lt;a href=&quot;http://www.polarbev.com/PRODUCTS/Seltzers/VanillaSeltzer/tabid/100/Default.aspx&quot; rel=&quot;nofollow&quot;&gt;vanilla&lt;/a&gt;. So long, Vanilla Coke!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          37. Fresh Fruit for Syrup at Brunch                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Every now and then, there&rsquo;s nothing like a good stack of pancakes. Cut calories by skipping Aunt Jemima and spreading those cakes with &lt;a href=&quot;http://www.greatist.com/health/blueberries/&quot; rel=&quot;nofollow&quot;&gt;fresh fruit&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          38. Air-Popped Popcorn for Chips                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;On a salt spree? Air-pop some popcorn and add a dash of salt&mdash;three whole cups is only about &lt;a href=&quot;http://nutritiondata.self.com/facts/snacks/5356/2&quot; rel=&quot;&quot;&gt;100 calories&lt;/a&gt;. That&rsquo;s way more satisfying than six measly and greasy chips.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          39. Doggy Bag for Food Coma                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;How often do we leave a restaurant &lt;em&gt;actually &lt;/em&gt;having room for dessert? Forget trying to lick the plate clean, and take half the meal to go. To avoid eating more than planned, ask the waiter to wrap half of it up before serving!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          40. Brown Rice for White Rice                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;It&rsquo;s in our &lt;a href=&quot;http://www.greatist.com/team/health-fitness-manifesto/&quot; rel=&quot;nofollow&quot;&gt;manifesto&lt;/a&gt;, so we can&rsquo;t ignore it: White rice is stripped of many essential nutrients (like fiber), so get the full, nutritious benefits of &lt;a href=&quot;http://www.greatist.com/health/brown-rice-vs-white-rice/&quot; rel=&quot;nofollow&quot;&gt;brown rice&lt;/a&gt; that&rsquo;ll also help fill us up!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          41. Whole-Wheat Pasta for White Pasta                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Just like rice, whole-wheat pasta has a nutty flavor that&rsquo;s filled with &lt;a href=&quot;http://www.greatist.com/health/is-whole-wheat-pasta-healthier/&quot; rel=&quot;nofollow&quot;&gt;antioxidants and fiber&lt;/a&gt;. White pasta just doesn&rsquo;t do the trick!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          42. Oatmeal for Sugary Cereal                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Cap&rsquo;n Crunch and Frosted Flakes should stay a part of our childhood past. One bowl of cereal can be &lt;a href=&quot;http://today.msnbc.msn.com/id/45575890/ns/today-today_health/t/some-kids-cereals-pack-more-sugar-twinkie/&quot; rel=&quot;nofollow&quot;&gt;filled with sugar&lt;/a&gt; (and who eats &lt;em&gt;only &lt;/em&gt;one bowl?), so choose some heart-healthy &lt;a href=&quot;http://www.greatist.com/health/oatmeal-greatist-recipe/&quot; rel=&quot;nofollow&quot;&gt;oatmeal&lt;/a&gt; instead.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          43. Biking to Work for Driving                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;If the office is a few miles away, skip the Sedan and hop on the bike (weather permitting). A little bike-ride can boost endorphins before the workday starts!&lt;cite data-cite-reference=&quot;&quot; class=&quot;citation-reference&quot;&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9257407&quot;&gt;Beta-endorphin response to exercise. An update.&lt;/a&gt; Goldfarb AH, Jamurtas AZ. Sports medicine (Auckland, N.Z.), 1998, Feb.;24(1):0112-1642.&lt;/cite&gt; (Paying for gas is no fun, anyway.)&lt;/p&gt;         &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          44. Packing Lunch for Eating Out                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Lunch boxes aren&rsquo;t just for middle school. Pack a sandwich or some leftovers to bring to school, work&mdash;wherever. It&rsquo;ll make that vending machine look &lt;em&gt;far&lt;/em&gt; less appetizing.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          45. Eating Three Meals for Skipping and Snacking                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;We should only eat when we&rsquo;re hungry, but being too busy to squeeze in a mid-day meal can leave us feeling &lt;a href=&quot;http://health.usnews.com/health-news/diet-fitness/diet/articles/2011/08/31/food-and-mood-6-ways-your-diet-affects-how-you-feel&quot; rel=&quot;nofollow&quot;&gt;tired and grouchy&lt;/a&gt;&mdash;not to mention depriving us of essential nutrients to get us through the day!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          46. Mustard for Mayo                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;For tomorrow&rsquo;s turkey sandwich, skip the fat-filled mayo and spread some tasty (and &lt;a href=&quot;http://www.livestrong.com/thedailyplate/nutrition-calories/food/frenchs/yellow-mustard/&quot; rel=&quot;nofollow&quot;&gt;naturally fat-free&lt;/a&gt;) mustard on the bread!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          47. Avocado Toast for Butter                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Take plain old bread to the next level with &lt;a href=&quot;http://www.greatist.com/health/avocado/&quot; rel=&quot;nofollow&quot;&gt;avocado&lt;/a&gt; spread instead of butter. Add a dash of sea salt and some sliced tomato for a mid-day snack!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          48. Lean Meats for Fatty Ones                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Bacon is overrated. For a boost of protein when watching fat intake, go after &lt;a href=&quot;http://www.mayoclinic.com/health/food-and-nutrition/NU00202&quot; rel=&quot;&quot;&gt;lean meats&lt;/a&gt; like turkey and chicken over pork and beef.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          49. Marinara Sauce for White Sauce                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;We doubt penne ala vodka is made with Grey Goose, and besides, all the extra calories in white sauce aren&rsquo;t worth it. Choose marinara sauce for that next bowl of spaghetti&mdash;the &lt;a href=&quot;http://www.greatist.com/health/superfood-garlic/&quot; rel=&quot;nofollow&quot;&gt;garlic&lt;/a&gt; and tomatoes will spice the meal right up!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          50. Red Wine or Beer for a Margarita                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/restaurant-love-romantic-dinner.jpg?itok=WxbWBuOx&quot;
+              alt=&quot;50. Red Wine or Beer for a Margarita&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;50. Red Wine or Beer for a Margarita&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Wanna&rsquo; stay healthy at the bar? Ask for a glass of &lt;a href=&quot;http://www.greatist.com/health/red-wine/&quot; rel=&quot;nofollow&quot;&gt;red wine&lt;/a&gt; or a &lt;a href=&quot;http://www.greatist.com/health/news-studies-show-benefits-of-beer/&quot; rel=&quot;nofollow&quot;&gt;beer&lt;/a&gt; on tap over a sugary-filled &lt;a href=&quot;http://www.womenshealthmag.com/food/margaritas-drinks&quot; rel=&quot;nofollow&quot;&gt;margarita&lt;/a&gt;. About half those calories will disappear!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          51. Chewing Slowly for Speed Eating                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;What&rsquo;s the rush? Slow down and chew food&mdash;&lt;a href=&quot;http://www.greatist.com/health/news-study-shows-how-quickly-we-eat-matters/&quot; rel=&quot;nofollow&quot;&gt;studies show&lt;/a&gt; people who eat faster consume more calories.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          52. Eating at the Table for Chowing in Front of the TV                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Dining in front of the television can lead to &lt;a href=&quot;http://www.greatist.com/health/eating-at-tv-worse/&quot; rel=&quot;nofollow&quot; style=&quot;line-height: 1.5em;&quot;&gt;serious overeating.&lt;/a&gt; So forget multitasking and carve out time in the day to enjoy a meal at the table.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          53. Eating Breakfast for Hitting Snooze (Again)                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;It may be temping to hit the snooze button more than once in the morning, but allow some time for breakfast&mdash;it may help jumpstart &lt;a href=&quot;http://www.greatist.com/health/11-scientifically-proven-ways-to-boost-metabolism/&quot; rel=&quot;nofollow&quot;&gt;metabolism&lt;/a&gt;, and at the very least could help some of us wake up before heading to the office.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          54. Black Coffee for Latte                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;If that caffeine fix is calling, order a simple black &lt;a href=&quot;http://www.greatist.com/health/can-drinking-coffee-increase-metabolism/&quot; rel=&quot;nofollow&quot;&gt;coffee&lt;/a&gt;. A soy-mocha-extra-shot-frappuccino extravaganza isn&rsquo;t worth the calories (or dolla dolla bills).&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          55. Toast for Bagel                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;How often do we eat five slices of toast for breakfast? Well, that&rsquo;s what a bagel can amount to, so fight that Dunkin&rsquo; Donuts &lt;a href=&quot;http://www.greatist.com/health/cravings/&quot; rel=&quot;nofollow&quot;&gt;craving&lt;/a&gt; and enjoy a slice or two of whole-wheat bread.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          56. Medium Plate for Large One                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/85.jpg?itok=-pW5bbKP&quot;
+              alt=&quot;56. Medium Plate for Large One&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;56. Medium Plate for Large One&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Using a larger plate may have us &lt;a href=&quot;http://www.greatist.com/health/smaller-plates-cut-calories/&quot; rel=&quot;nofollow&quot;&gt;eating more&lt;/a&gt; than planned. Switch to a smaller one (about 8 to 10 inches) and save more than 20 percent of the calories a large plate could pile on.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          57. Eating From the Bowl Over Digging Into the Box                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Some mindless handfuls of cereal can turn into more than a bowl&rsquo;s worth. So portion out food rather than eating straight from the (soon-to-be-empty) box.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          58. Hard-Boiled Eggs for Fried                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Who needs extra grease in the morning? &lt;a href=&quot;http://greatist.com/eat/perfect-boiled-eggs-tips&quot;&gt;Drop some eggs in boiling water&lt;/a&gt; and cook them up for a protein-packed breakfast.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          59. Chopsticks for Forks                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Slow down and eat that Pad Thai with some chopsticks. It may be a challenge, but it&rsquo;ll stop us from speed-slurping those noodles with a fork.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          60. Grocery Shopping When Full for Shopping Hungry                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Whole Foods may damage our bank account if we head in with &lt;a href=&quot;http://theoatmeal.com/pl/minor_differences/grocery_shopping&quot; rel=&quot;nofollow&quot;&gt;hungry eyes&lt;/a&gt;. (Wait, how did three packages of all-natural cookies get in the pantry?) Shop when full to avoid buying more than what&rsquo;s necessary.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          61. Stopping When Full for Cleaning the Plate                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Sorry mom, but telling us to clean our plates before leaving the table has led to some bad habits. Listen to the body and &lt;a href=&quot;http://www.msnbc.msn.com/id/23449358/ns/health-diet_and_nutrition/t/stop-when-youre-full-you-must-be-french/&quot; rel=&quot;nofollow&quot;&gt;stop eating&lt;/a&gt; when it&rsquo;s had enough&mdash;a plate half-full means more leftovers and fewer calories!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          62. Raw Nuts for Nut Butter                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/Mixed-Nuts.jpg?itok=f237GElH&quot;
+              alt=&quot;62. Raw Nuts for Nut Butter&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;62. Raw Nuts for Nut Butter&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Nut butters can sneak in extra fat and &lt;a href=&quot;http://blog.fooducate.com/2009/07/08/peanut-butter-is-back-but-why-the-added-sugar-skippy-natural-peanut-butter/&quot; rel=&quot;nofollow&quot;&gt;sugar&lt;/a&gt; that raw nuts don&rsquo;t have. Plus, eating three spoonfuls of &lt;a href=&quot;http://www.greatist.com/health/dangerfood-peanut-butter/&quot; rel=&quot;nofollow&quot;&gt;peanut butter&lt;/a&gt; may be easier than we think!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          63. Power Nap for Energy Drink                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;For a quick pick-me-up, take a 10-minute snooze rather than grabbing a Red Bull. Energy drinks can pack as much sugar as six &lt;a href=&quot;http://www.greatist.com/health/energy-drinks-dangerfood/&quot; rel=&quot;nofollow&quot;&gt;Krispy Kreme donuts&lt;/a&gt;, while a catnap is &lt;em&gt;always &lt;/em&gt;calorie-free.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;h3&gt;Happiness&lt;/h3&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          64. Gratitude for Complaining                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;a href=&quot;http://greatist.com/happiness/choose-gratitude-over-stress-holiday-season&quot; rel=&quot;nofollow&quot;&gt;Feeling thankful&lt;/a&gt; can actually make us happier and healthier, so don&rsquo;t forget to appreciate every bit of good in life!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          65. Outside for Inside                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Soak up the sun&mdash;even in the winter. Exercising &lt;a href=&quot;http://www.greatist.com/fitness/is-it-safe-to-exercise-in-the-cold/&quot; rel=&quot;nofollow&quot;&gt;in the cold&lt;/a&gt; is safe, and getting outdoors could help battle &lt;a href=&quot;http://www.greatist.com/happiness/seasonal-affective-disorder/&quot; rel=&quot;nofollow&quot;&gt;Seasonal Affective Disorder&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          66. Book for Television                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;All those zombie shows may not only freak us out, but also give us &lt;a href=&quot;http://www.greatist.com/happiness/will-scary-movies-give-me-nightmares/&quot; rel=&quot;nofollow&quot;&gt;nightmares&lt;/a&gt;. Get a dose of knowledge and read a good novel before bed. It may help us &lt;a href=&quot;http://www.greatist.com/happiness/27-ways-to-get-better-sleep/&quot; rel=&quot;nofollow&quot;&gt;get better sleep&lt;/a&gt; too!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          67. Meditation for Comfort Food                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;When stress strikes, don&rsquo;t grab a tub of ice cream for comfort. Try dimming the lights and meditating for as little as five minutes&mdash;it&rsquo;s totally &lt;a href=&quot;http://www.greatist.com/happiness/meditate-to-reduce-stress/&quot; rel=&quot;nofollow&quot;&gt;calming&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          68. Yoga for Facebook                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/870.jpg?itok=5BRPs6hN&quot;
+              alt=&quot;68. Yoga for Facebook&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;68. Yoga for Facebook&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Got a spare 30 minutes? Those Facebook friends won&rsquo;t post any shape-shifting statuses. Use the free time to roll out the &lt;a href=&quot;http://greatist.com/yoga&quot; rel=&quot;nofollow&quot;&gt;yoga mat&lt;/a&gt; and work on flexibility and strength while alleviating stress and anxiety.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          69. Being Upfront for Acting Passive Aggressive                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Roommate forgot to clean the dishes &lt;em&gt;again? &lt;/em&gt;Rather than bottling up that anger, be forthright (but nice!). &lt;a href=&quot;http://greatist.com/grow/respond-to-passive-aggressive-behavior&quot;&gt;Working out issues&lt;/a&gt; is better than building up inner frustration.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          70. Breathing for Being a Stress Mess                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Calm breathing can boost relaxation and calm the mind. Take a &lt;a href=&quot;http://www.greatist.com/health/relieve-stress-by-breating/&quot; rel=&quot;nofollow&quot;&gt;long, deep breath&lt;/a&gt; to relax the bod rather than stressing out.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          71. Working at a Desk for Working in the Bedroom                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Finish that assignment at a desk rather than between the sheets. &lt;a href=&quot;http://www.greatist.com/happiness/is-it-ok-to-work-in-bed/&quot; rel=&quot;nofollow&quot;&gt;Working in bed&lt;/a&gt; could make it harder to fall asleep!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          72. Fun Alarm Clock Song for Annoying Ringer                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Who wants to be woken from a peaceful slumber thanks to an irritating beep? (Waking up early is hard enough.) Choose a fun little melody on the cell phone to wake up to instead!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          73. Fancy Silverware for Plastic                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Let&rsquo;s get a little classy&mdash; even in that shabby apartment. Using some nice forks and knives will add some style to that bowl of ramen noodles, making us feel like &lt;em&gt;real &lt;/em&gt;adults.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          74. Carpooling for Driving Alone                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;H.O.V. lane aside, carpooling with a pal can make a morning commute less boring. Besides, it &lt;a href=&quot;https://www.ocfl.net/Portals/0/Library/Environment/docs/CarPoolCleanerAir.pdf&quot; rel=&quot;nofollow&quot;&gt;reduces air pollution&lt;/a&gt; and cuts down on gas money.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          75. Journaling for Emotional Eating                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/people-coffee-notes-tea.jpg?itok=_PJzo_71&quot;
+              alt=&quot;75. Journaling for Emotional Eating&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;75. Journaling for Emotional Eating&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Sometimes a cookie or two can lift our spirits, but writing down our thoughts can be &lt;a href=&quot;http://www.everydayhealth.com/longevity/journal-for-stress-relief.aspx&quot; rel=&quot;nofollow&quot;&gt;just as therapeutic&lt;/a&gt;&mdash;no calories involved.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          76. Smiling for Frowning                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Even when we&rsquo;re alone, smiling can &lt;a href=&quot;http://www.greatist.com/happiness/smile-like-you-mean-it/&quot; rel=&quot;nofollow&quot;&gt;improve mood&lt;/a&gt;. Try grinning in the shower or on the way to work&mdash;it may really make us feel cheerful.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          77. Color for Drab Shades                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Science suggests wearing red can &lt;a href=&quot;http://www.greatist.com/happiness/wear-more-red/&quot; rel=&quot;nofollow&quot;&gt;boost confidence&lt;/a&gt; and self-esteem. So save the black for the Batman costume and brighten up that wardrobe.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          78. Keeping the Same Bedtime for Winging It                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Setting a bedtime schedule may help us &lt;a href=&quot;http://www.k-state.edu/counseling/topics/life/sleep.html&quot; rel=&quot;nofollow&quot;&gt;fall asleep faster&lt;/a&gt;, so pick a good time and try to stick to it!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          79. Little Milestones for Big Goals                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Thinking big is great, but huge goals may take time to reach. Don&rsquo;t forget the &lt;a href=&quot;http://www.greatist.com/happiness/11-ways-to-keep-new-years-resolutions/&quot; rel=&quot;nofollow&quot;&gt;small achievements&lt;/a&gt; we can make&mdash;they&rsquo;ll also add up to big, positive change!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          80. Clean Workspace for Clutter                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Take some time to put away the laundry and organize the paper-piled desk. Having a clean space may make us &lt;a href=&quot;http://www.lifehack.org/articles/lifestyle/50-ways-to-make-your-home-more-organized-more-attractive-and-more-efficient.html&quot; rel=&quot;nofollow&quot;&gt;more organized&lt;/a&gt; and eager to tackle the day.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          81. Venting to a Friend for Bottling It Up                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Sometimes life isn&rsquo;t all rainbows and butterflies. When sad or stressed, reach out to a trusted friend instead of holding in the feelings. &lt;a href=&quot;http://www.greatist.com/happiness/happier-people-talk-more/&quot; rel=&quot;nofollow&quot;&gt;Just talking&lt;/a&gt; could make us feel better!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          82. Self-Love for Self-Criticism                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;We often focus on our faults rather than our worth. Stop pointing out the negative and focus on all those redeeming qualities!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          83. Focusing on the Future Instead of Dwelling on the Past                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Don&rsquo;t focus on yesterday&rsquo;s issues. Think of the possibilities and &lt;a href=&quot;http://greatist.com/grow/change-environment-to-reach-every-goal&quot;&gt;go after that goal&lt;/a&gt;!&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          84. Moderation for Deprivation                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;We can still be healthy without skipping dessert. As long as we regulate our indulgences, they can help keep that smile around. So go ahead&mdash;&lt;a href=&quot;http://www.greatist.com/health/greek-yogurt-cupcakes/&quot; rel=&quot;nofollow&quot;&gt;treat yo' self&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          85. Calling a Friend for Texting                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;media-g_full_width_inline_image media-element-container&quot;&gt;
+            &lt;img
+              src=&quot;http://greatist.com/sites/default/files/styles/article_main/public/person-woman-hand-smartphone.jpg?itok=FxX2tvjt&quot;
+              alt=&quot;85. Calling a Friend for Texting&quot;
+              width=&quot;1800&quot;
+              height=&quot;1236&quot;
+                            pin-title=&quot;85. Calling a Friend for Texting&quot;                          /&gt;
+                      &lt;/div&gt;
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Phone a friend rather than shooting them a text. It&rsquo;s more personal, and hearing a friendly voice may lift the spirits.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          86. Honesty for Excuses                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;The gym &lt;em&gt;wasn&rsquo;t &lt;/em&gt;too crowded, and the bus actually didn&rsquo;t come late. Skip the excuses&mdash;being honest with others and ourselves is the best option.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          87. Comfy Shoes for Fancy Footwear                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Blisters and sore soles are &lt;em&gt;never &lt;/em&gt;fun, no matter how suave those shoes may look. Better keep it comfy in the &lt;a href=&quot;http://www.greatist.com/health/14-health-risks-you-might-be-wearing/&quot; rel=&quot;nofollow&quot;&gt;foot department&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          88. Saying No for Over-Committing                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Sometimes &lt;a href=&quot;http://greatist.com/grow/how-to-say-no&quot;&gt;saying no is hard&lt;/a&gt;, but agreeing to too much can be overwhelming and bring on sickness. Figuring out what we can realistically commit to will help keep stress away.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                          89. Planning for Procrastination                      &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;Got a lot to do? Making a plan, rather than waiting &rsquo;til the last minute, helps ensure we get things done.&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+                &lt;div class=&quot;slide&quot;&gt;
+
+        &lt;div class=&quot;title-wrapper&quot;&gt;
+          &lt;h4&gt;
+                                                &lt;/h4&gt;
+                  &lt;/div&gt;
+
+        
+        &lt;div class=&quot;slide-body&quot;&gt;
+          &lt;p&gt;&lt;em&gt;Originally published March 2014. Updated December 2015.&lt;/em&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      
+  &lt;/section&gt;
+   ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Greatist",
+    "sameAs": "http://www.greatist.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://greatist.com/sites/all/themes/greatist2x/images/design/greatist_jsonld_logo.png",
+      "height": 60,
+      "width": 206
+    }
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Laura Schwecherl",
+      "sameAs": "http://greatist.com/p/laura-schwecherl"
+    }
+  ]
+}</script>
+<meta name="sailthru.image" content="http://greatist.com/sites/default/files/styles/newsletter-feature-652x338/public/SimpleSwap_Feature.png?itok=LQqGPlrg" />
+<link href="http://greatist.com/health/89-simple-swaps-could-change-your-life/amp" rel="amphtml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="You&#039;ve heard it before, but it&#039;s worth repeating: Little changes really can add up to major results!" />
+
+<meta property="fb:admins" content="1101180055" />
+<meta property="fb:app_id" content="338405982951793" />
+<meta property="og:site_name" content="Greatist" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="89 Incredibly Simple Swaps That Could Change Your Life" />
+<meta property="og:url" content="http://greatist.com/health/89-simple-swaps-could-change-your-life" />
+<meta property="og:description" content="You&#039;ve heard it before, but it&#039;s worth repeating: Little changes really can add up to major results!" />
+<meta property="og:image" content="http://greatist.com/sites/default/files/styles/big_share/public/SimpleSwap_Feature.png?itok=t-feE7EP" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@greatist" />
+<meta name="twitter:url" content="http://greatist.com/health/89-simple-swaps-could-change-your-life" />
+<meta name="twitter:title" content="89 Incredibly Simple Swaps That Could Change Your Life" />
+<meta name="twitter:description" content="You&#039;ve heard it before, but it&#039;s worth repeating: Little changes really can add up to major results!" />
+<meta name="twitter:image:src" content="http://greatist.com/sites/default/files/styles/article_main/public/SimpleSwap_Feature.png?itok=T1W3R0VZ" />
+<meta property="article:author" content="http://www.twitter.com/lschwech" />
+<meta property="article:publisher" content="https://www.facebook.com/greatist" />
+<meta property="article:section" content="Grow" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQAFVldUGwsJU1BWAQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+  <meta name="google-site-verification" content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE" />
+  <link href="https://plus.google.com/+Greatist" rel="publisher" />
+  <!-- <link rel="apple-touch-icon" href="/sites/default/files/Mobile-Icon-V3.jpg"/> -->
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/sites/all/themes/greatist2x/images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/greatist2x/images/favicons/favicon-128.png" sizes="128x128" />
+  <meta name="msapplication-TileImage" content="/sites/all/themes/greatist2x/images/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/sites/all/themes/greatist2x/images/favicons/mstile-310x310.png" />
+  <meta name="google-site-verification"
+        content="fjgY6e3MJuL9VdcVmhgvCRs4rTIxZj3-c_yS6vbGiDE"/>
+  <link href="https://plus.google.com/+Greatist" rel="publisher"/>
+
+  <title>Simple Swaps That Could Change Your Life | Greatist</title>
+  <link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_qKsSCcrOVT4pKULgi4iAVuPQPU3lfSzuSXMJCARUKic.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_apECqqs4IfYxrJBKMsMh0b_85X5CyllXLp6hODNanx4.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css_yYuTvjdq5_epDRBZUITk8EG5FPEk00zL4y1ftmiAgXY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://greatist.com/sites/default/files/css/css__kLaRzNXRI_NisJDTD0u5qnEU3iVMT3xBsvltojOvYg.css" media="all" />
+  <script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_jAem-GbtffJErQNlP33_rowrrkscx9kVa0aYdo8r3pQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};googletag.cmd = googletag.cmd || [];var gads = document.createElement("script");gads.async = true;gads.type = "text/javascript";var useSSL = "https:" == document.location.protocol;gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";var node =document.getElementsByTagName("script")[0];node.parentNode.insertBefore(gads, node);
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_I8yX6RYPZb7AtMcDUA3QKDZqVkvEn35ED11_1i7vVpc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-20914064-2", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("require", "displayfeatures");ga("set", "dimension1", "December 16, 2015");ga("set", "dimension2", "Laura Schwecherl");ga("set", "dimension3", "exercises,food swaps,nutrition facts,stress relief");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.pubads().setTargeting('post_id', '879');googletag.pubads().setTargeting('is_testing', 'no');});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.defineSlot('/38507188/Teads_1x1',[1,1],'page').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.enableServices();});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var greatist_globals = {"env":"live","build_id":1471273669,"themepath":"\/sites\/all\/themes\/greatist2x","jsfolder":"\/sites\/all\/themes\/greatist2x\/js\/c","height_analytics_frequency":100,"yieldbot":true,"yb_pub_id":"1ce9","yb_pub_id_mobile":"7a53","horizon":true,"thinglink":false,"require":{"baseUrl":"\/sites\/all\/themes\/greatist2x\/js\/c\/greatist-build","urlArgs":"v=1471273669"},"amazon_tag":"greatist-20","uid":0,"nodepage":true,"prod_url":"http:\/\/greatist.com\/health\/89-simple-swaps-could-change-your-life","article_nid":"879","article_uid":"48","article_created":"1450285811","article_title":"89 Incredibly Simple Swaps That Could Change Your Life","article_type":"article","article_subtype":"List With Images","tags":["Exercises","Food Swaps","Nutrition Facts","Stress Relief"],"tags_dfp":["exercises","food swaps","nutrition facts","stress relief"],"categories":"Grow","categories_dfp":"grow","author":"Laura Schwecherl","shares":{"gplus":646,"twitter":0,"fb":0,"stumble":39677,"pinterest":286986,"total":328444},"kargo_ad_line_items":["189420108"]};
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_35WjR-K-c1eoIjZOUUMFSuAkyRxZn3QW5GWmChFKAXU.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_dynamic.js"></script>
+<script type="text/javascript" src="http://cdn.dynamicyield.com/api/8766873/api_static.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_su0LbO_kIcrk2xwJfPUqU2MlKQEFTfzu-XRzjcV6gwI.js"></script>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_Fpfp_QVPEaF7N8wcBw0ZYabifSNdisHqFagZ7VgQqTY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greatist2x","theme_token":"D0PT8KQbCPRSCxnpwYmFgQRJPnCohD9C0IZ3CGLBoik","js":{"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/main.js":1,"0":1,"sites\/all\/modules\/custom\/gr8ist_social\/includes\/js\/gr8ist_instagram_embed.js":1,"\/\/wms-na.amazon-adsystem.com\/20070822\/US\/js\/auto-tagger.js?tag=greatist-20\u0026locale=US\u0026overwrite=1":1,"1":1,"2":1,"\/\/dc8xl0ndzn2cb.cloudfront.net\/js\/greatist\/v0\/keywee.min.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"3":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1,"5":1,"6":1,"7":1,"sites\/all\/themes\/greatist2x\/js\/c\/require_m.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_dynamic.js":1,"http:\/\/cdn.dynamicyield.com\/api\/8766873\/api_static.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/greatist-build\/require-config.js":1,"sites\/all\/themes\/greatist2x\/js\/c\/lib\/modernizr.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/print.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/magnific-popup.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/jquery.qtip.min.css":1,"sites\/all\/themes\/greatist2x\/css\/live\/style.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+  <!--[if lte IE 9 ]>
+  <link type="text/css" rel="stylesheet"
+        href="/sites/all/themes/greatist2x/css/old-ie.css" media="all"/>
+  <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-879 node-type-article env-live" >
+<div id="skip-link">
+  <a href="#main-content"
+     class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div id="page">
+  <div class="leaderboard"><div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-leaderboard"
+  data-ad-dfp="/38507188/ROS_728x90"
+  data-ad-slot="div-gpt-ad-1408633905912-0"
+  data-ad-size="728x90"
+  class="dfp-tag-wrapper dfp-ad-article-ad-leaderboard"></div>
+
+<div
+  data-restrict-context-to="x-small,small,medium"
+  data-dfp-g-id="article-ad-mobile-top"
+  data-ad-dfp="/38507188/ROS_320x50_Mobile"
+  data-ad-slot="div-gpt-ad-1412623396310-0"
+  data-ad-size="300x50,320x50"
+  class="dfp-tag-wrapper dfp-ad-article-ad-mobile-top"></div>
+
+</div>
+  <header role="banner" data-header class="clearfix">
+  <nav role="navigation">
+    <div id="nav-touch-wrapper" ng-controller="menuCtrl">
+      <div id="main-menu">
+  <div class="menu-mobile" ng-controller="hamburgerCtrl">
+    <a href="#" class="icon-wrapper" ng-click="toggle()">
+      <i class="fa fa-bars" ng-hide="open=='open'"></i>
+      <img class="close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" ng-show="open" ng-cloak />
+    </a>
+    <div class="hamburger-menu" ng-class="open">
+  <ul class="categories">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-eat', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/eat">EAT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-move', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/move">MOVE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('cat-live', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/live">LIVE</a>        </h3>
+      </li>
+      </ul>
+
+  <ul class="more">
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/newsletter">SUBSCRIBE</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/about">ABOUT</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-careers', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/careers">CAREERS</a>        </h3>
+      </li>
+          <li ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-advertise', {implicitClick: true, trackAtInit: false})">
+        <h3>
+          <a href="/advertise">ADVERTISE</a>        </h3>
+      </li>
+      </ul>
+</div>
+  </div>
+
+  <div class="menu group-left">
+    <div itemscope itemtype="http://schema.org/Organization" class="menu-item logo">
+      <a itemprop="url" href="/" title="Home" rel="home" id="logo">
+        <img itemprop="logo" src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_White.svg" alt="Home" />
+        <span class="element-hidden" itemprop="name">Greatist</span>
+      </a>
+    </div>
+    <div class="menu-items categories">
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-eat"  href="/eat" >
+            <h4>EAT</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-move"  href="/move" >
+            <h4>MOVE</h4>
+          </a>
+        </div>
+              <div class="menu-item">
+          <a ng-click="click()" track="cat-live"  href="/live" >
+            <h4>LIVE</h4>
+          </a>
+        </div>
+          </div>
+  </div>
+
+  <div class="menu group-right">
+    <div class="menu-item more-medium">
+  <h4>MORE <i class="fa fa-angle-down"></i> </h4>
+  <ul class="sub-menu-list">
+        <li class="subscribe">
+      <a ng-click="click()" track="cat-subscribe"  href="/newsletter" >
+        <h5>SUBSCRIBE</h5>
+      </a>
+    </li>
+        <li class="about">
+      <a ng-click="click()" track="cat-about"  href="/about" >
+        <h5>ABOUT</h5>
+      </a>
+    </li>
+      </ul>
+</div>
+
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-subscribe', {implicitClick: true, trackAtInit: false})">
+    <a href="/newsletter">
+      <h4>
+        <i class="fa fa-envelope-o"></i>        SUBSCRIBE      </h4>
+    </a>
+  </div>
+  <div class="menu-item more" ng-controller="basicTracking" ng-init="initAnalytics('navbar-menu-about', {implicitClick: true, trackAtInit: false})">
+    <a href="/about">
+      <h4>
+                ABOUT      </h4>
+    </a>
+  </div>
+    <div class="menu-item search">
+      <a href="/search" class="search-button discover-cta">
+        <h4>EXPLORE</h4>
+      </a>
+    </div>
+  </div>
+</div>
+    </div>
+  </nav>
+</header>
+  
+  
+  
+  
+  <div class="article-container  "
+    ng-controller="ArticleCtrl"
+    ng-init="init()">
+  <div class="article-main">
+    <article
+      class="article-main-column main-column"
+      itemscope
+      itemtype="http://schema.org/Article"
+    >
+      <div class="article-top">
+                  <div itemprop="description" class="element-hidden">You&#039;ve heard it before, but it&#039;s worth repeating: Little changes really can add up to major results!</div>
+                <header class="article-header">
+          <div class="group-article-meta">
+            <div
+  class="field field-name-post-date"
+  itemprop="datePublished"
+  content="2015-12-16"
+>
+  December 16, 2015  <span class="separator">|</span> </div>
+            <div class="field article-author-top" itemscope itemprop="author" itemtype="http://schema.org/Person">
+  <span class="label">By </span>
+    <a
+    href="http://greatist.com/p/laura-schwecherl"
+    title="User profile of "
+    class="username"
+    about="http://greatist.com/p/laura-schwecherl"
+    typeof="sioc:UserAccount"
+    itemprop="url"
+  >
+    <span itemprop="name">Laura Schwecherl</span>
+  </a>
+   </div>
+          </div>
+          <h1 class="title" id="page-title" itemprop="name headline alternativeHeadline">89 Incredibly Simple Swaps That Could Change Your Life</h1>
+        </header>
+        <div class="top-share">
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="top">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/health/89-simple-swaps-could-change-your-life"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2F89_SimpleSwapsToChangeYourLife_Pinterest.png%3Fitok%3DMjTpeRTe"
+  data-mediatitle="89 Incredibly Simple Swaps That Could Change Your Life"
+  data-title="89 Incredibly Simple Swaps That Could Change Your Life"
+  data-promotitle="89 Incredibly Simple Swaps That Could Change Your Life"
+  data-pintitle="You\'ve heard it before, but it\'s worth repeating: Little changes really can add up to major results!"
+  data-twitter="http://www.twitter.com/lschwech"
+  data-twitter-url="http://grt.st/HsNkw5"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  <a class="print-button" title="Print this article" href="/print/879" rel="nofollow" ng-click="print()">
+  <i class="fa fa-print"></i>
+  </a>
+
+      <div class="fb-like-wrapper ng-cloak">
+      <span class="label">LIKE US ON FACEBOOK</span>
+    </div>
+  </div>
+  </div>
+</div>
+        </div>
+      </div>
+
+      <div class="side-share">
+        <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/health/89-simple-swaps-could-change-your-life"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2F89_SimpleSwapsToChangeYourLife_Pinterest.png%3Fitok%3DMjTpeRTe"
+  data-mediatitle="89 Incredibly Simple Swaps That Could Change Your Life"
+  data-title="89 Incredibly Simple Swaps That Could Change Your Life"
+  data-promotitle="89 Incredibly Simple Swaps That Could Change Your Life"
+  data-pintitle="You\'ve heard it before, but it\'s worth repeating: Little changes really can add up to major results!"
+  data-twitter="http://www.twitter.com/lschwech"
+  data-twitter-url="http://grt.st/HsNkw5"
+  class="share-buttons"
+  data-origin="side"
+>
+      <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+      <i class="fa fa-facebook"></i>
+    </a>
+        <a class="share-pinterest" ng-click="share_pin()">
+      <i class="fa fa-pinterest-p"></i>
+    </a>
+    <a class="share-twitter" ng-click="share_tw()">
+    <i class="fa fa-twitter"></i>
+  </a>
+  <a class="share-email" ng-click="share_email()">
+    <i class="fa fa-envelope-o"></i>
+  </a>
+</div>
+      </div>
+
+      <div class="article-body block" data-scroll-reach-tracking="article-content-beginning">
+                <div class="article-body-content" data-target-blank itemprop="articleBody">
+  <p>Whole grains for white, quality for quantity, Wii Fit for Mario Kart—just one smart swap can pave the way to a healthier and happier life. We decided to go all out and provide 89 “this for that’s,” so there are no excuses when it comes to making healthier choices!</p>  <section class="slideshow list-image-full" ng-controller="SlideshowListCtrl" ng-init="init()">
+            <h3>Fitness</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          1. Dynamic for Static Stretching                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/352.jpg?itok=7wKtThKb"
+              alt="1. Dynamic for Static Stretching"
+              width="1800"
+              height="1236"
+                            pin-title="1. Dynamic for Static Stretching"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Stretching out cold muscles could <a href="http://greatist.com/fitness/12-biggest-myths-about-stretching" rel="nofollow">lead to injury</a>. So incorporate some active movement into a stretching routine—try <a href="http://www.acefitness.org/exerciselibrary/94/" rel="">lunges</a> and <a href="http://www.youtube.com/watch?v=EaGw37FbU0Y&amp;feature=related" rel="nofollow">arm swings</a> before working out.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          2. Interval Workout for Relaxed Run                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Congrats on that 26.2-mile marathon. Now try a 20-minute <a href="http://greatist.com/team/my-minute-minute-interval-workout" rel="nofollow" target="_blank">interval run</a> that involves lots of sprinting with some walking recovery. It may kick up the heat even more.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          3. Incline for Flat Treadmill                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>In a perfect, outdoor world, flat roads rarely exist. (Sorry, midwestern readers!) Add some hills to that treadmill run by cranking up <a href="http://www.greatist.com/fitness/incline-on-the-treadmill/" rel="nofollow">the incline</a>, and feel the muscle-building burn!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          4. Zumba for Elliptical                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Trash that Cosmo-reading elliptical routine and surprise the body with a fun, calorie-burning <a href="http://greatist.com/fitness/we-did-it-zumba" rel="nofollow">cardio session</a>. Sure beats staying stuck to a machine. <strong> </strong></p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          5. Planks for Crunches                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>OK have we said this enough? <a href="http://greatist.com/fitness/are-crunches-best-workout-abs" rel="nofollow" target="_blank">Crunches</a> may not be the secret to six-pack abs. <a href="http://greatist.com/fitness/perfect-plank" rel="nofollow" target="_blank">Give planks a try</a> instead to work that wholecore. Extra points for holding it for a minute straight!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          6. Warming up for Rushing Right To It                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>We know that barbell looks tempting. But before hitting the weight rack, do an active <a href="http://www.mayoclinic.com/health/exercise/SM00067" rel="">warm-up</a> to loosen up limbs and get the most out of the workout.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          7. Standing for Sitting at a Desk                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/1110.jpg?itok=UE46K33T"
+              alt="7. Standing for Sitting at a Desk"
+              width="1800"
+              height="1236"
+                            pin-title="7. Standing for Sitting at a Desk"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>How often does someone complain about having to sit in a cubicle all day? We have a simple solution (no college degree required)… stand. Use a pile of books to prop up the computer, or purchase <a href="http://www.nytimes.com/2010/04/22/technology/personaltech/22basics.html" rel="">one of these</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          8. Exercise Ball for Office Chair                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Okay, we get it. Some people really don’t want to stand at their cubicle. So stay seated, but on <a href="http://www.greatist.com/health/swiss-ball-vs-office-chair/" rel="nofollow">a Swiss ball</a>! It can help with balance <em>and </em>that six-pack. Fitness at the fingertips!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          9. Gym for Napping                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Falling asleep at the wheel? Pull over. Tired in front of the TV? <a href="http://www.greatist.com/fitness/feel-like-napping-hit-the-gym/" rel="nofollow">Hit the gym</a>. It provides a big boost of energy and burns calories.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          10. Free Weights for Machines                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Skip the big machines (<a href="http://www.greatist.com/fitness/are-germs-at-the-gym-making-you-sick/" rel="nofollow">they’re sweaty</a> anyway) and go for the little guys—<a href="http://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/health-tip/art-20049099">free weights</a> are more versatile and allow for a full range of motion in the joints.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          11. Pull-Ups for Biceps Curls                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Isolating muscles is <em>so</em> 2012. Pull-ups are not only impressive (I can do two, <em>thankyouverymuch) </em>but they work <a href="http://www.acefitness.org/exerciselibrary/191/pull-ups" rel="">way more</a> than one muscle. Talk about multitasking.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          12. Squats for Leg Press                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Forget staying seated to work out the legs. Amp up the training sesh and do some squats to strengthen <em>all the</em><a href="http://healthyliving.azcentral.com/muscles-squats-work-out-8331.html" rel="nofollow"><em> </em>leg muscles</a>, with some gluteus maximus work in there too!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          13. Personal trainer for Guessing Games                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Just when we think we’ve had enough, trainers may help <a href="http://www.greatist.com/fitness/should-i-be-working-out-with-a-personal-trainer/" rel="nofollow">push us through</a> that second set of <a href="http://www.youtube.com/watch?v=c_Dq_NCzj8M" rel="nofollow">burpees</a>. Look for a <a href="http://www.yipit.com" rel="nofollow">deal online</a> to cut the cost in half!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          14. Foam Rolling for Static Stretching                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Need to get the knots out? Try <a href="http://greatist.com/fitness/how-foam-roll-pro" rel="nofollow">using a foam roller</a> instead of sitting and stretching to the toes. It’s almost like a personal massage.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          15. Exergames for Mario Kart                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Mario may be booking it through the race course, but holding the remote control does next to nothing for our own heart rate. Try out Wii Fit or Just Dance—they’re designed to provide light to moderate <a href="http://www.greatist.com/fitness/can-video-games-count-as-exercise/" rel="nofollow">exercise</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          16. Rowing for Biking                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>How often can we row, row, row a boat indoors? Take advantage of the rowing machine instead of the good ’ol bike; it’s a super <a href="http://www.learn-to-row.com.au/" rel="nofollow">upper and lower</a> body exercise.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          17. Stairs for Escalator                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/stairs-man-person-walking.jpg?itok=A1umYW4Y"
+              alt="17. Stairs for Escalator"
+              width="1800"
+              height="1236"
+                            pin-title="17. Stairs for Escalator"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>We’ve heard the tip a million times, so here it is for the millionth plus one. If the option’s available, go the old-fashion route and <a href="http://greatist.com/fitness/ultimate-staircase-workout">climb the stairs</a> to burn some extra calories.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          18. Fun Workout for Dreaded Workout                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Loathe the elliptical? Try the stair-master. Hate the bench press? <a href="http://www.greatist.com/fitness/push-ups-or-bench-press-for-a-better-chest/" rel="nofollow">Do push-ups</a> instead. We can still challenge ourselves without doing exercises we hate.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          19. Active Date for Dinner and a Movie                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Save a night at that French restaurant for retirement and go on a fun, active winter date with a special someone. <a href="http://www.greatist.com/fitness/15-active-winter-date-ideas/" rel="nofollow">Sledding</a> can be just as intimate as duck confit, and it sneaks in a hill-climbing workout, too.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          20. Parking Farther Away for Getting A Spot Up Close                       </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>There’s no need to circle the parking lot five times looking for the perfect spot. Just park further away and walk the extra 100 feet to Target. (Doesn’t count as a trip to the gym, though!)</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          21. Walking Farther for Running Shorter                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>New to running? It’s okay. Even if a mile is all that’s possible, keep walking for a good cardio workout. Hold some <a href="http://www.greatist.com/fitness/is-walking-as-good-a-workout-as-running/" rel="nofollow">light weights</a> to up the intensity even more!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          22. Working Out With a Pal for Exercising Alone                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Grab that special someone or just a friend and hit the gym; working out with others may <a href="http://www.greatist.com/fitness/tip-workout-power-couple/" rel="nofollow">strengthen trust</a>. Plus he or she could help motivate us through that final set of push-ups!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          23. Hands-Free Running for Holding Handles                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/woman-jogger-jogging-sport.jpg?itok=bVthaomC"
+              alt="23. Hands-Free Running for Holding Handles"
+              width="1800"
+              height="1236"
+                            pin-title="23. Hands-Free Running for Holding Handles"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Hands off! On the treadmill, don’t rely on the handlebars. They take some of the stress off the body and make that workout less challenging.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          24. Cherry Juice for Muscle Medicine                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Feeling sore? Rather than <a href="http://www.msnbc.msn.com/id/9074128/ns/health-heart_health/t/are-painkillers-risks-worth-benefits/#.TxcKoWOXTcY" rel="nofollow">popping some pills</a>, try drinking a glass of <a href="http://www.greatist.com/health/tip-drink-cherry-juice/" rel="nofollow">cherry juice</a>. The antioxidants could help keep muscle swelling down. (Take <em>that, </em>Aspirin!)</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          25. Homemade Post-Workout Snack for a Protein Bar                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Bring a PB&amp;J or another post-workout snack to the gym rather than buying a <a href="http://www.greatist.com/health/the-protein-bar/" rel="nofollow">protein bar</a>. We need some <a href="http://www.greatist.com/fitness/protein-drinks-post-exercise-help-build-stronger-muscles/" rel="nofollow">after-exercise fuel</a>, but don’t get it in the form of excess sugar!</p>
+        </div>
+      </div>
+                <h3>Health</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          26. Cooking at Home for Eating Out                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Even if we try to eat healthy at a restaurant, that pesky bread bowl or <a href="http://www.greatist.com/health/dangerfood-caesar-salad/" rel="nofollow">sneaky salad</a> may pack more calories than we planned for. Trust those top-chef skills and turn on the (skillet) heat. Cooking at home will more likely result in a <a href="http://www.usatoday.com/life/lifestyle/2004-05-05-home-cooking_x.htm" rel="nofollow">healthier meal</a>, not to mention a happier wallet.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          27. Whole Fruit for Fruit Juice                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/pexels-photo-1.jpg?itok=vODcYWXF"
+              alt="27. Whole Fruit for Fruit Juice"
+              width="1800"
+              height="1236"
+                            pin-title="27. Whole Fruit for Fruit Juice"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p><a href="http://healthland.time.com/2009/08/07/calorie-counter-fruit-vs-fruit-juice/" rel="nofollow">A glass of O.J.’s missing</a> the pulp, skin, and full fiber content of an orange. Skip the glass and go with the whole piece of fruit to reap the benefits of this sweet, healthy snack.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          28. Pan-Fried for Deep-Fried                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Obvious news flash: <a href="http://today.msnbc.msn.com/id/32665106/ns/today-food/t/move-over-twinkies-deep-fried-butter-here/" rel="nofollow">Deep-fried food</a> is unhealthy. Keep things crispy by pan-frying lean protein or veggies in the skillet with some <a href="http://www.greatist.com/health/best-cooking-oil/" rel="nofollow">cooking oil</a>. We promise it’ll be just as tasty!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          29. Local Produce for Supermarket Veggies                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Take a trip to the farmer’s market instead of Walmart’s produce aisle. <a href="http://www.ers.usda.gov/Publications/ERR97/ERR97.pdf" rel="nofollow">According to the USDA</a>, local, seasonal fruits and veggies may be more nutritious. It helps out local economies, too!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          30. Oil and Balsamic for Other Dressings                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Ever flip that dressing bottle around and see a million ingredients listed? Think “less is more” and lightly dress a salad with some olive oil and balsamic vinegar—no additives included!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          31. Raw Spinach for Iceberg Lettuce                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/food-salad-healthy-lunch.jpg?itok=8T3PSVOR"
+              alt="31. Raw Spinach for Iceberg Lettuce"
+              width="1800"
+              height="1236"
+                            pin-title="31. Raw Spinach for Iceberg Lettuce"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Let’s be real, iceberg lettuce is boring. Besides, <a href="http://www.greatist.com/health/salad-greens/" rel="nofollow">spinach</a> is full of vitamin K, vitamin A, calcium, and iron. Plus, <a href="http://www.thekitchn.com/why-did-popeye-eat-so-much-spinach-the-surprising-answer-191802" rel="nofollow">Popeye loves it</a>. Can’t go wrong!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          32. Greek Yogurt for Sour Cream                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Sour cream can taste pretty good in a burrito. To get that same creamy coolness, add a dollop of plain <a href="http://greatist.com/health/greek-yogurt-recipes-healthy-delicious">Greek yogurt</a> to amp up the protein and slash the fat.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          33. Cinnamon for Sugar                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Here’s a spicy suggestion: Using cinnamon, rather than sugar packets, <a href="http://www.greatist.com/health/cinnamon-in-coffee/" rel="nofollow">in coffee</a> can heighten the flavor without adding extra calories. Try it in oatmeal too!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          34. Salsa for Cream Cheese Dips                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>You say tomato, I say <a href="http://healthyeating.sfgate.com/health-benefits-fresh-tomato-salsa-4157.html" rel="nofollow">salsa</a>. Dip the chip into this healthy alternative to cheesy spreads. Plus, salsa packs a fiery, flavorful punch!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          35. Frozen Grapes for Popsicles                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>It may sound a little weird, but hear us out. Stick a bunch of <a href="http://www.eatingoutloud.com/2008/09/frozen-grapes-a-refreshing-snack.html" rel="nofollow">grapes in the freezer</a> and snack on them a few hours later—it’s like eating bite-sized Popsicles with no added sugar!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          36. Sparkling Water for Soda                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/water-drink-glass-drinking.jpg?itok=ZzRed1GD"
+              alt="36. Sparkling Water for Soda"
+              width="1800"
+              height="1236"
+                            pin-title="36. Sparkling Water for Soda"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Need a carbonation kick? Say sayonara to <a href="http://www.mayoclinic.com/health/high-fructose-corn-syrup/AN01588" rel="">fructose-filled sodas</a> and fill up with sparking water. Try a fun flavor like lemon-lime, or even <a href="http://www.polarbev.com/PRODUCTS/Seltzers/VanillaSeltzer/tabid/100/Default.aspx" rel="nofollow">vanilla</a>. So long, Vanilla Coke!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          37. Fresh Fruit for Syrup at Brunch                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Every now and then, there’s nothing like a good stack of pancakes. Cut calories by skipping Aunt Jemima and spreading those cakes with <a href="http://www.greatist.com/health/blueberries/" rel="nofollow">fresh fruit</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          38. Air-Popped Popcorn for Chips                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>On a salt spree? Air-pop some popcorn and add a dash of salt—three whole cups is only about <a href="http://nutritiondata.self.com/facts/snacks/5356/2" rel="">100 calories</a>. That’s way more satisfying than six measly and greasy chips.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          39. Doggy Bag for Food Coma                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>How often do we leave a restaurant <em>actually </em>having room for dessert? Forget trying to lick the plate clean, and take half the meal to go. To avoid eating more than planned, ask the waiter to wrap half of it up before serving!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          40. Brown Rice for White Rice                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>It’s in our <a href="http://www.greatist.com/team/health-fitness-manifesto/" rel="nofollow">manifesto</a>, so we can’t ignore it: White rice is stripped of many essential nutrients (like fiber), so get the full, nutritious benefits of <a href="http://www.greatist.com/health/brown-rice-vs-white-rice/" rel="nofollow">brown rice</a> that’ll also help fill us up!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          41. Whole-Wheat Pasta for White Pasta                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Just like rice, whole-wheat pasta has a nutty flavor that’s filled with <a href="http://www.greatist.com/health/is-whole-wheat-pasta-healthier/" rel="nofollow">antioxidants and fiber</a>. White pasta just doesn’t do the trick!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          42. Oatmeal for Sugary Cereal                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Cap’n Crunch and Frosted Flakes should stay a part of our childhood past. One bowl of cereal can be <a href="http://today.msnbc.msn.com/id/45575890/ns/today-today_health/t/some-kids-cereals-pack-more-sugar-twinkie/" rel="nofollow">filled with sugar</a> (and who eats <em>only </em>one bowl?), so choose some heart-healthy <a href="http://www.greatist.com/health/oatmeal-greatist-recipe/" rel="nofollow">oatmeal</a> instead.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          43. Biking to Work for Driving                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>If the office is a few miles away, skip the Sedan and hop on the bike (weather permitting). A little bike-ride can boost endorphins before the workday starts!<cite data-cite-reference="" class="citation-reference"><a href="http://www.ncbi.nlm.nih.gov/pubmed/9257407">Beta-endorphin response to exercise. An update.</a> Goldfarb AH, Jamurtas AZ. Sports medicine (Auckland, N.Z.), 1998, Feb.;24(1):0112-1642.</cite> (Paying for gas is no fun, anyway.)</p>         </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          44. Packing Lunch for Eating Out                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Lunch boxes aren’t just for middle school. Pack a sandwich or some leftovers to bring to school, work—wherever. It’ll make that vending machine look <em>far</em> less appetizing.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          45. Eating Three Meals for Skipping and Snacking                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>We should only eat when we’re hungry, but being too busy to squeeze in a mid-day meal can leave us feeling <a href="http://health.usnews.com/health-news/diet-fitness/diet/articles/2011/08/31/food-and-mood-6-ways-your-diet-affects-how-you-feel" rel="nofollow">tired and grouchy</a>—not to mention depriving us of essential nutrients to get us through the day!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          46. Mustard for Mayo                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>For tomorrow’s turkey sandwich, skip the fat-filled mayo and spread some tasty (and <a href="http://www.livestrong.com/thedailyplate/nutrition-calories/food/frenchs/yellow-mustard/" rel="nofollow">naturally fat-free</a>) mustard on the bread!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          47. Avocado Toast for Butter                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Take plain old bread to the next level with <a href="http://www.greatist.com/health/avocado/" rel="nofollow">avocado</a> spread instead of butter. Add a dash of sea salt and some sliced tomato for a mid-day snack!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          48. Lean Meats for Fatty Ones                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Bacon is overrated. For a boost of protein when watching fat intake, go after <a href="http://www.mayoclinic.com/health/food-and-nutrition/NU00202" rel="">lean meats</a> like turkey and chicken over pork and beef.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          49. Marinara Sauce for White Sauce                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>We doubt penne ala vodka is made with Grey Goose, and besides, all the extra calories in white sauce aren’t worth it. Choose marinara sauce for that next bowl of spaghetti—the <a href="http://www.greatist.com/health/superfood-garlic/" rel="nofollow">garlic</a> and tomatoes will spice the meal right up!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          50. Red Wine or Beer for a Margarita                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/restaurant-love-romantic-dinner.jpg?itok=WxbWBuOx"
+              alt="50. Red Wine or Beer for a Margarita"
+              width="1800"
+              height="1236"
+                            pin-title="50. Red Wine or Beer for a Margarita"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Wanna’ stay healthy at the bar? Ask for a glass of <a href="http://www.greatist.com/health/red-wine/" rel="nofollow">red wine</a> or a <a href="http://www.greatist.com/health/news-studies-show-benefits-of-beer/" rel="nofollow">beer</a> on tap over a sugary-filled <a href="http://www.womenshealthmag.com/food/margaritas-drinks" rel="nofollow">margarita</a>. About half those calories will disappear!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          51. Chewing Slowly for Speed Eating                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>What’s the rush? Slow down and chew food—<a href="http://www.greatist.com/health/news-study-shows-how-quickly-we-eat-matters/" rel="nofollow">studies show</a> people who eat faster consume more calories.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          52. Eating at the Table for Chowing in Front of the TV                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Dining in front of the television can lead to <a href="http://www.greatist.com/health/eating-at-tv-worse/" rel="nofollow" style="line-height: 1.5em;">serious overeating.</a> So forget multitasking and carve out time in the day to enjoy a meal at the table.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          53. Eating Breakfast for Hitting Snooze (Again)                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>It may be temping to hit the snooze button more than once in the morning, but allow some time for breakfast—it may help jumpstart <a href="http://www.greatist.com/health/11-scientifically-proven-ways-to-boost-metabolism/" rel="nofollow">metabolism</a>, and at the very least could help some of us wake up before heading to the office.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          54. Black Coffee for Latte                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>If that caffeine fix is calling, order a simple black <a href="http://www.greatist.com/health/can-drinking-coffee-increase-metabolism/" rel="nofollow">coffee</a>. A soy-mocha-extra-shot-frappuccino extravaganza isn’t worth the calories (or dolla dolla bills).</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          55. Toast for Bagel                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>How often do we eat five slices of toast for breakfast? Well, that’s what a bagel can amount to, so fight that Dunkin’ Donuts <a href="http://www.greatist.com/health/cravings/" rel="nofollow">craving</a> and enjoy a slice or two of whole-wheat bread.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          56. Medium Plate for Large One                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/85.jpg?itok=-pW5bbKP"
+              alt="56. Medium Plate for Large One"
+              width="1800"
+              height="1236"
+                            pin-title="56. Medium Plate for Large One"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Using a larger plate may have us <a href="http://www.greatist.com/health/smaller-plates-cut-calories/" rel="nofollow">eating more</a> than planned. Switch to a smaller one (about 8 to 10 inches) and save more than 20 percent of the calories a large plate could pile on.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          57. Eating From the Bowl Over Digging Into the Box                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Some mindless handfuls of cereal can turn into more than a bowl’s worth. So portion out food rather than eating straight from the (soon-to-be-empty) box.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          58. Hard-Boiled Eggs for Fried                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Who needs extra grease in the morning? <a href="http://greatist.com/eat/perfect-boiled-eggs-tips">Drop some eggs in boiling water</a> and cook them up for a protein-packed breakfast.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          59. Chopsticks for Forks                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Slow down and eat that Pad Thai with some chopsticks. It may be a challenge, but it’ll stop us from speed-slurping those noodles with a fork.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          60. Grocery Shopping When Full for Shopping Hungry                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Whole Foods may damage our bank account if we head in with <a href="http://theoatmeal.com/pl/minor_differences/grocery_shopping" rel="nofollow">hungry eyes</a>. (Wait, how did three packages of all-natural cookies get in the pantry?) Shop when full to avoid buying more than what’s necessary.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          61. Stopping When Full for Cleaning the Plate                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Sorry mom, but telling us to clean our plates before leaving the table has led to some bad habits. Listen to the body and <a href="http://www.msnbc.msn.com/id/23449358/ns/health-diet_and_nutrition/t/stop-when-youre-full-you-must-be-french/" rel="nofollow">stop eating</a> when it’s had enough—a plate half-full means more leftovers and fewer calories!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          62. Raw Nuts for Nut Butter                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/Mixed-Nuts.jpg?itok=f237GElH"
+              alt="62. Raw Nuts for Nut Butter"
+              width="1800"
+              height="1236"
+                            pin-title="62. Raw Nuts for Nut Butter"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Nut butters can sneak in extra fat and <a href="http://blog.fooducate.com/2009/07/08/peanut-butter-is-back-but-why-the-added-sugar-skippy-natural-peanut-butter/" rel="nofollow">sugar</a> that raw nuts don’t have. Plus, eating three spoonfuls of <a href="http://www.greatist.com/health/dangerfood-peanut-butter/" rel="nofollow">peanut butter</a> may be easier than we think!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          63. Power Nap for Energy Drink                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>For a quick pick-me-up, take a 10-minute snooze rather than grabbing a Red Bull. Energy drinks can pack as much sugar as six <a href="http://www.greatist.com/health/energy-drinks-dangerfood/" rel="nofollow">Krispy Kreme donuts</a>, while a catnap is <em>always </em>calorie-free.</p>
+        </div>
+      </div>
+                <h3>Happiness</h3>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          64. Gratitude for Complaining                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p><a href="http://greatist.com/happiness/choose-gratitude-over-stress-holiday-season" rel="nofollow">Feeling thankful</a> can actually make us happier and healthier, so don’t forget to appreciate every bit of good in life!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          65. Outside for Inside                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Soak up the sun—even in the winter. Exercising <a href="http://www.greatist.com/fitness/is-it-safe-to-exercise-in-the-cold/" rel="nofollow">in the cold</a> is safe, and getting outdoors could help battle <a href="http://www.greatist.com/happiness/seasonal-affective-disorder/" rel="nofollow">Seasonal Affective Disorder</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          66. Book for Television                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>All those zombie shows may not only freak us out, but also give us <a href="http://www.greatist.com/happiness/will-scary-movies-give-me-nightmares/" rel="nofollow">nightmares</a>. Get a dose of knowledge and read a good novel before bed. It may help us <a href="http://www.greatist.com/happiness/27-ways-to-get-better-sleep/" rel="nofollow">get better sleep</a> too!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          67. Meditation for Comfort Food                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>When stress strikes, don’t grab a tub of ice cream for comfort. Try dimming the lights and meditating for as little as five minutes—it’s totally <a href="http://www.greatist.com/happiness/meditate-to-reduce-stress/" rel="nofollow">calming</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          68. Yoga for Facebook                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/870.jpg?itok=5BRPs6hN"
+              alt="68. Yoga for Facebook"
+              width="1800"
+              height="1236"
+                            pin-title="68. Yoga for Facebook"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Got a spare 30 minutes? Those Facebook friends won’t post any shape-shifting statuses. Use the free time to roll out the <a href="http://greatist.com/yoga" rel="nofollow">yoga mat</a> and work on flexibility and strength while alleviating stress and anxiety.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          69. Being Upfront for Acting Passive Aggressive                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Roommate forgot to clean the dishes <em>again? </em>Rather than bottling up that anger, be forthright (but nice!). <a href="http://greatist.com/grow/respond-to-passive-aggressive-behavior">Working out issues</a> is better than building up inner frustration.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          70. Breathing for Being a Stress Mess                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Calm breathing can boost relaxation and calm the mind. Take a <a href="http://www.greatist.com/health/relieve-stress-by-breating/" rel="nofollow">long, deep breath</a> to relax the bod rather than stressing out.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          71. Working at a Desk for Working in the Bedroom                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Finish that assignment at a desk rather than between the sheets. <a href="http://www.greatist.com/happiness/is-it-ok-to-work-in-bed/" rel="nofollow">Working in bed</a> could make it harder to fall asleep!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          72. Fun Alarm Clock Song for Annoying Ringer                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Who wants to be woken from a peaceful slumber thanks to an irritating beep? (Waking up early is hard enough.) Choose a fun little melody on the cell phone to wake up to instead!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          73. Fancy Silverware for Plastic                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Let’s get a little classy— even in that shabby apartment. Using some nice forks and knives will add some style to that bowl of ramen noodles, making us feel like <em>real </em>adults.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          74. Carpooling for Driving Alone                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>H.O.V. lane aside, carpooling with a pal can make a morning commute less boring. Besides, it <a href="https://www.ocfl.net/Portals/0/Library/Environment/docs/CarPoolCleanerAir.pdf" rel="nofollow">reduces air pollution</a> and cuts down on gas money.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          75. Journaling for Emotional Eating                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/people-coffee-notes-tea.jpg?itok=_PJzo_71"
+              alt="75. Journaling for Emotional Eating"
+              width="1800"
+              height="1236"
+                            pin-title="75. Journaling for Emotional Eating"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Sometimes a cookie or two can lift our spirits, but writing down our thoughts can be <a href="http://www.everydayhealth.com/longevity/journal-for-stress-relief.aspx" rel="nofollow">just as therapeutic</a>—no calories involved.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          76. Smiling for Frowning                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Even when we’re alone, smiling can <a href="http://www.greatist.com/happiness/smile-like-you-mean-it/" rel="nofollow">improve mood</a>. Try grinning in the shower or on the way to work—it may really make us feel cheerful.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          77. Color for Drab Shades                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Science suggests wearing red can <a href="http://www.greatist.com/happiness/wear-more-red/" rel="nofollow">boost confidence</a> and self-esteem. So save the black for the Batman costume and brighten up that wardrobe.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          78. Keeping the Same Bedtime for Winging It                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Setting a bedtime schedule may help us <a href="http://www.k-state.edu/counseling/topics/life/sleep.html" rel="nofollow">fall asleep faster</a>, so pick a good time and try to stick to it!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          79. Little Milestones for Big Goals                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Thinking big is great, but huge goals may take time to reach. Don’t forget the <a href="http://www.greatist.com/happiness/11-ways-to-keep-new-years-resolutions/" rel="nofollow">small achievements</a> we can make—they’ll also add up to big, positive change!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          80. Clean Workspace for Clutter                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Take some time to put away the laundry and organize the paper-piled desk. Having a clean space may make us <a href="http://www.lifehack.org/articles/lifestyle/50-ways-to-make-your-home-more-organized-more-attractive-and-more-efficient.html" rel="nofollow">more organized</a> and eager to tackle the day.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          81. Venting to a Friend for Bottling It Up                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Sometimes life isn’t all rainbows and butterflies. When sad or stressed, reach out to a trusted friend instead of holding in the feelings. <a href="http://www.greatist.com/happiness/happier-people-talk-more/" rel="nofollow">Just talking</a> could make us feel better!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          82. Self-Love for Self-Criticism                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>We often focus on our faults rather than our worth. Stop pointing out the negative and focus on all those redeeming qualities!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          83. Focusing on the Future Instead of Dwelling on the Past                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Don’t focus on yesterday’s issues. Think of the possibilities and <a href="http://greatist.com/grow/change-environment-to-reach-every-goal">go after that goal</a>!</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          84. Moderation for Deprivation                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>We can still be healthy without skipping dessert. As long as we regulate our indulgences, they can help keep that smile around. So go ahead—<a href="http://www.greatist.com/health/greek-yogurt-cupcakes/" rel="nofollow">treat yo' self</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          85. Calling a Friend for Texting                      </h4>
+                  </div>
+
+                  <div class="media-g_full_width_inline_image media-element-container">
+            <img
+              src="http://greatist.com/sites/default/files/styles/article_main/public/person-woman-hand-smartphone.jpg?itok=FxX2tvjt"
+              alt="85. Calling a Friend for Texting"
+              width="1800"
+              height="1236"
+                            pin-title="85. Calling a Friend for Texting"                          />
+                      </div>
+        
+        <div class="slide-body">
+          <p>Phone a friend rather than shooting them a text. It’s more personal, and hearing a friendly voice may lift the spirits.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          86. Honesty for Excuses                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>The gym <em>wasn’t </em>too crowded, and the bus actually didn’t come late. Skip the excuses—being honest with others and ourselves is the best option.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          87. Comfy Shoes for Fancy Footwear                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Blisters and sore soles are <em>never </em>fun, no matter how suave those shoes may look. Better keep it comfy in the <a href="http://www.greatist.com/health/14-health-risks-you-might-be-wearing/" rel="nofollow">foot department</a>.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          88. Saying No for Over-Committing                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Sometimes <a href="http://greatist.com/grow/how-to-say-no">saying no is hard</a>, but agreeing to too much can be overwhelming and bring on sickness. Figuring out what we can realistically commit to will help keep stress away.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                          89. Planning for Procrastination                      </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p>Got a lot to do? Making a plan, rather than waiting ’til the last minute, helps ensure we get things done.</p>
+        </div>
+      </div>
+                <div class="slide">
+
+        <div class="title-wrapper">
+          <h4>
+                                                </h4>
+                  </div>
+
+        
+        <div class="slide-body">
+          <p><em>Originally published March 2014. Updated December 2015.</em></p>
+        </div>
+      </div>
+      
+  </section>
+           </div>
+
+                <span class="article-suggestion-readnext-embed" data-recirc-section ng-controller="basicTracking" ng-init="initAnalytics('read-next-bottom', {implicitClick: true})" >
+  <span class="label"><i class="fa fa-chevron-circle-right"></i> READ THIS NEXT:</span>
+  <a href="http://greatist.com/grow/how-to-be-happy-long-term"  data-nid="4872"  ng-click="click($event)" >
+    <span class="article-title">25 Science-Backed Ways to Feel Happier</span>
+  </a>
+</span>
+        <a href="http://greatist.com/move/the-easy-thing-you-can-do-to-work-out-like-an-olympian"
+   class="promotion-embed" data-recirc-section ng-controller="basicTracking"
+   ng-init="initAnalytics('promotion-krave---bottom-article----article-bottom', {implicitClick: true})">
+  <img src="http://greatist.com/sites/default/files/styles/promotion-article-558/public/greatist_promotion/KRAVE_Promo1_Final.jpg?itok=QmNUgP6H"
+       alt="Krave - Bottom Article - "/>
+</a>
+
+        <div
+          class="bottom-share"
+          data-scroll-reach-tracking="article-content-end"
+          data-scroll-reach-tracking-near="article-content-near-end"
+        >
+          <div class="group_share" data-recirc-section>
+  <div class="share-buttons icons" data-origin="bottom">
+    <div ng-controller="socialCtrl"
+  data-href="http://greatist.com/health/89-simple-swaps-could-change-your-life"
+  data-media="http%3A%2F%2Fgreatist.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fbig_share%2Fpublic%2F89_SimpleSwapsToChangeYourLife_Pinterest.png%3Fitok%3DMjTpeRTe"
+  data-mediatitle="89 Incredibly Simple Swaps That Could Change Your Life"
+  data-title="89 Incredibly Simple Swaps That Could Change Your Life"
+  data-promotitle="89 Incredibly Simple Swaps That Could Change Your Life"
+  data-pintitle="You\'ve heard it before, but it\'s worth repeating: Little changes really can add up to major results!"
+  data-twitter="http://www.twitter.com/lschwech"
+  data-twitter-url="http://grt.st/HsNkw5"
+  class="share-buttons"
+>
+  <div class="share-line share-line-first">
+          <a class="share-facebook" ng-click="share_fb($event)" data-share-fb>
+        <i class="fa fa-facebook"></i>
+        <span>Share</span>
+      </a>
+      </div>
+  <div class="share-line share-line-second">
+          <a class="share-pinterest" ng-click="share_pin()">
+        <div class="share-pinterest-label">
+          <i class="fa fa-pinterest-p"></i>
+          <span>Pin it</span>
+        </div>
+      </a>
+        <a class="share-twitter" ng-click="share_tw()">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet it</span>
+    </a>
+    <a class="share-email" ng-click="share_email()">
+      <i class="fa fa-envelope-o"></i>
+      <span>Email it</span>
+    </a>
+    <a class="share-text" ng-click="share_text()">
+      <i class="fa fa-commenting-o"></i>
+      <span>Text</span>
+    </a>
+  </div>
+  
+  </div>
+  </div>
+</div>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="article-sidebar-column sidebar-column" data-sidebar-height="x-tall" ng-controller="articleSidebarCtrl">
+      <div class="sidebar-top">
+                                                <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-1"
+  data-ad-dfp="/38507188/ROS_Flex_300x250_300x600"
+  data-ad-slot="div-gpt-ad-1409786991744-0"
+  data-ad-size="300x250,300x600"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-1"></div>
+
+          <div class="article-sidebar-newsletter no-small no-medium" ng-controller="NewsletterCtrl" data-origin="homepage_sidebar">
+  <div class="intro">
+    <i class="fa fa-inbox"></i> <span>Your Inbox Deserves Better</span>
+  </div>
+  <form name="newsletterForm" ng-submit="subscribeEmail('article-sidebar-newsletter')">
+    <div class="line">
+      <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+      <input type="submit" value="GO" ng-hide="submitted">
+      <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+    </div>
+    <div class="newsletter-messages">
+      <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+    </div>
+  </form>
+</div>
+        
+        <div class="sticky-block">
+          <div class="popular-list-block"
+  ng-init='initAnalytics("article-sidebar-must-read", {implicitClick: true, countHiddenAsImpression: false})'
+  ng-controller="basicTracking"
+  data-recirc-section
+>
+  <h2 class="section-title">MUST READS</h2>
+  <ol class="sidebar-list sidebar-list-thumbnail" >
+          <li  data-nid="2900"
+            data-source="cb">
+        <a
+          data-nid="2900"
+          ng-click="click($event)"
+          href="http://greatist.com/health/healthy-fast-breakfast-recipes"
+          title="34 Healthy Breakfasts for Busy Mornings"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/7-Ingredient-DARK-CHOCOLATE-Quinoa-Breakfast-Bowl-Full-of-antioxidants-fiber-and-protein-vegan-glutenfree-quinoa-breakfast.jpg?itok=BNuLNJNx" />
+          <span>34 Healthy Breakfasts for Busy Mornings</span>
+        </a>
+      </li>
+          <li  data-nid="6346"
+            data-source="cb">
+        <a
+          data-nid="6346"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/summer-crock-pot-recipes"
+          title="42 Crock-Pot Recipes to Try This Summer (That's Right, Summer)"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/Crockpot-Low-Country-Boil.jpg?itok=1U0mUmB6" />
+          <span>42 Crock-Pot Recipes to Try This Summer (That's Right, Summer)</span>
+        </a>
+      </li>
+          <li  data-nid="5984"
+            data-source="cb">
+        <a
+          data-nid="5984"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/healthier-ramen-recipes"
+          title="17 DIY Ramen Recipes That'll Make You Forget About Instant Noodles"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/SlowCooker-Pork-Ramen_0.jpg?itok=VT3YU8bG" />
+          <span>17 DIY Ramen Recipes That'll Make You Forget About Instant Noodles</span>
+        </a>
+      </li>
+          <li  data-nid="1392"
+            data-source="cb">
+        <a
+          data-nid="1392"
+          ng-click="click($event)"
+          href="http://greatist.com/health/high-protein-snacks-portable"
+          title="27 Healthy and Portable High-Protein Snacks"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/PORTABLE-SNACKS_FEATURE.jpg?itok=Grq8reUv" />
+          <span>27 Healthy and Portable High-Protein Snacks</span>
+        </a>
+      </li>
+          <li  data-nid="6959"
+            data-source="cb">
+        <a
+          data-nid="6959"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/healthy-freezer-meals"
+          title="21 Freezer Meals for People With Zero Time During the Week"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/baked-potato.jpg?itok=an-0vMvV" />
+          <span>21 Freezer Meals for People With Zero Time During the Week</span>
+        </a>
+      </li>
+          <li  data-nid="7326"
+            data-source="cb">
+        <a
+          data-nid="7326"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/best-food-blogs-2016"
+          title="32 Must-Follow Food and Nutrition Blogs"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/BestBlogs_Food_2016_Feat.jpg?itok=zwjW5UVc" />
+          <span>32 Must-Follow Food and Nutrition Blogs</span>
+        </a>
+      </li>
+          <li  data-nid="5255"
+            data-source="ga">
+        <a
+          data-nid="5255"
+          ng-click="click($event)"
+          href="http://greatist.com/grow/what-poop-shape-frequency-means-about-health"
+          title="Poop Health: Is Your Poop Normal? Here's the No. 1 Reason to Check Your No. 2"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/woman-sitting-on-a-toilet-_1800x1236.jpg?itok=1CrMJAeb" />
+          <span>Poop Health: Is Your Poop Normal? Here's the No. 1 Reason to Check Your No. 2</span>
+        </a>
+      </li>
+          <li  data-nid="5689"
+            data-source="ga">
+        <a
+          data-nid="5689"
+          ng-click="click($event)"
+          href="http://greatist.com/eat/healthy-zucchini-noodle-recipes"
+          title="9 Reasons You Should Familiarize Yourself With Zoodles, Stat"
+        >
+          <img src="http://greatist.com/sites/default/files/styles/article-sidebar-240x125/public/Fig%20Zoodles_Feature.png?itok=zD6sLMiV" />
+          <span>9 Reasons You Should Familiarize Yourself With Zoodles, Stat</span>
+        </a>
+      </li>
+      </ol>
+</div>
+                      <div
+  data-restrict-context-to="x-large,large"
+  data-dfp-g-id="article-ad-sidebar-2"
+  data-ad-dfp="/38507188/ROS_300x250_BTM"
+  data-ad-slot="div-gpt-ad-1411421640459-0"
+  data-ad-size="300x250"
+  class="dfp-tag-wrapper dfp-ad-article-ad-sidebar-2"></div>
+
+                  </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <div class="article-middle">
+    <div
+  data-restrict-context-to="medium,small,x-small"
+  data-dfp-g-id="article-ad-mobile-below-content"
+  data-ad-dfp="/38507188/ROS_300x250_Mobile"
+  data-ad-slot="div-gpt-ad-1410553537006-0"
+  data-ad-size="300x250"
+  class="dfp-tag-wrapper dfp-ad-article-ad-mobile-below-content"></div>
+
+
+    <div id="fb-article-mobile-bottom-page-box" data-fb-page="article-mobile-bottom-page-box" data-restrict-context-to=">medium" class="hide-for-ready">
+      <h2 class="section-title">Like Us On Facebook</h2>
+    </div>
+
+    <div id="tags">
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/exercises"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Exercises    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/food-swaps"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Food Swaps    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/nutrition-facts"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Nutrition Facts    </span>
+  </a>
+</span>
+      <span
+  rel="dc:subject"
+  itemscope
+        >
+  <a
+    href="http://greatist.com/stress-relief"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+      >
+    <span
+          >
+      Stress Relief    </span>
+  </a>
+</span>
+  
+            <span
+  rel="dc:subject"
+  itemscope
+            itemtype="http://data-vocabulary.org/Breadcrumb"
+  >
+  <a
+    href="http://greatist.com/grow"
+    typeof="skos:Concept"
+    property="rdfs:label skos:prefLabel"
+          itemprop="url"
+      >
+    <span
+              itemprop="title"
+          >
+      Grow    </span>
+  </a>
+</span>
+      </div>
+  </div>
+</div>
+
+<div class="recirc" data-recirc-section>
+  <div class="esi-placeholder"data-esi="article/recirculation" data-token="yqt5As6o8aaY-kJuKyyPFpz1HBW8R1HKepU5OySY7qI" data-params="{&quot;nid&quot;:&quot;879&quot;,&quot;show_must_reads&quot;:0}" data-bodyevent="reach-article-content-near-end"><img src="/sites/all/themes/greatist2x/images/design/SiteLoader.gif">Loading...</div></div>
+
+
+  <!-- Extras -->
+  <div ng-controller="BottomStickyCtrl">
+      <div class="article-sticky-bottom share hide-for-load" data-origin="sticky-bottom">
+      <div ng-controller="socialCtrl" data-href="http://greatist.com/health/89-simple-swaps-could-change-your-life">
+        <a class="share-button share-button-facebook" ng-click="share_fb($event)" data-share-fb>
+          <span class="share-alt"><i class="fa fa-facebook"></i> Share on Facebook</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="article-sticky-bottom like hide-for-load" data-origin="sticky-bottom">
+      <img class="close-button" ng-click="clickClose()" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+      <span>Like Greatist on Facebook</span>
+      <div
+        class="fb-like"
+        data-href="https://www.facebook.com/greatist"
+        data-layout="button"
+        data-fb-tracking-id="bottom-sticky-mobile"
+        data-fb-click-tracking-id="bottom-sticky-mobile">
+      </div>
+    </div>
+  </div>
+  <div class="bottom-slider fb-slider" ng-controller="BottomSliderCtrl" ng-class="status">
+  <a href="#" ng-click="clickClose()" title="Close" type="button" class="close-button">
+    <img src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+  </a>
+
+  <h3>Like us on Facebook to get more stories like this!</h3>
+
+  <div
+    class="fb-like"
+    data-href="https://www.facebook.com/greatist"
+    data-layout="button"
+    data-fb-tracking-id="popup-like"
+    data-fb-click-tracking-id="popup-like">
+  </div>
+</div>
+  <div class="overlay-wrapper">
+  <div id="search-page-wrapper">
+    <div id="search-page-overlay" ng-controller="SearchCtrl" ng-init="init()" ng-keydown="keydown($event)">
+
+      <img class="search-close-button" src="/sites/all/themes/greatist2x/images/design/Close.svg" />
+
+      <h2>{{discoverSettings.title}}</h2>
+
+      <!-- SEARCH FORM -->
+      <form name="searchForm" ng-submit="search()" class="search-form">
+        <input type="text" ng-model="searchQuery" placeholder="Enter Search Term" id="search-input">
+        <div data-search-autocomplete class="search-autocomplete">
+          <ul>
+            <div class="header" >
+              Categories
+            </div>
+            <li ng-repeat="suggestion in suggestedTaxonomies track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+
+            <div class="header">
+              Profiles
+            </div>
+            <li ng-repeat="suggestion in suggestedUsers track by $index" class="suggestion">
+              <a
+                ng-click="autocompleteClick(suggestion)"
+                ng-href="{{suggestion.url}}">
+                {{suggestion.name}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </form>
+
+      <!-- DISCOVER -->
+      <div class="discover deck-3" ng-cloak ng-hide="hideDiscover">
+        <div class="main-column">
+          <div class="card" ng-repeat="discover in discoverList">
+            <a href="{{discover.url}}" ng-click="trackDiscoverLink(discover)">
+              <img ng-src="{{discover.imgUrl}}" class="img-large">
+              <img ng-src="{{discover.imgUrlSmall}}" class="img-small">
+              <div class="title-wrapper">
+                <div class="title">{{discover.title}}</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-status">
+        <div ng-show="isLoading">
+            <img alt="Search Loading" class="loader-image"/>
+        </div>
+        <div class="search-message">{{searchMessage}}</div>
+      </div>
+
+      <!-- SEARCH RESULTS -->
+      <div class="search-result article-feed">
+        <div class="article" ng-repeat="article in articles">
+          <div class="article-image">
+            <a href='{{article.articlePath}}'>
+              <img ng-src='{{article.imagePath}}' />
+            </a>
+          </div>
+          <div class="article-title"><a href='{{article.articlePath}}'>{{article.title}}</a></div>
+          <div class="article-author" ng-if="article.byline === ''">{{article.author}}</div>
+          <div class="article-author" ng-if="article.byline !== ''">{{article.byline}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="popup-wrapper">
+  <div ng-controller="popupCtrl" class="newsletter-template mfp-with-anim mfp-hide">
+    <div newsletter
+      model="popup"
+      subscribe="subscribeEmail"
+      init="initPopup"
+      close="closeBottomBar()"
+      cta1="applyCTA('cta1')"
+      cta2="applyCTA('cta2')"
+    >
+    </div>
+  </div>
+</div>
+    <div>
+  <div data-fb-popup class="fb-popup popup-post-share mfp-with-anim mfp-hide">
+    <h1>
+      Nice share!<br>
+      Like us on <a class="like-us" href="http://facebook.com/greatist">Facebook</a> while you're at it.
+    </h1>
+    <div class="fb-like-body">
+      <div class="fb-like" data-href="https://facebook.com/greatist" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false">
+      </div>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-post-share-fb"/>
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+
+  <div data-pin-popup class="pin-popup popup-post-share mfp-with-anim mfp-hide">
+    <button title="Close (Esc)" type="button" class="mfp-close cta-x" ng-click="eventHandler()"></button>
+    <h1>Nice pin! Follow us for more.</h1>
+    <div class="follow-pin">
+      <a data-pin-do="buttonFollow" href="http://www.pinterest.com/greatist/">Follow Greatist on Pinterest</a>
+    </div>
+    <div class="pins">
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/229754018468166392/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+       <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124149397557/">Greatist on Pinterest.</a>
+      </span>
+      <span class="embed_pin">
+        <a data-pin-do="embedPin" href="https://www.pinterest.com/pin/161074124150404836/">Greatist on Pinterest.</a>
+      </span>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close cta" ng-click="eventHandler()">Thanks, but no thanks.</button>
+    <div class="opt-out">
+      <input type="checkbox" class="hide-pin-board" />
+      <span>Don't show me this again</span>
+    </div>
+  </div>
+</div>
+  <div class="footer-bottom-wrapper">
+    <footer id="footer-wrapper">
+  <div id="footer">
+    <div class="footer-logo-menu">
+  <div class="greatist-logo">
+    <a href="/">
+      <img src="/sites/all/themes/greatist2x/images/design/Greatist_Logo_G_White.svg" class="footer-logo" />
+    </a>
+  </div>
+  <ul class="menu"><li class="first leaf"><a href="/about" title="">About</a></li>
+<li class="leaf"><a href="/advertise" title="">Advertise</a></li>
+<li class="leaf"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf"><a href="/drop-us-line" title="">Contact</a></li>
+</ul></div>
+    <div class="footer-newsletter">
+  <div class="newsletter-block" ng-controller="NewsletterCtrl" data-origin="footer">
+    <div class="description">
+      <i class="fa fa-envelope-o"></i> AWESOME WORKOUTS, EASY RECIPES, WELLNESS TIPS!
+    </div>
+    <form name="newsletterForm" ng-submit="subscribeEmail('footer-newsletter')">
+      <div class="line">
+        <input type="email" ng-model="newsletterEmail" placeholder="Your Email" ng-disabled="submitted">
+        <input type="submit" value="GO" ng-hide="submitted">
+        <span class="success" ng-show="submitted" ng-cloak><i class="fa fa-check"></i></span>
+      </div>
+      <div class="newsletter-messages">
+        <div class="message message-error" ng-show="error" ng-cloak>{{error}}</div>
+      </div>
+    </form>
+  </div>
+
+  <div class="social-links">
+    <a target="_blank" href="http://facebook.com/greatist" class="facebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a target="_blank" href="http://pinterest.com/greatist" class="pinterest" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+    <a target="_blank" href="http://twitter.com/greatist" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" href="http://instagram.com/greatist" class="instagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+  </div>
+</div>
+  </div>
+</footer>
+    <div id="bottom-wrapper">
+  <div id="bottom">
+    <div id="bottom-menu" class="bottom-block">
+  <ul class="menu"><li class="first leaf"><a href="/greatist-terms-use" title="Terms">Terms</a></li>
+<li class="leaf"><a href="/greatist-privacy-policy" title="Privacy">Privacy</a></li>
+<li class="leaf"><a href="/drop-us-line" title="">Contact</a></li>
+<li class="last leaf"><a href="/topics" title="">Sitemap</a></li>
+</ul></div>
+    <div id="copyright">&copy; 2016 Greatist</div>
+  </div>
+</div>
+  </div>
+</div>
+<script type="text/javascript" src="http://greatist.com/sites/default/files/js/js_g5vRHAmImocIkh-4r-c10EIPRPCA0a21I08Y0d3s1mo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '1001l6TF']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://greatist.com/sites/all/modules/custom/gr8ist_social/includes/js/gr8ist_instagram_embed.js?obn86g"></script>
+<script type="text/javascript" src="//wms-na.amazon-adsystem.com/20070822/US/js/auto-tagger.js?tag=greatist-20&amp;locale=US&amp;overwrite=1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {try{var a={l1:document.location.host.replace(/^www\./,""),l2:document.title||"Untitled",l3:"__page__",l4:"-",sa:"",sn:""},b=[],c;for(c in a)b.push(c+"="+encodeURIComponent(a[c]));b=b.join("&");(new Image).src="//d1cge8z5zrep3s.cloudfront.net?a=9d8720426e304e8ca738bd1ab1062e1f";var d=document.createElement("script");d.type="text/javascript";d.async=!0;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(d,e);d.src="https://z.moatads.com/greatistcontent247UepN76/moatcontent.js#"+b}catch(f){try{var g="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1&ac=1&k="+encodeURIComponent(f)+"&j="+encodeURIComponent(document.referrer)+"&cs="+(new Date).getTime();(new Image).src=g}catch(h){}};})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function(){googletag.display('page');});
+//--><!]]>
+</script>
+<script type="text/javascript" src="//dc8xl0ndzn2cb.cloudfront.net/js/greatist/v0/keywee.min.js"></script>
+
+<div id="fb-root"></div>
+<noscript><img
+    src="http://b.scorecardresearch.com/p?c1=2&amp;c2=14988881&amp;cv=2.0&amp;cj=1"
+    alt=""/></noscript>
+<noscript><img style="position:absolute"
+               src="http://b.scorecardresearch.com/b?c1=2&c2=0000000&c3=0000000&c4=www.w3i.com/who-weare.aspx&c5=&c6=&c15=C67BD3C1&cv=1.3&cj=1"
+               style="display:none" width="0" height="0" alt=""/></noscript>
+<noscript>
+  <div style="display:none;"><img
+      src="//pixel.quantserve.com/pixel/p-46ydJU4yMQT2-.gif" border="0"
+      height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ad634f8ed0","applicationID":"897146","transactionName":"NVMHZRNYCkUFUkNeVwwZJFIVUAtYS1ZFUlkWXxZFPloLWxReWVJWFmkIVA9M","queueTime":0,"applicationTime":1788,"atts":"GRQEE1tCGUs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
