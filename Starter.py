@@ -4,7 +4,7 @@ import sys
 
 arguments = sys.argv
 if arguments[1] == "crawl":
-    spider = Spider("https://en.wikipedia.org/")
+    spider = Spider("http://www.androidhive.info/")
     spider.crawl()
 elif arguments[1] == "query":
     query = Query(arguments[2])
