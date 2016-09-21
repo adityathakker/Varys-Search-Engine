@@ -1,38 +1,27 @@
 from bs4 import BeautifulSoup
 import requests
 import MySQLdb
-import robotparser
 import os
-
+from CommonUtils import notify_message
+from urlparse import urljoin
 
 class Crawler:
     base_url = str()
-    robots_txt = str()
-    robot_parser = robotparser.RobotFileParser()
 
     def __init__(self, base_url):
         if base_url.endswith((".png", ".gif", ".jpg", ".pdf", ".css", ".js")):
             print("\n\tInvalid URL! Cannot be Crawled!")
             exit()
-        if not base_url.endswith("/"):
-            self.base_url = base_url + "/"
+        if base_url.endswith("/"):
+            self.base_url = base_url[:len(base_url)-1]
         else:
             self.base_url = base_url
-
-        headers = {'User-Agent': "Aditya's Browser"}
-        response = requests.get(self.base_url + "robots.txt", headers=headers)
-        if response.status_code == 200:
-            self.robot_parser = robotparser.RobotFileParser()
-            self.robot_parser.set_url(self.base_url + "robots.txt")
-            self.robot_parser.read()
-            print("\n\tRobots.txt was found")
-        else:
-            print("\n\tNo Robots.txt was found")
 
         print("\n++++++++ Crawler Bot ++++++++")
         print("+++++++++++++++++++++++++++++")
 
     def insert_into_pending_urls_list(self, db, cursor, url):
+        url = url.encode('ascii', 'ignore')
         sql_insert = """INSERT INTO pending_crawling_links(link)
                          VALUES ('""" + url + """')"""
         try:
@@ -40,7 +29,7 @@ class Crawler:
             db.commit()
             return cursor.lastrowid
         except Exception, e:
-            print(e.message)
+            notify_message("Exception in 'insert_into_pending_urls_list'", e, "Sql: " + sql_insert)
             db.rollback()
             return None
 
@@ -62,9 +51,10 @@ class Crawler:
                 final_content.append(each_line.strip())
         return "\n".join(final_content)
 
-    def strip_links(self, urls_list, remove_external=False):
+    def strip_links(self, current_url, urls_list, remove_external=False):
         stripped_links = list()
         for url in urls_list:
+            url = urljoin(current_url, url)
             if not url.startswith("http"):
                 continue
             if url.endswith((".png", ".gif", ".jpg", ".pdf", ".css", ".js")):
@@ -76,19 +66,15 @@ class Crawler:
             if "?" in url:
                 url = url[:url.index("?")]
 
-            try:
-                if self.robot_parser.can_fetch("*", url):
-                    stripped_links.append(url)
-                else:
-                    print("\n\t\tCannot Crawling! Not Allowed By Robots.txt")
-                    print("\t\t" + url)
-            except Exception, e:
-                print("\n\t\tException occurred while Robot Parsing with message '" + e.message + "'")
-                pass
+            url = url.encode('ascii', 'ignore')
+            stripped_links.append(url)
         return stripped_links
 
     def check_if_url_already_queued_or_crawled(self, cursor, url):
-        sql_check_if_exists = """select new.id, new.link from (select id, link from pending_crawling_links union select id, link from already_crawled_links) as new where link='""" + url + """'"""
+        url = url.encode('ascii', 'ignore')
+        sql_check_if_exists = """select new.id, new.link from
+        (select id, link from pending_crawling_links union select id, link from already_crawled_links) as new
+         where link='""" + url + """'"""
         # print(sql_check_if_exists)
         try:
             cursor.execute(sql_check_if_exists)
@@ -98,7 +84,7 @@ class Crawler:
             else:
                 return -1
         except Exception, e:
-            print(e.message)
+            notify_message("Exception in 'check_if_url_already_queued_or_crawled'", e, "SQL: " + sql_check_if_exists)
             return -1
 
     def get_front_url_from_pending_urls_list(self, db, cursor):
@@ -120,8 +106,7 @@ class Crawler:
                 print("\n\tQueue is Empty!")
                 return None, None
         except Exception, e:
-            print("Exception")
-            print(e.message)
+            notify_message("Exception in 'get_front_url_from_pending_urls_list'", e, "SQL: " + sql_select)
             db.rollback()
             return None, None
 
@@ -132,7 +117,7 @@ class Crawler:
             cursor.execute(sql_insert_reference)
             db.commit()
         except Exception, e:
-            print(e.message)
+            notify_message("Exception in 'insert_into_reference'", e, "SQL: " + sql_insert_reference)
             db.rollback()
 
     def remove_from_already_crawled(self, db, cursor, id_of_link):
@@ -141,10 +126,10 @@ class Crawler:
             cursor.execute(sql_remove_from_already_crawled)
             db.commit()
         except Exception, e:
-            print(e.message)
+            notify_message("Exception in 'remove_from_already_crawled'", e, "SQL: " + sql_remove_from_already_crawled)
             db.rollback()
 
-    def process_content(self, soup, db, cursor, id_of_link, content):
+    def process_content(self, soup, id_of_link, content):
         print("\t\tTitle: " + soup.title.string[:50] + "...")
         list_of_meta = soup.find_all("meta")
         for meta in list_of_meta:
@@ -152,7 +137,7 @@ class Crawler:
                 print("\t\tDescription: " + meta['content'][:50] + "...")
 
             if meta.has_attr('name') and str(meta['name']) == "keywords":
-                print("\t\tKeywords: " + meta['content'])
+                print("\t\tKeywords: " + meta['content'][:50])
 
         current_dir = os.getcwd()
         files_dir = current_dir + "/Originals/"
@@ -183,11 +168,11 @@ class Crawler:
             else:
                 soup = BeautifulSoup(response.text, 'html.parser')
 
-                self.process_content(soup, db, cursor, id_of_url, response.text)
+                self.process_content(soup, id_of_url, response.text)
                 print("\t\tProcessed '" + crawling_url[:50] + "...'")
 
                 new_links = [link["href"] for link in soup.findAll("a", href=True)]
-                new_links = self.strip_links(new_links, remove_external=True)
+                new_links = self.strip_links(crawling_url, new_links, remove_external=True)
 
                 for each_link in new_links:
                     existing_id = self.check_if_url_already_queued_or_crawled(cursor, each_link)
