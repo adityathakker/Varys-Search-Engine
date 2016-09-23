@@ -10,7 +10,7 @@ class Query:
 
         new_query = list()
         for each in self.query_words_list:
-            new_query.append({"hints" : {'$regex': '.*' + each + '.*'}})
+            new_query.append({"content.hints": {'$regex': '.*' + each + '.*'}})
 
         self.query_words_list = new_query
 
@@ -21,6 +21,11 @@ class Query:
         client = MongoClient()
         db = client.varys
 
-        cursor = db.index_pages.find({'$and': self.query_words_list})
+        cursor = db.known_urls.find(
+            {
+                "status": "indexed",
+                "$and": self.query_words_list
+            }
+        ).sort([("score", -1)])
         for document in cursor:
-            print(document["title"])
+            print(document["content"]["title"] + " " + str(document["score"]))

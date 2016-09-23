@@ -81,7 +81,6 @@ class Spider:
 
         page = dict()
         page["title"] = title
-        page["url_id"] = url_id
         hints_list = list()
         try:
             for sentence in tokenized_sentences:
@@ -105,8 +104,17 @@ class Spider:
 
         except Exception as e:
             print(str(e))
-        db.indexed_pages.insert_one(page)
-        print(colored("\t\tInserted Into Indexed Pages", "yellow"))
+        db.known_urls.update_one(
+            {
+                "_id": url_id
+            },
+            {
+                "$set": {
+                    "content": page
+                }
+            }
+        )
+        print(colored("\t\tUpdated With Indexed Content", "yellow"))
 
         # current_dir = os.getcwd()
         # files_dir = current_dir + "/Originals/"
@@ -119,7 +127,6 @@ class Spider:
         return
 
     def __strip_links(self, current_url, urls_list, remove_external=False):
-        print(colored("\t\tGetting New Links...", "yellow"))
         print(colored("\t\tRemoving Unwanted Links...", "yellow"))
         stripped_links = list()
         for url in urls_list:
@@ -134,14 +141,32 @@ class Spider:
                 url = url[:url.index("#")]
             if "?" in url:
                 url = url[:url.index("?")]
+            if url.endswith("/"):
+                url = url[:len(url) - 1]
 
             url = url.encode('ascii', 'ignore')
-            stripped_links.append(url)
+            if url not in stripped_links:
+                stripped_links.append(url)
         return stripped_links
 
+    # used to remove duplicate links
+    @staticmethod
+    def f7(seq):
+        seen = set()
+        seen_add = seen.add
+        return [x for x in seq if not (x in seen or seen_add(x))]
+
     def __insert_into_referral_links(self, db, from_id, to_id):
-        print(colored("\t\tUpdating Scores...", "yellow"))
-        db.referral_links.insert_one({"from": from_id, "to": to_id})
+        db.known_urls.update_one(
+            {
+                "_id": from_id
+            },
+            {
+                "$push": {
+                    "referral_links": to_id
+                }
+            }
+        )
 
         document_from = db.known_urls.find({"_id": from_id})[0]
         document_to = db.known_urls.find({"_id": to_id})[0]
@@ -161,28 +186,31 @@ class Spider:
         return
 
     def __update_scores(self, db, from_id, from_score, update_score_by):
-        print "Upating Scores By Ratio: " + str(update_score_by)
+        # print "Upating Scores By Ratio: " + str(update_score_by)
         if update_score_by <= 0.0:
-            print "returing"
+            # print "returing"
             return
 
         # time.sleep(1)
 
-        from_links = db.referral_links.find({"from": from_id})
-        for each_link in from_links:
-            original_doc = db.known_urls.find({"_id": each_link["to"]})[0]
-            new_score = original_doc["score"] + (from_score * update_score_by)
-            db.known_urls.update_one(
-                {
-                    "_id": original_doc["_id"]
-                },
-                {
-                    "$set": {
-                        "score": new_score
+        from_document = db.known_urls.find({"_id": from_id})[0]
+        if "referral_links" in from_document:
+            from_links = from_document["referral_links"]
+            for each_link in from_links:
+                original_doc = db.known_urls.find({"_id": each_link})[0]
+                new_score = original_doc["score"] + (from_score * update_score_by)
+                db.known_urls.update_one(
+                    {
+                        "_id": original_doc["_id"]
+                    },
+                    {
+                        "$set": {
+                            "score": new_score
+                        }
                     }
-                }
-            )
-            self.__update_scores(db, original_doc["_id"], new_score, update_score_by - 0.00002)
+                )
+                self.__update_scores(db, original_doc["_id"], new_score, update_score_by - 0.00002)
+        return
 
     def print_scores(self, db):
         docs = db.known_urls.find({}).sort([("score", 1)])
@@ -200,7 +228,6 @@ class Spider:
         if self.__check_if_url_is_known_url(db, self.base_url) is None:
             self.__insert_into_known_urls_as_pending(db, self.base_url)
         crawling_url, url_id = self.__get_front_url_from_pending_known_urls(db)
-
         while crawling_url is not None:
             print(colored("\t" + str(counter) + ". Crawling:  " + str(crawling_url)[:50] + "...", "yellow"))
             print(colored("\t\tURL ID: " + str(url_id), "white"))
@@ -214,9 +241,11 @@ class Spider:
 
                 self.__index_content(url_id, db, soup)
 
+                print(colored("\t\tGetting New Links...", "yellow"))
                 new_links = [link["href"] for link in soup.findAll("a", href=True)]
                 new_links = self.__strip_links(crawling_url, new_links, remove_external=True)
 
+                print(colored("\t\tUpdating Scores...", "yellow"))
                 number_of_links = 0
                 for each_link in new_links:
                     existing_id = self.__check_if_url_is_known_url(db, each_link)
@@ -231,13 +260,13 @@ class Spider:
 
                 print(colored("\t\t" + str(number_of_links) + " New Links Added", "yellow"))
 
-            crawling_url, id_of_url = self.__get_front_url_from_pending_known_urls(db)
+            crawling_url, url_id = self.__get_front_url_from_pending_known_urls(db)
             counter += 1
             print("")
 
             print("\t\tEntries In Crawled List: " + str(db.known_urls.find({"status": "crawled"}).count()))
             print("\t\tEntries In Indexed List: " + str(db.known_urls.find({"status": "indexed"}).count()))
-            self.print_scores(db)
+            # self.print_scores(db)
 
     def crawl(self):
         try:
