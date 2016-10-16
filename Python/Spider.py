@@ -8,6 +8,8 @@ from urlparse import urljoin
 from pymongo import MongoClient
 from termcolor import colored
 
+requests.packages.urllib3.disable_warnings()
+
 
 class Spider:
     base_url = str()
@@ -66,15 +68,21 @@ class Spider:
 
     @staticmethod
     def __index_content(url_id, db, soup):
-        if soup.title is not None:
-            try:
-                title = str(soup.title.text).encode('ascii', 'ignore')
-            except UnicodeEncodeError:
-                title = unicode(str(soup.title.text), 'utf-8')
-            if "-" in title:
-                title = title[:title.find("-")]
-        # content = soup.find("div", {"id": "mw-content-text"}).text
-        content = soup.text
+        title = soup.title.text
+        if title is not None:
+            if isinstance(title, basestring):
+                title.encode('utf8')
+            else:
+                unicode(title).encode('utf8')
+
+        content = soup.find("div", {"id": "mw-content-text"}).text
+
+        if isinstance(content, basestring):
+            content.encode('utf8')
+        else:
+            unicode(content).encode('utf8')
+
+        # content = soup.text
 
         custom_tokenizer = PunktSentenceTokenizer()
         tokenized_sentences = custom_tokenizer.tokenize(unicode(content))
@@ -114,6 +122,8 @@ class Spider:
                 }
             }
         )
+
+        page_content_size = len(page["hints"])
         print(colored("\t\tUpdated With Indexed Content", "yellow"))
 
         # current_dir = os.getcwd()
@@ -124,6 +134,7 @@ class Spider:
         # created_file.write(content.encode("utf-8"))
         # created_file.close()
         # print("\t\tOriginal Content Is Saved")
+        return page_content_size
         return
 
     def __strip_links(self, current_url, urls_list, remove_external=False):
@@ -131,6 +142,8 @@ class Spider:
         stripped_links = list()
         for url in urls_list:
             url = urljoin(current_url, url)
+            if url == current_url:
+                continue
             if not url.startswith("http"):
                 continue
             if url.endswith((".png", ".gif", ".jpg", ".pdf", ".css", ".js")):
@@ -156,7 +169,7 @@ class Spider:
         seen_add = seen.add
         return [x for x in seq if not (x in seen or seen_add(x))]
 
-    def __insert_into_referral_links(self, db, from_id, to_id):
+    def __insert_into_referral_links(self, db, from_id, to_id, ratio):
         db.known_urls.update_one(
             {
                 "_id": from_id
@@ -170,7 +183,7 @@ class Spider:
 
         document_from = db.known_urls.find({"_id": from_id})[0]
         document_to = db.known_urls.find({"_id": to_id})[0]
-        new_score = document_to["score"] + (document_from["score"] * 0.00008)
+        new_score = document_to["score"] + (document_from["score"] * 0.00008 * ratio)
         db.known_urls.update_one(
             {
                 "_id": to_id
@@ -182,10 +195,10 @@ class Spider:
             }
         )
 
-        self.__update_scores(db, to_id, new_score, 0.00006)
+        self.__update_scores(db, to_id, new_score, 0.00006, ratio)
         return
 
-    def __update_scores(self, db, from_id, from_score, update_score_by):
+    def __update_scores(self, db, from_id, from_score, update_score_by, ratio):
         # print "Upating Scores By Ratio: " + str(update_score_by)
         if update_score_by <= 0.0:
             # print "returing"
@@ -195,10 +208,10 @@ class Spider:
 
         from_document = db.known_urls.find({"_id": from_id})[0]
         if "referral_links" in from_document:
-            from_links = from_document["referral_links"]
+            from_links = from_document["referral_links"][:10]
             for each_link in from_links:
                 original_doc = db.known_urls.find({"_id": each_link})[0]
-                new_score = original_doc["score"] + (from_score * update_score_by)
+                new_score = original_doc["score"] + (from_score * (update_score_by * ratio))
                 db.known_urls.update_one(
                     {
                         "_id": original_doc["_id"]
@@ -209,7 +222,7 @@ class Spider:
                         }
                     }
                 )
-                self.__update_scores(db, original_doc["_id"], new_score, update_score_by - 0.00002)
+                self.__update_scores(db, original_doc["_id"], new_score, update_score_by - 0.00002, ratio)
         return
 
     def print_scores(self, db):
@@ -239,11 +252,15 @@ class Spider:
             else:
                 soup = BeautifulSoup(response.text, 'html.parser')
 
-                self.__index_content(url_id, db, soup)
+                content_size = self.__index_content(url_id, db, soup)
 
                 print(colored("\t\tGetting New Links...", "yellow"))
                 new_links = [link["href"] for link in soup.findAll("a", href=True)]
                 new_links = self.__strip_links(crawling_url, new_links, remove_external=True)
+                total_links = len(new_links)
+
+                ratio = float(total_links) / content_size
+                print(colored("\t\tRatio: " + str(ratio), "yellow"))
 
                 print(colored("\t\tUpdating Scores...", "yellow"))
                 number_of_links = 0
@@ -252,10 +269,10 @@ class Spider:
                     if existing_id is None:
                         new_id = self.__insert_into_known_urls_as_pending(db, each_link)
                         number_of_links += 1
-                        self.__insert_into_referral_links(db, url_id, new_id)
+                        self.__insert_into_referral_links(db, url_id, new_id, ratio)
                         # print(colored("\t\t\tNew Url Inserted '" + each_link + "...'", "blue"))
                     else:
-                        self.__insert_into_referral_links(db, url_id, existing_id)
+                        self.__insert_into_referral_links(db, url_id, existing_id, ratio)
                         # print(colored("\t\t\tAlready Exists in Queue", "cyan"))
 
                 print(colored("\t\t" + str(number_of_links) + " New Links Added", "yellow"))
