@@ -1,0 +1,86 @@
+<div class="container">
+  <div class="row"><br/><br/><br/></div>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+
+      <table class="table">
+        <tbody>
+          <tr>
+            <h1 class="title">
+              Varys
+              <small class="title-support">Search</small>
+            </h1>
+          </tr>
+          <tr>
+            <form>
+              <input type="text" class="form-control search-box" placeholder="Type Query And Press Enter (Example: Football)" ng-keyup="$event.keyCode == 13 ? searchController.query() : null" ng-model="searchController.searchInput">
+            </form>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+  <div class="row"><br/></div>
+
+  <div class="row">
+    <div class="col-lg-7 col-lg-offset-1 col-md-7 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+
+      <ul>
+        <li ng-repeat="result in searchController.results">
+          <div class="panel panel-default" style="opacity:0.9" ng-click="searchController.redirect(result.content.infobox)">
+            <div class="panel-body">
+              <h3 class="result-title">{{result.content.title}}</h3>
+              <span class="result-url">{{result.url}}</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+      
+
+    </div>
+
+    <div id="infoboxcol" class="hide" class="col-lg-4 col-md-4 col-sm-8 col-sm-offset-2 col-xs-12">
+      <div class="panel panel-default"  style="display: inline-block;opacity:0.9">
+        <div  id="infobox" class="panel-body">
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <style>
+    .title{
+      text-align: center;
+      font-size: 90px;
+      color: white;
+    }
+    .title-support{
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      margin-top: -15px;
+      margin-right: -158px;
+      color: white;
+    }
+    .search-box{
+      margin-top: 30px;
+      opacity: 0.9;
+    }
+    li{
+      list-style-type: none;
+    }
+    ul{
+      padding:0;
+    }
+    h3{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  .hide{
+    display:none;
+  }
+  </style>
+</div>
